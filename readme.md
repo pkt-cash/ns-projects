@@ -1,6 +1,6 @@
-# Network Steward Projects
+# Projects Supported by The Network Steward
 
-The network steward of the PKT project is interested in the following topics. This list is not exhaustive and not every feature of every idea needs to be in a proposal for it to be accepted. These are just general topics which the Network Steward has an interest in seeing open source development.
+The [Network Steward](https://pkt-cash.github.io/www.pkt.cash/steward/) of the PKT project is interested in the following topics. This list is not exhaustive and not every feature of every idea needs to be in a proposal for it to be accepted. These are just general topics which the Network Steward has an interest in seeing open source development.
 
 In order to create a project, fork this repository, create a new file in the projects directory which is a copy of the [template.md](https://github.com/pkt-cash/ns-projects/tree/master/projects/template.md) file. Then make a pull request to add your project proposal to this repository.
 
@@ -39,7 +39,7 @@ In order to create a project, fork this repository, create a new file in the pro
   * Static code only which interacts directly with a PacketCrypt mining pool
   * Pool updates to allow subscription to different types of announcements
 * Creation and maintanence of a repository of packages of mesh software
-  * Pakages to be easily installed in major operating systems which do not have support already such as Debian, OSX and Windows
+  * Packages to be easily installed in major operating systems which do not have support already such as Debian, OSX and Windows
   * Packaging of meshnet software including cjdns and yggdrasil
 * Cjdns wifi based interface
   * Automatic peering when a compatible wireless device is in range
