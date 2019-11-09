@@ -35,13 +35,13 @@
       * If your license(s) is/are not shown, please add them using the [SPDX license list](https://spdx.org/licenses/)
     * The maintainer of this software will be: *project participant*
     * The software will be hosted in: *software repository location*
-* [] Contributions to existing software
+* [x] Contributions to existing software
   * List software projects
     * [] [cjdns](https://github.com/cjdelisle/cjdns)
     * [] [yggdrasil-go](https://github.com/yggdrasil-network/yggdrasil-go)
     * [] [PacketCrypt](https://github.com/cjdelisle/PacketCrypt)
     * [] [pktd](https://github.com/pkt-cash/pktd)
-    * If the project is not shown, please add it with a link to its code repository
+    * [x] SPV Wallet
 * [] Other deliverables (please describe)
 
 *Detailed description of the deliverables*
