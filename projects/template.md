@@ -2,7 +2,7 @@
 
 > **Instructions**: fill out the name of the project and an email of the person who will be responsible for it, this is the person who will be responsible for splitting up the awarded PKT between the participants. Other project participants may be named or may be pseudo-anonymous as long as there's some means of contact listed.
 
-* Project Name: *e.g. kcjdns*
+* Project Name: Lightweight SPV Wallet
 * Contact Email: *e.g. cjd@cjdns.fr*
 * Project participants:
   * *e.g. John Smith (john@smi.th)*
