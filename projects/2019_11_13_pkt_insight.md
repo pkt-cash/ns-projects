@@ -49,7 +49,7 @@ In the front page and in the "blocks" page there should be a list of blocks, eac
 Everthing in the PoC, plus:
 * **F_BLK_PCVER** PacketCrypt version
 * **F_BLK_CRYPTOCYCLES** Estimated total encryptions
-* **F_BLK_BADWIDTH** Estimated total bandwidth (MB)
+* **F_BLK_BANDWIDTH** Estimated total bandwidth (MB)
 
 #### Address page
 Everything in the PoC, plus:
@@ -100,7 +100,7 @@ Features expected to be completed include:
 * **F_FRNT_CHART**
 * **F_BLK_PCVER**
 * **F_BLK_CRYPTOCYCLES**
-* **F_BLK_BADWIDTH**
+* **F_BLK_BANDWIDTH**
 
 Furthermore, Milestone 1 must be validated by a continuous integration build using a publicly
 accessible continuous integration service such as travis-ci (**S_CI**).
