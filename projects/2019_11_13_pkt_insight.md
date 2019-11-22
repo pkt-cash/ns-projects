@@ -106,10 +106,8 @@ Furthermore, Milestone 1 must be validated by a continuous integration build usi
 accessible continuous integration service such as travis-ci (**S_CI**).
 
 Upon the completion of Milestone 1, a report will be written and the applicant will seek
-approval from the network steward. No payment will occur at this time but if Milestone 1 is
-accepted but Milestone 2 does not complete successfully, the network steward will pay the
-applicant 5mn PKT on top of the initial 10mn PKT and the steward will retain the final 10mn
-PKT of the budget.
+approval from the network steward. The network steward will pay 5mn PKT for the completion of
+this milestone.
 
 ### M2
 Milestone 2 will focus on improvements to the blocks page, the creation of the network steward
@@ -130,8 +128,7 @@ will include:
 * **F_M_LASTBLK**
 
 Upon completion of Milestone 2, a report will be written and the applicant will seek
-approval from the network steward. Upon approval, payment of 15mn PKT will be issued, covering
-Milestone 1 and Milestone 2.
+approval from the network steward. Upon approval, payment of 10mn PKT will be issued.
 
 At this point the project will reach the end of it's explicit funding, however the applicant
 commits to the long term maintanence of the PKT insight software and the network steward commits
