@@ -8,7 +8,7 @@
 * Projected duration: 2 month
 * Projected effort: 4 person-months
 * Requested PKT contribution: 25 million PKT
-* Project status: **PROPOSED**
+* Project status: **APPROVED**
 
 ## Project summary
 The objective of pkt_insight is to develop software which will make it easier to collect and track data about the blockchain for debugging purposes and for checking the status of transactions and addresses.
