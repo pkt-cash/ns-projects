@@ -138,7 +138,7 @@ Videographer/camera/sound: PKT5,000,000
 * Posting of white paper on the website
 
 ## Payments
-All payments shall be made to pL7YWoxp4ghVEFHLfKw3BzaseknoTasq8G
+All payments shall be made to p9E3mhUtpinkvrn71AmoHNCoWYzMEmCiKq
 
 ## Project Milestones
 The following are milestones for the progress of the project by which the network steward can evaluate the success of the project.
