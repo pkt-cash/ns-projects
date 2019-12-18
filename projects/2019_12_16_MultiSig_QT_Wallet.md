@@ -57,7 +57,7 @@ For the avoidance of doubt, the development will not be an SPV wallet, and it wi
 
 ### 2.3 Wireframe
 The following image is a wireframe of the application for illustration purposes. The design and location of the features may differ in the final version.
-<div style="max-width:1000px"> <media-tag src="https://files.cryptpad.fr/blob/49/491527e3bbf27b61ba591fa9d6b55df7fec38a010e2fbd38" data-crypto-key="cryptpad:k9IvGYHKMNLw1wxXPFQEIYuqTuu3UqDKKx9NsLUn32g="></media-tag> </div>
+<div style="max-width:1000px"> <media-tag src="https://imgur.com/W2dQssB" data-crypto-key="cryptpad:k9IvGYHKMNLw1wxXPFQEIYuqTuu3UqDKKx9NsLUn32g="></media-tag> </div>
  
 ### 2.4 Team qualifications
 Vishnu Seesahai is a mathematician and researcher specializing in engineering innovation across global markets, with a focus on stochastic processes, computing, and blockchains. He is also the founder of Healthmatica, a public benefit health tech. He is a graduate of Cornell with a BS in Computer Science and MS in Applied Mathematics from the Theory Center for Advanced Computing. He formerly served as SSWE at Ovid, the first health-tech company to offer full-text search of medical databases, and later CTO of Pixelpark AG, a subdivision of Bertelsmann. He is also the co-creator of the first DVAV (Digital Video Audio Village), purchased by Lionsgate Entertainment, which is currently in use on film/tv productions within their ecosystem.
