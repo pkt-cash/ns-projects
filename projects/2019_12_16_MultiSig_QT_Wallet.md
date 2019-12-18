@@ -56,8 +56,7 @@ For the avoidance of doubt, the development will not be an SPV wallet, and it wi
 10. Save and restore the wallet backup from seed.
 
 ### 2.3 Wireframe
-The following image is a wireframe of the application for illustration purposes. The design and location of the features may differ in the final version.
-![Wireframe Image](https://imgur.com/W2dQssB)
+The following image is a wireframe of the application for illustration purposes. The design and location of the features may differ in the final version. [Wallet wireframe](https://imgur.com/W2dQssB)
 
  
 ### 2.4 Team qualifications
