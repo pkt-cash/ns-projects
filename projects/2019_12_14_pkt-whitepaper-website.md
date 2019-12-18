@@ -87,7 +87,7 @@ Custom design: Jesse and Josh will work with their design team to create a custo
 * Deliver: Josh and Jesse will provide notes to the development of the site and tweak it for delivery.
 
 #### Hosting
-Website will be hosted on a dedicated VPS for the first year with the intent of moving it to a distributed cloud built on the PKT network.
+Website will be hosted on a dedicated VPS owned by Josh Berger using the pkt.cash domain for the first year with the intent of moving it to a distributed cloud built on the PKT network.
 
 #### Milestones
 
