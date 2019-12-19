@@ -66,7 +66,7 @@ Alex Lightman (AL) provides 54 questions to PoC. (1 day)
 PoC gets the “best” people to give their best answers to the questions. (2 weeks)
 PoC arranges and sends approved answers to AL. (1 day)
 1.0 version of the WP is delivered by AL to the PoC. (30 days)
-Revisions are made if and as needed. (2 weeks)
+Revisions are made if and as needed (limited to 3 revisions). (2 weeks)
 White paper is completed.
 AL makes a PowerPoint deck based on the new approved WP. (1 week)
 AL creates video recorded presentation of the deck and posts it on his YouTube channel and provides a copy for the PKT community to use to promote the WP. (3 weeks)
