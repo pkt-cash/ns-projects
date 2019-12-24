@@ -7,7 +7,7 @@
 * Projected duration: 3 months
 * Projected effort: 1 person per month = 3 person-months
 * Requested PKT contribution: 40 million PKT
-* Project status: **PROPOSED**
+* Project status: **APPROVED**
 
 ## Project summary
 

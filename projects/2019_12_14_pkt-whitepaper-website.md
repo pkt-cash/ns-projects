@@ -10,7 +10,7 @@
 * Projected duration: 6 month
 * Projected effort: 8 person-months
 * Requested PKT contribution: PKT50,015,000
-* Project status: **Submitted**
+* Project status: **APPROVED**
 
 <br/>
 
