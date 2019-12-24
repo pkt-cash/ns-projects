@@ -16,8 +16,7 @@
 3. Earmark entire budget of all projects which have been accepted to-date.
   * Caleb: **yes**, reason is because more projects will be proposed and we otherwise risk accepting more projects than we are able to fund.
   * Neil: **yes**, as it shows NS planning and doesn't involve moving funds, adds necessary pressure for milestones to succeed or PKT will burn
-  * Arceliar: _further details needed; if done by the transfer below then **no**_
-    * Caleb: Left as is absent reply after clarification.
+  * Arceliar: **yes**, as an administrative / accounting process that we need to do to avoid going over budget    * Caleb: Left as is absent reply after clarification.
   * Benhylau: **yes** as a short-term strategy before we have a healthy pipeline of projects, but not as a long-term strategy to override the built-in coin burn policy
   * Adonis: **yes** because moving PKT in this way will generate more developer interest
 4. Transfer full funds for all accepted projects so that they will not burn.
