@@ -1,8 +1,13 @@
 # Projects Supported by The Network Steward
 
+* **CURRENT DEADLINE**: Midnight February 29, 2020 UTC
+* **CURRENT ROUND BUDGET**: 90mn PKT - Please see [Acceptance Process](https://github.com/pkt-cash/ns-projects/tree/master/acceptance_process.md) for more information
+
 The [Network Steward](https://pkt-cash.github.io/www.pkt.cash/steward/) of the PKT project is interested in the following topics. This list is not exhaustive and not every feature of every idea needs to be in a proposal for it to be accepted. These are just general topics which the Network Steward has an interest in seeing open source development.
 
 In order to create a project, fork this repository, create a new file in the projects directory which is a copy of the [template.md](https://github.com/pkt-cash/ns-projects/tree/master/projects/template.md) file. Then make a pull request to add your project proposal to this repository.
+
+Projects will be evaluated in accordance with the process defined in [Acceptance Process](https://github.com/pkt-cash/ns-projects/tree/master/acceptance_process.md)
 
 * Open source graphical SPV PKT wallet
   * Checking the authenticity of the blockchain by verifying the PacketCrypt proofs on a configurable number of the most recent blocks and verifying only the connectedness of all earlier headers
