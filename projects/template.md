@@ -27,22 +27,22 @@
   * Make sure to include evidence to justify the qualifications of the project participants for getting contributions accepted to the specified open source project. Such qualifications might include past contributions to said project.
 * If the project is not creating nor contributing to open source software, please provide a clear explanation of what the deliverables will be.
 
-* [] New open source software
+* [ ] New open source software
     * Which license(s) which you will use:
-      * [] [GPL-3.0-or-later](https://spdx.org/licenses/GPL-3.0-or-later.html)
-      * [] [MIT](https://spdx.org/licenses/MIT.html)
-      * [] [GPL-2.0-only](https://spdx.org/licenses/GPL-2.0-only.html)
+      * [ ] [GPL-3.0-or-later](https://spdx.org/licenses/GPL-3.0-or-later.html)
+      * [ ] [MIT](https://spdx.org/licenses/MIT.html)
+      * [ ] [GPL-2.0-only](https://spdx.org/licenses/GPL-2.0-only.html)
       * If your license(s) is/are not shown, please add them using the [SPDX license list](https://spdx.org/licenses/)
     * The maintainer of this software will be: *project participant*
     * The software will be hosted in: *software repository location*
-* [] Contributions to existing software
+* [ ] Contributions to existing software
   * List software projects
-    * [] [cjdns](https://github.com/cjdelisle/cjdns)
-    * [] [yggdrasil-go](https://github.com/yggdrasil-network/yggdrasil-go)
-    * [] [PacketCrypt](https://github.com/cjdelisle/PacketCrypt)
-    * [] [pktd](https://github.com/pkt-cash/pktd)
+    * [ ] [cjdns](https://github.com/cjdelisle/cjdns)
+    * [ ] [yggdrasil-go](https://github.com/yggdrasil-network/yggdrasil-go)
+    * [ ] [PacketCrypt](https://github.com/cjdelisle/PacketCrypt)
+    * [ ] [pktd](https://github.com/pkt-cash/pktd)
     * If the project is not shown, please add it with a link to its code repository
-* [] Other deliverables (please describe)
+* [ ] Other deliverables (please describe)
 
 *Detailed description of the deliverables*
 
@@ -53,3 +53,23 @@
 * 1000 people using yggdrasil
 
 *place success criteria here*
+
+## Milestones
+
+> **Instructions:** What are the milestones that will be delivered, and at each milestone: 1. What new things will be delivered which the Network Steward can use to verify that the milestone was a success? 2. How much of the budget should be paid out?
+
+### Milestone 0 (Kickoff)
+
+> **Instructions:** Explain how much PKT must be provided at the beginning of the project and any pre-existing deliverables which will be immediately delivered. **NOTE:** Projects which ask for more of their budget up-front will be regarded as more risky by the Network Steward, for details see the [acceptance_process](https://github.com/pkt-cash/ns-projects/blob/master/acceptance_process.md).
+
+After the project is accepted, the Network Steward will pay XXX PKT
+
+### Milestone 1
+
+> At this point, a user will be able to ...
+
+> After a report is delivered on this milestone and it is approved by the NS, the NS will send XXX PKT.
+
+### Milestone 2
+
+...
