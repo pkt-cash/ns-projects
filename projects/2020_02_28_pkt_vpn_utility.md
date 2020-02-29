@@ -187,6 +187,10 @@ These deliverables are:
 *   The maintainer of this software will be: Adonis Gaitatzis
 *   The software will be hosted in [https://github.com/anode-co](https://github.com/anode-co)
 
+# Payments
+
+All payments shall be made to `pkt1q9w78py6w9dprzajquw3ngenr826gsveu4c5x50`
+
 # Milestones
 
 The following are milestones for the progress of the project by which the network steward can evaluate the success of the project.
