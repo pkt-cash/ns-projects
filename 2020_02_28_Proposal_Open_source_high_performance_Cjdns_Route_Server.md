@@ -70,12 +70,12 @@ Verify that performance of cjdns Route Server has significantly increased.
 Creation of open source cjdns Route Server with high performance. Here are milestones for the progress of the project by which the network steward can evaluate the success of the project.
 
 ### Milestone 0: Kickoff
-At the beginning of the project, the Network Steward will pay out 8M of PKT to the applicant.
+At the beginning of the project, the Network Steward will pay out 6M of PKT to the applicant.
 
 ## Milestone 1: Development of Rust libraries ##
 Features expected to be completed include rust versions of cjdnsadmin, cjdnsann, cjdnskeys, cjdnsniff, and cjdnsplice
 
-Upon the completion of this milestone, a report will be made for the Network Steward and if the Network Steward accepts this report, 8M of PKT will be paid out.
+Upon the completion of this milestone, a report will be made for the Network Steward and if the Network Steward accepts this report, 6M of PKT will be paid out.
 
 ## Milestone 2: Rust version of cjdns node ##
 Rust version of cjdnsnode should have these features:
@@ -84,7 +84,7 @@ Rust version of cjdnsnode should have these features:
     * implements the `/dump` http endpoint from cjdnsnode
     * uses threads to the greatest extent practical, with consideration to the fact that it may be interconnected with many peers sending large amounts of data
 
-Upon the completion of this milestone, a report will be made for the Network Steward and if the Network Steward accepts this report, 8M of PKT will be paid out.
+Upon the completion of this milestone, a report will be made for the Network Steward and if the Network Steward accepts this report, 6M of PKT will be paid out.
 
 ## Milestone 3: Evolution of Rust version of cjdnsnode ## 
 Complete evolution of Rust version of cjdnsnode including:
@@ -96,12 +96,12 @@ Complete evolution of Rust version of cjdnsnode including:
   * requests to 'gr' can be processed in parallel with requests to 'ann'
   * re-builds of the dijkstra tree are performed in parallel and exchanged with the live tree in order that lookups are never blocked.
 
-Upon the completion of this milestone, a report will be made for the Network Steward and if the Network Steward accepts this report, 8M of PKT will be paid out.
+Upon the completion of this milestone, a report will be made for the Network Steward and if the Network Steward accepts this report, 6M of PKT will be paid out.
 
 ## Milestone 4: Iterative updates to dijkstra tree ##
 Two trees are present, one of which is active and the other is being updated. Periodically, the two are switched and then the updates are re-played to the one which is now out of date.
 
-This constitutes the end of the project, at the end of Milestone 4, a report will be made for the Network Steward and if the Network Steward accepts this report, 8M of PKT will be paid out.
+This constitutes the end of the project, at the end of Milestone 4, a report will be made for the Network Steward and if the Network Steward accepts this report, 6M of PKT will be paid out.
 
 ## Legal
 
