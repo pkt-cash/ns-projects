@@ -9,7 +9,7 @@
    * Rust developer
 * Projected duration: 4-6 months
 * Projected effort: 8 person/months
-* Requested PKT contribution: 32M PacketCrypt tokens (4M tokens per man month)
+* Requested PKT contribution: 24M PacketCrypt tokens (3M tokens per man month)
 * PKT address: pKHsMf6Eg8YB2jTJUpdRbCj7RpvpMpYRkU
 * Project status: PROPOSED
 
@@ -34,42 +34,42 @@
 
 ### CTO ###
 
-* Graduated from Bauman Moscow State Technical
+Graduated from Bauman Moscow State Technical
 University. 
  
-* 18 years of programming experience (Assembler, C / C++, Java, PHP, Perl, Python, JS, Rust, Solidity). Experience in developing Big Data solutions of an industrial-scale Hadoop cluster.  
+18 years of programming experience (Assembler, C / C++, Java, PHP, Perl, Python, JS, Rust, Solidity). Experience in developing Big Data solutions of an industrial-scale Hadoop cluster.  
 Worked as a Development Team Lead of Search @mail.ru (Top Russian Internet Company, listed at LSE, Internet search engine project). Worked as a System Architect in 1C company (SAP competitor). 
  
-* Areas of expertise: blockchain, Big Data, distributed computing, information security. 
+Areas of expertise: blockchain, Big Data, distributed computing, information security. 
  
 ### Blockchain developer 1 ###
-* Graduated from National Research Nuclear University """"Moscow Engineering Physics Institute"""" (MEPhI). 
+Graduated from National Research Nuclear University """"Moscow Engineering Physics Institute"""" (MEPhI). 
 
-* Was engaged in reverse engineering, software protection and antivirus work research. 23 years of programming experience (Assembler, C / C++, Perl, Python, JS, Rust, Solidity). 
+Was engaged in reverse engineering, software protection and antivirus work research. 23 years of programming experience (Assembler, C / C++, Perl, Python, JS, Rust, Solidity). 
  
-* Worked at Mail.Ru Group as a Leading Developer of various projects, and as a member Antispam team. Dealt with various systems (from small high-load microservices and sites to large clusters for distributed computing).
+Worked at Mail.Ru Group as a Leading Developer of various projects, and as a member Antispam team. Dealt with various systems (from small high-load microservices and sites to large clusters for distributed computing).
  
-* Lecturer and author of the InfoSec course for Technopark (Bauman MSTU), MEPhI and NES (New Economic School).
+Lecturer and author of the InfoSec course for Technopark (Bauman MSTU), MEPhI and NES (New Economic School).
  
 ### Full stack developer ###
 
-* Graduated from Bauman Moscow State Technical University and Technopark program.
+Graduated from Bauman Moscow State Technical University and Technopark program.
  
-* 8 years of programming experience (C/C++, Js, Rust, Go, Java, WASM, Solidity). Was engaged in sports programming. ACM ICPC Olympiad finalist.Developed various high-load systems at Mail.ru.
+8 years of programming experience (C/C++, Js, Rust, Go, Java, WASM, Solidity). Was engaged in sports programming. ACM ICPC Olympiad finalist.Developed various high-load systems at Mail.ru.
 
-* Blockchain R&D and system developer. Areas of expertise: p2p networking,
+Blockchain R&D and system developer. Areas of expertise: p2p networking,
 consensus, database, virtual machine (SC engine, virtual runtime), smart contracts. 
  
-* Decentralized protocols development (VRF, fast finality for PoS consensuses). Crypto-ecocomic protocols developer. Strong background in Ethereum, EOS, Substrate, POA Network, Steem."
+Decentralized protocols development (VRF, fast finality for PoS consensuses). Crypto-ecocomic protocols developer. Strong background in Ethereum, EOS, Substrate, POA Network, Steem."
  
 ### Rust developer ###
-* Graduated from Bauman Moscow State Technical University.  
+Graduated from Bauman Moscow State Technical University.  
  
-* 3 years of blockchain experience, 4 years of C++\Rust development in system programming. 
+3 years of blockchain experience, 4 years of C++\Rust development in system programming. 
  
-* Previously was engaged into fintech and dynamic disassembling.
+Previously was engaged into fintech and dynamic disassembling.
  
-* Areas of expertise: decentralised protocols\consensus development, DeFi, data oracles. 
+Areas of expertise: decentralised protocols\consensus development, DeFi, data oracles. 
  
 
 ## Project summary ##
@@ -92,19 +92,19 @@ Verify that wireguard encryption mechanism is complete and ready to launch.
 Creation of cjdns encryption wireguard. Here are milestones for the progress of the project by which the network steward can evaluate the success of the project.
 
 ### Milestone 0: Kickoff
-At the beginning of the project, the Network Steward will pay out 12M of PKT to the applicant.
+At the beginning of the project, the Network Steward will pay out 8M of PKT to the applicant.
 
 ### Milestone 1: Modification of cjdns ##
 Modification of cjdns build to allow inclusion of Rust code in the codebase - accepted in mainline cjdns
 
-Upon the completion of this milestone, a report will be made for the Network Steward and if the Network Steward accepts this report, 10M of PKT will be paid out.
+Upon the completion of this milestone, a report will be made for the Network Steward and if the Network Steward accepts this report, 8M of PKT will be paid out.
 
 ### Milestone 2: Demo cjdns connection ##
 Version of cjdns using cloudflare BoringTUN based WireGuard encryption, demo two cjdns instances connecting - accepted in mainline cjdns. Features expected to be completed include:
 
 * New version number for cjdns which uses BoringTUN when possible, falls back on CryptoAuth for communicating with older cjdns instances
 
-Upon the completion of this milestone, a report will be made for the Network Steward and if the Network Steward accepts this report, 10M of PKT will be paid out.
+Upon the completion of this milestone, a report will be made for the Network Steward and if the Network Steward accepts this report, 8M of PKT will be paid out.
 
 ## Legal
 
