@@ -14,8 +14,6 @@
 ## Project summary
 We propose to create a website that displays the price of PKT in US Dollars in quasi-real time by using the seigniorage method.
 
-[TOC]
-
 ## 1. Project Relevance to the PKT Network
 
 PKT is a [crypto-incentivized mesh network](https://www.gridfinity.com/how-to-build-a-decentralized-web/), and the incentive of the cryptocurrency relies on its ability to be used as a [Medium of Exchange](https://www.investopedia.com/terms/m/mediumofexchange.asp), and represent a standard of value. For this reason, calculating the value of PKT is relevant to validate its use as a Medium of Exchange, supporting PKT network to grow as a crypto-incentivized network. 
