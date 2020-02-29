@@ -15,7 +15,6 @@
 
 ## Project participants ##
 ### Dmitry Rokityanskiy, Team Leader ###
-* Notable highlights, including awards and education
 * Manager/Product Owner Winner (SD Ventures nomination) at AI hackathon
 * Spacehack.xyz (2017) Project leader, designed product &amp; tech requirements, delivered presentation.
 * Prizes at blockchain hackathons Proof of Skill (Moscow, 2018), ’Blockchain: New Oil’’ Hackathon (Kazan 2017) with Vitalik Buterin presenting the prize.
