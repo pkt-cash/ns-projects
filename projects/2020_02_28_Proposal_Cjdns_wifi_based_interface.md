@@ -87,12 +87,12 @@ Features expected to be completed include:
  * WLANInterface_setMode(ifNum: number, mode: number)
 
 * mode values:
-    * 0 disabled
-    * 1 manual connection only
-    * 2 automatically connect to any discovered access point
-    * 3 create an access point
-    * WLANInterface_scan(ifNum: number) -> Array<object> (returns an array of detected access points, include whether the access point appears to be using the same cjdns protocol)
-    * WLANInterface_beginConnection(ifNum: number, ssid: string)
+  * 0 disabled
+  * 1 manual connection only
+  * 2 automatically connect to any discovered access point
+  * 3 create an access point
+  * WLANInterface_scan(ifNum: number) -> Array<object> (returns an array of detected access points, include whether the access point appears to be using the same cjdns protocol)
+  * WLANInterface_beginConnection(ifNum: number, ssid: string)
 
 This constitutes the end of the project, at the end of Milestone 3, a report will be made for the Network Steward and if the Network Steward accepts this report, 9M of PKT will be paid out.
 
@@ -103,7 +103,7 @@ This constitutes the end of the project, at the end of Milestone 3, a report wil
 
 
 
-## Legal
+# Legal
 
 The applicant understands that the network steward is not a legal entity and no part of this
 project constitutes any form of legal agreement. The applicant accepts that the network steward
