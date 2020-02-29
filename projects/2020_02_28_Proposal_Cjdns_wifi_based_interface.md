@@ -35,9 +35,9 @@ Create cjdns wifi based interface for the PKT network. PKT ecosystem includes a 
  ## Project deliverables  ##
 This project will deliver:
 * Contributions to existing software: https://github.com/cjdelisle/cjdns
-Note on delivery: the team 
-* would plan to set up the software development process in two week long spring
-* would be ready to discuss the current spring results and plans for next sprint every two weeks with the Stewards and other stakeholders
+* Note on delivery: the team 
+ * would plan to set up the software development process in two week long spring
+ * would be ready to discuss the current spring results and plans for next sprint every two weeks with the Stewards and other stakeholders
 
 
  ## Success criteria  ##
