@@ -85,7 +85,8 @@ Features expected to be completed include:
  * WLANInterface_getInfo(ifNum: number) -> object (returns info such as channel number, mode, connection quality, etc)
  * WLANInterface_setChannel(ifNum: number, channel: number)
  * WLANInterface_setMode(ifNum: number, mode: number)
-  * mode values:
+
+ * mode values:
     * 0 disabled
     * 1 manual connection only
     * 2 automatically connect to any discovered access point
@@ -93,9 +94,9 @@ Features expected to be completed include:
     * WLANInterface_scan(ifNum: number) -> Array<object> (returns an array of detected access points, include whether the access point appears to be using the same cjdns protocol)
     * WLANInterface_beginConnection(ifNum: number, ssid: string)
 
-.......
+
 This constitutes the end of the project, at the end of Milestone 3, a report will be made for the Network Steward and if the Network Steward accepts this report, 9M of PKT will be paid out.
-.......
+
 
 
 ## Legal
