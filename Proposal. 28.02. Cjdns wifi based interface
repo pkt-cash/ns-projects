@@ -59,32 +59,17 @@ Features expected to be completed include:
       * Simple demo app which can connect to said WPA server with one button
       * no UX design necessary, the app is purely for proving that the technology works
       * Application must be able to connect with one click, no special procedure such as downloading certificates
-      * Application must enable the installation via the normal route from the app store.
-       * It is not required that the app be published on the app store, it is just necessary that it can be installed from an app store context
+      * Application must enable the installation via the normal route from the app store. It is not required that the app be published on the app store, it is just necessary that it can be installed from an app store context
       * Application must not violate the guidelines of the app store
  
 Upon the completion of this milestone, a report will be made for the Network Steward and if the Network Steward accepts this report, 9M of PKT will be paid out.
 
 ### Milestone 2: Upgrades to server component  ##
 Features expected to be completed include:
-    * Able to connect to or disconnect from an AP on demand
-    * Able to create an AP on demand
-
-Upon the completion of this milestone, a report will be made for the Network Steward and if the Network Steward accepts this report, 9M of PKT will be paid out.
-  
-
-### Milestone 2: Upgrades to server component  ##
-
-Features expected to be completed include:
-
    * Able to connect to or disconnect from an AP on demand
-
    * Able to create an AP on demand
 
-
-
 Upon the completion of this milestone, a report will be made for the Network Steward and if the Network Steward accepts this report, 9M of PKT will be paid out.
-
   
 
  ### Milestone 3: Integration with cjdns  ##
