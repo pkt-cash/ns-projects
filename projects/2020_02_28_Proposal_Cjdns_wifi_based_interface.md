@@ -102,7 +102,6 @@ This constitutes the end of the project, at the end of Milestone 3, a report wil
 
 
 &nbsp;
-
 ## Legal ##
 
 The applicant understands that the network steward is not a legal entity and no part of this
