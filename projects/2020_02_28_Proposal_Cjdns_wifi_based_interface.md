@@ -105,8 +105,6 @@ This constitutes the end of the project, at the end of Milestone 3, a report wil
 
 ## Legal ##
 
-
-
 The applicant understands that the network steward is not a legal entity and no part of this
 project constitutes any form of legal agreement. The applicant accepts that the network steward
 exists thanks to the effort of volunteers and the applicant has no reasonable expectation of any
