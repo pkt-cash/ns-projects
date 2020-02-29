@@ -94,9 +94,10 @@ Features expected to be completed include:
     * WLANInterface_scan(ifNum: number) -> Array<object> (returns an array of detected access points, include whether the access point appears to be using the same cjdns protocol)
     * WLANInterface_beginConnection(ifNum: number, ssid: string)
 
+*****""
 
 This constitutes the end of the project, at the end of Milestone 3, a report will be made for the Network Steward and if the Network Steward accepts this report, 9M of PKT will be paid out.
-
+***********"""
 
 
 ## Legal
