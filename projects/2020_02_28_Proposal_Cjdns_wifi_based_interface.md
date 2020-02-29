@@ -86,7 +86,7 @@ Features expected to be completed include:
  * WLANInterface_setChannel(ifNum: number, channel: number)
  * WLANInterface_setMode(ifNum: number, mode: number)
 
- * mode values:
+* mode values:
     * 0 disabled
     * 1 manual connection only
     * 2 automatically connect to any discovered access point
