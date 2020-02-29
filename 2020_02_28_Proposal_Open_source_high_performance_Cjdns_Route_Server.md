@@ -7,8 +7,7 @@
   * Rust developer
 * Projected duration: 5-7 months
 * Projected effort: 10 person/months
-* Requested PKT contribution: 40M PacketCrypt tokens (4M tokens per man month)
-* Requested PKT contribution: TBD
+* Requested PKT contribution: 30M PacketCrypt tokens (3M tokens per man month)
 * PKT address: pKHsMf6Eg8YB2jTJUpdRbCj7RpvpMpYRkU
 * Project status: PROPOSED
 
