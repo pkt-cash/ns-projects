@@ -75,7 +75,6 @@ Upon the completion of this milestone, a report will be made for the Network Ste
  ### Milestone 3: Integration with cjdns  ##
 
 Features expected to be completed include:
-
 * WLANInterface.c or WLANInterface.rs (C or Rust)
 * Access point mode should be considered equal to ETHInterface beacon mode (anyone can connect)
 * Information traditionally stored in the beacon message might be included in the SSID or otherwise
@@ -85,13 +84,15 @@ Features expected to be completed include:
  * WLANInterface_getInfo(ifNum: number) -> object (returns info such as channel number, mode, connection quality, etc)
  * WLANInterface_setChannel(ifNum: number, channel: number)
  * WLANInterface_setMode(ifNum: number, mode: number)
- *mode values:
-  * 0 disabled
-  * 1 manual connection only
-  * 2 automatically connect to any discovered access point
-  * 3 create an access point
-  * WLANInterface_scan(ifNum: number) -> Array<object> (returns an array of detected access points, include whether the access point appears to be using the same cjdns protocol)
-  * WLANInterface_beginConnection(ifNum: number, ssid: string)
+ * mode values:
+   * 0 disabled
+   * 1 manual connection only
+   * 2 automatically connect to any discovered access point
+   * 3 create an access point
+   * WLANInterface_scan(ifNum: number) -> Array<object> (returns an array of detected access points, include whether the access point appears to be using the same cjdns protocol)
+   * WLANInterface_beginConnection(ifNum: number, ssid: string)
+
+
 
 This constitutes the end of the project, at the end of Milestone 3, a report will be made for the Network Steward and if the Network Steward accepts this report, 9M of PKT will be paid out.
 
