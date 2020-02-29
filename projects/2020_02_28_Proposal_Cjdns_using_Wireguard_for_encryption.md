@@ -105,6 +105,7 @@ Version of cjdns using cloudflare BoringTUN based WireGuard encryption, demo two
 
 Upon the completion of this milestone, a report will be made for the Network Steward and if the Network Steward accepts this report, 8M of PKT will be paid out.
 
+&nbsp;
 ## Legal
 
 The applicant understands that the network steward is not a legal entity and no part of this
