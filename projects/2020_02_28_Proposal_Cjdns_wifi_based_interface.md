@@ -97,6 +97,7 @@ Features expected to be completed include:
 This constitutes the end of the project, at the end of Milestone 3, a report will be made for the Network Steward and if the Network Steward accepts this report, 9M of PKT will be paid out.
 
 
+
 ## Legal
 
 The applicant understands that the network steward is not a legal entity and no part of this
