@@ -56,11 +56,11 @@ Features expected to be completed include:
    * Ideally the AP should not appear in wifi scans, if it does then it should have a common prefix (e.g. "cjdns-" followed by a random string which can be a public key)
    * Dependence on installed hostapd/wpa_supplicant for the server component is OPTIONAL
    * Android + iPhone demo apps
-      * Simple demo app which can connect to said WPA server with one button
-      * no UX design necessary, the app is purely for proving that the technology works
-      * Application must be able to connect with one click, no special procedure such as downloading certificates
-      * Application must enable the installation via the normal route from the app store. It is not required that the app be published on the app store, it is just necessary that it can be installed from an app store context
-      * Application must not violate the guidelines of the app store
+     * Simple demo app which can connect to said WPA server with one button
+     * no UX design necessary, the app is purely for proving that the technology works
+     * Application must be able to connect with one click, no special procedure such as downloading certificates
+     * Application must enable the installation via the normal route from the app store. It is not required that the app be published on the app store, it is just necessary that it can be installed from an app store context
+     * Application must not violate the guidelines of the app store
  
 Upon the completion of this milestone, a report will be made for the Network Steward and if the Network Steward accepts this report, 9M of PKT will be paid out.
 
@@ -76,38 +76,22 @@ Upon the completion of this milestone, a report will be made for the Network Ste
 
 Features expected to be completed include:
 
-   * WLANInterface.c or WLANInterface.rs (C or Rust)
-
-   * Access point mode should be considered equal to ETHInterface beacon mode (anyone can connect)
-
-   * Information traditionally stored in the beacon message might be included in the SSID or otherwise
-
-   * The WPA-Enterprise shared secret must be computed based on secret information resulting from the cjdns CryptoAuth encrypted session
-
-   * Exposes admin RPC calls:
-
-     * WLANInterface_new(ifaceName: string) -> number (same API as ETHInterface_new)
-
-     * WLANInterface_getInfo(ifNum: number) -> object (returns info such as channel number, mode, connection quality, etc)
-
-     * WLANInterface_setChannel(ifNum: number, channel: number)
-
-     * WLANInterface_setMode(ifNum: number, mode: number)
-
-        * mode values:
-
-          * 0 disabled
-
-          * 1 manual connection only
-
-          * 2 automatically connect to any discovered access point
-
-          * 3 create an access point
-
-      * WLANInterface_scan(ifNum: number) -> Array<object> (returns an array of detected access points, include whether the access point appears to be using the same cjdns protocol)
-
-      * WLANInterface_beginConnection(ifNum: number, ssid: string)
-
+* WLANInterface.c or WLANInterface.rs (C or Rust)
+* Access point mode should be considered equal to ETHInterface beacon mode (anyone can connect)
+* Information traditionally stored in the beacon message might be included in the SSID or otherwise
+* The WPA-Enterprise shared secret must be computed based on secret information resulting from the cjdns CryptoAuth encrypted session
+* Exposes admin RPC calls:
+ * WLANInterface_new(ifaceName: string) -> number (same API as ETHInterface_new)
+ * WLANInterface_getInfo(ifNum: number) -> object (returns info such as channel number, mode, connection quality, etc)
+ * WLANInterface_setChannel(ifNum: number, channel: number)
+ * WLANInterface_setMode(ifNum: number, mode: number)
+   * mode values:
+    * 0 disabled
+    * 1 manual connection only
+    * 2 automatically connect to any discovered access point
+    * 3 create an access point
+    * WLANInterface_scan(ifNum: number) -> Array<object> (returns an array of detected access points, include whether the access point appears to be using the same cjdns protocol)
+    * WLANInterface_beginConnection(ifNum: number, ssid: string)
 
 
 This constitutes the end of the project, at the end of Milestone 3, a report will be made for the Network Steward and if the Network Steward accepts this report, 9M of PKT will be paid out.
