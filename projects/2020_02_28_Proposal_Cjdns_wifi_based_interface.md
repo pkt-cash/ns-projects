@@ -89,7 +89,7 @@ Features expected to be completed include:
    * 1 manual connection only
    * 2 automatically connect to any discovered access point
    * 3 create an access point
-   * WLANInterface_scan(ifNum: number) -> Array<object> (returns an array of detected access points, include whether the access point appears to be using the same cjdns protocol)
+   * WLANInterface_scan(ifNum: number) -> Array&lt;object&gt; (returns an array of detected access points, include whether the access point appears to be using the same cjdns protocol)
    * WLANInterface_beginConnection(ifNum: number, ssid: string)
 
 
