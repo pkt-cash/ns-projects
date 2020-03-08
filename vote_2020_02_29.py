@@ -247,7 +247,7 @@ votes.append({
   'cjdns_wireguard': { 'short': 0.8, 'long': 0.9, 'scope': 0.8, 'risk': 0.4, 'hazard': 0.8 },
 })
 
-print "RESULTS NOT YET FINAL - winners: %s" % getApprovedProjects(budget, costs, votes)
+print "WINNING PROJECTS: %s" % getApprovedProjects(budget, costs, votes)
 
 projects = {}
 for x in votes[0]:
