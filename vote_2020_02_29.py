@@ -14,7 +14,7 @@ costs = {
 }
 votes = []
 
-### Fill in your values here, you can run this code but don't share it until 2020-03-08
+# Arceliar
 votes.append({
   # Commenting in everything in detail since this is the first vote.
   # My hope is that this will be useful for future project proposals, which may
@@ -111,7 +111,131 @@ votes.append({
   },
 })
 
-## This is filler so that the algoritm works. When other team members have their data it will go here.
+# Caleb
+# There seems to be three "applicant groups" who have proposed projects.
+# Awarding all projects to a single group may be risky, especially as the project is too young
+# for any applicant to have a proven track record. The group which applied for the Cloud Computing
+# project and the PKT Faucet project has proposed projects with both the highest, and the lowest price
+# per person-month which creates questions about how they have planned their projects.
+votes.append({
+  # A repository to allow people to easily install cjdns, Yggdrasil, pktd and pktwallet would help adoption,
+  # however the key focus will probably be on commercial apps which build on the technology, repositories
+  # really only support open source adoption. In the long term, this repo will probably not be very
+  # significant as there will be many places to get this software from. 1 PM for a debian repo is somewhat
+  # expensive, it's unclear what the website offers, 4mn PKT per PM is somewhat on the high side.
+  # Success criteria "when the software repository is live" and "At least one major software program
+  # successfully packaged, with at least one independent user of that package", are fairly weak, giving the NS
+  # little leverage to fail milestones of the project for not complying with the success criteria.
+  'repo':            { 'short': 0.7, 'long': 0.5, 'scope': 0.2, 'risk': 0.2, 'hazard': 0.6 },
+
+  # A price calculator might be a neat bonus item but it is not critical to the development of a bandwidth
+  # market and in the long term, this role will be filled by exchanges. The time effort of 1.5 PM for a price
+  # ticker is high, but not ridiculously high, however 5.3mn PKT per PM is the highest price charged by any
+  # application. There are not a lot of success criteria placed on the milestones, so the NS does not have very
+  # much leverage to reject milestone reports as not meeting the success criteria. The proposal contains the text
+  # "may include banners linking to other resources related to the PKT network, such as Gridfinity or a wallet
+  # service" which appears as though it might benefit certain parties more than others.
+  'price_display':   { 'short': 0.3, 'long': 0.3, 'scope': 0.1, 'risk': 0.3, 'hazard': 0.5 },
+
+  # A way for people to acquire a small amount of PKT is indeed an interesting idea, however PacketCrypt was
+  # designed in such a way as to allow casual mining of small amounts of PKT using announcement mining so this
+  # should not be necessary. There is also evidence that crypto faucets can be run as successful businesses so
+  # this project does not bypass a tragedy-of-the-commons problem which blocks the natural emergence of a piece
+  # of key infrastructure. Development of an app of this complexity should take 1 to 3 weeks of developer time.
+  # The 12 person-months quoted is unacceptable for reason of "significant damage to the perceived legitimacy of
+  # the Network Steward" because accepting this project will appear as a handout to the applicant.
+  'faucet':          { 'short': 0.2, 'long': 0.2, 'scope': 0.0, 'risk': 0.5, 'hazard': 0.0 },
+
+  # Though it is not in the immediate plan for the PKT ecosystem, this project may be considered useful to the
+  # ecosystem because it creates another use case for PKT. It does not, however, directly align with the long
+  # term goal of creating infrastructure necessary for the emergence of a bandwidth market.
+  # There is an interesting research problem around automatic splitting of computation between multiple computers,
+  # homogenous and heterogeneous. However this field remains in its infancy and is likely not worth the limited
+  # resources of the Network Steward. The applicant has not expressed their intention to publish any papers and
+  # the application does not alude to the development of any breakthrough technology, so it is likely that the
+  # applicant intends to use off-the-shelf software such as Kubernetes, Docker and Tahoe-LAFS. Whatever the case
+  # may be, since the applicant has made a commitment to performing fundamental research, the Network Steward must
+  # assume that they intend to use existing technology. The development of an application with the features
+  # described in the proposal should not be expected to require more than 4-6 person-months. With 60-120
+  # person-months of effort and the declared scope, this project is unacceptable for the reason that it would
+  # appear as a handout to the applicant. If the applicant wishes to re-apply, the Network Steward encourages them
+  # to create a prototype, or apply for a project to create a prototype, such that they may have a working
+  # demonstration to better clarify the project scope. It should be noted that the line "The software will be
+  # available under applicable open source licenses when possible" creates uncertainty. Results of Network Steward
+  # funded projects must be available to everyone in the ecosystem equally without unfairly benefitting any one
+  # participant over any other. In cases when it is impossible to make certain components of a project open
+  # source, applicants should be clear about exactly which components, why, and why the project is not unfairly
+  # benefitting any one participant, i.e. the owner of the intellectual property.
+  'cloud':           { 'short': 0.4, 'long': 0.4, 'scope': 0.0, 'risk': 0.4, 'hazard': 0.0 },
+
+  # The VPN app proposal is an important first step in developing a bandwidth market according to the overall plan
+  # of the PKT ecosystem. The apparent separation of VPN operators from the website/server could also be argued to
+  # advance the separation of "network administrator" from "infrastructure operator" roles.
+  # The project describes a client app (Android), a VPN docker container, and webapps for the client and VPN operator
+  # to interface with their assets. The success criteria for each milestone are reasonably well defined and the time
+  # estimate of 16 person-months seems within the expected range for a project of the defined scope. The costing
+  # exercise is particularly complete, and though it is not something the Network Steward is willing to take on
+  # faith, it shows significant commitment and planning from the applicant. The applicant is One Of Our Own so we
+  # must consider the hazard risk of this as a real or perceived conflicts of interest with the NS team. However,
+  # the project seems to be not only the greatest short term impact, but also the best overall value at 1.875 mn PKT
+  # per person-month with no obvious inflation of the person-month count.
+  'vpn':             { 'short': 0.9, 'long': 0.7, 'scope': 0.9, 'risk': 0.9, 'hazard': 0.5 },
+
+  # A high performance route server can be used in the short term to provide link quality information for the VPN app
+  # project. The measurement of link quality and computation of paths through the network seems to align with the PKT
+  # bandwidth market strategy. It is foreseen that the route server will become a significant piece of infrastructure
+  # to the emergence of a bandwidth market and in order to maintain fairness, it is important to have a compelling
+  # implementation which is equally available to all participants such that the ecosystem remains open to new entrants.
+  # The time effort of 10 person-months seems within the realm of reason for the scope of the project.
+  # This project does not demonstrate significant planning as does the VPN app project and it does not have a defined
+  # maintainer, but the success criteria are very clearly defined, perhaps the most clearly defined because it must be
+  # a drop-in replacement to existing software.
+  'route_server':    { 'short': 0.8, 'long': 0.9, 'scope': 0.8, 'risk': 0.8, 'hazard': 0.9 },
+
+  # Automatically connecting to encrypted wireless access points is a significant step in the process of rolling out
+  # an internet sharing device and then later local mesh networks which will provide last mile connections to the
+  # bandwidth market. In the immediate term, the focus is on VPN technology so this is not immediately necessary, but
+  # it will become necessary soon as the next step in the plan is to move into internet sharing. The time effort of
+  # 12 person-months seems within the realm of reason for the scope of the project. The project is inherently somewhat
+  # risky because it contains research (finding a secure protocol which works on iPhone and Android), however the
+  # success criteria are well defined and the first milestone proves the feasibility of the project so the Network
+  # Steward probably won't lose more than the up-front contribution of 1/4 if the research proves fruitless.
+  'cjdns_wifi':      { 'short': 0.5, 'long': 0.6, 'scope': 0.6, 'risk': 0.6, 'hazard': 0.8 },
+
+  # In order to build out a serious VPN network, we will need a high speed software VPN implementation such as
+  # Wireguard. In the longer term, this high performance software implementation will be necessary in order to
+  # prototype what will eventually be made into official RFCs and then hardware devices. The time effort of 8
+  # person-months seems within the realm of reason for the scope of the project. The success criteria are clear,
+  # but the 1/3 up-front payment makes the project less competitive than the cjdns wifi project or the Route Server
+  # project, which are otherwise very similar.
+  'cjdns_wireguard': { 'short': 0.6, 'long': 0.8, 'scope': 0.7, 'risk': 0.7, 'hazard': 0.7 },
+})
+
+# Adonis
+votes.append({
+  'repo':            { 'short': 0.2, 'long': 0.0, 'scope': 0.5, 'risk': 0.8, 'hazard': 1.0 },
+  'price_display':   { 'short': 0.8, 'long': 0.1, 'scope': 0.2, 'risk': 0.8, 'hazard': 1.0 },
+  'faucet':          { 'short': 0.8, 'long': 0.1, 'scope': 0.2, 'risk': 0.8, 'hazard': 1.0 },
+  'cloud':           { 'short': 0.2, 'long': 0.4, 'scope': 0.4, 'risk': 0.3, 'hazard': 0.1 },
+  'vpn':             { 'short': 0.2, 'long': 0.8, 'scope': 0.8, 'risk': 0.8, 'hazard': 0.8 },
+  'route_server':    { 'short': 0.5, 'long': 0.8, 'scope': 0.8, 'risk': 0.8, 'hazard': 1.0 },
+  'cjdns_wifi':      { 'short': 0.0, 'long': 0.3, 'scope': 0.8, 'risk': 0.8, 'hazard': 0.8 },
+  'cjdns_wireguard': { 'short': 0.0, 'long': 0.3, 'scope': 0.8, 'risk': 0.7, 'hazard': 0.8 },
+})
+
+# Neil Alexander
+votes.append({
+  'repo':            { 'short': 0.8, 'long': 0.8, 'scope': 0.6, 'risk': 0.9, 'hazard': 0.9 },
+  'price_display':   { 'short': 0.6, 'long': 0.6, 'scope': 0.5, 'risk': 0.2, 'hazard': 0.4 },
+  'faucet':          { 'short': 0.7, 'long': 0.1, 'scope': 0.3, 'risk': 0.1, 'hazard': 0.0 },
+  'cloud':           { 'short': 0.4, 'long': 0.8, 'scope': 0.5, 'risk': 0.6, 'hazard': 0.6 },
+  'vpn':             { 'short': 0.8, 'long': 0.6, 'scope': 0.8, 'risk': 0.7, 'hazard': 0.8 },
+  'route_server':    { 'short': 0.8, 'long': 0.9, 'scope': 0.8, 'risk': 0.9, 'hazard': 0.6 },
+  'cjdns_wifi':      { 'short': 0.3, 'long': 0.5, 'scope': 0.3, 'risk': 0.2, 'hazard': 0.7 },
+  'cjdns_wireguard': { 'short': 0.7, 'long': 0.7, 'scope': 0.8, 'risk': 0.8, 'hazard': 0.9 },
+})
+
+## Awaiting results from Benhylau
 votes.append({
   'repo':            { 'short': 0.5, 'long': 0.5, 'scope': 0.5, 'risk': 0.5, 'hazard': 0.5 },
   'price_display':   { 'short': 0.5, 'long': 0.5, 'scope': 0.5, 'risk': 0.5, 'hazard': 0.5 },
@@ -122,34 +246,5 @@ votes.append({
   'cjdns_wifi':      { 'short': 0.5, 'long': 0.5, 'scope': 0.5, 'risk': 0.5, 'hazard': 0.5 },
   'cjdns_wireguard': { 'short': 0.5, 'long': 0.5, 'scope': 0.5, 'risk': 0.5, 'hazard': 0.5 },
 })
-votes.append({
-  'repo':            { 'short': 0.5, 'long': 0.5, 'scope': 0.5, 'risk': 0.5, 'hazard': 0.5 },
-  'price_display':   { 'short': 0.5, 'long': 0.5, 'scope': 0.5, 'risk': 0.5, 'hazard': 0.5 },
-  'faucet':          { 'short': 0.5, 'long': 0.5, 'scope': 0.5, 'risk': 0.5, 'hazard': 0.5 },
-  'cloud':           { 'short': 0.5, 'long': 0.5, 'scope': 0.5, 'risk': 0.5, 'hazard': 0.5 },
-  'vpn':             { 'short': 0.5, 'long': 0.5, 'scope': 0.5, 'risk': 0.5, 'hazard': 0.5 },
-  'route_server':    { 'short': 0.5, 'long': 0.5, 'scope': 0.5, 'risk': 0.5, 'hazard': 0.5 },
-  'cjdns_wifi':      { 'short': 0.5, 'long': 0.5, 'scope': 0.5, 'risk': 0.5, 'hazard': 0.5 },
-  'cjdns_wireguard': { 'short': 0.5, 'long': 0.5, 'scope': 0.5, 'risk': 0.5, 'hazard': 0.5 },
-})
-votes.append({
-  'repo':            { 'short': 0.5, 'long': 0.5, 'scope': 0.5, 'risk': 0.5, 'hazard': 0.5 },
-  'price_display':   { 'short': 0.5, 'long': 0.5, 'scope': 0.5, 'risk': 0.5, 'hazard': 0.5 },
-  'faucet':          { 'short': 0.5, 'long': 0.5, 'scope': 0.5, 'risk': 0.5, 'hazard': 0.5 },
-  'cloud':           { 'short': 0.5, 'long': 0.5, 'scope': 0.5, 'risk': 0.5, 'hazard': 0.5 },
-  'vpn':             { 'short': 0.5, 'long': 0.5, 'scope': 0.5, 'risk': 0.5, 'hazard': 0.5 },
-  'route_server':    { 'short': 0.5, 'long': 0.5, 'scope': 0.5, 'risk': 0.5, 'hazard': 0.5 },
-  'cjdns_wifi':      { 'short': 0.5, 'long': 0.5, 'scope': 0.5, 'risk': 0.5, 'hazard': 0.5 },
-  'cjdns_wireguard': { 'short': 0.5, 'long': 0.5, 'scope': 0.5, 'risk': 0.5, 'hazard': 0.5 },
-})
-votes.append({
-  'repo':            { 'short': 0.5, 'long': 0.5, 'scope': 0.5, 'risk': 0.5, 'hazard': 0.5 },
-  'price_display':   { 'short': 0.5, 'long': 0.5, 'scope': 0.5, 'risk': 0.5, 'hazard': 0.5 },
-  'faucet':          { 'short': 0.5, 'long': 0.5, 'scope': 0.5, 'risk': 0.5, 'hazard': 0.5 },
-  'cloud':           { 'short': 0.5, 'long': 0.5, 'scope': 0.5, 'risk': 0.5, 'hazard': 0.5 },
-  'vpn':             { 'short': 0.5, 'long': 0.5, 'scope': 0.5, 'risk': 0.5, 'hazard': 0.5 },
-  'route_server':    { 'short': 0.5, 'long': 0.5, 'scope': 0.5, 'risk': 0.5, 'hazard': 0.5 },
-  'cjdns_wifi':      { 'short': 0.5, 'long': 0.5, 'scope': 0.5, 'risk': 0.5, 'hazard': 0.5 },
-  'cjdns_wireguard': { 'short': 0.5, 'long': 0.5, 'scope': 0.5, 'risk': 0.5, 'hazard': 0.5 },
-})
+
 print "RESULTS NOT YET FINAL - winners: %s" % getApprovedProjects(budget, costs, votes)
