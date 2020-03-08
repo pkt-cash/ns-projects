@@ -10,6 +10,7 @@
 * Projected duration: *e.g. 2 months*
 * Projected effort: *e.g. 10 person/months*
 * Requested PKT contribution: *e.g. 1000 PKT*
+* PKT address to pay to: *e.g. pkt1qwqa46yw6xpl50mq55c5enq446df25deexample*
 * Project status: **PROPOSED**
 
 ## Project summary

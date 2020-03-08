@@ -74,7 +74,7 @@ def getBest(approved, votes, costs):
     s = 0. # sum of scores given to candidates approved so far
   best, bestScore, bestCost = None, 0., 0
   for project,score in scores.iteritems():
-    if score > bestScore or (score == bestScore and costs[project] < bestCost):
+    if project in costs and (score > bestScore or (score == bestScore and costs[project] < bestCost)):
       best = project
       bestScore = score
       bestCost = costs[project]
