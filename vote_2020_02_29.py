@@ -213,13 +213,47 @@ votes.append({
 
 # Adonis
 votes.append({
+  # A website makes sense to me but I'm not sure why a software repo is necessary when Github and Github Pages exists 
+  # I believe that the medium-term management of a PKT repo is better with an existing system such as Github, where people already have accounts and can be added or removed easily to a project.
+  # This project is expensive for the time commitment
   'repo':            { 'short': 0.2, 'long': 0.0, 'scope': 0.5, 'risk': 0.8, 'hazard': 1.0 },
+
+  # This is an essential feature for the the future tracking of PKT value over time.
+  # I believe this will enable analysts, historians, and marketers to speak more transparently about the value of PKT
+  # In a future with bandwidth markets, this is also an essential feature. People will need to be able to equate PKT to real-world value. This project should be very simple and therefore not so costly.
   'price_display':   { 'short': 0.8, 'long': 0.1, 'scope': 0.2, 'risk': 0.8, 'hazard': 1.0 },
+
+  # I believe the faucet should drip PKT from a testnet that resets every 24 hours, rather than from the actual PKT chain.
+  # This is an essential feature for PKT developers and testers.
+  # This should be a very simple project and therefore not so costly.
   'faucet':          { 'short': 0.8, 'long': 0.1, 'scope': 0.2, 'risk': 0.8, 'hazard': 1.0 },
+
+  # I don't believe the time is right for this yet. 
+  # In time, these services will be incredible, and they can be paid for in PKT and the services can be decentralized. 
+  # I think the PKT technology and the consumer understanding of that technology must mature first.
+  # I'm not sure this is attainable for the price stated.
+  # This is an ambitious project that I think needs more time to develop.
+  # There are a lot of moving parts including decentralized resource management, billing and account management, marketing and market making, and possibly PKT market making. 
+  # I'm not convinced this project will not serve to benefit entirely a single private stakeholder
   'cloud':           { 'short': 0.2, 'long': 0.4, 'scope': 0.4, 'risk': 0.3, 'hazard': 0.1 },
+
+  # This projects creates immediate and tangible need for PKT/bandwidth, that will lead to the creation of the bandwidth marketplace.
+  # This project is well priced
   'vpn':             { 'short': 0.2, 'long': 0.8, 'scope': 0.8, 'risk': 0.8, 'hazard': 0.8 },
+
+  # This is a core piece of infrastructure, but I believe it becomes more necessary as the network grows.
+  # In time, this project will make a faster network, attracting users to the network.  
+  # Looks like an excellent team also
   'route_server':    { 'short': 0.5, 'long': 0.8, 'scope': 0.8, 'risk': 0.8, 'hazard': 1.0 },
+
+  # I don't believe this is a critical piece of infrastructure yet.
+  # When PKT networks are used to facilitate peer-to-peer ISPs, this will be a wonderful way of enabling consumers to build their own ISP infrastructure.
+  # Great team though.
   'cjdns_wifi':      { 'short': 0.0, 'long': 0.3, 'scope': 0.8, 'risk': 0.8, 'hazard': 0.8 },
+
+  # Does cjdns not already have public key cryptography?
+  # I would like to see a version of this that allows cjdns to use the BoringTUN protocol to create a decentralized VPN
+  # Any project that increases consumer access to and demand on the network will facilitate growth.
   'cjdns_wireguard': { 'short': 0.0, 'long': 0.3, 'scope': 0.8, 'risk': 0.7, 'hazard': 0.8 },
 })
 
