@@ -235,16 +235,16 @@ votes.append({
   'cjdns_wireguard': { 'short': 0.7, 'long': 0.7, 'scope': 0.8, 'risk': 0.8, 'hazard': 0.9 },
 })
 
-## Awaiting results from Benhylau
+## Benedict Lau
 votes.append({
-  'repo':            { 'short': 0.5, 'long': 0.5, 'scope': 0.5, 'risk': 0.5, 'hazard': 0.5 },
-  'price_display':   { 'short': 0.5, 'long': 0.5, 'scope': 0.5, 'risk': 0.5, 'hazard': 0.5 },
-  'faucet':          { 'short': 0.5, 'long': 0.5, 'scope': 0.5, 'risk': 0.5, 'hazard': 0.5 },
-  'cloud':           { 'short': 0.5, 'long': 0.5, 'scope': 0.5, 'risk': 0.5, 'hazard': 0.5 },
-  'vpn':             { 'short': 0.5, 'long': 0.5, 'scope': 0.5, 'risk': 0.5, 'hazard': 0.5 },
-  'route_server':    { 'short': 0.5, 'long': 0.5, 'scope': 0.5, 'risk': 0.5, 'hazard': 0.5 },
-  'cjdns_wifi':      { 'short': 0.5, 'long': 0.5, 'scope': 0.5, 'risk': 0.5, 'hazard': 0.5 },
-  'cjdns_wireguard': { 'short': 0.5, 'long': 0.5, 'scope': 0.5, 'risk': 0.5, 'hazard': 0.5 },
+  'repo':            { 'short': 0.9, 'long': 0.7, 'scope': 0.7, 'risk': 0.9, 'hazard': 0.8 },
+  'price_display':   { 'short': 0.4, 'long': 0.4, 'scope': 0.4, 'risk': 0.8, 'hazard': 0.6 },
+  'faucet':          { 'short': 0.5, 'long': 0.3, 'scope': 0.6, 'risk': 0.6, 'hazard': 0.6 },
+  'cloud':           { 'short': 0.2, 'long': 0.8, 'scope': 0.5, 'risk': 0.1, 'hazard': 0.6 },
+  'vpn':             { 'short': 0.6, 'long': 0.7, 'scope': 0.7, 'risk': 0.7, 'hazard': 0.6 },
+  'route_server':    { 'short': 0.7, 'long': 0.8, 'scope': 0.7, 'risk': 0.6, 'hazard': 0.7 },
+  'cjdns_wifi':      { 'short': 0.7, 'long': 0.8, 'scope': 0.7, 'risk': 0.5, 'hazard': 0.8 },
+  'cjdns_wireguard': { 'short': 0.8, 'long': 0.9, 'scope': 0.8, 'risk': 0.4, 'hazard': 0.8 },
 })
 
 print "RESULTS NOT YET FINAL - winners: %s" % getApprovedProjects(budget, costs, votes)
