@@ -5,10 +5,11 @@
 * Project Name: *e.g. kcjdns*
 * Contact Email: *e.g. cjd@cjdns.fr*
 * Project participants:
-  * *e.g. John Smith (john@smi.th)*
-  * *e.g. xyz (xyz on Freenode IRC)*
+  * *e.g. John Smith (john@smi.th) will work 50% of fulltime*
+  * *e.g. xyz (xyz on Freenode IRC) will work 100% of fulltime*
 * Projected duration: *e.g. 2 months*
 * Projected effort: *e.g. 10 person/months*
+* Pre-project effort: *e.g. 0.5 person/months*
 * Requested PKT contribution: *e.g. 1000 PKT*
 * PKT address to pay to: *e.g. pkt1qwqa46yw6xpl50mq55c5enq446df25deexample*
 * Project status: **PROPOSED**
@@ -57,7 +58,12 @@
 
 ## Milestones
 
-> **Instructions:** What are the milestones that will be delivered, and at each milestone: 1. What new things will be delivered which the Network Steward can use to verify that the milestone was a success? 2. How much of the budget should be paid out?
+> **Instructions:** What are the milestones that will be delivered, and at each milestone:
+> * 1. What new things will be delivered which the Network Steward can use to verify that the milestone was a success?
+> * How much of the budget should be paid out?
+>
+> If you have already done work on the project, create *negative* milestones and write success criteria for
+> these milestones in order to justify what has already been done.
 
 ### Milestone 0 (Kickoff)
 
@@ -67,10 +73,40 @@ After the project is accepted, the Network Steward will pay XXX PKT
 
 ### Milestone 1
 
-> At this point, a user will be able to ...
+#### Success criteria
+> **Instructions**: This is where you write success criteria which will be used for verifying that
+milestone 1 was delivered correctly.
 
-> After a report is delivered on this milestone and it is approved by the NS, the NS will send XXX PKT.
+#### Payout
+After a report is delivered on this milestone and it is approved by the NS, the NS will send **TODO** PKT.
 
 ### Milestone 2
 
 ...
+
+## Disclosure
+I hereby submit this application in good faith and I attest that I have made no effort, nor do I
+intend to make effort, influence the Network Steward to accept this or any other project I have
+submitted.
+
+*Please check one or more:*
+
+1. [ ] A company is receiving the funds
+  1. [ ] Company has financial relationships with one or more reviewers: *specify whom*
+  * [ ] Company has no financial relationships with any reviewers: *specify whom*
+* [ ] An individual is receiving the funds
+  1. [ ] Individual works for same company as one or more reviewers: *specify whom*
+  * [ ] Individual does not work for the same company as any reviewer
+
+## Legal
+
+The applicant understands that the network steward is not a legal entity and no part of this
+project constitutes any form of legal agreement. The applicant accepts that the network steward
+exists thanks to the effort of volunteers and the applicant has no reasonable expectation of any
+action, payment or communication from the network steward at any time. For their part, the
+applicant has no binding commitment or obligation at any time as a result of their participation
+in this project.
+
+## Project Status
+
+* Being written...
