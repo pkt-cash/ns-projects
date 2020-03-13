@@ -14,7 +14,7 @@
 *   Projected duration: 12 months
 *   Projected effort: 16 person-months
 *   Requested PKT contribution: PKT 30,000,000
-*   Project status: 
+*   Project status: ACCEPTED
 
 ## Project summary
 
@@ -622,3 +622,25 @@ PUT /account/
 
 ![drawing](2020_02_28_pkt-vpn-uitility-wireframes.png)
 
+# Status
+## March 13th 2020
+First payment of 10mn PKT made in 19 transactions:
+[1](https://pkt-insight.cjdns.fr/#/PKT/pkt/tx/a6b9f30968906d7ba4065004e6ff7724de29d2eae2128dc33dfcc26b46c0ed6e)
+[2](https://pkt-insight.cjdns.fr/#/PKT/pkt/tx/f1339ab70d89fe05826bf15b7eff08f9e8e79227012e252cdddf715f9d45bb3d)
+[3](https://pkt-insight.cjdns.fr/#/PKT/pkt/tx/8f118c7aa7a14033d938a9ebffbf4db6fefdd93b657e2f803db9159e43446633)
+[4](https://pkt-insight.cjdns.fr/#/PKT/pkt/tx/707299030ebd2b28f1267bfdcdf230ab0ae03df30ae9ec82c56b38ea7e5f9bd7)
+[5](https://pkt-insight.cjdns.fr/#/PKT/pkt/tx/5ce8df54387a11f404f1c7803d0fde79dd58b2b35c1ae20666fae465a994b391)
+[6](https://pkt-insight.cjdns.fr/#/PKT/pkt/tx/7b210ecbf70b8b420f4179abcf3a90b88eb671ba5d7a43bda6d3deaba44d7237)
+[7](https://pkt-insight.cjdns.fr/#/PKT/pkt/tx/0b2b7e45a4892da5e920233a51010e8e56e43063c6cba49f6c1cf6295ccaaf0e)
+[8](https://pkt-insight.cjdns.fr/#/PKT/pkt/tx/f77a56d589b5a9dad3779bfe56b4f008b2d714b7ec100c60507940e0c6666137)
+[9](https://pkt-insight.cjdns.fr/#/PKT/pkt/tx/da888829975273245b8f6f480868d462a6d4cc27940e5e61ba29672b32c2be24)
+[10](https://pkt-insight.cjdns.fr/#/PKT/pkt/tx/e4960c9e3bbb3b9773058de0b6cf18483a40e9564758ef11fed9a2d9b4197a09)
+[11](https://pkt-insight.cjdns.fr/#/PKT/pkt/tx/4179a0ada769da4917b16af0aae9964e5a1fa11a6ce9855b4b37ae163d840e72)
+[12](https://pkt-insight.cjdns.fr/#/PKT/pkt/tx/541d98024d490652137d12d421939b033f0ea8f40f8013904f4a53658aded8c8)
+[13](https://pkt-insight.cjdns.fr/#/PKT/pkt/tx/8b03151cc387a14e5f8b03ef82cfcc52cc53de6814973706ed8459cd846d168f)
+[14](https://pkt-insight.cjdns.fr/#/PKT/pkt/tx/9c94faaafde5a5532ec28693b1f34409f4a098b1a6127cd09833c0d217619731)
+[15](https://pkt-insight.cjdns.fr/#/PKT/pkt/tx/72a159bbfa2ce35727f0084b7b51f813590a557c2ed864328043324a53aaea9d)
+[16](https://pkt-insight.cjdns.fr/#/PKT/pkt/tx/4cb4e79db6e3e444a86ec0be8c2999b84db9b657492b2c5096d0a94eeaebf616)
+[17](https://pkt-insight.cjdns.fr/#/PKT/pkt/tx/5aa3a68365e50855c910741791e2dcb92490a3fca325a3d14808849c1d0bab74)
+[18](https://pkt-insight.cjdns.fr/#/PKT/pkt/tx/79a5c1bd5a1d9aff2a125dd9633c953f524654aed209601c1a5c4572e1094fa7)
+[19](https://pkt-insight.cjdns.fr/#/PKT/pkt/tx/0cc1bfda33f34cf084b27f55084eed05ce9e5b8a0121e9cda7893b987789415f)
