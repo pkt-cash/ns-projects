@@ -120,6 +120,6 @@ to submit the project to this repository
 [the naming convension](https://github.com/pkt-cash/ns-projects/tree/master/projects)
 
 ### Early submission
-If you submit early then Network Steward team might provide feedback but others can also see
+If you submit early then the Network Steward team might provide feedback but others can also see
 your project proposal. If you submit at the deadline then the project will be secret up until
 the end, but it will be evaluated as it is. It is probably better to submit early, but 
