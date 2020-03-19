@@ -10,7 +10,7 @@ PKT, you're mining against all of the other miners, when you buy it in a private
 bidding against all of the other buyers, and when you apply for projects, you're competing against
 all of the other applicants.
 
-Therefore you should think about making a project proposal as a partnership which allows you to
+Therefore you should think of making a project proposal as a partnership which allows you to
 expand your contributions to the PKT ecosystem.
 
 ## 1. Read old projects and their feedback
