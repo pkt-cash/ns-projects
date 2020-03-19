@@ -143,7 +143,7 @@ action, payment or communication from the network steward at any time. For their
 applicant has no binding commitment or obligation at any time as a result of their participation
 in this project.
 
-## Project Status
+## Kickoff
 
 First payment of 10mn completed to address
 [p7Gdf7YhaxSkWm6u6yU452S6C9mJpuTfwu](https://pkt-insight.cjdns.fr/#/PKT/pkt/address/p7Gdf7YhaxSkWm6u6yU452S6C9mJpuTfwu)
@@ -248,3 +248,70 @@ with transactions:
 [98](https://pkt-insight.cjdns.fr/#/PKT/pkt/tx/8510d650a5daf6071e3610553859a1bd077e1a79d56e0f06ac0b087268de562b)
 [99](https://pkt-insight.cjdns.fr/#/PKT/pkt/tx/7de8bbd8f1b5395ccfd55d90ba924019ee4707e1a56147fb92a24c519f55a53f)
 [100](https://pkt-insight.cjdns.fr/#/PKT/pkt/tx/6cc2f3148c906f329f1e0486d9e9c6936393209bf21df3531ca9b4fffcbf59cc)
+
+
+## Milestone 1 report - 2020-03-19
+The key objective of this project is to evolve the prototype that was delivered during the intial application. However, it was judged that the software on which the prototype was built was not suitable for a more featureful block explorer so a decision was made to re-write a block explorer from scratch to the same level of features, plus the deliverables for this project.
+
+Therefore we are pleased to announce that we have an entirely new explorer backend server, plus two new frontends, one based on the prototype and a new one. Since the original prototype and the final result share no code in common, we intend to keep the original prototype online to serve as a "second opinion" of the state of the blockchain.
+
+### Project results
+
+1. [Bitcore backend](https://github.com/cjdelisle/pkt_insight_bitcore) (original prototype)
+  * Hosted: https://pkt-insight.cjdns.fr/api/PKT/pkt/block?limit=1
+2. [Bitcore Insight based frontend](https://github.com/cjdelisle/pkt_insight_bitcore/tree/pkt/packages/insight) (original prototype)
+  * Hosted: https://pkt-insight.cjdns.fr/
+3. [PKT Explorer Backend](https://github.com/cjdelisle/pkt-explorer-backend) (new)
+  * Hosted: https://pkt.cash/api/v1/PKT/pkt/chain/down/1
+4. [Insight frontend adapted to PKT Explorer Backend](https://github.com/cjdelisle/pkt-explorer-insightfe) (new)
+  * Hosted: https://alpha-pkt-explorer.cjdns.fr
+5. [PKT Explorer Frontend](https://github.com/gorhgorh/pkt-explorer) (new)
+  * Hosted: https://newalpha-pkt-explorer.cjdns.fr
+
+### Success criteria for Milestone 1
+The objective of milestone 1 was to provide the original prototype plus the following additional features:
+
+* [x] F_ADDR_EARNING - Address page, amount of PKT which the address earned in the past day
+  * We exclude non-mining income from this chart to make it more relevant to the user.
+  * [See address page](https://newalpha-pkt-explorer.cjdns.fr/address/pkt1q6hqsqhqdgqfd8t3xwgceulu7k9d9w5t2amath0qxyfjlvl3s3u4sjza2g2) "Mined last 24h"
+* [x] F_ADDR_EARNING_CHART - Address page, chart of income per day
+  * We exclude non-mining income from this chart to make it more relevant to the user.
+  * [See address page](https://newalpha-pkt-explorer.cjdns.fr/address/pkt1q6hqsqhqdgqfd8t3xwgceulu7k9d9w5t2amath0qxyfjlvl3s3u4sjza2g2) chart in the upper right
+* [x] F_ADDR_MINING_TAB - Tab for mining income transactions and other tab for all other
+  * [See address page](https://newalpha-pkt-explorer.cjdns.fr/address/pkt1q6hqsqhqdgqfd8t3xwgceulu7k9d9w5t2amath0qxyfjlvl3s3u4sjza2g2) click "Mining income"
+  * Note: Rather than showing each transaction, we only show income by day in order to be less confusing because there is one transaction per block.
+* [x] F_FRNT_BW - Network Global Bandwidth
+  * [See front page](https://newalpha-pkt-explorer.cjdns.fr/) "Network Bandwidth"
+* [x] F_FRNT_CSS - Network CryptoCycles per second estimate
+  * [See front page](https://newalpha-pkt-explorer.cjdns.fr/) "Encryptions Per Second"
+* [x] F_FRNT_CHART - Bandwidth and encryptions per second chart
+  * [See front page](https://newalpha-pkt-explorer.cjdns.fr/) front-and-center
+* [ ] F_BLK_PCVER - (block page) - PacketCrypt version
+  * This was not implemented because it is version 2 for all but the very early blocks and we decided that it was not actually relevant information. If the Network Steward wishes it, this can be trivially added but we believe that adding it would take away value.
+* [x] F_BLK_CRYPTOCYCLES - (block page) - Estimated total encryptions
+  * [See block page](https://newalpha-pkt-explorer.cjdns.fr/block/d16f6ad7e95fa315d31d020a82d7c4c09c0b0d68d2f95f2cbce45aa2945e5370) "Estimated Encryptions Per Second"
+  * We chose to display an estimate of encryptions **per second** rather than the total number of encryptions which made the block, so that the information is similar to F_FRNT_CSS on the front page.
+* [x] F_BLK_BANDWIDTH - (block page) - Estimated total bandwidth (MB)
+  * [See block page](https://newalpha-pkt-explorer.cjdns.fr/block/d16f6ad7e95fa315d31d020a82d7c4c09c0b0d68d2f95f2cbce45aa2945e5370) "Estimated Bandwidth"
+* [x] S_CI - Codebase passing automated continuous integration build
+  * [PKT Explorer Backend CI](https://travis-ci.org/github/cjdelisle/pkt-explorer-backend)
+  * [PKT Explorer Frontend CI](https://travis-ci.org/github/gorhgorh/pkt-explorer)
+
+### Additional features not written in the proposal
+This project took on the objective of creating a *great* block explorer, regardless of what the proposal dictated, so there were many features added which were not in the original proposal.
+
+* Front page
+  * Current difficulty
+  * How many coins have been mined to-date
+  * How many coins per block reward (currently)
+  * How many coins remain to be mined
+* Transaction page
+  * Total fees which were collected from all transactions in the block
+  * Block reward
+  * Content of the coinbase
+* Address page
+  * Display transactions as "income" and "spending" with expandability to show the exact transaction
+* Transaction rendering
+  * For inputs, show the number of individual transactions which were aggregated for one address to fund the current transaction
+  * For outputs, show whether the payment was spent by the recipient
+* Tooltips everywhere to help people navigate
