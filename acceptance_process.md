@@ -65,5 +65,14 @@ Some projects may be judged by the Network Steward to be unacceptable under any 
 
 ## Milestone reports
 Milestone reports for ongoing projects must be submitted along with existing projects, the NS will have a
-simple majority vote on whether to accept the milestone and if it is accepted then it is paid out from
-the budget and the projects competing on the round are allocated the reduced round budget.
+simple majority vote on whether to accept the milestone and if it is accepted during a time when a project
+submission round is open, it will be paid out of the budget for the round, otherwise if there is no open
+project submission round, it will be paid from the Network Steward purse if possible, otherwise payment
+may be delayed.
+
+### Delayed milestones
+While it is not in the interest of the Network Steward to rush projects, it is important to guard against
+the possibility of applicants applying for projects and then not doing the work - planning to abandon the
+project unless there is a precipitous increase in the price at which they can sell PKT. The Network
+Steward may, at it's sole discression, stop payment on a project at any time, but the Network Steward
+*must* observe ongoing projects and verify that no project is being intentionally delayed.
