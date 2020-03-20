@@ -1,6 +1,24 @@
-# Project Proposal Template
+# *Project Name*
 
-> **Instructions**: fill out the name of the project and an email of the person who will be responsible for it, this is the person who will be responsible for splitting up the awarded PKT between the participants. Other project participants may be named or may be pseudo-anonymous as long as there's some means of contact listed.
+> **Instructions**: If you are viewing this template in github, click on the pencil icon in the
+upper-right of the pane:
+> 1. Edit the name of the file `template.md` to change it to the date in year_month_day format
+followed by the project name and `.md`, for example: `2020_03_20_vpn_server.md`
+> 2. Begin editing the markdown document, when you want to view your changes, click "Preview changes"
+> tab when you want to see what the result of your work looks like.
+> 3. Remove the **Instructions** sections as you complete them
+> 4. Replace any *italic* text with the correct information
+> 5. To mark a checkbox as checked, place an x inside of it aka:
+>   * [ ] unselected
+>   * [x] selected
+> 6. If you need more time, you can copy the content of the application to [HackMD](https://hackmd.io/)
+> or [CryptPad markdown editor](https://cryptpad.fr/code) and collaboratively edit it there.
+> 7. Once you are satisfied with your application, scroll to the bottom of the page and click
+> "Propose File Changes", at this point your application will be published. You will still be able
+> to edit your application up until the deadline.
+
+> **Instructions**:
+> Fill out the name of the project and an email of the person who will be responsible for it, this is the person who will be responsible for splitting up the awarded PKT between the participants. Other project participants may be named or may be pseudo-anonymous as long as there's some means of contact listed.
 
 * Project Name: *e.g. kcjdns*
 * Contact Email: *e.g. cjd@cjdns.fr*
@@ -12,11 +30,17 @@
 * Pre-project effort: *e.g. 0.5 person/months*
 * Requested PKT contribution: *e.g. 1000 PKT*
 * PKT address to pay to: *e.g. pkt1qwqa46yw6xpl50mq55c5enq446df25deexample*
-* Project status: **PROPOSED**
 
 ## Project summary
 
 *One paragraph about the objectives of the project*
+
+## Team and Past Work
+
+> **Instructions:** Include a few paragraphs about the team who will be executing the project with
+examples of their past work, it is best to include links to code such as on github.
+
+*A few paragraphs about the team who will be executing the project*
 
 ## Project deliverables
 
@@ -59,15 +83,19 @@
 ## Milestones
 
 > **Instructions:** What are the milestones that will be delivered, and at each milestone:
-> * 1. What new things will be delivered which the Network Steward can use to verify that the milestone was a success?
-> * How much of the budget should be paid out?
+> 1. What new things will be delivered which the Network Steward can use to verify that the milestone was a success?
+> 2. How much of the budget should be paid out?
 >
 > If you have already done work on the project, create *negative* milestones and write success criteria for
 > these milestones in order to justify what has already been done.
 
 ### Milestone 0 (Kickoff)
 
-> **Instructions:** Explain how much PKT must be provided at the beginning of the project and any pre-existing deliverables which will be immediately delivered. **NOTE:** Projects which ask for more of their budget up-front will be regarded as more risky by the Network Steward, for details see the [acceptance_process](https://github.com/pkt-cash/ns-projects/blob/master/acceptance_process.md).
+> **Instructions:** Document anything which you did on the project before the project began, any prototypes,
+> mockups, planning or useful work which was done. This should corrispond to the **Pre-project effort**
+> defined at the beginning of the document.
+>
+> Then explain how much PKT must be provided at the beginning of the project. **NOTE:** Projects which ask for larger advances with less pre-project work will be regarded as more risky, for details see the [acceptance_process](https://github.com/pkt-cash/ns-projects/blob/master/acceptance_process.md).
 
 After the project is accepted, the Network Steward will pay XXX PKT
 
@@ -91,12 +119,18 @@ submitted.
 
 *Please check one or more:*
 
-1. [ ] A company is receiving the funds
-  1. [ ] Company has financial relationships with one or more reviewers: *specify whom*
-  * [ ] Company has no financial relationships with any reviewers: *specify whom*
-* [ ] An individual is receiving the funds
-  1. [ ] Individual works for same company as one or more reviewers: *specify whom*
-  * [ ] Individual does not work for the same company as any reviewer
+1. Conflicts
+  1. [ ] A company is receiving the funds
+    1. [ ] Company has financial relationships with one or more reviewers: *specify whom*
+    2. [ ] Company has no financial relationships with any reviewers
+  2. [ ] An individual is receiving the funds
+    1. [ ] Individual works for same company as one or more reviewers: *specify whom*
+    2. [ ] Individual has other financial relationships with one or more reviewers: *specify whom*
+    3. [ ] Individual does not work for the same company as any reviewer
+2. No Pumping
+  1. [ ] Project results will present information which might lead to PKT price speculation
+    * If selected, please attach a paragraph detailing the information which will be presented and any steps which will be taken to prevent this from potentially misleading the public.
+  2. [ ] Project results will not present information which might lead to PKT price speculation
 
 ## Legal
 

@@ -82,7 +82,25 @@ to filter out anyone who is trying to take advantage of the system by reporting 
 ## 7. Disclose conflicts
 Currently, the Network Steward multi-sig team is also the team who does the actual evaluation of
 the proposals, so it is important to disclose any interactions with these people which might
-present a conflict of interest.
+present a conflict of interest. There is a form in the template document to fill out in order to
+disclose whether there is any conflict or to affirm that there isn't.
+
+## 8. Show your capabilities
+A good project is a low-risk project, one executed by a person or team who already has plenty of
+experience on the topic at hand. There are three ways you can show that the risk of the project is
+low:
+
+1. Team qualifications: A short bio on the people involved in the project showing their
+qualifications for this type of work.
+2. Prior work: Provide examples of work done by the people involved in the application to justify
+that they have the capability to do this type of work, links to code projects in places like github
+are highly valued.
+3. Pre-project effort: Any plans, mockups, prototypes or other pre-project work will not only
+contribute to the specification of the project but will also serve to demonstrate the team's
+capacity to deliver the rest of the project. You can do as much pre-project work as you want and
+describe your work in *Milestone 0 (Kickoff)* which will be written as an milestones but you are
+writing success criteria for a success which you already achieved. If the project is accepted then
+pre-project work will be payable.
 
 ## 8. Evaluate your own project
 The Network Steward team doesn't just make decisions on a whim, there is a clearly defined process
@@ -95,7 +113,7 @@ which the evaluators follow so you can evaluate your own project before they do.
 ## 9. Get competitive
 If you've done a good job on everything above, you will have a good project, but the difference
 between good and great is your willingness to make the project a better deal for the community
-than other applicants. There are 3 key ways you can do this:
+than other applicants. There are 2 key ways you can do this:
 
 1. **Reduce your person-month cost**: If you can get the work done cheaper, or if you consider PKT
 to be worth more, then your project will stand out ahead of the others.
@@ -103,9 +121,6 @@ to be worth more, then your project will stand out ahead of the others.
 completed makes the project more risky and difficult to accept, the Network Steward will tend
 to prefer projects which ask for the least amount in the first period and push the majority of
 the payment back until after success-criteria are met.
-3. **Do pre-project work**: Spend time developing prototypes, mockups, even useful work on the
-project itself and report all of this using *negative milestones*. You write them the same way as
-ordinary milestones but you are writing success criteria for a success which you already achieved.
 
 ## 10. Submit
 After you have everything put together, your success criteria are awesome, your time estimates
@@ -122,4 +137,5 @@ to submit the project to this repository
 ### Early submission
 If you submit early then the Network Steward team might provide feedback but others can also see
 your project proposal. If you submit at the deadline then the project will be secret up until
-the end, but it will be evaluated as it is. It is probably better to submit early, but 
+the end, but it will be evaluated as it is.
+
