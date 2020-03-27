@@ -315,3 +315,17 @@ This project took on the objective of creating a *great* block explorer, regardl
   * For inputs, show the number of individual transactions which were aggregated for one address to fund the current transaction
   * For outputs, show whether the payment was spent by the recipient
 * Tooltips everywhere to help people navigate
+
+Second payment has been partially made in transactions:
+
+[1](https://pkt-insight.cjdns.fr/#/PKT/pkt/tx/0fa922fdc76d6b9aae5e2512ebc97c49b7aeb41663a5b777f2a577cdd25a5e1e)
+[2](https://pkt-insight.cjdns.fr/#/PKT/pkt/tx/e144a127075e0a9e32a0cd1d8b91d56d643cc99548b4433b2425584071a8434f)
+[3](https://pkt-insight.cjdns.fr/#/PKT/pkt/tx/112cc4eee85092a6b16c9df41508c4cafd80892806aa50d22f3f1d1caa51e284)
+[4](https://pkt-insight.cjdns.fr/#/PKT/pkt/tx/5b78d536f4ffc838ef2cae6cb55dc1ff9d8ff224c7542975a0009b709eca2b8c)
+[5](https://pkt-insight.cjdns.fr/#/PKT/pkt/tx/134e14afe3dffeb499144b13005ea9c3456bcfeff3d3215304f75b713e6b4c76)
+[6](https://pkt-insight.cjdns.fr/#/PKT/pkt/tx/d7dd72b3607bdc247ba598af2019db6a53ca8c347e5a94ecddcd1b2632847fdf)
+[7](https://pkt-insight.cjdns.fr/#/PKT/pkt/tx/3f6eac52f326aab009568049c71dabeb87cf3f6ae559d91883521733a49d2973)
+[8](https://pkt-insight.cjdns.fr/#/PKT/pkt/tx/0e8ba4f54d400b730bf10cee0150acde277049d70c50feef42c712ef2ff8aa80)
+[9](https://pkt-insight.cjdns.fr/#/PKT/pkt/tx/1e9b93e54fa4eaf118571a60fc626394ea618015baa25af534cc488c9008001a)
+
+Due to a technical difficulty, the NS was unable to pay the last 0.5mn PKT, the applicant has signaled that they are willing to accept payment later.
