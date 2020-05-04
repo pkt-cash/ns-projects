@@ -329,3 +329,78 @@ Second payment has been partially made in transactions:
 [9](https://pkt-insight.cjdns.fr/#/PKT/pkt/tx/1e9b93e54fa4eaf118571a60fc626394ea618015baa25af534cc488c9008001a)
 
 Due to a technical difficulty, the NS was unable to pay the last 0.5mn PKT, the applicant has signaled that they are willing to accept payment later.
+
+## Milestone 2 - Final Report - 2020-05-04
+For the second and final milestone, our objective was to improve the blocks page, create a Network Steward
+page and improve support on mobile devices.
+
+The project results remain hosted in the same locations as they were before, with the exception of the
+[PKT Explorer Frontend](https://github.com/cjdelisle/pkt-explorer) which is now hosted under the cjdelisle
+namespace.
+
+### Deviations from the project plan
+
+There was a significant amount of attention placed on making the explorer mobile-friendly, with every page
+having been tested on both Android and iOS devices at various screen resolutions.
+
+The "Blocks" page was removed in favor of the main page which contains all of the same data. This did not
+have any technical impact but is believed to make the workflows more comprehensible for users.
+
+The feature **F_NS_TX** was not delivered as described, in it's place there is a link to the NS charter.
+The applicant classifies this feature as *not delivered*. See justification below.
+
+The feature **F_BLKS_NXT_RETARGET** was slightly altered, showing a projected next difficulty rather than
+a projected change in percent. The applicant classifies this feature as *delivered*. See explanation below.
+
+There is an additional feature which allows export of income. You may find it by going to any
+[address page](https://newalpha-pkt-explorer.cjdns.fr/address/pDEn6kwubA3JNcFeEBWLLdM8bxmMKz6oyB),
+selecting the "Mining income" tab, and then scrolling to the bottom of the page.
+
+### Features for Milestone 2
+
+* [x] **F_NS_CURRENT** On any page, one can click "Network Steward" link in the top bar to be taken to the
+Network Steward page.
+* [x] **F_NS_TALLY** On the [Network Steward](https://newalpha-pkt-explorer.cjdns.fr/address/pkt1q6hqsqhqdgqfd8t3xwgceulu7k9d9w5t2amath0qxyfjlvl3s3u4sjza2g2) page, there is a field saying
+"Votes needed for reelection"
+* [x] **F_NS_RUNNERSUP** On the [Network Steward](https://newalpha-pkt-explorer.cjdns.fr/address/pkt1q6hqsqhqdgqfd8t3xwgceulu7k9d9w5t2amath0qxyfjlvl3s3u4sjza2g2) page, the "mining" tab is replaced with a
+tab showing "Election candidates" which shows the runners up.
+* [x] **F_NS_BURNED** On the [Network Steward](https://newalpha-pkt-explorer.cjdns.fr/address/pkt1q6hqsqhqdgqfd8t3xwgceulu7k9d9w5t2amath0qxyfjlvl3s3u4sjza2g2) page there is a field showing burned.
+* [x] **F_NS_BALANCE** On the [Network Steward](https://newalpha-pkt-explorer.cjdns.fr/address/pkt1q6hqsqhqdgqfd8t3xwgceulu7k9d9w5t2amath0qxyfjlvl3s3u4sjza2g2) page there is a field showing balance.
+* [ ] **F_NS_TX** This item is not delivered as described, in the description it was said that
+each transaction would contain a link to the relevant project, but since this would have required polling
+data from a secondary source and because (due to technical limitations) single payments are made in large
+bunches of transactions, it was judged to be more work and less usefulness than simply displaying the
+transactions in the same way as transactions made by any other address. In place of this, we put a link
+to the Network Steward charter which displays the charter of the current Network Steward and will change
+to the word "Unknown" if ever the Network Steward address changes (until the code can be updated to include
+the charter of the new steward).
+* [x] **F_BLKS_RELAGE** This item is displayed on the main page under the "Age" field, hover with the mouse
+to see the exact age.
+* [x] **F_BLKS_RETARGET** This item is resolved in the main page, any difficulty-retarget block is shaded red.
+* [x] **F_BLKS_NXT_RETARGET** This item has been implemented, but not as specified. Instead of a + or -
+percentage of difficulty, we opted to display a numeric next predicted difficulty because the percentages, when
+observed, proved to be very small.
+* [x] **F_M_BALANCE** All features of the explorer work on mobile devices.
+* [x] **F_M_EARNING** All features of the explorer work on mobile devices.
+* [x] **F_M_LASTBLK** All features of the explorer work on mobile devices.
+
+### Success criteria
+
+* [x] **S_CI** Codebase passing automated continuous integration build
+  * https://travis-ci.org/github/cjdelisle/pkt-explorer-backend
+  * https://travis-ci.org/github/cjdelisle/pkt-explorer
+* [ ] **S_INSTALL** At least one successful independent installation of the explorer
+  * There was previously an installation of the explorer at https://pkt.hprivakos.net/ but currently this is down.
+  * The evaluators of the proposal are invited to setup an instance to verify that it can be easily installed.
+* [x] **S_FEATURES** At least 90% of the described features achieved
+  * In this milestone, there were 12 features specified and all but 1 were delivered.
+
+### Request for guidance
+
+In addition to the applicant's request that the project be accepted as complete, the applicant additionally
+requests guidance on the following question:
+
+Should pkt-explorer-backend, pkt-explorer-insightfe or pkt-explorer be transferred to the pkt-cash namespace?
+
+If the answer is yes, the applicant requests continued administrative access to the repositories in order
+to continue long term maintanence of the software.
