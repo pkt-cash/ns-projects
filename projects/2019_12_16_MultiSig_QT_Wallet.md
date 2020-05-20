@@ -88,3 +88,54 @@ At this point, the project will reach the end of its explicit funding; however, 
 
 ## 6. Legal
 The applicant understands that the network steward is not a legal entity, and no part of this project constitutes any form of legal agreement. The applicant accepts that the network steward exists thanks to the effort of volunteers, and the applicant has no reasonable expectation of any action, payment, or communication from the network steward at any time. For their part, the applicant has no binding commitment or obligation at any time as a result of their participation in this project.
+
+## Milestone 1 (M1) report - 2020-05-20 ##
+The primary objective for this milestone is to provide a way to send and receive transactions through the wallet. This facilitated the necessity to develop wallet creation, and the ability to integrate with a pre-extant CLI wallet. As golang uses inconsistant user config file directories, it was necessary to add the ability to discover an existing wallet.db file on a diversity of architectures. This was accomplished for OS X and linux. 
+
+### Project Results ###
+1. Users can set up a new wallet.
+2. Users can import an old wallet using itss wallet seed, and passphrase. 
+3. Upon opening the wallet the chain begins to dynamically sync.
+4. Status of sync can be viewed under the information menu option.
+5. Users can view their current wallet balance. 
+6. Users can view their wallet balance by address. 
+7. Users can view all addresses in their wallet, with or without balances present. 
+8. Users can view all past transactions in their wallet. 
+9. Users can send (spend) from their wallet addresses (non-multisig) to any other wallet address on the network. 
+10. Users can request payment to themselves by generating a request and a associated QR code.
+11. Payment requests can be imported into any other PKT Cash Wallet and the request is dynamically imported. 
+12. Users can receive transactions from any other address on the network. 
+13. A DMG file is available as part of the PKT Cash Wallet releases [here](https://github.com/artrepreneur/PKT-Cash-Wallet/releases/tag/v.1.0.0-beta.6)
+
+
+## Milestone 2 (M2) report - 2020-05-20 ##
+The two overarching objectives of this phase were to get multisig transactions enabled and additional wallet tools functional. 
+
+### Project Results (Required) ###
+1. Send transactions to multiple addresses at once.
+* Though the GUI has this capability, it was disabled for this version as the behavior of ``sendmany`` rpc is inconsistent at this time.  
+2. Batch transactions for large UTXO input sets.
+* A fold option was added to the menu to fold large UTXO sets into smaller ones, eliminating the necessity for batching.
+3. Sign transactions.
+* All transactions are signed. Of particular interest is the signing of multsig transactions which is possible. 
+* Multisig transactions can be generated, shared with signatories (using a generated QR code) and sent once the minimum number of signatories is acheived.
+4. Verify transactions.
+* Transactions can be imported, decoded and verified. 
+5. Generate new regular addresses and new multi-sig addresses.
+* Multsig address and regular addresses can be generated.
+6. Export private keys and import new private keys.
+* All private keys can be exported and imported.
+7. Encrypt and decrypt messages.
+* This feature has been deemed not necessary at this time.
+8. Password-protect the wallet.
+* The wallet can be protected with a passphrase during setup, or at any time in the future.
+9. Save and restore the wallet backup from seed.
+* Restore was accomplished in milestone 1.
+* Save wallet was added in this milestone.
+* Delete wallet was added in this milestone.
+
+### Project Results (Additional Features) ###
+1. The ability to get your public key for any non-multisig address was added. 
+2. The ability to view you wallet seed was added, but this only works if you aren't running a legacy wallet ie. (wallet.db)
+3. The ability to resync your wallet was added.
+
