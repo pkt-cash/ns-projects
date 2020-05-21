@@ -9,7 +9,7 @@
 * Projected effort: 10 person/months
 * Requested PKT contribution: 30M PacketCrypt tokens (3M tokens per man month)
 * PKT address: pKHsMf6Eg8YB2jTJUpdRbCj7RpvpMpYRkU
-* Project status: PROPOSED
+* Project status: ACCEPTED
 
 
 
@@ -111,3 +111,19 @@ exists thanks to the effort of volunteers and the applicant has no reasonable ex
 action, payment or communication from the network steward at any time. For their part, the
 applicant has no binding commitment or obligation at any time as a result of their participation
 in this project.
+
+## Status
+### March 13th 2020
+First payment of 6mn PKT made in 12 transactions:
+[1](https://pkt-insight.cjdns.fr/#/PKT/pkt/tx/9ee9614b37bf844f3680aff1332fa837c9d2c73dd0dcda986540966389f6a8a3)
+[2](https://pkt-insight.cjdns.fr/#/PKT/pkt/tx/773ac37d5d824d502d8b84763ef2dafc9ac774c11994d76b17cd6b9ef4a340ea)
+[3](https://pkt-insight.cjdns.fr/#/PKT/pkt/tx/d2205a4506a5a530d93c35c8eb9831a882637e3158631231304bd6b9562a7e9f)
+[4](https://pkt-insight.cjdns.fr/#/PKT/pkt/tx/7b1d648ec6fb2148275a04e29c3c0ba1116d2aa18efc9ebae95805754b5d2bd6)
+[5](https://pkt-insight.cjdns.fr/#/PKT/pkt/tx/3189715a68d9e90718f9483a9baa978652a8219f4d04ace94033d2924e5dcd22)
+[6](https://pkt-insight.cjdns.fr/#/PKT/pkt/tx/cd6dc53839b9a71267ee1ba78875cf4b565a770523a9d7747e67596e2ab62277)
+[7](https://pkt-insight.cjdns.fr/#/PKT/pkt/tx/4aa07ffb51c408c5dae87d9d61e390eced5ebd45f5dc4f95657e265ea5659eae)
+[8](https://pkt-insight.cjdns.fr/#/PKT/pkt/tx/754e2ee2dd59a1857b33bb3fd2d8221082d62f91e9701c0422f9df344f6ef0d2)
+[9](https://pkt-insight.cjdns.fr/#/PKT/pkt/tx/9eca20dd8a391d0589be93449e5717571ea60cfa15762401fdd13faee6f1adad)
+[10](https://pkt-insight.cjdns.fr/#/PKT/pkt/tx/3b904c3174875c7c28794fd82648d2be6b99627d7c6b904c6ece5e6d2a96640c)
+[11](https://pkt-insight.cjdns.fr/#/PKT/pkt/tx/2e60f81ad7c989e2914088d74bc0be26908929f98e0783d62a70a698798c65d7)
+[12](https://pkt-insight.cjdns.fr/#/PKT/pkt/tx/9ae795980be3f335100def907a45bf332a03a4d0814218007863ae82cf7d503b)

@@ -11,7 +11,7 @@
 * Projected effort: 8 person/months
 * Requested PKT contribution: 24M PacketCrypt tokens (3M tokens per man month)
 * PKT address: pKHsMf6Eg8YB2jTJUpdRbCj7RpvpMpYRkU
-* Project status: PROPOSED
+* Project status: ACCEPTED
 
 ## Project participants ##
 ### Dmitry Rokityanskiy, Team Leader ###
@@ -114,3 +114,23 @@ exists thanks to the effort of volunteers and the applicant has no reasonable ex
 action, payment or communication from the network steward at any time. For their part, the
 applicant has no binding commitment or obligation at any time as a result of their participation
 in this project.
+
+## Status
+### March 13th 2020
+First payment of 8mn PKT made in 16 transactions:
+[1](https://pkt-insight.cjdns.fr/#/PKT/pkt/tx/7ec1a8d0a8bd4631fe9d6c25f14eeae26daa1a4d1ee9ef51726a4f0e9568b22c)
+[2](https://pkt-insight.cjdns.fr/#/PKT/pkt/tx/15f5a33846dc826ebe732bb7e013880701525fdf3d24b3e14c50cd1b37423ef7)
+[3](https://pkt-insight.cjdns.fr/#/PKT/pkt/tx/a091a29cd880197e09db4d2799e4d8ed70ae709531bc26f5b3e7ac629122e959)
+[4](https://pkt-insight.cjdns.fr/#/PKT/pkt/tx/591413b2d0f5282dc77dec08d43a628afe35b9b32e46b069c55a1610881a9900)
+[5](https://pkt-insight.cjdns.fr/#/PKT/pkt/tx/952fe567ad281615ec59cffb0f73453ecc114352d1de0769199759484c745dfd)
+[6](https://pkt-insight.cjdns.fr/#/PKT/pkt/tx/ba13bfaa70121977419e822c2398068ee17216e3ccc2d19885e0b6930d53355c)
+[7](https://pkt-insight.cjdns.fr/#/PKT/pkt/tx/cca5a8c3d559eded4927ef12e66702b36ef6d814a7e852a300886079cab371e4)
+[8](https://pkt-insight.cjdns.fr/#/PKT/pkt/tx/66c7fd580690e4a1885c6af3cbcf79d1f61ef351ebf00653f2b7bed8365c4651)
+[9](https://pkt-insight.cjdns.fr/#/PKT/pkt/tx/a3732c70fe1a25d2e920c45386674e4611ebb3be160a239909de4656b1057a47)
+[10](https://pkt-insight.cjdns.fr/#/PKT/pkt/tx/55b0958023b82ba39a61d29eec48d6507a54ab51ed5d840e8c8ba9974096020a)
+[11](https://pkt-insight.cjdns.fr/#/PKT/pkt/tx/8c166a28035d301f371082a9c1997a2691cdfd2b9f77ac7a96464dd8a419b5d8)
+[12](https://pkt-insight.cjdns.fr/#/PKT/pkt/tx/25203ae592bbbb3860159209f14f57d1e6785659947d20b440026cb924bc4dee)
+[13](https://pkt-insight.cjdns.fr/#/PKT/pkt/tx/5aadfc437970f8a7b445cb768e1a5dca23b477a614e3c0fc4651f0fd9fc837ca)
+[14](https://pkt-insight.cjdns.fr/#/PKT/pkt/tx/595499002611e0c9e1c55db9a101db5e1dba7b5ebb53c60bc4b23a6c5d3aa25d)
+[15](https://pkt-insight.cjdns.fr/#/PKT/pkt/tx/944b0ac85ee0ceebd14f462afe1f85b8d69f6d55758953e4fd5a8e81a8df98dc)
+[16](https://pkt-insight.cjdns.fr/#/PKT/pkt/tx/7c8e437d82c222e580838bcc7e0ba521c019bb56c60e2cba816a1b576bdbf76a)
