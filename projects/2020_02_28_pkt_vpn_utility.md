@@ -1,4 +1,5 @@
 
+
 # PKT Cash VPN Utility Project
 
 *   Project Name: pkt_utility (Project)
@@ -622,6 +623,119 @@ PUT /account/
 
 ![drawing](2020_02_28_pkt-vpn-uitility-wireframes.png)
 
+
+## Milestone 1 Report - 2020-05-21
+
+### Overview
+
+This document outlines the state of progress through the completion of the milestones outlined in the approved project proposal.
+
+### Progress
+Milestones 0 and 1 are complete and ahead of schedule. We have a development team, app wireframes, API specifications, and websites to host app binaries and APIs. 
+
+In the process of completing Milestone 1 deliverables, we have also made progress on Milestone 2 and Milestone 3 deliverables.
+
+**Most importantly, we have [released an Android APK](https://github.com/anode-co/AnodeVPN-android) that connects a user to a PKT VPN server and allows them to surf the internet from behind a PKT VPN exit node.**
+
+#### Milestone 0: Kickoff
+Status: Complete
+Date Completed: 2020-05-04
+
+##### Proposed Deliverables
+At the kickoff of the project, the project will begin hiring and project planning
+
+##### Accomplished Deliverables
+As of May 4, 2020, a team has been assembled consisting of:
+-   An Android developer
+-   A technical project manager
+-   A designer
+-   A product manager
+-   Other supporting staff
+
+#### Milestone 1: Specifications
+
+Status: Complete
+
+Date Completed: 2020-05-20
+
+##### Proposed Deliverables
+
+We have accomplished our deliverables and begun implementing Milestone 2  and Milestone 3 objectives.
+
+Milestone 1 focused on sketching out how the various parts will look and function together. These parts include wireframes, initial designs and mock-ups, and an initial API specifications and documentation. Completion of Milestone 1 results in the submission of this status report.
+
+The parts of the project include:
+
+###### Server / API
+* API Specification (done)
+###### Client App
+* Initial  Design (started)
+###### Client Website
+* Wireframes (done)
+###### Server Website
+* Initial Design (started)
+
+##### Accomplished Deliverables
+
+In developing the App, we’ve reprioritized the milestone slightly. We focused on
+1.  Ensuring that a VPN connection between the Android OS and a PKT VPN node is possible
+2.  Ensuring that debug logging and software upgrades are possible so we can monitor and resolve problems with the app
+3.  Ensuring the availability of information about PKT VPN nodes so that the App can create connections
+4.  A phased UI design approach where we have placeholder screens for the developers to build towards as we simultaneously work with designers to create a beautiful, intentional and frictionless UI for the app
+
+In doing so, we have accomplished the following:  
+
+######  Server/API
+
+**API Specification: Complete**
+We have released an [OpenAPI 3.0 compatible PKT VPN API available on GitHub](https://github.com/anode-co/api-docs/blob/version-0.2/vpn-server.yaml).  
+This API can be viewed in a human-friendly format using the [RestAway API Viewer](https://backupbrain.github.io/restaway/?q=https://github.com/anode-co/api-docs/blob/version-0.2/vpn-server.yaml), where endpoint descriptions, responses, and sample code can be seen.
+
+**API Implementation: In-progress.**
+Based on the API specification, we have begun implementing a working API on the server. This server allows the client to view the list of registered VPNs, request authorization to connect to the VPN, record debugging information, and check for software updates.
+
+
+##### Server Website
+
+**Initial Design: Started/Deferred**
+Instead of designing the client-facing VPN Server website, which might attract VPN operators to the project before software is available, we’ve begun implementing the [App-facing API](https://vpn.anode.co/redoc/) described in the API docs above. This API server also implements [human friendly API documentation](https://vpn.anode.co/redoc/). A more feature-rich design will be made once we are prepared to create an informational resource for users who might download the VPN server software.
+
+
+**From M2: The server will be able to read and write to an Internet Database (done)**
+The server is has a working MySQL database and the ability to read and write data to it. Using a functioning API, the client is able to create, read, and delete data from this database remotely.
+
+
+**From M3: The VPN will be able to connect to, send and receive traffic through the cjdns network. (done)**
+The app can do exactly this. 
+
+
+###### Client App
+
+**Wireframes: Complete**
+We have created a full, click-through suite of wireframes and [prototype mock-ups](https://anode.invisionapp.com/overview/Anode-VPN-App-ck9yato6x0bjt014s6j09h2on/screens?v=ARI695yFBSe73XQATpZEbw%3D%3D&linkshare=urlcopied) which the developer is using to implement a design while another designer is re-envisioning the app with an eye for the customer experience.
+
+**App: In-progress**
+We have created a prototype Android App that connects to a PKT-powered VPN, which is able to route traffic. The App is able to surf the Internet via the VPN connection. It also sends a debug log through the server API. **An Android apk binary has been created and is [available for download](https://github.com/anode-co/AnodeVPN-android).**
+
+
+**From M2: The app will be able to send and receive data via a REST API (done)**
+The Android app can send and receive data from the live REST server
+
+**From M2: The app will be able to store data locally in an in-device database (done)**
+The app uses an sqlite3 database to read and write data into permanent storage. This is how the app stores most data related to its configuration and use. Additionally, an encrypted storage space is used to permanently store keypairs related to the PKT wallet and to a public-facing cjdns public key.
+
+**From M3: The user will be able to connect to a VPN and route traffic through the cjdns network (done)**
+The App does exactly this. The App connects to a cjdns VPN exit point after its public key is approved (manually for now). Once connected, it can send and receive traffic from the public Internet via the routing of the VPN exit node.
+
+###### Client Website
+
+**Design: Started/Deferred**
+A [landing rock for the Anode website](https://anode.co/) has been created, which houses the latest Android PKT VPN apk binary for download. Feature-rich designs will be made once we are prepared to create an informational resource for users who might download the app.
+
+
+### Conclusion
+The project is currently ahead of schedule in Milestone 1, having delivered more than specified in the proposal. We expect to proceed into Milestone 2 without any complications. The error-reporting is allowing the development team to more easily isolate and resolve potential problems with the app and its integrations.
+
 # Status
 ## March 13th 2020
 First payment of 10mn PKT made in 19 transactions:
@@ -644,3 +758,4 @@ First payment of 10mn PKT made in 19 transactions:
 [17](https://pkt-insight.cjdns.fr/#/PKT/pkt/tx/5aa3a68365e50855c910741791e2dcb92490a3fca325a3d14808849c1d0bab74)
 [18](https://pkt-insight.cjdns.fr/#/PKT/pkt/tx/79a5c1bd5a1d9aff2a125dd9633c953f524654aed209601c1a5c4572e1094fa7)
 [19](https://pkt-insight.cjdns.fr/#/PKT/pkt/tx/0cc1bfda33f34cf084b27f55084eed05ce9e5b8a0121e9cda7893b987789415f)
+
