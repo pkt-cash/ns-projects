@@ -1,10 +1,8 @@
 # Open source high performance cjdns Route Server # 
 * Project Name: Open source high performance cjdns Route Serve
 * Contact Email: alexlightman@me.com
-* Project participants:
-  * Alex Makeev 
-  * Sergey Prilutskiy
-  * Rust developer
+*Technical partner: MixBytes
+  * https://mixbytes.io
 * Projected duration: 5-7 months
 * Projected effort: 10 person/months
 * Requested PKT contribution: 30M PacketCrypt tokens (3M tokens per man month)
@@ -13,38 +11,6 @@
 
 
 
-## Project participants ##
- 
-### Alex Makeev ###
-"Graduated from Bauman Moscow State Technical University. 
- 
-18 years of programming experience (Assembler, C / C
-++, Java, PHP, Perl, Python, JS, Rust, Solidity). Experience in developing Big
-Data solutions of an industrial-scale Hadoop cluster.  
-Worked as a Development Team Lead of
-Search @mail.ru  (Top Russian Internet Company, listed at LSE, Internet search engine project). Worked as a System Architect in 1C company (SAP competitor). 
- 
-Areas of expertise: blockchain, Big Data, distributed computing, information security. "
- 
-### Sergey Prilutskiy ###
-"Graduated from National Research Nuclear University """"Moscow Engineering Physics Institute"""" (MEPhI). 
-Was engaged in reverse engineering, software protection and antivirus work research. 23 years of programming experience
-(Assembler, C / C++, Perl, Python, JS, Rust, Solidity). 
- 
-Worked at Mail.Ru Group as a Leading Developer of various projects, and as a member Antispam team. Dealt with various systems
-(from small high-load microservices and sites to large clusters for distributed computing).
- 
-Lecturer and author of the InfoSec course for Technopark (Bauman MSTU), MEPhI and NES (New Economic School).
- 
-
-### Rust developer ###
-Graduated from Bauman Moscow State Technical University.  
- 
-3 years of blockchain experience, 4 years of C++\Rust development in system programming. 
- 
-Previously was engaged into fintech and dynamic disassembling.
- 
-Areas of expertise: decentralised protocols\consensus development, DeFi, data oracles. 
 
 ## Project summary ##
 
@@ -110,7 +76,7 @@ project constitutes any form of legal agreement. The applicant accepts that the 
 exists thanks to the effort of volunteers and the applicant has no reasonable expectation of any
 action, payment or communication from the network steward at any time. For their part, the
 applicant has no binding commitment or obligation at any time as a result of their participation
-in this project.
+in this project
 
 ## Status
 ### March 13th 2020
