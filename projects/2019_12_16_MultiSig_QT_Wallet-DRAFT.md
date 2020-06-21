@@ -105,7 +105,7 @@ The primary objective for this milestone is to provide a way to send and receive
 10. Users can request payment to themselves by generating a request and a associated QR code.
 11. Payment requests can be imported into any other PKT Cash Wallet and the request is dynamically imported. 
 12. Users can receive transactions from any other address on the network. 
-13. A DMG file is available as part of the PKT Cash Wallet releases [here](https://github.com/artrepreneur/PKT-Cash-Wallet/releases/tag/v.1.0.0-beta.6)
+13. A DMG file is available as part of the PKT Cash Wallet releases [here](https://github.com/artrepreneur/PKT-Cash-Wallet/releases/)
 
 
 ## Milestone 2 (M2) report - 2020-05-20 ##
