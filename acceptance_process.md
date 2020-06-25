@@ -63,13 +63,6 @@ Some projects may be judged by the Network Steward to be unacceptable under any 
 * Does the project seem unlikely to cause significant damage to the perceived legitimacy of the Network Steward ?
 * Does the project seem likely to be a better use of resources than burning the coins ? (note that burning coins causes deflation which increases the value of all existing coins)
 
-## Milestone reports
-Milestone reports for ongoing projects must be submitted along with existing projects, the NS will have a
-simple majority vote on whether to accept the milestone and if it is accepted during a time when a project
-submission round is open, it will be paid out of the budget for the round, otherwise if there is no open
-project submission round, it will be paid from the Network Steward purse if possible, otherwise payment
-may be delayed.
-
 ### Delayed milestones
 While it is not in the interest of the Network Steward to rush projects, it is important to guard against
 the possibility of applicants applying for projects and then not doing the work - planning to abandon the
