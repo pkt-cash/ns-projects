@@ -92,7 +92,7 @@ examples of their past work, it is best to include links to code such as on gith
 ### Milestone 0 (Kickoff)
 
 > **Instructions:** Document anything which you did on the project before the project began, any prototypes,
-> mockups, planning or useful work which was done. This should corrispond to the **Pre-project effort**
+> mockups, planning or useful work which was done. This should correspond to the **Pre-project effort**
 > defined at the beginning of the document.
 >
 > Then explain how much PKT must be provided at the beginning of the project. **NOTE:** Projects which ask for larger advances with less pre-project work will be regarded as more risky, for details see the [acceptance_process](https://github.com/pkt-cash/ns-projects/blob/master/acceptance_process.md).
@@ -120,13 +120,13 @@ submitted.
 *Please check one or more:*
 
 1. Conflicts
-  1. [ ] A company is receiving the funds
-    1. [ ] Company has financial relationships with one or more reviewers: *specify whom*
-    2. [ ] Company has no financial relationships with any reviewers
+  1. [ ] An organization is receiving the funds
+    1. [ ] Organization has financial relationships with one or more reviewers: *specify whom*
+    2. [ ] Organization has no financial relationships with any reviewers
   2. [ ] An individual is receiving the funds
-    1. [ ] Individual works for same company as one or more reviewers: *specify whom*
+    1. [ ] Individual works for same organization as one or more reviewers: *specify whom*
     2. [ ] Individual has other financial relationships with one or more reviewers: *specify whom*
-    3. [ ] Individual does not work for the same company as any reviewer
+    3. [ ] Individual does not work for the same organization as any reviewer
 2. No Pumping
   1. [ ] Project results will present information which might lead to PKT price speculation
     * If selected, please attach a paragraph detailing the information which will be presented and any steps which will be taken to prevent this from potentially misleading the public.
