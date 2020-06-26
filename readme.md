@@ -1,7 +1,7 @@
 # Projects Supported by The Network Steward
 
-* **CURRENT DEADLINE**: none
-* **CURRENT ROUND BUDGET**: to be announced
+* **CURRENT DEADLINE**: Midnight UTC on July 25, 2020
+* **CURRENT ROUND BUDGET**: 80mn
 
 The [Network Steward](https://pkt-cash.github.io/www.pkt.cash/steward/) of the PKT project is interested in the following topics. This list is not exhaustive and not every feature of every idea needs to be in a proposal for it to be accepted. These are just general topics which the Network Steward has an interest in seeing open source development.
 
