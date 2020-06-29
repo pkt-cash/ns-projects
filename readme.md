@@ -1,7 +1,7 @@
 # Projects Supported by The Network Steward
 
-* **CURRENT DEADLINE**: none
-* **CURRENT ROUND BUDGET**: to be announced
+* **CURRENT DEADLINE**: Midnight UTC on July 25, 2020
+* **CURRENT ROUND BUDGET**: 80mn
 
 ## Not a gravy train
 When you begin thinking about writing proposals, the first thing you need to understand is that
