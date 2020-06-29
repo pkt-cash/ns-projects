@@ -292,3 +292,22 @@ The applicant understands that the network steward is not a legal entity, and no
 [198](https://pkt-insight.cjdns.fr/#/PKT/pkt/tx/e2301c4edaabe3f42f975853a1f6ac738a9a1d79991bfb55a188bbdc4d929a6f)
 [199](https://pkt-insight.cjdns.fr/#/PKT/pkt/tx/1311986707c4f38bc0d89dc85363791c92060019864720188cd4ad7bbf51c463)
 [200](https://pkt-insight.cjdns.fr/#/PKT/pkt/tx/64ccdb62d2c038e2c5e2ede6c2a70c6cb27c4d947b79403a51947293b27cf695)
+
+
+## Milestone 1 (M1) report - 2020-05-20 ##
+The primary objective for this milestone is to provide a way to send and receive transactions through the wallet. This facilitated the necessity to develop wallet creation, and the ability to integrate with a pre-extant CLI wallet. As golang uses inconsistant user config file directories, it was necessary to add the ability to discover an existing wallet.db file on a diversity of architectures. This was accomplished for OS X and linux. 
+
+### Project Results ###
+1. Users can set up a new wallet.
+2. Users can import an old wallet using itss wallet seed, and passphrase. 
+3. Upon opening the wallet the chain begins to dynamically sync.
+4. Status of sync can be viewed under the information menu option.
+5. Users can view their current wallet balance. 
+6. Users can view their wallet balance by address. 
+7. Users can view all addresses in their wallet, with or without balances present. 
+8. Users can view all past transactions in their wallet. 
+9. Users can send (spend) from their wallet addresses (non-multisig) to any other wallet address on the network. 
+10. Users can request payment to themselves by generating a request and a associated QR code.
+11. Payment requests can be imported into any other PKT Cash Wallet and the request is dynamically imported. 
+12. Users can receive transactions from any other address on the network. 
+13. A DMG file is available as part of the PKT Cash Wallet releases [here](https://github.com/artrepreneur/PKT-Cash-Wallet/releases)
