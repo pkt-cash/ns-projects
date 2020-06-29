@@ -25,9 +25,9 @@ tab and you'll find the review information in the comments.
 The Network Steward maintains a list of
 [project ideas](https://github.com/pkt-cash/ns-projects/blob/master/project_ideas.md) which are in
 the overall plan for the PKT project. However, this list is not exhaustive and the Network Steward
-will consider ideas not on the list nonetheless. If your idea is not listed, sign up to the
-[NewProject](https://pktproject.aether.app/join/newproject) mailing list and talk about what what
-your idea. Nobody *has* to reply, but you may start some useful conversations.
+will consider ideas not on the list nonetheless. If your idea is not listed, https://pkt.chat/ and
+talk about what what your idea in the `#network-steward` room. Nobody *has* to reply, but you may
+start some useful conversations.
 
 ## 3. Check for "unfair advantage"
 The Network Steward process requires that a project must help the PKT ecosystem as a whole without
