@@ -372,3 +372,6 @@ The applicant understands that the Network Steward is not a legal entity and no 
 [198](https://pkt-insight.cjdns.fr/#/PKT/pkt/tx/6912729413f16888cacacb006de0c3b3b70a3ad703bedfdc0bf5a478eaee2c57)
 [199](https://pkt-insight.cjdns.fr/#/PKT/pkt/tx/fcd0c40dccd650a271c9311b5ce302019455f8c02445faae1dee9e90b811a13f)
 [200](https://pkt-insight.cjdns.fr/#/PKT/pkt/tx/ec9ca663ea47b50aebaaa5b2d064959111ab09635cb26ecbad6bcb884cd34a8b)
+#Milestone 1 - Whitepaper v1
+First version of the white paper by Alex Lightman delivered for notes from the Network Steward. View the whitepeper here: https://docs.google.com/document/d/1tk81CIiKS6vElBx0IaKcJ8tyVx2Irot9IaMpcrtZVJw/edit?ts=5efccb42#heading=h.gjdgxs
+Please review and provide feedback.
