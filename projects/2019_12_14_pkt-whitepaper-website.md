@@ -372,3 +372,589 @@ The applicant understands that the Network Steward is not a legal entity and no 
 [198](https://pkt-insight.cjdns.fr/#/PKT/pkt/tx/6912729413f16888cacacb006de0c3b3b70a3ad703bedfdc0bf5a478eaee2c57)
 [199](https://pkt-insight.cjdns.fr/#/PKT/pkt/tx/fcd0c40dccd650a271c9311b5ce302019455f8c02445faae1dee9e90b811a13f)
 [200](https://pkt-insight.cjdns.fr/#/PKT/pkt/tx/ec9ca663ea47b50aebaaa5b2d064959111ab09635cb26ecbad6bcb884cd34a8b)
+
+#PKT website for review and notes. A request for feedback from the Network Stewards
+
+------------------------ BEGINNING OF PROJECT ------------------------
+
+{PAGE}
+#Homepage
+Menu
+Download whitepaper button on right-side of menu
+Featured: animated gif of nodes connecting around the world (a sphere earth) in a web-like fashion with packets moving between them. 
+Text headers says: “The world’s first network-based blockchain”
+Network Stats info (pull data from blockexplorer)
+Min bandwidth req. 1mb/second
+Transactions per day
+Block number
+Minimum Bandwidth requirements
+Transactions 
+
+##Bandwidth-Hard
+Allocating network bandwidth is required to earn mining rewards.
+ 
+##Networking
+The more connected nodes the faster the network becomes.
+
+##Scalability
+Meets the demands of network operators and infrastructure providers.  
+
+
+##THE NETWORK:
+The world’s first bandwidth-hard blockchain protocol, built to incentivize the growth of infrastructure.
+PKT Network
+PKT is a new blockchain that rewards users for contributing bandwidth to the network. Nodes broadcast what are called announcements (“anns”) across the network.
+
+##NETWORK STEWARD
+The Network Steward is an address which gets 20% of every new block-mine so that the developers can finance the building of mesh networking technology. Unlike a premine or founder’s fee, the recipient of the Network Steward payout can be changed by a PoS vote
+
+##WALLET
+
+Currently there’s only a text based wallet for PKT and in order to install this you need to install the PKT daemon then the wallet, then btcctl for interacting with the wallet
+
+##JOIN THE COMMUNITY
+
+PKT is run by the community for the community. The network becomes most secure when it is populated by people just like you. Join the community now for updates and discussions around how to participate in this growing network.
+
+
+
+{PAGE}
+#Mining 
+
+PacketCrypt: The first bandwidth-hard proof of work
+
+In order to begin mining you will need to:
+
+Button: Setup a Wallet
+Button: Install PacketCrypt
+
+PacketCrypt Protocol
+Packet + Crypt = bandwidth + encryption
+
+PacketCrypt is a PoW algorithm designed to encourage investment into Internet infrastructure as well as development of high speed data encryption and decryption technology. Efficient mining is achieved only if miners communicate between one another and requires bandwidth to be expended in lieu of processor effort. The result is a bandwidth-hard PoW that combines 2 distinct stages: announcement mining and block mining, which together, collectively decentralizes the transmission of data across a distributed global network.  
+
+##Announcement Mining
+Anybody can mine announcements
+
+The announcement stage is where a miner creates a small (1KB) message that proves they did some work. Announcements are then collected by block miners to form blocks. Announcement miners seek to maximize the number of successful announcements which can be accepted into a block and need to maximize their bandwidth to achieve the optimal mining results. This in turn assures that the network has high throughput longitudinally.
+
+##Block Mining
+Specialized hardware is required to mine blocks
+
+Block mining is the second stage and block miners are the traditional “miners” in the blockchain sense, as they validate the chain and get the payouts. Block miners collect announcements from announcement miners. Block miners get a discount on the difficulty of the work they must do based on the amount of fresh announcements they collect, so they are incentivized to have lots of announcements in memory at the time of mining and to pay announcement miners to keep them supplied.
+
+
+
+{PAGE}
+#PKT 
+PKT is paid to PacketCrypt miners
+
+PKT is a native blockchain based on bitcoin code. It has a 1 minute block time, uses PacketCrypt proof of work and has a Network Steward address which receives 20% of every coinbase payout. There are a total of 6 billion PKT which will be mined and rather than an abrupt halving of the payouts every 4 years, PKT uses a steady decay of 10% every 100 days.
+
+Payout of PKT vs. BTC as percent of total coins
+
+Because PKT is designed for microtransactions, there will be a total of 6 billion PKT mined whereas bitcoin will max out at 21 million. Furthermore, each PKT is subdividable into 1,073,741,824 units (2 to the 30th power) whereas there are only 100 million satoshis per bitcoin. When Bitcoin price peaked in 2018 at almost $20,000, the price of a satoshi was almost two 100ths of a penny, approaching a range where it would become impractical for microtransactions, even with nearly free transacting over the Lightning Network.
+
+PKT is designed around the idea of small denominations, fast cheap transacting, using the Network Steward for funding the build-out of decentralized internet infrastructure and PacketCrypt creating artificial demand for bandwidth.
+
+
+##Network Steward
+The Network Steward receives 20% of every coinbase
+
+The Network Steward is an address which gets 20% of every new block-mine so that developers can finance the building of Internet infrastructure and mesh network technology. Unlike a pre-mine or founder's fee, the recipient of the network steward payout can be changed by a PoS vote. 
+
+Learn More about the Network Steward
+
+
+
+{PAGE}
+#Setup PacketCrypt 
+
+If you’re using Windows, please install Ubuntu from the app store, native windows support is not here yet.
+
+In order to use PacketCrypt, you will need a compiler, libcrypto, libsodium and a recent version of nodejs. For nodejs we recommend using nvm.sh to install.
+
+##Ubuntu
+In order to build on Ubuntu, you will need to enable to universe repository to be able to install autoconf-archive.
+
+ADD CODE
+sudo add-apt-repository universe
+sudo apt-get update
+sudo apt install pkg-config libsodium-dev autoconf-archive git libssl-dev build-essential
+ADD CODE
+
+Once the requirements are installed, get the source code and build it:
+
+ADD CODE
+git clone https://github.com/cjdelisle/PacketCrypt
+cd PacketCrypt
+./autogen.sh
+./configure
+make
+npm install
+
+##Alpine Linux
+
+Make sure you have the community repository enabled.
+
+ADD CODE
+sudo apk update
+sudo apk add nodejs npm autoconf automake autoconf-archive build-base git libsodium-dev openssl-dev
+ADD CODE
+
+Once the requirements are installed, get the source code and build it:
+
+ADD CODE
+git clone https://github.com/cjdelisle/PacketCrypt
+cd PacketCrypt
+./autogen.sh
+./configure
+make
+npm install
+ADD CODE
+
+##Apple OSX
+Make sure you have homebrew installed first.
+
+ADD CODE
+brew install libsodium pkg-config autoconf-archive openssl
+ADD CODE
+
+Once the requirements are installed, get the source code and build it:
+
+ADD CODE
+git clone https://github.com/cjdelisle/PacketCrypt
+cd PacketCrypt
+./autogen.sh
+export PKG_CONFIG_PATH="$PKG_CONFIG_PATH:`echo /usr/local/Cellar/libsodium/*/lib/pkgconfig`"
+export PKG_CONFIG_PATH="$PKG_CONFIG_PATH:`echo /usr/local/Cellar/openssl/*/lib/pkgconfig/`"
+./configure
+make
+npm install
+ADD CODE
+
+Once you’ve completed building PacketCrypt, you can begin mining. Learn More
+
+
+##Begin Mining
+There are two types of mining available and pools should typically make about 50% of their payment to their announcement miners and 50% of their payment to their block miners.
+
+Devices with low available memory and/or slow internet connection should prefer to do announcement mining while devices with high speed internet and lots of available memory may prefer block mining.
+
+These examples have you mining in the Gridfinity mining pool and also giving your coins to cjd, make sure you update the --paymentAddr appropriately unless you wish to make a donation.
+
+##Announcement mining:
+
+node ./annmine.js --threads 2 --paymentAddr=pDSxcZunaUSUSxHrL6r8zpGJvoEropJ3Es http://pool.gridfinity.com/master
+
+##Block mining:
+
+node ./blkmine.js --threads 2 --paymentAddr=pDSxcZunaUSUSxHrL6r8zpGJvoEropJ3Es http://pool.gridfinity.com/master
+
+##Resources
+Telegram: https://t.me/pktproject
+Matrix: #pkt:matrix.org
+IRC: #pkt@freenode.net
+Suggest an edit to this page
+Main
+
+
+
+{PAGE}
+#Network Steward 
+By consensus rule, 20% of every newly mined block goes to an elected address, which is the Network Steward. The Network Steward is currently a 5 person group that is dedicated to helping build the PKT ecosystem through competitive grants for open source projects.
+Network Steward Charter
+
+The objective of The Network Steward is to reduce barriers of entry to support the PKT Network in the pursuit of increased individual autonomy and privacy.
+
+Key aspects of this objective include:
+
+Financing the development of open source networking software
+Lobbying for improved regulatory environment for small network operators and more generally, for internet freedom, privacy, and decentralization
+Purchasing property such as proprietary software or radio frequency spectrum rights in order to put these things in the commons
+
+In order to achieve these goals, The Network Steward will occasionally meet to review funding proposals and choose which projects to grant PKT to.
+How to Make a Funding Proposal
+
+Getting a proposal accepted is much like getting a pull request merged in a project. You start by socializing what you want to do with the community (try the IRC or Matrix chats) and when you have rough consensus, you move that conversation to a formal proposal.
+
+To make a proposal, you must create a pull request to the ns-projects repository which adds a new project markdown file as per the project template and name it according to the naming convention defined in the repository readme.
+
+Periodically The Network Steward will hold a meeting and decide on which proposals should be funded. The minutes of these meetings are published in the the ns-projects repository along with the projects and their status.
+
+Button:
+Submit a Proposal
+
+##Network Steward Projects
+These are the various projects: 
+
+Button:
+Network Steward Projects
+
+##Who is the Network Steward?
+The Network Steward is a multi-signature wallet which requires 3 out of 5 signatures in order to make a payment. The Network Steward wallet address is: pkt1q6hqsqhqdgqfd8t3xwgceulu7k9d9w5t2amath0qxyfjlvl3s3u4sjza2g2
+
+The keys are held by:
+
+cjd - cjdns original author
+Arceliar - Yggdrasil original author
+benhylau - Contributor at Toronto Mesh
+NeilAlexander - Yggdrasil release manager
+Backupbrain - Creator of NetNinja VPN device
+
+All of the participants have agreed not to enter into any relationships which would affect their ability to act impartially on behalf of the PKT chain.
+
+
+
+{PAGE}
+#Network Steward Vote 
+
+We believe it is a universal fact that any unaccountable authority, no matter how benevolent, will eventually fall victim to corruption, inefficiency or simple failure to innovate.
+
+Because of this, we built in to the PKT blockchain solution in case that the Network Steward is ever not fulfilling its role.
+
+Every holder of PKT is able to cast a vote to impeach the Network Steward and allow a new one to take its place. Impeachment is not an insignificant event, it requires at least 50% of the total PKT in existence to explicitly vote for it in order for it to occur. However, if it does occur, what follows is an automatic vote count and the Network Steward changes.
+
+##How voting works
+A vote consists one two parts, VoteFor and VoteAgainst, VoteAgainst is a vote for impeachment while VoteFor is a vote for who should become network steward in the event of an impeachment.
+
+A Network Steward is represented as a transaction output script rather than a script encoded key. An easy way to get the script for a given address is to pay some money to it and then explore the raw transaction and copy the output.
+
+Exploring a coinbase transaction we can see the output being paid to the Network Steward pkt1q6hqsqhqdgqfd8t3xwgceulu7k9d9w5t2amath0qxyfjlvl3s3u4sjza2g2 and the script for this output is 0020d5c1005c0d4012d3ae2672319e7f9eb15a57516aeefabbbc062265f67e308f2b
+
+
+ADD CODE 
+$ pktctl getrawtransaction 505d2750577a3d3c739c2a650ec0e03a7ddb1f81080c820ab1a317575020745b 1
+{
+  "hex": "01000000010000000000000000000000000000000000000000000000000000000000000000ffffffff10022913000b2f503253482f706b74642fffffffff03cac2a6ee0000000
+01976a9147d9df4279212fd7def4c47abf2d5f3a6c6eaf4ae88ac362f5f3b00000000220020d5c1005c0d4012d3ae2672319e7f9eb15a57516aeefabbbc062265f67e308f2b000000000000
+0000326a3009f91102ffff7f20c70542e4ca2363ce0149e845305f25564e7ce81e33411ad570df0f56f387462021cd01000000000000000000",
+  "txid": "505d2750577a3d3c739c2a650ec0e03a7ddb1f81080c820ab1a317575020745b",
+  "hash": "505d2750577a3d3c739c2a650ec0e03a7ddb1f81080c820ab1a317575020745b",
+  "size": 203,
+  "vsize": 203,
+  "version": 1,
+  "locktime": 0,
+  "vin": [
+    {
+      "coinbase": "022913000b2f503253482f706b74642f",
+      "sequence": 4294967295
+    }
+  ],
+  "vout": [
+    {
+      "value": 40.0390625,
+      "n": 0,
+      "scriptPubKey": {
+        "asm": "OP_DUP OP_HASH160 7d9df4279212fd7def4c47abf2d5f3a6c6eaf4ae OP_EQUALVERIFY OP_CHECKSIG",
+        "hex": "76a9147d9df4279212fd7def4c47abf2d5f3a6c6eaf4ae88ac",
+        "reqSigs": 1,
+        "type": "pubkeyhash",
+        "addresses": [
+          "pGzmtW4Q2v4AWHcX8TYGqG5c1Eh5Ykg6fX"
+        ]
+      }
+    },
+    {
+      "value": 9.9609375,
+      "n": 1,
+      "scriptPubKey": {
+        "asm": "0 d5c1005c0d4012d3ae2672319e7f9eb15a57516aeefabbbc062265f67e308f2b",
+        "hex": "0020d5c1005c0d4012d3ae2672319e7f9eb15a57516aeefabbbc062265f67e308f2b",
+        "reqSigs": 1,
+        "type": "witness_v0_scripthash",
+        "addresses": [
+          "pkt1q6hqsqhqdgqfd8t3xwgceulu7k9d9w5t2amath0qxyfjlvl3s3u4sjza2g2"
+        ]
+      }
+    },
+    {
+      "value": 0,
+      "n": 2,
+      "scriptPubKey": {
+        "asm": "OP_RETURN 09f91102ffff7f20c70542e4ca2363ce0149e845305f25564e7ce81e33411ad570df0f56f387462021cd010000000000",
+        "hex": "6a3009f91102ffff7f20c70542e4ca2363ce0149e845305f25564e7ce81e33411ad570df0f56f387462021cd010000000000",
+        "type": "nulldata"
+      }
+    }
+  ],
+  "blockhash": "c77d9026867de1455e573eb47bd3322548fd537b29ed9296a004a00f43d1da18",
+  "confirmations": 3,
+  "time": 1566221646,
+  "blocktime": 1566221646
+}
+ADD CODE
+
+If we double-check by querying pktd to find out what is the network steward, we will see that it shows the script that was paid to.
+
+ADD CODE
+$ pktctl getnetworksteward
+{
+  "script": "0020d5c1005c0d4012d3ae2672319e7f9eb15a57516aeefabbbc062265f67e308f2b",
+  "votesagainst": 0,
+  "totalpossible": 21985819476623360
+}
+ADD CODE
+
+So if we wanted, for instance, to change the Network Steward to pGzmtW4Q2v4AWHcX8TYGqG5c1Eh5Ykg6fX, we would want to vote for the corresponding script 76a9147d9df4279212fd7def4c47abf2d5f3a6c6eaf4ae88ac, and of course we probably want to vote against the current network steward as well.
+
+##How to vote
+Voting is done by configuring your wallet to vote, whenever you spend money, your wallet will include a vote in every future payment of PKT which is made. If you want to speed up the voting process, you can configure your wallet to vote and then transfer all of your PKT to another wallet, in order to be sure it will all be voting.
+
+To configure your wallet to vote for pGzmtW4Q2v4AWHcX8TYGqG5c1Eh5Ykg6fX and against pkt1q6hqsqhqdgqfd8t3xwgceulu7k9d9w5t2amath0qxyfjlvl3s3u4sjza2g2, you would use the following workflow:
+
+ADD CODE
+$ pktctl --wallet getnetworkstewardvote
+{}
+$ pktctl --wallet setnetworkstewardvote pGzmtW4Q2v4AWHcX8TYGqG5c1Eh5Ykg6fX pkt1q6hqsqhqdgqfd8t3xwgceulu7k9d9w5t2amath0qxyfjlvl3s3u4sjza2g2
+{}
+$ pktctl --wallet getnetworkstewardvote
+{
+  "votefor": "pGzmtW4Q2v4AWHcX8TYGqG5c1Eh5Ykg6fX",
+  "voteagainst": "pkt1q6hqsqhqdgqfd8t3xwgceulu7k9d9w5t2amath0qxyfjlvl3s3u4sjza2g2"
+}
+
+ADD CODE
+
+##Resources
+Telegram: https://t.me/pktproject
+Matrix: #pkt:matrix.org
+IRC: #pkt@freenode.net
+
+
+
+{PAGE}
+#Wallet 
+
+You store your PKT in a PKT Wallet. 
+
+
+The PKT Wallet allows you to send, receive and earn PKT.  
+
+
+There are currently two options to get a free PKT Wallet
+
+
+##Command line Wallet
+Terminal-based 
+full node setup
+
+##Desktop PKT Wallet 
+Graphic User Interface (GUI) 
+wallet for desktop 
+
+
+
+{PAGE}
+#Wallet Setup
+
+
+To install the PKT wallet you need to install: 
+
+the PKT daemon 
+the PKT wallet
+and pktctl for interacting with the wallet
+
+Here are instructions for installing the command line wallet:
+Install golang
+First, you need to install the go programming language, how to do it is mostly outside the scope of this website but you can learn more here:
+
+https://golang.org/doc/install
+
+##Install git
+Next you will need to make sure you have git installed. The first thing to do is check whether you have it installed already:
+
+ADD CODE
+git version
+ADD CODE
+
+If it prints something like 
+
+“git version 2.21.1” you’re in luck and you can continue. If it prints something more like “command not found: git” then you’ll need to install it.
+
+Installation will depend on your system, for debian/ubuntu like systems you will want “sudo apt install git” and for OSX with homebrew, you’ll want “brew install git”
+
+Install the components
+Once you have golang and git fully installed and set up, you can use the following commands to install pktd, wallet and pktctl.
+
+ADD CODE
+git clone github.com/pkt-cash/pktd
+cd pktd
+./do
+ADD CODE
+
+##Launch pktd
+Now, you can launch pktd:
+
+ADD CODE
+./bin/pktd
+ADD CODE
+
+This should show some output such as the following:
+
+ADD CODE
+2019-08-16 13:47:56.526 [INF] SYNC: Processed 843 blocks in the last 10.01s (843 transactions, height 843, 2019-08-16 05:56:50 +0000 UTC)
+ADD CODE
+
+This tells you that it’s properly syncing the chain. In another window, you can check the status of your node.
+
+ADD CODE
+./bin/pktctl getinfo
+ADD CODE
+
+Check the Block Explorer to see the most recent block.
+
+##Setup the wallet
+First you’ll need to create a wallet
+
+ADD CODE
+./bin/pktwallet --create
+ADD CODE
+
+Then once it is created, launch it
+
+./bin/pktwallet
+Now in another window, you can interact with the wallet. First you might want to create for yourself an address:
+
+ADD CODE
+./bin/pktctl --wallet getnewaddress
+ADD CODE
+
+Or get your current balance:
+ADD CODE
+./bin/pktctl --wallet getbalance
+ADD CODE
+
+To send PKT to somebody, you need to first unlock your wallet. In this example, we’re keeping the wallet unlocked for only 60 seconds, you can change the number at the end to your liking.
+
+ADD CODE
+./bin/pktctl --wallet walletpassphrase <password you used when creating wallet> 60
+ADD CODE
+
+Then send cjd a 10 pkt tip.
+
+ADD CODE
+./bin/pktctl --wallet sendtoaddress pP6Vh6GiL4HsMfcPby5xHQTyBUApd7mewg 10
+ADD CODE
+
+For an exhaustive list of all the RPC calls you can make, use:
+
+ADD CODE
+./bin/pktctl -l
+ADD CODE
+
+  
+  
+{PAGE}
+#About PKT 
+
+##Letter from CJD
+ARPANET Paved the Way
+It's been just over 50 years since the US military issued the first contract to build ARPANET, the network which would eventually evolve into the Internet.
+The year was 1969: Almost everybody got the daily newspaper, typing was a skill mostly confined to secretaries, and if you wanted to communicate with someone far away you would use the telephone. The telephone system itself was something hard to imagine, in most countries there was only one provider, it was illegal to connect your own telephone to the provider's network, and a 5 minute call from New York to Los Angeles cost the equivalent of $18 in today's money.
+It's hard to overstate the impact that the Internet has had on the world. The ability of everyone to become a publisher has led to entirely new forms of journalism and media. Teleconferencing has given rise to remote work and even entirely remote teams. E-commerce and crowdfunding combined with low volume manufacturing have given customers not only incredible choice, but direct input into what products are made. These phenomenon, while wildly futuristic by 1969 standards, would at least have been comprehensible; but open source software projects, decentralized social media, and blockchains are so far removed from that world that there wouldn't even be a basis to explain them.
+The Internet has probably been the biggest single force for individual liberation since the printing press. 
+At first it might look like a normal evolution of the telephone system, but when ARPANET was first devised, there was a design decision which made it fundamentally different. To a network, the protocol is like its DNA, and the DNA of the telephone network was an evolution from the days when calls were made by asking an operator to "patch you through" by plugging in a physical wire. While telephone protocols worked with only simple electronics and electromechanical switches, their limitation is they were inherently centralized.
+ARPANET on the other hand was designed to be decentralized. As a military network, resiliency was a requirement, and this decision to adopt a decentralized protocol paved the way to a cooperative/competitive inter-network of tens of thousands of service providers which has since revolutionized the world. But at the time ARPANET was nothing more than a couple of computers communicating over telephone modems. 
+If a network has the right DNA, it doesn't matter how small it is at the beginning.
+The core of the Internet has blossomed into a rich ecosystem, but many people are not able to effectively participate because they have limited access or no access at all. The ARPANET architecture has allowed for tens of thousands of independent network operators, but we need to lower the barrier of entry to allow for hundreds of millions of network operators.
+PKT’s plan is to separate the role of mesh operator (the boots-on-the-ground job of connecting fiber and pointing antennas), from the role of virtual ISP (the complex technical job of planning routes that data should take). Between these two roles will be a decentralized bandwidth marketplace where mesh operators sell bandwidth leases to virtual ISPs.
+PKT intends to change the dynamic from pay-for-access to pay-for-priority because it makes absolutely no sense that a person should be unable to communicate while there's a perfectly good Internet connection sitting idle.
+This plan is obviously very ambitious, but like ARPANET started as a couple of computers connected over the telephone PKT has begun this way as well.
+PKT also carries forward the belief that all communications should be encrypted, no matter what. This means, nobody should have to apply for https certificates, there should be no question of the origins of a data packet when it is received, and nobody should ever need a VPN to get another Internet connection when they already have one.
+If you believe that the internet should be owned by the people, and that no one should ever be denied access while bandwidth sits unused, if you want to look back on the days of $50 a month the way we look back on the days of $18 phone calls, come build with us. We're just getting started.
+Button: PKT Roadmap
+Button: PKT Origin Story
+
+#PKT Roadmap 
+There are four distinct stages of evolution which the PKT project will undergo. These stages may occur out of order at times, but the project will be viable in every state, just as a caterpillar is a viable creature before it becomes a butterfly.
+
+##The PKT Roadmap is:
+Build a VPN market where anyone can participate and the minimum price is free
+Support low cost Internet sharing hardware that allows people to earn PKT using their extra bandwidth
+Create a bandwidth market where there are virtual ISPs to do the network engineering so that building a mesh network is easy
+Support high performance networking hardware which automatically sells its bandwidth into the decentralized bandwidth market
+
+##Stage One, VPN Marketplace
+  
+Price will be decided by auction with a minimum bid of zero. In order to stay decentralized and achieve low enough cost of transactions to enable true micropayments, VPNs will be purchased using PKT, a cryptocurrency which is mined by performing encryption operations and expending Internet bandwidth. Anyone who wants to use a VPN, create their own, or mine PKT will easily be able to do so.
+
+##Stage Two, Support Internet Sharing
+  
+Once there are approximately one million installations of the VPN client application, PKT will begin supporting third party operators who offer internet sharing technology and hardware for home or business users. This technology and hardware will allow people to earn PKT with their unused internet bandwidth and like the VPN market, it will have a minimum bid of zero. Since it will be the VPN client application that connects to the Internet sharing hardware, there will be no privacy risk nor legal risk because all data will be sent through the VPN.
+
+##Stage Three, Tokenized Bandwidth Leases
+
+By tokenizing bandwidth leases Internet sharing hardware will be able to connect to each other and virtual ISPs will be able to observe the network, buy, sell and trade, relevant leases, and plan paths through it. This will make local mesh networking easy by moving the network engineering component to the virtual ISP layer.
+  
+##Stage Four, Support Next Gen Networking Hardware.
+  
+PKT will begin to support next generation networking hardware. The compact source routing central in the cjdns protocol will not only set new records for router performance/cost ratio, but will also allow for hundreds or even thousands of virtual ISPs to send data through a single device, each according to their own routing policy. Since PKT is mined by performing encryption operations, hardware devices capable of efficiently mining PKT will also be capable of efficiently encrypting network data. The ASICs which will emerge to mine PKT will be what finally enables the whole Internet to be encrypted.
+  
+##Support the PKT Network
+If you want to get involved, build on PKT, or start a business or project and become part of future history, then join the community today. PKT also contains a Network Steward (an elected institution which receives 20% of the newly mined coins), which is dedicated to supporting infrastructure growth and technology development, while making sure the core components of the project are open source. The Network Steward makes it possible for new businesses to propose and have projects funded that coincide with the PKT project roadmap.
+
+BUTTON: Learn More about the Network Steward.
+
+BUTTON: Join the Community today.
+
+
+  
+ {PAGE}
+#PKT Origin Story 
+Cjdns and humble beginnings
+PKT was born out of the cjdns project when it was realized that without the financial infrastructure for the network to pay its own bills, it would always remain a hobby. The cjdns project dates back to 2011 and the two basic ideas it brought to the table were:
+
+Everything should be encrypted, all of the time, no matter what.
+A packet of data flying across the Internet should not contain the address of its destination, but rather the directions to get there.
+
+Point 1 has become more of a universal norm. However, point 2 remains uncommon in the network space.
+An Introduction to Compact Source Routing
+Most of the Internet is routed using a system called prefix matching. With prefix matching, every packet of data flying across the Internet contains the IP address of its destination, and each router which forwards that packet looks up the destination in its routing table. It’s like every street-corner had a sign pointing the way to everywhere in the world (and everybody had to follow it).
+
+Routing tables at the Internet backbone are unsurprisingly big, almost too big to fit in the special high-speed memory used in modern routers. Since every ISP has a different idea of how data should flow through their network, every router has a different routing table. What this all means is that even when an ISP leases bandwidth, they still have to operate their own physical router hardware. Sub-leasing of routers is simply impossible.
+The way cjdns works is that packets of data flying through the network do not contain the IP address of the destination, but rather the directions to get there. This system is known as source routing. Normally a source route is big, so big that source routing is traditionally only used for experimentation, but cjdns uses a unique representation known as compact source routing which compresses that route down to roughly the size of an IP address.
+
+The reason bandwidth markets have not yet emerged is not because we can’t subdivide bandwidth, it’s because current technology prohibits subdivision of routing hardware.
+
+By replacing “where do you want to go” with “how do you want to get there”, cjdns replaces the rigidity of a postal service with the flexibility of a road system, a road system where each driver can choose which GPS to use. In this new network, hundreds or even thousands of Virtual ISPs can compete for customers while leasing access to the same “road system” and each searching for the best ways to get their customers’ data where it needs to go.
+
+  
+  
+{PAGE}
+#Community 
+
+
+Thank you for your interest in the PKT Network. In building out this network infrastructure we are only as strong as the sum of all parts. 
+
+Please check out the various resources available to collaborate and communicate.
+
+Resources
+PKT ICON | PKT Trading Group
+
+Join Us
+Join us and help to create a better internet. Connect and collaborate with PKT community members online. 
+
+
+**Make these buttons below**
+
+TELEGRAM ICON | PKT Telegram:
+
+FACEBOOK ICON | Facebook: 
+
+INSTAGRAM ICON | Instagram:
+
+TWITTER ICON | Twitter: 
+
+MATRIX ICON
+
+IRC ICON
+
+MASTADON ICON
+
+**Create a contact form with Captcha**
+
+
+
+
+------------------------ END OF PROJECT ------------------------
