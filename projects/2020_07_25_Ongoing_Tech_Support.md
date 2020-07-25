@@ -83,7 +83,7 @@ Our execution strategy incorporates highly qualified personnel, and a responsive
 
 * **Hours per month:** We estimate that our team currently spends an average of 20 hours per week working on troubleshooting the PKT network, and we project that the workload will continue to be the same for the next 24 months. The equivalent average hours per month is **80 hours / month**.
 
-* **Hourly rate:** Gridfinity's hourly rate is **PKT 25,000 / hour**, which includes the technical member salary, and other general overhead, such as Gridfinity's administrative tasks, equipment, supplies, and other expenses.
+* **Hourly rate:** Gridfinity's hourly rate is ** 25,000 PKT/hour**, which includes the technical member salary, and other general overhead, such as Gridfinity's administrative tasks, equipment, supplies, and other expenses.
 
 * **PKT monthly payment:** 
 
