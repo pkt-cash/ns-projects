@@ -102,17 +102,19 @@ Payments will be distributed to Gridfinity monthly, or, alternately, a different
 We hereby submit this application in good faith and we attest that we have made no effort, nor do we intend to make effort, influence the Network Steward to accept this or any other project we have submitted.
 
 1. Conflicts
+
   1. [x] An organization is receiving the funds: *Gridfinity, LLC.*
-    1. [x] Organization has financial relationships with one or more reviewers: *Caleb James DeLisle* and *Adonis Gaitatzis*
-    2. [ ] Organization has no financial relationships with any reviewers
+        1. [x] Organization has financial relationships with one or more reviewers: *Caleb James DeLisle* and *Adonis Gaitatzis*
+        2. [ ] Organization has no financial relationships with any reviewers
   2. [ ] An individual is receiving the funds
-    1. [ ] Individual works for same organization as one or more reviewers: *specify whom*
-    2. [ ] Individual has other financial relationships with one or more reviewers: *specify whom*
-    3. [ ] Individual does not work for the same organization as any reviewer
-2. No Pumping
-  1. [ ] Project results will present information which might lead to PKT price speculation
-    * If selected, please attach a paragraph detailing the information which will be presented and any steps which will be taken to prevent this from potentially misleading the public.
-  2. [x] Project results will not present information which might lead to PKT price speculation
+        1. [ ] Individual works for same organization as one or more reviewers: *specify whom*
+        2. [ ] Individual has other financial relationships with one or more reviewers: *specify whom*
+        3. [ ] Individual does not work for the same organization as any reviewer
+1. No Pumping
+
+   2. [ ] Project results will present information which might lead to PKT price speculation
+          * If selected, please attach a paragraph detailing the information which will be presented and any steps which will be taken to prevent this from potentially misleading the public.
+          1. [x] Project results will not present information which might lead to PKT price speculation
 
 -----
 
