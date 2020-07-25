@@ -102,23 +102,17 @@ Payments will be distributed to Gridfinity monthly, or, alternately, a different
 We hereby submit this application in good faith and we attest that we have made no effort, nor do we intend to make effort, influence the Network Steward to accept this or any other project we have submitted.
 
  * Conflicts
- 
-  * [x] An organization is receiving the funds: *Gridfinity, LLC.*
-     * [x] Organization has financial relationships with one or more reviewers: *Caleb James DeLisle* and *Adonis Gaitatzis*
-     * [ ] Organization has no financial relationships with any reviewers
-     
+  * [x] An organization is receiving the funds: *Gridfinity, LLC.* 
+    * [x] Organization has financial relationships with one or more reviewers: *Caleb James DeLisle* and *Adonis Gaitatzis*
+    * [ ] Organization has no financial relationships with any reviewers
   * [ ] An individual is receiving the funds
-     * [ ] Individual works for same organization as one or more reviewers.
-     * [ ] Individual has other financial relationships with one or more reviewers.
-     * [ ] Individual does not work for the same organization as any reviewer
-     
- * No Pumping
- 
+    * [ ] Individual works for same organization as one or more reviewers.
+    * [ ] Individual has other financial relationships with one or more reviewers.
+    * [ ] Individual does not work for the same organization as any reviewer
+* No Pumping
     * [ ] Project results will present information which might lead to PKT price speculation.
-     
      * If selected, please attach a paragraph detailing the information which will be presented and any steps which will be taken to prevent this from potentially misleading the public.
-      
-     * [x] Project results will not present information which might lead to PKT price speculation
+    * [x] Project results will not present information which might lead to PKT price speculation
 
 -----
 
