@@ -1,4 +1,5 @@
-﻿# PKT Network Ongoing Tech Support
+-----
+# PKT Network Ongoing Tech Support
 * Project Name: PKT Network Ongoing Tech Support
 * Contact Email: jonathan@gridfinity.com
 * Project participants:
@@ -128,3 +129,5 @@ In no event shall Gridfinity be liable for any incidental, indirect, exemplary, 
 ## 7. Project Status
 
 * *PROPOSED*
+
+-----
