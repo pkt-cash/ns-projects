@@ -23,9 +23,9 @@ Gridfinity has been helping the PKT network with critical tasks required to main
 1. Project Relevance to the PKT Network
 2. Team and Past Work
 3. Service Overview
-  1. Objective & Success Criteria
-  2. Service Deliverables
-  3. Execution Strategy
+   1. Objective & Success Criteria
+   2. Service Deliverables
+   3. Execution Strategy
 4. Payments
    1. Price Breakdown
    2. PKT Transfers
