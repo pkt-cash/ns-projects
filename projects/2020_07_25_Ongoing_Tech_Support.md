@@ -11,12 +11,12 @@
 * PKT address to pay to `pkt1quem94ynpy6mnrgjn7jxc3rq7asp22a5at3fa93`
 * Project status: **PROPOSED**
 
->
+-----
 
 ## Project summary
 Gridfinity has been helping the PKT network with critical tasks required to maintain and keep the blockchain operating properly for over a year. The present project proposes that the Network Steward provides support for the expenses of the ongoing technical services and associated administrative tasks that will continue to be provided by Gridfinity to the PKT project. We are not seeking any retroactive payment, but we wish the Network Steward's support to enable us to continue providing the same level of technical services and support moving forward.
 
->
+-----
 
 ## Table of Contents
 
@@ -26,17 +26,17 @@ Gridfinity has been helping the PKT network with critical tasks required to main
 
 3. Service Overview
  
- _3.1 Objective & Success Criteria_
+  1 Objective & Success Criteria
  
- _3.2 Service Deliverables_
+  2 Service Deliverables
  
- _3.3 Execution Strategy_
+  3 Execution Strategy
 
 4. Payments
 
-  _4.1 Price Breakdown_
+   1. Price Breakdown
   
-  _4.2 PKT Transfers_
+   2. PKT Transfers
   
 5. Disclosure
 
@@ -44,7 +44,7 @@ Gridfinity has been helping the PKT network with critical tasks required to main
 
 7. Project Status
 
->
+-----
 
 ## 1. Project Relevance to the PKT Network
 The PKT blockchain often experiences critical problems such as pktd bugs, database corruption, pktwallet malfunctions (including wallet database corruption), and block mining stalls, announcement mining deadlocks, block and announcement handler failures, pool master malfunctions, pool paymaker bugs, required filesystem, Linux kernel, and TCP stack configuration and tuning to allow proper functioning of the PKT suite (which is not possible on a default configuration with any current distribution), nodejs monitoring and tuning (as the nodejs portions of PKT suite also do not properly operate on default configurations of LTS/stable nodejs distributions), and various other issues. There are ongoing concerns that additional failures are inevitable and will require contuining attention. 
@@ -63,7 +63,7 @@ Reliable and well-tested software has inherent benefits over less thoroughly tes
 
 * **Jonathan Owens** is a blockchain entrepreneur since the early stages of the technology. He has founded several successful companies in the space, including [Narwhal](https://narwhal.ai/) and [Gridfinity](http://gridfinity.com/).
 
-
+-----
 
 ## 3. Service Overview
 
@@ -85,7 +85,7 @@ We will test and contribute to the existing PKT and related software: cjdns, Pac
 ### 3.3 Execution Strategy
 Our execution strategy incorporates highly qualified personnel, and a responsive approach. We will take care of issues identified by Gridfinity's team or reported directly by an official member of the PKT Project or Network Steward board.
 
-
+-----
 
 ## 4 Payments
 
@@ -106,7 +106,7 @@ Each payments shall be distributed to the following address:
 
 Payments will be distributed to Gridfinity monthly, or, alternately, a different schedule negotiated with the Network Steward.
 
-
+-----
 
 ## 5. Disclosure
 We hereby submit this application in good faith and we attest that we have made no effort, nor do we intend to make effort, influence the Network Steward to accept this or any other project we have submitted.
@@ -124,6 +124,7 @@ We hereby submit this application in good faith and we attest that we have made 
     * If selected, please attach a paragraph detailing the information which will be presented and any steps which will be taken to prevent this from potentially misleading the public.
   2. [x] Project results will not present information which might lead to PKT price speculation
 
+-----
 
 ## 6. Legal
 
@@ -133,7 +134,8 @@ All products and services to be provided by Gridfinity, LLC., and its staff and 
 
 In no event shall Gridfinity be liable for any incidental, indirect, exemplary, special, punitive or consequential damages, under any circumstances, including, but not limited to: lost profits, revenue or savings, or the loss, theft, transmission or use of any data, even if we have been advised of, knew, or should have known, of the possibility thereof, and even if the event is caused or alleged to have been caused by us, or by the performance or nonperformance of any products or services we provide.
 
+-----
 
 ## 7. Project Status
 
-* PROPOSED
+* *PROPOSED*
