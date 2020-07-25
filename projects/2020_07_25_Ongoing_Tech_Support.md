@@ -114,9 +114,9 @@ We hereby submit this application in good faith and we attest that we have made 
      
  * No Pumping
  
-     * [ ] Project results will present information which might lead to PKT price speculation.
+    * [ ] Project results will present information which might lead to PKT price speculation.
      
-      * If selected, please attach a paragraph detailing the information which will be presented and any steps which will be taken to prevent this from potentially misleading the public.
+     * If selected, please attach a paragraph detailing the information which will be presented and any steps which will be taken to prevent this from potentially misleading the public.
       
      * [x] Project results will not present information which might lead to PKT price speculation
 
