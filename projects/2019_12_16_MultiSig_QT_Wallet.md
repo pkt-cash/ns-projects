@@ -137,5 +137,7 @@ The two overarching objectives of this phase were to get multisig transactions e
 1. The ability to get your public key for any non-multisig address was added. 
 2. The ability to view you wallet seed was added, but this only works if you aren't running a legacy wallet ie. (wallet.db)
 3. The ability to resync your wallet was added.
+4. A DMG file is available as part of the PKT Cash Wallet releases [here](https://github.com/artrepreneur/PKT-Cash-Wallet/releases)
+
 
 
