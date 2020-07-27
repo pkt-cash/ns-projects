@@ -107,3 +107,35 @@ The primary objective for this milestone is to provide a way to send and receive
 12. Users can receive transactions from any other address on the network. 
 13. A DMG file is available as part of the PKT Cash Wallet releases [here](https://github.com/artrepreneur/PKT-Cash-Wallet/releases)
 
+## Milestone 2 (M2) report - 2020-05-20 ##
+The two overarching objectives of this phase were to get multisig transactions enabled and additional wallet tools functional. 
+
+### Project Results (Required) ###
+1. Send transactions to multiple addresses at once.
+* Though the GUI has this capability, it was disabled for this version as the behavior of ``sendmany`` rpc is inconsistent at this time.  
+2. Batch transactions for large UTXO input sets.
+* A fold option was added to the menu to fold large UTXO sets into smaller ones, eliminating the necessity for batching.
+3. Sign transactions.
+* All transactions are signed. Of particular interest is the signing of multsig transactions which is possible. 
+* Multisig transactions can be generated, shared with signatories (using a generated QR code) and sent once the minimum number of signatories is acheived.
+4. Verify transactions.
+* Transactions can be imported, decoded and verified. 
+5. Generate new regular addresses and new multi-sig addresses.
+* Multsig address and regular addresses can be generated.
+6. Export private keys and import new private keys.
+* All private keys can be exported and imported.
+7. Encrypt and decrypt messages.
+* This feature has been deemed not necessary at this time.
+8. Password-protect the wallet.
+* The wallet can be protected with a passphrase during setup, or at any time in the future.
+9. Save and restore the wallet backup from seed.
+* Restore was accomplished in milestone 1.
+* Save wallet was added in this milestone.
+* Delete wallet was added in this milestone.
+
+### Project Results (Additional Features) ###
+1. The ability to get your public key for any non-multisig address was added. 
+2. The ability to view you wallet seed was added, but this only works if you aren't running a legacy wallet ie. (wallet.db)
+3. The ability to resync your wallet was added.
+
+
