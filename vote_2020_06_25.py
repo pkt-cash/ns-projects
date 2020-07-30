@@ -40,7 +40,7 @@ votes.append({
   'tokenstrike': {
     # I believe this project will deliver fascitating improvements to PKT, including opening token swapping and lightning payments, which are directly in line with PKT's objectives.
     'short': 0.1,   # I believe there is little short-term gain from implementing this project
-    'long': 0.0,    # I believe an advanced token issuance protocol that is Lightning compatible would enable PKT Cash liquidity and ultimately be a building block in the creation of both a PKT trading market and in a bandwidth leasing market that is ultimately goals of the PKT network.
+    'long': 0.9,    # I believe an advanced token issuance protocol that is Lightning compatible would enable PKT Cash liquidity and ultimately be a building block in the creation of both a PKT trading market and in a bandwidth leasing market that is ultimately goals of the PKT network.
     'scope': 0.5,   # At the current estimated value of PKT, each milestone costs about $30k. At 4 milestones this is  $133,333, but no timeline is given and no team is yet speculated. My experience with Caleb is that he is fair and honest,  but it is difficult to know for certain what the value of the project is without those elements.
     'risk': 0.9,    # Caleb has laid out the protocol's states and messaging, and as the inventor of PKT he knows what he's working with. I believe he has everything he needs to execute this project.
     'hazard': 0.3   # I am involved with Caleb a venture, Anode, which puts me in a conflict of interest in voting for him. However, he is the brilliant inventor of PKT and cjdns. I believe his pedigree and follow-through are self evident. No one knows these technologies better than him.
