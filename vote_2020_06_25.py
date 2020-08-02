@@ -49,6 +49,31 @@ votes.append({
 })
 
 
+# Arceliar
+votes.append({
+  'runewallet': {
+    "short": 0.95, # Not much to say, if it does what it says on the tin then I'd expect it to have a significant impact short-term
+    "long": 0.5, # It helps, but wallets are the sort of thing that I expect would emerge somewhere in the community if given enough time and continue to gain features ~indefinitely, so in the grand scheme of things I would expect that accepting this proposal would have diminishing implications over time
+    "scope": 0.5, # The wallet seems generally in-scope, the main issue is the opportunity cost -- this would take our entire budget for this proposal period, and we wouldn't have anything left over to let us open the next proposal period early
+    "risk": 0.5, # Two potential issues. 1: I don't know the applicants (at least the ones listed on the proposal, as far as I'm aware), so there's at least a little uncertainty about how prepared they are to work on this, though their related work is generally encouraging (so this has a minor effect -- if anything it's probably good, since it means there's no nepotism hazard). 2: the more significant issue -- the "planning fallacy" -- is that the proposal aims for a 3(+) month schedule with a dozen people working. I'm happy to see the + in the initial outline, but I think *in general* people have trouble predicting how long it will take to do something (especially when other people are involved, a dozen+ in this case). The milestones do a pretty good job of outlining what the applicants want to have happen each month, but I think it would benefit a bit from documenting which components depend upon each other, which parts of the milestone(s) could reasonably be delayed without significantly altering the project timeline as a whole, and what (if anything) can be done to mitigate any issues that arise if a critical component takes longer than expected. Basically, I'd like to hear what a worst-realistic-case scenario sounds like, since (statistically speaking) timelines tend to advance a little worse than that on average
+    "hazard": 1.0, # I'm not aware of any conflicts of interest or other issues that would lead to problems here
+  },
+  'techsupport': {
+    "short": 0.95, # Tech support is useful, though I tend to think it's not quite as important as core blockchain development is (e.g. there's less there to support before things are feature complete, so better to prioritize developments first and support later, at least in my train of thought)
+    "long": 0.5, # No direct benefit after the project duration, but presumably some indirect benefit from a larger and more skilled community
+    "scope": 0.83, # (40/48, rounded, for lack of a better idea, since it's kind of hard to compare cost-per-person-month for focused development work in the other projects vs something as open-ended and wildly variable tech support). I think that, given the budget constraints in the current proposal period, asking for 2 years is a bit much. I think it would be inappropriate to renegotiate the duration after we've already voted, but for future reference, it probably would have made sense to update this proposal with an option to approve it for a shorter duration (1 or 1.5 years) at a lower budget. Then we'd effectively be choosing between tokens+support vs the OT wallet, instead of only getting to pick one.
+    "risk": 0.95, # I can't really think of a failure mode for tech support, so it seems unlikely that there would be any problems here (at least anything unique to this proposal)
+    "hazard": 0.5, # This is a little hazardous for 2 reasons. 1: The applicant(s) are known by several NS members, so there's the usual risk of some appearance of nepotism. 2: It seems like, given that Gridfinity both operates a large mining pool and sells mining hardware, they're in a position to financially benefit more from the existence of competent tech support (to increase the size of the community by both selling more hardware and likely picking up more miners through being the default pool in most documentation). So we'd basically be paying Gridfinity to do work that mostly benefits Gridfinity. On the other hand, *no* tech support doesn't really benefit anyone, so I'd begrudgingly consider this acceptable given the lack of alternatives.
+  },
+  'tokenstrike': {
+    "short": 0.5, # Tokens themselves aren't particularly useful, it's the services built on them that matter, so by itself I think this probably doesn't have much short-term impact (but it has *some*, mostly by opening the door for other things to be built on top of it)
+    "long": 1.0, # Long term this is strictly necessary for the project goals (bandwidth market, etc.)
+    "scope": 1.0, # I can't think of anything out-of-scope about this. Since we only have enough budget for 1 project, all of them effectively have the same opportunity cost, but this one has the lowest real cost (e.g. we could open another submission window again sooner than if we went with another proposal)
+    "risk": 0.75, # It's plausible that the loosened security requirements (that attacks can be proven to have taken place, instead of being blocked outright) and a few implementation details could mean that the result is insufficient for some intended use cases. That said, I would naively expect it to be good enough for a large enough number of cases that it's likely to still be useful, and if it was unfit for an interesting reason then at least we'd learn something from it.
+    "hazard": 0.75, # The proposal was submitted by an NS member, so there's some appearance of nepotism (but realistically, this isn't something that I'd feel confident in supporting without CJD's oversight, so that partly cancels out).
+  },
+})
+
 print "WINNING PROJECTS: %s" % getApprovedProjects(budget, costs, votes)
 
 projects = {}
