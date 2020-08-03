@@ -1,10 +1,10 @@
 #!/usr/bin/env python2.7
 from rrv_vote import getApprovedProjects
 
-budget = 90.0  # million?
+budget = 80.0  # million
 costs = {
   'runewallet': 80.0,
-  'techsupport': 12.0,  # for the next 6 months
+  'techsupport': 48.0,
   'tokenstrike': 40.0,
 }
 votes = []
