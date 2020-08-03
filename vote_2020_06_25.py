@@ -48,6 +48,12 @@ votes.append({
 
 })
 
+## Benedict Lau
+votes.append({
+  'runewallet':  { 'short': 0.7, 'long': 0.7, 'scope': 0.5, 'risk': 0.8, 'hazard': 0.9 },
+  'techsupport': { 'short': 0.8, 'long': 0.5, 'scope': 0.7, 'risk': 0.9, 'hazard': 0.7 },
+  'tokenstrike': { 'short': 0.6, 'long': 0.7, 'scope': 0.8, 'risk': 0.9, 'hazard': 0.7 },
+})
 
 # Arceliar
 votes.append({
