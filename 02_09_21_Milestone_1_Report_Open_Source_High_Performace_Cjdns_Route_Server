@@ -1,0 +1,24 @@
+Rust libraries included in milestone 1 are completed 
+
+cjdnskeys - tools for working with cjdns keys
+  https://github.com/CJDNS-Development-Team/CJDNS/tree/master/cjdns-keys
+    
+cjdnsann - Library for parsing cjdns announcement messages
+  https://github.com/CJDNS-Development-Team/CJDNS/tree/master/cjdns-ann
+    
+cjdnsniff - Library for sniffing and injecting cjdns traffic
+  https://github.com/CJDNS-Development-Team/CJDNS/tree/master/cjdns-sniff
+    
+cjdnsadmin - Admin API connector for talking to cjdns engine
+  https://github.com/CJDNS-Development-Team/CJDNS/tree/master/cjdns-admin
+
+cjdnsencode - Parser and serializer for cjdns encoding schemes
+  part of https://github.com/CJDNS-Development-Team/CJDNS/tree/master/cjdns-core
+
+cjdnsctrl - tool for parsing/serializing CTRL messages
+  https://github.com/CJDNS-Development-Team/CJDNS/tree/master/cjdns-ctrl
+    
+cjdnshdr - Tools for parsing and serializing cjdns packet headers
+  https://github.com/CJDNS-Development-Team/CJDNS/tree/master/cjdns-hdr
+    
+netchecksum - Library which implements the 1s complement checksum used by TCP, UDP and ICMP
