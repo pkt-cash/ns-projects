@@ -94,3 +94,51 @@ First payment of 6mn PKT made in 12 transactions:
 [10](https://pkt-insight.cjdns.fr/#/PKT/pkt/tx/3b904c3174875c7c28794fd82648d2be6b99627d7c6b904c6ece5e6d2a96640c)
 [11](https://pkt-insight.cjdns.fr/#/PKT/pkt/tx/2e60f81ad7c989e2914088d74bc0be26908929f98e0783d62a70a698798c65d7)
 [12](https://pkt-insight.cjdns.fr/#/PKT/pkt/tx/9ae795980be3f335100def907a45bf332a03a4d0814218007863ae82cf7d503b)
+
+## Milestone 1 (M2) report - 2020-09-22 ##
+Rust libraries included in milestone 1 are completed
+
+### Project Results (Required) ###
+Libraries
+---------
+
+cjdnskeys - tools for working with cjdns keys
+  https://github.com/CJDNS-Development-Team/CJDNS/tree/master/cjdns-keys
+    
+cjdnsann - Library for parsing cjdns announcement messages
+  https://github.com/CJDNS-Development-Team/CJDNS/tree/master/cjdns-ann
+    
+cjdnsniff - Library for sniffing and injecting cjdns traffic
+  https://github.com/CJDNS-Development-Team/CJDNS/tree/master/cjdns-sniff
+    
+cjdnsadmin - Admin API connector for talking to cjdns engine
+  https://github.com/CJDNS-Development-Team/CJDNS/tree/master/cjdns-admin
+
+cjdnsencode - Parser and serializer for cjdns encoding schemes
+  part of https://github.com/CJDNS-Development-Team/CJDNS/tree/master/cjdns-core
+
+cjdnsctrl - tool for parsing/serializing CTRL messages
+  https://github.com/CJDNS-Development-Team/CJDNS/tree/master/cjdns-ctrl
+    
+cjdnshdr - Tools for parsing and serializing cjdns packet headers
+  https://github.com/CJDNS-Development-Team/CJDNS/tree/master/cjdns-hdr
+    
+netchecksum - Library which implements the 1s complement checksum used by TCP, UDP and ICMP
+  https://github.com/CJDNS-Development-Team/CJDNS/tree/master/netchecksum
+
+Binaries
+--------
+
+Along with the above libaries there are also three binaries: cjdnsadmin, dumpdht, dumpctrl.
+
+All these binaries require connection to a working cjdns router to allow to send control command and sniff traffic.
+
+Examples:
+
+$ cargo build --release
+
+$ ./target/release/cjdnsadmin 'ping()'
+
+$ ./target/release/dumpdht
+
+$ ./target/release/dumpctrl
