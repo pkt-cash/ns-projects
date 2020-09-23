@@ -95,7 +95,7 @@ First payment of 6mn PKT made in 12 transactions:
 [11](https://pkt-insight.cjdns.fr/#/PKT/pkt/tx/2e60f81ad7c989e2914088d74bc0be26908929f98e0783d62a70a698798c65d7)
 [12](https://pkt-insight.cjdns.fr/#/PKT/pkt/tx/9ae795980be3f335100def907a45bf332a03a4d0814218007863ae82cf7d503b)
 
-## Milestone 1 (M2) report - 2020-09-22 ##
+## Milestone 1 (M1) report - 2020-09-22 ##
 Rust libraries included in milestone 1 are completed
 
 ### Project Results (Required) ###
