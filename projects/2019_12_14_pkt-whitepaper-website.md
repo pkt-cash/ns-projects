@@ -170,6 +170,12 @@ The applicant understands that the Network Steward is not a legal entity and no 
 
 ## Status
 
+2020-9-21 milestone #2 is complete: https://pkt.cash
+* Website is designed and optimized
+* Site is live and hosted by cjdns
+* Site pulls data from block explorer
+* resources: https://github.com/pkt-cash/www-pkt-cash
+
 2019-12-24 first payment of 20mn completed to address
 [p9E3mhUtpinkvrn71AmoHNCoWYzMEmCiKq](https://pkt-insight.cjdns.fr/#/PKT/pkt/address/p9E3mhUtpinkvrn71AmoHNCoWYzMEmCiKq) with transactions:
 [1](https://pkt-insight.cjdns.fr/#/PKT/pkt/tx/73ce2918a456dd64151a8916881b420744af0b1e998b3310244f42baa0f5b8c9)
