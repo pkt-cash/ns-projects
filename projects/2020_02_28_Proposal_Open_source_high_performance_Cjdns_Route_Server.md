@@ -129,6 +129,7 @@ netchecksum - Library which implements the 1s complement checksum used by TCP, U
 Binaries
 --------
 
+
 Along with the above libaries there are also three binaries: cjdnsadmin, dumpdht, dumpctrl.
 
 All these binaries require connection to a working cjdns router to allow to send control command and sniff traffic.
@@ -142,3 +143,48 @@ $ ./target/release/cjdnsadmin 'ping()'
 $ ./target/release/dumpdht
 
 $ ./target/release/dumpctrl
+
+
+## Milestone 2 (M2) report - 2020-10-24 ##
+Rust version of cjdns node is completed
+
+### Project Results (Required) ###
+
+Rust version of cjdnsnode has the following features:
+
+* Able to pull from another node (implement `peer.js`).
+  This is implemented in `https://github.com/CJDNS-Development-Team/CJDNS/tree/supernode/cjdns-snode/src/peer` package.
+
+* Has an implementation of handleAnnounce that verifies the announcement.
+  This is implemented in `https://github.com/CJDNS-Development-Team/CJDNS/tree/supernode/cjdns-snode/src/server` package.
+
+* Built-in http server has the following endpoints:
+  * `http://localhost:3333/` which dumps some debug statistics in JSON format.
+  * `http://localhost:3333/dump` which dumps internal state in some binary format (obsolete and not really required anymore).
+  * `http://localhost:3333/cjdnsnode_websocket` which is a WebSocket endpoint and used to communicate with other supernodes.
+
+On startup, connections established to other supernodes specified in config file using WebSocket-based protocol, and node information is gathered from these peer supernodes.
+
+Also, incoming WebSocket connections are possible from other supernodes, for the same information exchange.
+
+Application uses async tasks (Tokio-based) to achieve hight performance, so it can be interconnected with many peers sending large amounts of data.
+
+Next milestone will be to finish the server package (see above) to implement the rest of http endpoints and route building.
+
+
+Binary
+------
+
+There is only one binary: `cjsnd-snode`.
+
+This binary requires a config file, which can be specified via command line arg.
+
+The example config is `https://github.com/CJDNS-Development-Team/CJDNS/blob/supernode/cjdns-snode/config.example.json`.
+
+To build & run, use the following:
+
+$ cargo build --release
+
+$ RUST_LOG=debug ./target/release/cjdns-snode --config cjdns-snode/config.example.json
+
+This will run the program with some verbose logging. Use `RUST_LOG=warn` to suppress that log output.
