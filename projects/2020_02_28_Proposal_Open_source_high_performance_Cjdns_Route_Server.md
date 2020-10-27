@@ -95,6 +95,34 @@ First payment of 6mn PKT made in 12 transactions:
 [11](https://pkt-insight.cjdns.fr/#/PKT/pkt/tx/2e60f81ad7c989e2914088d74bc0be26908929f98e0783d62a70a698798c65d7)
 [12](https://pkt-insight.cjdns.fr/#/PKT/pkt/tx/9ae795980be3f335100def907a45bf332a03a4d0814218007863ae82cf7d503b)
 
+### Oct 2nd 2020
+Milestone 1, 6mn PKT paid out with transactions:
+[1](https://explorer.pkt.cash/tx/e46acaef0795ea7d24e707a42bbac63567acacc902f3c7a41c879970a9eb3841)
+[2](https://explorer.pkt.cash/tx/cf066f2a2e94faeb2154c2b40bd856413b2865cb3ce60d7d82eae557629a6a4d)
+[3](https://explorer.pkt.cash/tx/ffa6e6e65214ae8c3e87a5007dc4925c5e72e63d71def2c6a706fead6b7d630b)
+[4](https://explorer.pkt.cash/tx/7da3380cec68cca0947ec1c81dd80b32f9359867ec4bae69e9cea91a32d795fd)
+[5](https://explorer.pkt.cash/tx/12fc24fdee07b08992d19665d746b211284e7bf551b6cc3acc93a79c8594e9ac)
+[6](https://explorer.pkt.cash/tx/fcba7f9ff4adf9ecc71990a001e2ab593429fb65b10494e856f6ff26131e0ad5)
+[7](https://explorer.pkt.cash/tx/d121beba888e45fde283bee5489084c9e0a34e9db8bf9faa2a7243016095e12c)
+[8](https://explorer.pkt.cash/tx/94b3175f8e8867a709fd6a4ed0d0611a62bad80cf4e6cbbad25d3d81061f882d)
+[9](https://explorer.pkt.cash/tx/5b4943a0e2e7f3de127779e50cd327c520c986011a1b4d7e0d3dd1a28e30069b)
+[10](https://explorer.pkt.cash/tx/a4645d3c872386b031649dd5f16e8146918c4422d4e68fe1a68f42d1f8a92b37)
+[11](https://explorer.pkt.cash/tx/2df49df75a9c1df4e7c72b192817f337723b51da5d217341f72023435f026695)
+[12](https://explorer.pkt.cash/tx/e912c1b5c29d4d75cb8e656f53c9e3780a48718cdf019447e8edb851c89b8f0e)
+[13](https://explorer.pkt.cash/tx/dbc2db0f44bb7984abdd8b8517a64fef4233c6b66f75d7568c4f90e93de346d8)
+[14](https://explorer.pkt.cash/tx/97bd1b65366661d5e6801e820b70f1e318710f1ab9a8195b2b2f756256e39d1c)
+[15](https://explorer.pkt.cash/tx/abb5d007ccac4511fcf791bb155bcae7931af01f73a713e80608f78439aa167c)
+[16](https://explorer.pkt.cash/tx/55d7bd51a56b25de014585a96203a068535151b6e913b8f6465cebfff2699ee8)
+[17](https://explorer.pkt.cash/tx/449c87a564bba063e9816b2de6af6b20a4f02e6cd9181f55a3d6197ca4e7de1e)
+[18](https://explorer.pkt.cash/tx/3525b259f6870efeab4efb4ee217fd45fb6c90be7627b2ea2b21ca4cd75d8aa7)
+[19](https://explorer.pkt.cash/tx/46a9d3b4886bbc5ff4892405c1761d64cab71cb41e18e0845881a6f9ec0ca8f5)
+[20](https://explorer.pkt.cash/tx/9e85de6d95f967fbf23a2270e256596b78e58d74384a2c26aae693f419e3c4c4)
+[21](https://explorer.pkt.cash/tx/e0b5f18b958c73aa90aa13067364f4a202b0868b90851dbeca1c235fc75b080d)
+[22](https://explorer.pkt.cash/tx/9e92ab93d08db74c045c4a9a19f72b3f8c1ed94a555ff54486776806bc0da4f9)
+[23](https://explorer.pkt.cash/tx/7760c99a5a2d2e6dc68f80496f0fb9cf593ffef6b34a8d5ac7996d5bfcae390b)
+[24](https://explorer.pkt.cash/tx/1501142a9b46788dd199eee6dc90d18727cce64579223640e81208ea7a820825)
+
+
 ## Milestone 1 (M1) report - 2020-09-22 ##
 Rust libraries included in milestone 1 are completed
 
