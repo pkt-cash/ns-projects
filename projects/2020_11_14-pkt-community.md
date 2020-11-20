@@ -61,15 +61,6 @@ Henry Fong is an experienced community builder with experience in branding, onli
 
 **NOTE**: All creative results of the project will be licensed under the [Creative Commons Attribution 4.0](https://creativecommons.org/licenses/by/4.0/) license.
 
-## Success criteria
-
-These success criteria are based on the theory that there are many people in the world who *do* feel disenfranchised by monopoly ISPs and that those people would be excited about the project, and mesh networking overall, but they are currently unaware of it.
-
-* Completion of all assets
-* S_CHAT: 10x growth in number of people registered on pkt.chat - currently 47
-* S_VISITORS: 10x growth in number of people visiting pkt.cash - currently 70/day
-* S_MINING: 10x growth in number of people mining PKT - currently 150
-
 ## Milestones
 
 ### Milestone 0 (Kickoff)
@@ -88,8 +79,6 @@ After the project is accepted, the Network Steward will pay **12 million** PKT
 * WWW_BLOG - launched
 * CHAT_MOD - Code of conduct written and adopted
 * WWW_UPDATE - Update wallet setup instruction and link to blog and docs and to pkt.chat
-* S_VISITORS - 10x growth in pkt.cash visitors
-* S_CHAT - 10x growth in pkt.chat participants
 
 #### Payout
 After a report is delivered on this milestone and it is approved by the NS, the NS will send **8 million** PKT.
@@ -104,7 +93,6 @@ After a report is delivered on this milestone and it is approved by the NS, the 
 * WWW_DOCS - Frequently asked questions added to docs website
 * WWW_I18N - all 3 translations completed
 * WWW_UPDATE - translations integrated
-* S_MINING - 10x growth in in PacketCrypt miners
 
 #### Payout
 After a report is delivered on this milestone and it is approved by the NS, the NS will send **6 million** PKT.
