@@ -170,6 +170,12 @@ The applicant understands that the Network Steward is not a legal entity and no 
 
 ## Status
 
+2020-9-21 milestone #2 is complete: https://pkt.cash
+* Website is designed and optimized
+* Site is live and hosted by cjdns
+* Site pulls data from block explorer
+* resources: https://github.com/pkt-cash/www-pkt-cash
+
 2019-12-24 first payment of 20mn completed to address
 [p9E3mhUtpinkvrn71AmoHNCoWYzMEmCiKq](https://pkt-insight.cjdns.fr/#/PKT/pkt/address/p9E3mhUtpinkvrn71AmoHNCoWYzMEmCiKq) with transactions:
 [1](https://pkt-insight.cjdns.fr/#/PKT/pkt/tx/73ce2918a456dd64151a8916881b420744af0b1e998b3310244f42baa0f5b8c9)
@@ -372,3 +378,26 @@ The applicant understands that the Network Steward is not a legal entity and no 
 [198](https://pkt-insight.cjdns.fr/#/PKT/pkt/tx/6912729413f16888cacacb006de0c3b3b70a3ad703bedfdc0bf5a478eaee2c57)
 [199](https://pkt-insight.cjdns.fr/#/PKT/pkt/tx/fcd0c40dccd650a271c9311b5ce302019455f8c02445faae1dee9e90b811a13f)
 [200](https://pkt-insight.cjdns.fr/#/PKT/pkt/tx/ec9ca663ea47b50aebaaa5b2d064959111ab09635cb26ecbad6bcb884cd34a8b)
+
+### Oct 2nd 2020
+Milestone 2 (5mn PKT) paid out in 20 transactions:
+[1](https://explorer.pkt.cash/tx/222fe0d86627f44602ab5803c587a919993876750eef28077d956c109dc277a7)
+[2](https://explorer.pkt.cash/tx/059ac3b0739d0f0d9bbfe4174a569d2f5c2b3154dd947b0e5f21ff54330a9b1a)
+[3](https://explorer.pkt.cash/tx/fd9f883436ce5da2c66b5e8f226d09102b1bd9633d17ddef49f46c17cebc6773)
+[4](https://explorer.pkt.cash/tx/569b1eb8b5b6dae45069ab7fea02987036a6e773730eed51a6427b7c293f10a6)
+[5](https://explorer.pkt.cash/tx/38125ea358d140fb8f76390d2885734a2a9d998508300f6129fdfae49f518973)
+[6](https://explorer.pkt.cash/tx/c425ef8a82b068128750a2f98fa11af5db0f6b094d99c3153750f3720dc39452)
+[7](https://explorer.pkt.cash/tx/61841352df23347f9d105886c0fd8c283821b034aee0ed1c1367967c1a00e56e)
+[8](https://explorer.pkt.cash/tx/7da75db5e54a4ee2ad903bb805fdae90754ecea33e2db9668d084e3b4147da4b)
+[9](https://explorer.pkt.cash/tx/46f0b4e7b1534c2f37a17fdb9b995f025304d21c3b9b1a341dc08d2baff41bc3)
+[10](https://explorer.pkt.cash/tx/ec0b26dad21e4a3b6d095612f530aab715d7f96341187beaf17bcbf975d02f99)
+[11](https://explorer.pkt.cash/tx/4b368a28bfebeda073d4d649af0bf63fe8144e904c2f25dd8cd685b98ff8740b)
+[12](https://explorer.pkt.cash/tx/e4a57c26bab5dee244b87c2c7ec51517fe851d707ac2be89eb5523e8f1bd35a8)
+[13](https://explorer.pkt.cash/tx/71de373abb4561d177ad15f1ecda06cf88f711f94bd31ed985c68191e4e55770)
+[14](https://explorer.pkt.cash/tx/e89270486a8ee48f38a15fbb41982ea006f937bd923ee6935631b78bf7a4b681)
+[15](https://explorer.pkt.cash/tx/3a7874609587dcb909e48211c854fa21b07278dd96838bb6db11f2a0f2bb256e)
+[16](https://explorer.pkt.cash/tx/68d27315e5d1f0364d42c5d0e6e1b81c81014d886a95e608baecf1bb7d399933)
+[17](https://explorer.pkt.cash/tx/e0a292f6be45a76b60e5ebee180ac361ca0f6c52e0a4df64858e484d79dc7342)
+[18](https://explorer.pkt.cash/tx/3909dccc3eb51aadf6f5459b11f158ae69e4c5469aa1953b987a319c076ddc74)
+[19](https://explorer.pkt.cash/tx/bf7aa6b24056d96ce7b0acaca5edc9c549982182be8e98b7b3547e2ded8dc282)
+[20](https://explorer.pkt.cash/tx/e39f0ed9026499372d5e60fb1dae5b0da157197595a4bb86b3dc5432ad4e365b)

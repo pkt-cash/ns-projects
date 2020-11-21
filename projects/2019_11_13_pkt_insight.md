@@ -8,7 +8,7 @@
 * Projected duration: 2 month
 * Projected effort: 4 person-months
 * Requested PKT contribution: 25 million PKT
-* Project status: **APPROVED**
+* Project status: **COMPLETE**
 
 ## Project summary
 The objective of pkt_insight is to develop software which will make it easier to collect and track data about the blockchain for debugging purposes and for checking the status of transactions and addresses.
@@ -329,3 +329,132 @@ Second payment has been partially made in transactions:
 [9](https://pkt-insight.cjdns.fr/#/PKT/pkt/tx/1e9b93e54fa4eaf118571a60fc626394ea618015baa25af534cc488c9008001a)
 
 Due to a technical difficulty, the NS was unable to pay the last 0.5mn PKT, the applicant has signaled that they are willing to accept payment later.
+
+## Milestone 2 - Final Report - 2020-05-04
+For the second and final milestone, our objective was to improve the blocks page, create a Network Steward
+page and improve support on mobile devices.
+
+The project results remain hosted in the same locations as they were before, with the exception of the
+[PKT Explorer Frontend](https://github.com/cjdelisle/pkt-explorer) which is now hosted under the cjdelisle
+namespace.
+
+### Deviations from the project plan
+
+There was a significant amount of attention placed on making the explorer mobile-friendly, with every page
+having been tested on both Android and iOS devices at various screen resolutions.
+
+The "Blocks" page was removed in favor of the main page which contains all of the same data. This did not
+have any technical impact but is believed to make the workflows more comprehensible for users.
+
+The feature **F_NS_TX** was not delivered as described, in it's place there is a link to the NS charter.
+The applicant classifies this feature as *not delivered*. See justification below.
+
+The feature **F_BLKS_NXT_RETARGET** was slightly altered, showing a projected next difficulty rather than
+a projected change in percent. The applicant classifies this feature as *delivered*. See explanation below.
+
+There is an additional feature which allows export of income. You may find it by going to any
+[address page](https://newalpha-pkt-explorer.cjdns.fr/address/pDEn6kwubA3JNcFeEBWLLdM8bxmMKz6oyB),
+selecting the "Mining income" tab, and then scrolling to the bottom of the page.
+
+### Features for Milestone 2
+
+* [x] **F_NS_CURRENT** On any page, one can click "Network Steward" link in the top bar to be taken to the
+Network Steward page.
+* [x] **F_NS_TALLY** On the [Network Steward](https://newalpha-pkt-explorer.cjdns.fr/address/pkt1q6hqsqhqdgqfd8t3xwgceulu7k9d9w5t2amath0qxyfjlvl3s3u4sjza2g2) page, there is a field saying
+"Votes needed for reelection"
+* [x] **F_NS_RUNNERSUP** On the [Network Steward](https://newalpha-pkt-explorer.cjdns.fr/address/pkt1q6hqsqhqdgqfd8t3xwgceulu7k9d9w5t2amath0qxyfjlvl3s3u4sjza2g2) page, the "mining" tab is replaced with a
+tab showing "Election candidates" which shows the runners up.
+* [x] **F_NS_BURNED** On the [Network Steward](https://newalpha-pkt-explorer.cjdns.fr/address/pkt1q6hqsqhqdgqfd8t3xwgceulu7k9d9w5t2amath0qxyfjlvl3s3u4sjza2g2) page there is a field showing burned.
+* [x] **F_NS_BALANCE** On the [Network Steward](https://newalpha-pkt-explorer.cjdns.fr/address/pkt1q6hqsqhqdgqfd8t3xwgceulu7k9d9w5t2amath0qxyfjlvl3s3u4sjza2g2) page there is a field showing balance.
+* [ ] **F_NS_TX** This item is not delivered as described, in the description it was said that
+each transaction would contain a link to the relevant project, but since this would have required polling
+data from a secondary source and because (due to technical limitations) single payments are made in large
+bunches of transactions, it was judged to be more work and less usefulness than simply displaying the
+transactions in the same way as transactions made by any other address. In place of this, we put a link
+to the Network Steward charter which displays the charter of the current Network Steward and will change
+to the word "Unknown" if ever the Network Steward address changes (until the code can be updated to include
+the charter of the new steward).
+* [x] **F_BLKS_RELAGE** This item is displayed on the main page under the "Age" field, hover with the mouse
+to see the exact age.
+* [x] **F_BLKS_RETARGET** This item is resolved in the main page, any difficulty-retarget block is shaded red.
+* [x] **F_BLKS_NXT_RETARGET** This item has been implemented, but not as specified. Instead of a + or -
+percentage of difficulty, we opted to display a numeric next predicted difficulty because the percentages, when
+observed, proved to be very small.
+* [x] **F_M_BALANCE** All features of the explorer work on mobile devices.
+* [x] **F_M_EARNING** All features of the explorer work on mobile devices.
+* [x] **F_M_LASTBLK** All features of the explorer work on mobile devices.
+
+### Success criteria
+
+* [x] **S_CI** Codebase passing automated continuous integration build
+  * https://travis-ci.org/github/cjdelisle/pkt-explorer-backend
+  * https://travis-ci.org/github/cjdelisle/pkt-explorer
+* [ ] **S_INSTALL** At least one successful independent installation of the explorer
+  * There was previously an installation of the explorer at https://pkt.hprivakos.net/ but currently this is down.
+  * The evaluators of the proposal are invited to setup an instance to verify that it can be easily installed.
+* [x] **S_FEATURES** At least 90% of the described features achieved
+  * In this milestone, there were 12 features specified and all but 1 were delivered.
+
+### Request for guidance
+
+In addition to the applicant's request that the project be accepted as complete, the applicant additionally
+requests guidance on the following question:
+
+Should pkt-explorer-backend, pkt-explorer-insightfe or pkt-explorer be transferred to the pkt-cash namespace?
+
+If the answer is yes, the applicant requests continued administrative access to the repositories in order
+to continue long term maintanence of the software.
+
+## July 1st 2020
+Applicant was paid 10.25mn PKT, we intended to pay 10.5mn to cover the technical fault which caused
+the NS to owe the applicant 0.5mn PKT, but the same fault emerged again causing the NS to still owe
+250k PKT.
+[1](https://explorer.pkt.cash/tx/f91fc36be155c0b87ba2df49c12f3ec462297aa8963fbe0b5c0708e4405588fb)
+[2](https://explorer.pkt.cash/tx/e0ca087c654c2ff7dac9b7c02ab348fe42960b6aca6546a2af75c4ad0df02ff4)
+[3](https://explorer.pkt.cash/tx/bc9dedcb903e72cbffcd9a26f5d733a4042e03b71c842e51491a94cdb6c9b247)
+[4](https://explorer.pkt.cash/tx/788a0c3c2af50e0e824f2fc4537b048d5e60b3615f979c6f72bade43ed77163a)
+[5](https://explorer.pkt.cash/tx/0d9cdc6205a86a345d1546202dc80f758749603f1c2d115b85cde1a5c6dec236)
+[6](https://explorer.pkt.cash/tx/fcf95d00e9338b35a33e3537aae337465ba1f697da304b6ac0f4468b0785a6f7)
+[7](https://explorer.pkt.cash/tx/fcf74b75ffae784b03e20bf3a983f82564cf5255045eb0c04d36b292543c4de0)
+[8](https://explorer.pkt.cash/tx/f82cbee03b369619660395dcc5cc98f7888b65bc09bf3907edfbaabdb02b7e4c)
+[9](https://explorer.pkt.cash/tx/ed2ea9675d16cc0e62e2ea2c3a241d0ef853eddf1a66113a07e26d8187e9762e)
+[10](https://explorer.pkt.cash/tx/cd6bb00be093253e370ccde163efa64ae347f70eb5a9e0d8248c4c1dccbabe64)
+[11](https://explorer.pkt.cash/tx/bd39cdb4290a378b90f343fd920a7fb2ade44a4706eb38df07293e4493168da5)
+[12](https://explorer.pkt.cash/tx/b03fff48f207c00532138591f54de8e4ced3fdfee3b7a049791430b757b8413b)
+[13](https://explorer.pkt.cash/tx/9da79c03366e69155a26942fa03c53ea5ecb26eba2bd2cab3d37c3a702f7cf57)
+[14](https://explorer.pkt.cash/tx/9628644007e2a6ac358512932a713a14b242ab911d0bddf08b35245a9ed8dd57)
+[15](https://explorer.pkt.cash/tx/8ea7f1b99210f1ce7590798e7b7e1118d7d98d4c80cc9c9dbd8bf877efe091cc)
+[16](https://explorer.pkt.cash/tx/3239ceed002e90c298fa2b5d554b4adaee429a2d8bc130da9f43510a1f0ee5b2)
+[17](https://explorer.pkt.cash/tx/2735ff069ca983e31b4e3d04061cda2ba6656fb094da9a37de562ec9a6524c37)
+[18](https://explorer.pkt.cash/tx/0bb77b1099e106460648fbf7085f4b422d147ea116d2502fa16e248784da3982)
+[19](https://explorer.pkt.cash/tx/09e8bfe6214126331b3f2c9db50bf91a3e993aeebf24817ef1da31ca65e82948)
+[20](https://explorer.pkt.cash/tx/dbcc6485a9572eaa6f302ca03b5f5aa76496dc24809ce7d3aa862ce3d8ee4971)
+[21](https://explorer.pkt.cash/tx/ceeeb341fbb5f0cf7a4ab5e67eb52c9e0f1024fe28384129b41f69b1177f3241)
+[22](https://explorer.pkt.cash/tx/a3e48c43d99d513a4addb7588780025998cffb83e36f422ed99bfb34daadc12a)
+[23](https://explorer.pkt.cash/tx/974676fb7ae12ba98e254b256930ad513cdfe38494d8416e7e76d954df5a5d06)
+[24](https://explorer.pkt.cash/tx/9639117dff9246cf9f90d7464975dbbadeb294c059c15d6b7c3dbd42926f36ed)
+[25](https://explorer.pkt.cash/tx/95c2daac7d032ea7f7cb46c3036a2ac509b82d588ac783c45d64d0480268a41e)
+[26](https://explorer.pkt.cash/tx/77747e52f63ee2b1adfae53982f290a6d867ca70e45f4686a68a9e938673c021)
+[27](https://explorer.pkt.cash/tx/5eec7c768d8ff8da4e57efd544fc47b216ff11291810865fa978a3bc8a169781)
+[28](https://explorer.pkt.cash/tx/5b83832b4df9e13c925c42254374e51474a80dd746d35486966a8089d6dff997)
+[29](https://explorer.pkt.cash/tx/548fedfb6a9d0856aac20fc9eb49fa59f4fb061b3d545052e1531e96f60a5168)
+[30](https://explorer.pkt.cash/tx/4e8020498b4a26ccec22357e24dfea2e6ee6f259c31a04efc6b83a9baec1aa4d)
+[31](https://explorer.pkt.cash/tx/4e1c48895193fc01791e830797afa19feb7c8bd2bb7c6e511b50a8a614573fae)
+[32](https://explorer.pkt.cash/tx/4183b4d33f833351783b1adc7fdbd2773a8f849179fadbcdce4e437123e985b2)
+[33](https://explorer.pkt.cash/tx/39cc84b10e96d87b3ee0ef6f68536a3e57c77ac875faefde2240853651664cd4)
+[34](https://explorer.pkt.cash/tx/f5d0ae62aefd001ec27a765f5eae29d16c7f18236fcf680fb28fccd25c561743)
+[35](https://explorer.pkt.cash/tx/eb4c210ffb16354cbed471f1aeac46229bf6a7f8f9d9ed3596cd6ae1cc3a8e82)
+[36](https://explorer.pkt.cash/tx/4b026b221b963b9c41e0a6d9cda83fe025d9cbf388f60720210b3ece53176c5a)
+[37](https://explorer.pkt.cash/tx/3eb798863c06cfaf67a0175192fa68c2be9853a56d78ce80582a1e6ba7b06d44)
+[38](https://explorer.pkt.cash/tx/34f59c459bf36fd31d465d215ff1a03393cc06e661821415cd679259c445cca2)
+[39](https://explorer.pkt.cash/tx/00b50667c3c529025c3c2b566481c3c97231b13f688fc3ebde45009a2987a957)
+[40](https://explorer.pkt.cash/tx/28430a2dc5c03d461d1802ef0eb5ee0e2d6579017dc839ebcf133c181db8f1bf)
+[41](https://explorer.pkt.cash/tx/81b789746ce63ffd833690a425d11731c1c5f4c712516b20ec1e14042c025400)
+
+## Oct 9th 2020
+250k PKT paid out, completing the project.
+[1](https://explorer.pkt.cash/tx/eb94c2ee8e92b7444ec906e8c0af5c7de4056f3ca9f113d46bc4a5b5c90e3e53)
+[2](https://explorer.pkt.cash/tx/2f1e19fb804c2237ba4aabe8fbef56fa04946396e6343585db8ef037663acb94)
+[3](https://explorer.pkt.cash/tx/98035bf503f1e5bd53ca82d48edbce7ae86ae2d82d2cd727e4f47b0bf49e2af7)
+
+
