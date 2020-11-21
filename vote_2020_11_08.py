@@ -123,9 +123,7 @@ votes.append({
     # communication materials to engage with a wider audience. It is important to do this
     # broad engagement in order to identify gaps and start receiving wider input, so this
     # proposal seems timely. There are clear asset deliverables, which this project team
-    # seems capable as they have completed previous projects. The "10x growth" goals are
-    # inherently risky, but there are clear metrics defined, so to the NS the risk is bound
-    # by respective milestones. There is additional "hazard" risk around this leading to
+    # seems capable as they have completed previous projects. There is "hazard" risk around
     # PKT price speculation, and the team has made a statement on how to address this risk.
     # Since assets are published openly, the NS will have an opportunity to evaluate whether
     # the community building efforts are focused on driving price speculation or promoting
