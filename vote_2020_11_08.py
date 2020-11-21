@@ -50,6 +50,52 @@ votes.append({
   },
 })
 
+# Ben
+votes.append({
+  'gridfinity': {
+    # It's been clear some support is essential to operating a functional network at all
+    # so this work is a necessity in the short term. The scope is clearly-defined and
+    # there is a history of the same people doing this work, so risk is low and not
+    # spending on this project pretty much asks gridfinity to do this for free.
+    'short': 0.9,
+    'long': 0.8,
+    'scope': 0.8,
+    'risk': 0.9,
+    'hazard': 0.7
+  },
+
+  'community': {
+    # The network has reached a stage where there is enough software, infrastructure, and
+    # communication materials to engage with a wider audience. It is important to do this
+    # broad engagement in order to identify gaps and start receiving wider input, so this
+    # proposal seems timely. There are clear asset deliverables, which this project team
+    # seems capable as they have completed previous projects. The "10x growth" goals are
+    # inherently risky, but there are clear metrics defined, so to the NS the risk is bound
+    # by respective milestones. There is additional "hazard" risk around this leading to
+    # PKT price speculation, and the team has made a statement on how to address this risk.
+    # Since assets are published openly, the NS will have an opportunity to evaluate whether
+    # the community building efforts are focused on driving price speculation or promoting
+    # the NS's vision of a decentralized bandwidth marketplace. If accepted, I encourage the
+    # project team to stick to this statement and present plenty of evidence in their reports.
+    'short': 0.8,
+    'long': 0.7,
+    'scope': 0.6,
+    'risk': 0.5,
+    'hazard': 0.6
+  },
+
+  'doublewallet': {
+    # Important to have a second wallet implementation for the near term, but long term
+    # value is limited. A bit expensive for the outcome in relation to what is most needed
+    # for the network at this time. High confidence the project team can deliver this.
+    'short': 0.7,
+    'long': 0.5,
+    'scope': 0.6,
+    'risk': 0.7,
+    'hazard': 0.6
+  },
+})
+
 print "WINNING PROJECTS: %s" % getApprovedProjects(budget, costs, votes)
 
 projects = {}
