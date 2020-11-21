@@ -9,6 +9,60 @@ costs = {
 }
 votes = []
 
+# Adonis
+votes.append({
+  'gridfinity': {
+    # est 1600 man-hours, 3mn PKT ~ $9.75/hour
+    # Gridfinity has been and continues to put considerable effort into
+    # improving the PKT blockchain. This proposal effectively describes
+    # work they are already doing. I believe they have the experience,
+    # commitment, and follow-through to deliver on this project.
+    # They are better equipped than anyone to do it and honestly they deserve
+    # it for the work they've already done.
+    'short': 0.9,   #
+    'long': 0.7,    #
+    'scope': 0.7,   # 
+    'risk': 0.7,    # 
+    'hazard': 0.7   # 
+  },
+
+  'community': {
+    # est 11000 man-hours, 26mn PKT ~ $11/hour
+    # Josh and Jesse have done a nice job on the pkt.cash website, and having
+    # worked with Josh on app design, I know he has a keen eye for design.
+    # I believe this is a much bigger project than what is letting on,
+    # and must be maintained and nurtured once begun.
+    # instructional material can make the complex relatable.
+    # Lack of such resources is hindering adoption of PKT,
+    # But I fear the risk is that materials are launched and there is no
+    # way to manage the potential rapid growth in questions and interest
+    'short': 0.6,   # 
+    'long': 0.8,    # 
+    'scope': 0.4,   # 
+    'risk': 0.4,    # 
+    'hazard': 0.6   #
+  },
+
+  'doublewallet': {
+    # est 6400 man-hours, 40mn PKT ~ $31.25/hour
+    # The exisitng wallet is a challenge to use - it takes a long time to load
+    # the chain and requires a lot of disk space. Obviously it is in progress
+    # I like the idea of using newer technologies such as Electron to deploy
+    # wallets simultaneously on multiple platforms, and it's possible that
+    # having multiple wallet options for consumers can grow the community
+    # faster, though I think only time can tell.
+    # For these reasons I don't believe this is a critical feature
+    # but one that improves the PKT project longer term.
+    # As wallet functionality is more-or-less closed in scope, I believe
+    # the scope and hazard are easily managed.
+    'short': 0.4,   # 
+    'long': 0.6,    # 
+    'scope': 0.8,   # 
+    'risk': 0.8,    # 
+    'hazard': 0.8   # 
+  },
+})
+
 # Neil
 votes.append({
   'gridfinity': {
