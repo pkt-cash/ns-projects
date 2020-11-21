@@ -777,6 +777,24 @@ The parts of the project include:
 * App can not yet route traffic or enable users to connect to a vpn (Objective achieved - user can perform this task)
 
 
+In our process of building Milestone 1 and 2 goals, we have deferred some features to later in the project, and removed others.
+
+We chose to focus on connectivity first and then App implementation, which results in us having nearly completed the App and Server API without much on the "Server Website" side which will ultimately explain the project to customers and offer downloads. Instead, the binaries are hosted directly on Github and no customer-facing information is provided at this point.
+
+Deferred features
+
+* Server website design
+* Client website design
+* VPN configuration through API
+
+We also implemented REST API and account authorization using the cjdns keys available on the App, which enabled us to provide VPN access to users who don't want to provide potentially sensitive information such as their name, email, or phone. This option, plus our focus on an App-first design removed the need or sometimes prevented the ability to provide certain services from the client website, including:
+
+* Push alerts
+* Account login on server website
+* Account password management on server website
+
+However, these changes also enabled us to move faster on certain goals from Milestone 3 and 4 related to App design and implementation.
+
 ##### Accomplished Deliverables
 
 In developing the App, we’ve reprioritized the milestone slightly. We focused on
