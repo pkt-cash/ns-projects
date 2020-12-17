@@ -134,3 +134,13 @@ First payment of 8mn PKT made in 16 transactions:
 [14](https://pkt-insight.cjdns.fr/#/PKT/pkt/tx/595499002611e0c9e1c55db9a101db5e1dba7b5ebb53c60bc4b23a6c5d3aa25d)
 [15](https://pkt-insight.cjdns.fr/#/PKT/pkt/tx/944b0ac85ee0ceebd14f462afe1f85b8d69f6d55758953e4fd5a8e81a8df98dc)
 [16](https://pkt-insight.cjdns.fr/#/PKT/pkt/tx/7c8e437d82c222e580838bcc7e0ba521c019bb56c60e2cba816a1b576bdbf76a)
+
+### Milestone 1  2020-12-17
+-----------
+
+* CJDNS build allows Rust code to be compiled along with the C code
+* Interoperability with C code is implemented: certain important C functions are made available for call from Rust and vice versa
+* Key concepts are implemented in Rust: Interface and Message
+* Unit tests are written to show that C-originated Message can be handled in Rust Interface
+* AndroidWrapper is rewritten in Rust: a small Inetrface that demonstrates how everything works together
+
