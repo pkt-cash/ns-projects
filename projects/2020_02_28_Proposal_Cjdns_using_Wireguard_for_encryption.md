@@ -134,3 +134,8 @@ First payment of 8mn PKT made in 16 transactions:
 [14](https://pkt-insight.cjdns.fr/#/PKT/pkt/tx/595499002611e0c9e1c55db9a101db5e1dba7b5ebb53c60bc4b23a6c5d3aa25d)
 [15](https://pkt-insight.cjdns.fr/#/PKT/pkt/tx/944b0ac85ee0ceebd14f462afe1f85b8d69f6d55758953e4fd5a8e81a8df98dc)
 [16](https://pkt-insight.cjdns.fr/#/PKT/pkt/tx/7c8e437d82c222e580838bcc7e0ba521c019bb56c60e2cba816a1b576bdbf76a)
+
+
+**Milestone 2 (M2) 28 December 2020**
+New version of cjdns is using cloudflare BoringTUN based WireGuard encryption. Demo of two cjdns connecting is working and accepted in mainline cjdns.  New version falls back on CryptoAuth for communicating with older cjdns instances.
+
