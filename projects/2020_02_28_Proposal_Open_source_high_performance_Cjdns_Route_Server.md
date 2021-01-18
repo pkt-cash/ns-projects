@@ -216,3 +216,11 @@ Rust version of cjdnsnode has the following features:
     * onSubnodeMessage implementation supports 'pn', 'gr' and 'ann' messages;
     * built-in http server supports /ni and /walk endpoints;
     * all processing code is asynchronous.
+    
+## Milestone 4: Iterative updates to dijkstra tree - 2020-12-07 ##    
+    
+   Rust version of cjdnsnode has the following features:
+    * node graph (for the Dijkstra search) and the route cache are periodically updated in background, without blocking ongoing lookups;
+    * when the graph is updated, the new data is switched with the old data, so that subsequent lookups can use it;
+    * the Dijkstra search is able to return paths to all nodes, so that Yggdrasil search can easily be implemented on top of that;
+    * all processing code is asynchronous.
