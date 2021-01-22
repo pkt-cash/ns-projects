@@ -10,7 +10,7 @@
 * Projected duration: 4-6 months
 * Projected effort: 8 person/months
 * Requested PKT contribution: 24M PacketCrypt tokens (3M tokens per man month)
-* PKT address: pKHsMf6Eg8YB2jTJUpdRbCj7RpvpMpYRkU
+* PKT address: pkt1qux6nhrz37pcfx60ppzsaf3c3zc05a4r4yqqtwk
 * Project status: ACCEPTED
 
 ## Project participants ##
