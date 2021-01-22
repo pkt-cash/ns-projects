@@ -122,6 +122,53 @@ Milestone 1, 6mn PKT paid out with transactions:
 [23](https://explorer.pkt.cash/tx/7760c99a5a2d2e6dc68f80496f0fb9cf593ffef6b34a8d5ac7996d5bfcae390b)
 [24](https://explorer.pkt.cash/tx/1501142a9b46788dd199eee6dc90d18727cce64579223640e81208ea7a820825)
 
+### Nov 26 2020
+Milestone 2 and 3 have been paid out for a total of 12mn PKT.
+As of now, Milestone 4 has been accepted but the, 6mn payout remains outstanding.
+Transactions:
+[1](https://explorer.pkt.cash/tx/6e04dd97e23ca294befc841aa860fbd124085c6b6268077610b9a7981fd6c238)
+[2](https://explorer.pkt.cash/tx/547f978fb63a41e0f5d495034abeaadbcf1dce1db8eba48069e6d4ead541738a)
+[3](https://explorer.pkt.cash/tx/76aa4fa7816069c5ba902467e4bdd3a9da4984a881092842243c9faf7de18cc0)
+[4](https://explorer.pkt.cash/tx/94ac7246644f9291ca19cc43efe59b3a0c6c1836f5a4d50d9767b3ebfd602bbc)
+[5](https://explorer.pkt.cash/tx/7b81aaab8b947c5ffcd86431c1acb46e4958db9da8ef0fd09ecfc8e466f6faf7)
+[6](https://explorer.pkt.cash/tx/e9f05606ba15c28969b6c911eaa7b612202e15ffe256442223408e20eb69ac5b)
+[7](https://explorer.pkt.cash/tx/8103bb35f0e1d86c9eccb55b891913c1d50ece0508371cd19adaf733854f6fcc)
+[8](https://explorer.pkt.cash/tx/630cf7f3db0fc29161ac70403c638ebcad082aedd8f531ab1fc0da14fe10bf04)
+[9](https://explorer.pkt.cash/tx/c4a61a0c41a318dea76863cb92cbc2af8c20b5d4072655563f175fb1e4c4a7a6)
+[10](https://explorer.pkt.cash/tx/342de6c6b8634d93b3ba03be3e96600a7dad47835aa1f8a6a8c90e28f5be086c)
+[11](https://explorer.pkt.cash/tx/4d53f350254e126cdd4cfb360739f88ea623ab1616d0d5c0eb64994d9cd3f0cf)
+[12](https://explorer.pkt.cash/tx/e285378ee9931c036773de78e70dc859914dc8ccfa80c04a087c66e898c1b783)
+[13](https://explorer.pkt.cash/tx/8ba9bf443fdeb1d6aa28e2a36236dbe4de9a9d25fa29bc833e33b41042c0c8fa)
+[14](https://explorer.pkt.cash/tx/897e2a3d918c956c940a46ae594a27d6f87aec3318279867f728911d1b1cb0e8)
+[15](https://explorer.pkt.cash/tx/46bc130da0afff5e971198ed149fd53e70fdab102f544206e10a6f3e73af0bbd)
+[16](https://explorer.pkt.cash/tx/68ec918ba2b83f69968055b7edfd5d6b959f46c01ebe47b1a1cb799cf3f0010e)
+[17](https://explorer.pkt.cash/tx/f7f9ca02a7f60acc075fb8c61e4d9b62702b672bc615fe50b25512c6bf1bcae2)
+[18](https://explorer.pkt.cash/tx/5f85586f06042a2a0ffea704ca3baa65019c2f1d1a54e9faf12fecc5dfab2eae)
+[19](https://explorer.pkt.cash/tx/571b3220bf3c33a65017b252e54be5b2a11c7b7ceda9547a0a457d0cfa52a43d)
+[20](https://explorer.pkt.cash/tx/6bd27a471d735f9f532ceccba925d3e6ed18c68a503ac5dabe16c2769b71ffb7)
+[21](https://explorer.pkt.cash/tx/1f65a1ac2c94246c816221b7ac489d763195d2ef1d0fbe9b76fd6ceefcda7a7b)
+[22](https://explorer.pkt.cash/tx/62085588830d18ef0a73a526514b5d158a1baf561af0e692f0aafab9e02345dd)
+[23](https://explorer.pkt.cash/tx/195a637e461f3c4babd772aef513298459692ba0194926ba0684695a8c828f7e)
+[24](https://explorer.pkt.cash/tx/6a7ef923181e81ee019056400efae8bb880f9db6d7079c1f24db810da4d83b5e)
+[25](https://explorer.pkt.cash/tx/b6c6122ea1dc7123d973654c5ea9e2a830cffb27f414970da2a24c2ff5a6b923)
+[26](https://explorer.pkt.cash/tx/c47fc8baad7f138442c8c90d262431d7c1525c7bf06016d6fb08da8d7c2780f2)
+[27](https://explorer.pkt.cash/tx/6111650567a8588823df485588b252d6540f151b7bf74ee5e75d04421f04a90f)
+[28](https://explorer.pkt.cash/tx/25a55b2c9680c5ccb934a3b587e5aea0cdefb016b53c470c166539a37fa2e969)
+[29](https://explorer.pkt.cash/tx/710c9667914f4116754e72951aee29d2ac270f5b13eaf7f8521c18a1cbf98178)
+[30](https://explorer.pkt.cash/tx/a1ed522b5542717b6c90c69e95e925f6a31a29df3df3b3556435b58472d6388c)
+[31](https://explorer.pkt.cash/tx/50e44c6ab34d76e6a15b4002a58bab46555e4f286d8ced1c40c85b6c5ccf33b9)
+[32](https://explorer.pkt.cash/tx/189bd7446f2b1d0492f83d67c4a5cb9063cf3f578075dd8e2d698143f2dd1acf)
+[33](https://explorer.pkt.cash/tx/290978e9beb0bd4960eeb3709a631c1534ab63f0cfebde0f729371a2f576a75f)
+[34](https://explorer.pkt.cash/tx/6890da62ccde4a22629b51c994ac23fd300c732fb6a9f3d135b256695bd58ca1)
+[35](https://explorer.pkt.cash/tx/e556583ceebafc07e2cb08962b946a0171d1354b59a9d1180284f57c63122747)
+[36](https://explorer.pkt.cash/tx/7c8c9669c669c59d5368bdafa44f5f14c9d20808d718a264aa19c509f76bf912)
+[37](https://explorer.pkt.cash/tx/2797379fbac187ae8e858a94baee0f2cf99bcc62313997f507aa6a4ba21d5a06)
+[38](https://explorer.pkt.cash/tx/66f4895bfccc39a135e8a8ef196a471eb81c0ae51ee1116c25332d82099c7454)
+[39](https://explorer.pkt.cash/tx/302ba8b838b1319359f11e8e0973b86a5bebf49b506c32678834f8bbfdc7c800)
+[40](https://explorer.pkt.cash/tx/0e3059e08af8455f02d2cf94cf5a258cfc2e17f8899b1eb1ddb28a34aefaf50e)
+[41](https://explorer.pkt.cash/tx/6e205470f4a83fb544880200e563441e5c15166de95aa98e2d5fcca27d02d0ba)
+[42](https://explorer.pkt.cash/tx/6f219b0ad68ce6b5af3b12f0783a02d2a382e3535140d775c8dc1de32f9e3e60)
+
 
 ## Milestone 1 (M1) report - 2020-09-22 ##
 Rust libraries included in milestone 1 are completed
