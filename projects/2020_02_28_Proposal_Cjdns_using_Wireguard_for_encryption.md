@@ -135,6 +135,40 @@ First payment of 8mn PKT made in 16 transactions:
 [15](https://pkt-insight.cjdns.fr/#/PKT/pkt/tx/944b0ac85ee0ceebd14f462afe1f85b8d69f6d55758953e4fd5a8e81a8df98dc)
 [16](https://pkt-insight.cjdns.fr/#/PKT/pkt/tx/7c8e437d82c222e580838bcc7e0ba521c019bb56c60e2cba816a1b576bdbf76a)
 
+### Jan 23, 2021
+Milestone 1 was accepted and paid 8mn PKT in the following transactions:
+[1](https://explorer.pkt.cash/tx/ee21e2078a67bbed8fa0f50dae548ab5444673f4475c2eb7f00361c22f55f65f)
+[2](https://explorer.pkt.cash/tx/c127c21416ef7bdee999b77a0c836fdbd2e344c298ca7e57f851df0b2627d1e8)
+[3](https://explorer.pkt.cash/tx/ec8db72fa713473d72afa9109538ceb75f43184f3cae00fe1205f096918b7609)
+[4](https://explorer.pkt.cash/tx/673f03779f1c0a17048fdff021cecc36ff7a9853d25d6ab5701f1487bc296dc1)
+[5](https://explorer.pkt.cash/tx/820c85dfe76a7c92dc3b3deb43235d58837a3e00d1b52a4634fb8bf07fa71201)
+[6](https://explorer.pkt.cash/tx/5535ed61a4754371048c5be6ca5cdf15e6bdfbf7036a526e38b284b67506e48e)
+[7](https://explorer.pkt.cash/tx/1591e3c493eedbd776ff6bdaf2c33aaa839f50169ded68b495d9530afe76a96a)
+[8](https://explorer.pkt.cash/tx/3eccdd5c4e8bc7c3c0cc94e75c52b1ca97eefaaae53625519815409dbea9cbda)
+[9](https://explorer.pkt.cash/tx/6cf28cf2724bfb8451c437028e835d1f3891c726f39dd8c85885454954e97a52)
+[10](https://explorer.pkt.cash/tx/0586dd70449131e89d5341019869c1c5a72c4804459ffe7178b3f73ee70e3f4b)
+[11](https://explorer.pkt.cash/tx/6cd46f35de3e214d263cca07b3ba17e6fdba4f54a9f3cfa1d5d2b1c786cdf565)
+[12](https://explorer.pkt.cash/tx/47555a051e258f764895c6e8944e1178218ccd1a734299d1468a9c89e04c5d4e)
+[13](https://explorer.pkt.cash/tx/160b4d0aacf2b792c7113da2830e42ec18c0c058180467454e9296903c3b75df)
+[14](https://explorer.pkt.cash/tx/92ad9e2b959434aa291e28c83f34cd465c81d662855fdacd7b3b0532c39f4a24)
+[15](https://explorer.pkt.cash/tx/abd6dfc49f188f786780640201ffc709367c3ebf78ba95417f59478f44c45295)
+[16](https://explorer.pkt.cash/tx/5dd27e31bc93a477513e24b847748bf44a03ed1322091deaf41bab4e5a35934c)
+[17](https://explorer.pkt.cash/tx/be3883ac7c5fcc7fa3fab2ae1d4487f3c9671ec11b47587d5c60a559473bd961)
+[18](https://explorer.pkt.cash/tx/c603e1aa3bc593038367d51e0108e2be7866b3d1a5986be84fe538f4f6a0fbcb)
+[19](https://explorer.pkt.cash/tx/b8221de287d79efcb228578f81f3271ec67a96f74bb244a93d4cfec4d2dcff67)
+[20](https://explorer.pkt.cash/tx/4e94a7b78e4a856f6341eeaa8d4d1735194d55446c834ad137e385516d3cdbf2)
+[21](https://explorer.pkt.cash/tx/957953d5358e2a1d839cfa59403f393de5e5fa8db94ec938d5af39d234cdfd57)
+[22](https://explorer.pkt.cash/tx/bbdef2f7e09e1f18d3e2a56d34d947461d640beeafd33397badedbf9ab99fb61)
+[23](https://explorer.pkt.cash/tx/0093c3894635f6ba6268b661171b6718c3cc8d4c3ec6bfae0e668929a92fbf74)
+[24](https://explorer.pkt.cash/tx/da64c15fecab9aea31bbefdeb6eda2436d946d9436a06eada26791c085017aa7)
+[25](https://explorer.pkt.cash/tx/8702e621f78478d951454287a834326a64e6d0adae931b4fe1ca2214078e48bf)
+[26](https://explorer.pkt.cash/tx/562bcb9e641f4f0fb25fee238bf3cfe6c11ab53b2899b5742ddeef9e0f592e10)
+[27](https://explorer.pkt.cash/tx/b2f7642259ba20ba5b711409c8e8845c0dd462d5acd1835ad8d8a16713d9d8a4)
+[28](https://explorer.pkt.cash/tx/b1d6988db11ca75563aa4806539bb502e52dea06b0606626c82505be54a46d90)
+[29](https://explorer.pkt.cash/tx/810f5a12b9184b34e3759ea6642f2d7f9dd518bbe66d3e2f54a4c52ed44c1d6a)
+[30](https://explorer.pkt.cash/tx/b28f8b1b33679987a5710bad0e5ff91bf6ed57ad70d746318810acac45952d5e)
+[31](https://explorer.pkt.cash/tx/5e3a25d096a0a98229660f8ed2a9592be9fe764c1f41e0fda7b7eb014e7dfc97)
+
 ### Milestone 1  2020-12-17
 -----------
 

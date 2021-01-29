@@ -169,6 +169,35 @@ Transactions:
 [41](https://explorer.pkt.cash/tx/6e205470f4a83fb544880200e563441e5c15166de95aa98e2d5fcca27d02d0ba)
 [42](https://explorer.pkt.cash/tx/6f219b0ad68ce6b5af3b12f0783a02d2a382e3535140d775c8dc1de32f9e3e60)
 
+## Jan 23, 2021
+This day the final 6mn PKT owed was paid out and the project is now complete.
+Transactions are as follows:
+[1](https://explorer.pkt.cash/tx/5016b7b12630868b01cbece783b77f8fafe7fa29272394a6e7325301592da5fa)
+[2](https://explorer.pkt.cash/tx/e712b059713d70badc4a9a4a7d52fa4ba67a3c1862617b3513d94bc8f15634cc)
+[3](https://explorer.pkt.cash/tx/d93a59027a6b28340afdf07cb62a8c0a2d79ad1c711a0b8dce70a80c89eedc9c)
+[4](https://explorer.pkt.cash/tx/8bf1485449a92db050c2c67f2202d5d1c1db47690cf93e241f274b19b486462f)
+[5](https://explorer.pkt.cash/tx/6bf593f99644cb917e94be0d28c55e79ad74095c10bdb7c59e9fad7dd03946d2)
+[6](https://explorer.pkt.cash/tx/5d3d62f7273912bdfc548cd3f844bb42afc03763553a19a27878dd803234ca1a)
+[7](https://explorer.pkt.cash/tx/4a42c3d1be76ad7beb89c42f0aa8d5aced9e2a450b43010ad610a3a73707cd13)
+[8](https://explorer.pkt.cash/tx/fd9eb6c6672c4d8b3c3ff02873a2e906a534081144e05b4aef0bdda7d6a8cf68)
+[9](https://explorer.pkt.cash/tx/7b6343ed23a57347a04780ef4e5672294ea6cd36d279437680260270922222ee)
+[10](https://explorer.pkt.cash/tx/4f4e093cbbbbbe78c737160c3e08bb86978a048d441cce9e60d25f560c524ff2)
+[11](https://explorer.pkt.cash/tx/87e9dd568292ff76757b7026b3721394b99269f62fe6ee34c59c313d5852baf4)
+[12](https://explorer.pkt.cash/tx/0f148f23a92332efea954542b0e6cd1049f31e13f9079df0fd514cafe035dad7)
+[13](https://explorer.pkt.cash/tx/11fee4e59850fdbe2dcdfedf7e1ebb20a9b90430946121fe56a875961be0dcb3)
+[14](https://explorer.pkt.cash/tx/d7b575e065320221a6f32c4a26e99436bd4d9756933b6f85a053a70f40840b1b)
+[15](https://explorer.pkt.cash/tx/6fbebb663a7ab333f958ea8f7747c17909b55e5692c25d106782aad269980c86)
+[16](https://explorer.pkt.cash/tx/5fa9226014482f5739db15d807a274a760601b1d6a8ccbfc9e0b5c4ce0ea2c1b)
+[17](https://explorer.pkt.cash/tx/e814b9f5c657f3fa695de0ff9005b26f01137e12ac2e1e6febc1c319d8de046e)
+[18](https://explorer.pkt.cash/tx/44668a0cb7397f0a098df4436155a21b8a3f1288f5eb7bd165fd1b6b562c39e5)
+[19](https://explorer.pkt.cash/tx/2e01229699b19ed8b55d2ffe52f7f8307122b281b44a0c738637b80aacf3104a)
+[20](https://explorer.pkt.cash/tx/b1ab022ebd68123256b6bc33b6c6db92dc808054787cd203c6c30e8b9bdc203c)
+[21](https://explorer.pkt.cash/tx/15dff01c4e2f47522d754c6652ce85db2ae58af1f604de16d340e28d573f4e37)
+[22](https://explorer.pkt.cash/tx/e3755bde2f4053be06e3fb76abb83747bd6cd7d3151bfd345686bb3d82fea8ab)
+[23](https://explorer.pkt.cash/tx/00f92678bfdbaca2ca7b787703d4ec91c8e77c7ccd2591ed4e6af11889853f70)
+[24](https://explorer.pkt.cash/tx/bb4764cb2f96ed5c3935b98a9995a2717c7123d295057a603588eefbf4aff194)
+[25](https://explorer.pkt.cash/tx/e0fd80b50026c602ffc880019176e70a0050d97ae96c0be2f8dfb3d2d61fc843)
+[26](https://explorer.pkt.cash/tx/f705472abbbb0d1edd4d86838bc9b092109fd2dea781270b0968012c7aa38b04)
 
 ## Milestone 1 (M1) report - 2020-09-22 ##
 Rust libraries included in milestone 1 are completed
