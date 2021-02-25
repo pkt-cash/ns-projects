@@ -176,6 +176,12 @@ The applicant understands that the Network Steward is not a legal entity and no 
 * Site pulls data from block explorer
 * resources: https://github.com/pkt-cash/www-pkt-cash
 
+2020-2-25 milestone #1 & #3 complete
+* PKT Network Whitepaper: https://pkt.cash/PKT_Network_v1.0_2021.02.01.pdf
+https://pkt.chat/pkt/pl/pmb9jqte37bspk5hdb987owcdh
+* PKT Network Deck:  https://docsend.com/view/ayf5d3tz5rymn8fv
+https://drive.google.com/file/d/1TPVBHrpb1FBqCpEti9CuliZG2lLCfjgO 
+
 2019-12-24 first payment of 20mn completed to address
 [p9E3mhUtpinkvrn71AmoHNCoWYzMEmCiKq](https://pkt-insight.cjdns.fr/#/PKT/pkt/address/p9E3mhUtpinkvrn71AmoHNCoWYzMEmCiKq) with transactions:
 [1](https://pkt-insight.cjdns.fr/#/PKT/pkt/tx/73ce2918a456dd64151a8916881b420744af0b1e998b3310244f42baa0f5b8c9)
