@@ -132,6 +132,28 @@ submitted.
     * If selected, please attach a paragraph detailing the information which will be presented and any steps which will be taken to prevent this from potentially misleading the public.
   2. [ ] Project results will not present information which might lead to PKT price speculation
 
+## Use of Resources
+Each milestone report will be accompanied by:
+
+* [ ] Itemization of project expenditures, including description, date and price (in national currency)
+  * [ ] Justification of this itemization in an audit certificate
+* [ ] Dates when PKT was converted to national currency
+  * [ ] Justification of this conversion in an audit certificate
+* [ ] An audit certificate from a qualified financial auditor
+  * *If yes, please provide name of the auditor*: ___________
+
+> If there is any other information which you can agree to provide that will help the network
+steward validate your use of resources, please add it here.
+
+### Partial milestones
+If it happens that I have satisfied all of the criteria for a milestone but have not provided
+justification of all resources allocated *(choose one)*:
+
+* [ ] I will deduct the un-justified amount from the amount requested for the milestone
+* [ ] I will request the milestone be paid in full anyway
+
+> NOTE: The network steward might reject a milestone or offer partial payment in any case.
+
 ## Legal
 
 The applicant understands that the network steward is not a legal entity and no part of this
