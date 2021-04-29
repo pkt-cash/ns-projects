@@ -169,8 +169,6 @@ At this point the project will reach the end of it's explicit funding, however t
 The applicant understands that the Network Steward is not a legal entity and no part of this project constitutes any form of legal agreement. The applicant accepts that the Network Steward exists thanks to the efforts of volunteers and the applicant has no reasonable expectation of any action, payment or communication from the Network Steward at any time. For their part, the applicant has no binding commitment or obligation at any time as a result of their participation in this project.
 
 ## Status
-2021-4-5 milestone #4 is complete: https://youtu.be/BvcP5wihI6s
-* presentation of PKT Deck: https://docsend.com/view/ayf5d3tz5rymn8fv
 
 2020-9-21 milestone #2 is complete: https://pkt.cash
 * Website is designed and optimized
