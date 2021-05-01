@@ -1,7 +1,31 @@
 # Projects Supported by The Network Steward
 
-* **CURRENT DEADLINE**: NO round currently active
-* **CURRENT ROUND BUDGET**: -
+* **CURRENT DEADLINE**: Midnight UTC - May 22nd 2021
+* **CURRENT ROUND BUDGET**: 40mn PKT
+
+## IMPORTANT RECOMMENDATIONS
+Following a conversation between the members of the Network Steward team, it has been decided that
+the Network Steward shall make the following **recommendations** to applicants:
+
+1. Applicants are recommended to provide in their applications, a commitment to including, in
+each milestone report, a tally of how the PKT was spent on the project, including:
+  * Each resource which was used (e.g. 100 person-hours, or 1 month of a cloud server)
+  * For each resource, the cost accounted in national currency
+  * The date and price at which PKT was converted to national currency for the purpose of converting.
+    * Note: It is not required that PKT actually be sold on the market, just that it be accounted as
+    having been converted.
+2. Applicants are recommended to provide in their applications, a commitment to including in
+each milestone report, audit certificates from a qualified financial auditor which support the
+above statements.
+3. Applicants are recommended to specify in their applications that they agree to receive partial
+payout for a milestone if they can only justify partial use of the resources from the previous payment.
+
+**Please Note**: These recommendations are not prescriptive, the Network Steward wants to verify that
+resources were allocated to the execution of projects, even if purchasing power may have changed as a
+result of PKT price instability. It is the job of the applicant to describe the process which they
+intend to follow, but the Network Steward recommends that applicants offer as much detail as possible,
+including such things as the name of their accountant and which exact statements the audit certificates
+will support.
 
 ## Not a gravy train
 When you begin thinking about writing proposals, the first thing you need to understand is that
@@ -138,4 +162,3 @@ to submit the project to this repository
 If you submit early then the Network Steward team might provide feedback but others can also see
 your project proposal. If you submit at the deadline then the project will be secret up until
 the end, but it will be evaluated as it is.
-
