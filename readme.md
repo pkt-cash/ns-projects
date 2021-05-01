@@ -4,7 +4,7 @@
 * **CURRENT ROUND BUDGET**: 40mn PKT
 
 ## IMPORTANT RECOMMENDATIONS
-Following a conversaion between the members of the Network Steward team, it has been decided that
+Following a conversation between the members of the Network Steward team, it has been decided that
 the Network Steward shall make the following **recommendations** to applicants:
 
 1. Applicants are recommended to provide in their applications, a commitment to including, in
@@ -162,4 +162,3 @@ to submit the project to this repository
 If you submit early then the Network Steward team might provide feedback but others can also see
 your project proposal. If you submit at the deadline then the project will be secret up until
 the end, but it will be evaluated as it is.
-
