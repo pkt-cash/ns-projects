@@ -146,7 +146,7 @@ Milestone #1:
 * GRAPHICS - 8 of 28 completed: https://drive.google.com/drive/folders/1gI_MiqkxkJZSsLobtbIddKWsB-izvA9d?usp=sharing
 * WWW_DOCS - launched with basic documentation written: https://docs.pkt.cash/en/latest/
 * WWW_BLOG - launched: http://crypto.pkt.cash/
-* CHAT_MOD - Code of conduct written and adopted: https://docs.google.com/document/d/1iHq9j7G-0WF6K8qS7ljG2A8GysIgN755wLDyydif0V8/edit?usp=sharing
+* CHAT_MOD - Code of conduct written and adopted: https://docs.pkt.cash/en/latest/code_of_conduct/
 * WWW_UPDATE - Update wallet setup instruction and link to blog and docs and to pkt.chat: https://docs.pkt.cash/en/latest/pktd/pktwallet/
 
 
