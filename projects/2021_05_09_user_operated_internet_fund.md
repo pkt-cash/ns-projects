@@ -9,22 +9,36 @@
 * Projected effort: Not specified, see accounting section for details
 * Pre-project effort: -
 * Requested PKT contribution: 10mn, 20mn, 30mn, OR 40mn PKT
-  * This project can operate with as little as 10mn PKT, but can effectively deploy as much as 40mn PKT, so we request that the network steward votes this project as though it were 4 separate projects such that other proposals which are deemed better than this project can win and this project will still be able to deploy some resources.
+  * This project can operate with as little as 10mn PKT, but can effectively deploy as much as 40mn PKT
+  * In order to achieve flexible budget within the rules of the network steward, we propose this as 4 separate projects: UOI_1, UOI_2, UOI_3 and UOI_4, which are each identical 10mn PKT proposals.
+  * We suggest that if the network steward chooses to score these 4 projects differently, that it places the higher scores on the lower number project numbers such that UOI_1 has the highers chance of winning, but this is only a suggestion.
 * PKT address to pay to: pkt1qku865lg0jxkwpl4pvrp8wkzkkjwna4y8ts243v
 
 ## Project summary
 
-This project will take PKT into *Stichting Network Steward Trust*, a Netherlands not-for-profit foundation (hereafter called "the Trust") set up especially to manage cryptocurrency assets dedicated to the public benefit. The Trust is open to any donations of cryptocurrencies serving its mission. PKT held in this entity is subgranted to a professional grant fund managed by the [NLnet Foundation](https://nlnet.nl), a recognised and forward-looking philantropic organisation established in 1989 in the Netherlands. The fund provides EUR denominated micro-grants to individuals and teams with projects considered relevant to the PKT ecosystem.
+This project will take PKT into *Stichting Technology Commons Trust*, a Netherlands not-for-profit foundation (hereafter called "the Trust") set up especially to manage cryptocurrency assets dedicated to the public benefit. The Trust is open to any donations of cryptocurrencies serving its mission. PKT held in this entity is subgranted to a professional grant fund managed by the [NLnet Foundation](https://nlnet.nl), a recognised and forward-looking philantropic organisation established in 1989 in the Netherlands. The fund provides EUR denominated micro-grants to individuals and teams with projects considered relevant to the PKT ecosystem.
 
-This setup allows to provide and manage much more fine-grained mechanisms that deliver subgrants to the community through e.g. open, competitive calls which are open to individuals and organisations of any type from around the world. A dedicated full-fledged fund with a long term roadmap also allows to arrange for various horizontal support mechanisms to provide quality measures, liaise with the technical and operational internet community, the press as well as create consistency and synergy across a large set of smaller efforts. Being part of a larger whole and receiving tailored support helps boost the maturity of outcomes (through e.g. standardisation in bodies like IETF, IEEE and W3C) as well as improve real-world deployability. Such horizontal support measures includes involving specialised community partners (typically not-for-profits themselves) to provision grant beneficiaries with e.g. security audits, accessibility, packaging, software testing and documentation.
+This setup allows us to provide and manage much more fine-grained mechanisms that deliver subgrants to the community through e.g. open, competitive calls which are open to individuals and organisations of any type from around the world. A dedicated full-fledged fund with a long term roadmap also allows to arrange for various horizontal support mechanisms to provide quality measures, liaise with the technical and operational internet community, the press as well as create consistency and synergy across a large set of smaller efforts. 
+
+Being part of a larger whole and receiving tailored support helps boost the maturity of outcomes (through e.g. standardisation in bodies like IETF, IEEE and W3C) as well as improve real-world deployability. Such horizontal support projects includes involving specialised community partners (typically not-for-profits themselves) to provision grant beneficiaries with e.g. security audits, accessibility, packaging, software testing and documentation.
 
 Working through an established philantropical organisation brings along strict regulatory oversight, transparency and professional financial management, and as such delivers strong guarantees regarding avoiding conflict of interest, corruption, and fraud. Dealing with a proper legal entity also provides significantly more legal guarantees to the people involved in projects, given them piece of mind about their efforts.
 
+### Project Types
+
+There are two types of projects, *regular projects* and *support projects*. Regular projects are proposed by individuals and organisations of any type from around the world and are evaluated by professional evaluators.
+
+Support projects provide auxiliary supporting activities to the regular projects in order to help them reach maturity. Our experience is that deeply technical projects run by individuals or small teams have limited resources to deal with a large amount of responsibility, while at the same time already having committed to very challenging and complex tasks. One cannot expect mere mortals to not only be top researchers and developers and at the same time to be experts in security, the global landscape of IP and copyright law or have a turn-key network in standards-setting organisations - and yet successful projects will need to face the hostile environment of the modern internet, deal with copyright trolls or complex licensing issues or other challenges.
+
+A non-exhaustive list of examples of such supporting activities from the current portfolio of NLnet are security audits, copyright compliance checks, software testing, support for internationalisation/localisation, accessibility certification, formal verification of protocols, fuzzing, usability testing, support with standardisation etcetera. Such a support pipeline of specialised services provided by domain experts is a cost-effective way to accelerate the development and quality of projects. The services complement the skills present within the project teams, and the addition of domain knowledge helps to avoid beginner mistakes and speeds up building capacity within the teams themselves. 
+
+One important thing to note is that all parties (both regular projects and support projects) *choose* to collaborate with each other. This voluntarily aspect is essential for meaningful results. A project does not have to accept any help from a support service, let alone does it have to subject itself to services it deems unnecessary, distracting or somehow not suitable - but support services also get to choose which projects they help out as well. There is no hierarchy between these two: the people within support projects may have generously opted to primarily serve the ideas of others with their skills and time, but they do not get compensated for their help at market prices and cannot be forced to do anything they are not fully aligned with or feel they can add enough value to (nor would that be desirable). There are no contracts in place, and thus each party must assess whether there is a fertile match for collaboration. Only if both parties see the value of working together, will any effort take place. Of course, no payments are made to service projects if no service is delivered.
+
 ## Team and Past Work
 
-The following people will comprise the board of stichting Network Steward Trust:
+The following people will comprise the board of stichting Technology Commons Trust:
 
-* Caleb James DeLisle - The original author of the PKT software and cjdns, will take a light handed role, he will *not* evaluate projects nor influence the evaluation process, but will be able to veto a project if it is seen as unacceptable use of Network Steward resources.
+* Caleb James DeLisle - The original author of the PKT software and cjdns, will take a light handed role, he will *not* evaluate projects nor influence the evaluation process.
 
 * [Bob Goudriaan](https://nlnet.nl/people/goudriaan) - General director of NLnet foundation, the philantropic organisation that will perform the grantmaking for the User Operated Internet fund. He is on the advisory board of many different programmes with the Next Generation Internet ecosystem, such as NGI Pointer, NGI DAPSI, NGI LEDGER and TETRA - which jointly manage tens of millions of investment into public benefit R&D. He is a board member of DINL. Since 2014 he has been involved with the ethical security company Radically Open Security, a socially driven enterprise that has meanwhiled donated over half a million euro of its profits to NLnet foundation. Goudriaan studied fiscal law at Leiden University, and afterwards moved back and forth between functions with large organisations like PWC and Deloitte across the globe and entrepreneurial activities. Goudriaan was previously partner and co-founder of the Amsterdam based management consultancy Gendo, specialised in technological innovation. He will be responsible for the financial, regulatory and fiscal management of the User Operatered Internet Fund.
 
@@ -34,7 +48,7 @@ The daily work within the project will be done by the professional staff of NLne
 
 ## Project deliverables
 
-The deliverables from the trust will be reports describing the management level view of the User Operated Internet Fund from the perspective of Trust which is managing the crypto assets. The "real" deliverables are created by a large amount of smaller projects running in parallel - each with their own timelines - with very low overhead within the User Operated Internet Fund managed by a professional grant making organisation.
+The deliverables from the trust to the Network Steward will be reports describing the management level view of the User Operated Internet Fund from the perspective of Trust which is managing the crypto assets. The "real" deliverables are created by a large amount of smaller projects running in parallel - each with their own timelines - with as low overhead as possible, courtesy of the User Operated Internet Fund being managed by a professional grant making organisation through an established process.
 
 Each project delivers tangible outcomes relevant to the scope of the fund, and is paid incrementally after these results have been verified.
 
@@ -51,12 +65,12 @@ Each deliverable report from the Trust will include:
 4. An overview of the financial status of the fund, including a breakdown of costs (including administrative costs) and financial interaction with the Trust
 5. The composition of the team responsible for the operation of the fund, brief description of tasks and responsibilities and total hours worked on administrative tasks in the period.
 6. For each active funded project: An executive summary and current status of the project, as well as links to deliverables.
-7. For each active funded project which is classied as a *support activity*: A management overview of the use of resources, remaining budget, and which projects were supported.
+7. For each active funded project which is classied as a *support project*: A management overview of the use of resources, remaining budget, and which projects were supported.
 8. Attestation by a legal representative which confirms:
   * That the above transaction and balance information is truly accurate
   * That payments to projects have been made after the agreed results have been delivered
 
-**NOTE**: *Stichting NLnet* and *Stichting Network Steward Trust* and will both publish an official audit by a chartered accountant after the end of each book year. This will confirm and formalise any attestations made by their legal representatives.
+**NOTE**: *Stichting NLnet* and *Stichting Technology Commons Trust* will both publish an official audit by a chartered accountant after the end of each book year. This will confirm and formalise any attestations made by their legal representatives.
 
 ## Bylaws
 
@@ -66,10 +80,11 @@ In the management of PKT allocated to this project, the Trust commits to the fol
 2. PKT for funding each consecutive round is converted to EUR when that round has been evaluated.
 3. Administrative costs associated with a project will be established at a fixed rate of 10% of the overall project cost, in accordance with the fixed cost methodology used by EU project funding.
 4. Total administrative costs for project-related and non-project-related administration cannot exceed 15% of the entire expended budget.
-5. Total cost of support projects (e.g. security audits, legal support, etc) shall not exceed 30% of the entire expended budget.
-6. No person or entity shall receive more than 50,000 EUR for a first project, higher denominations will be considered on a case-by-case basis for entities who have already completed one or more project successfully.
-7. Donations are paid after delivery of agreed milestones, priced in EUR. Grantees may request any portion of the donation they are subsequently entitled to - by virtue of having completed the agreed self-assigned tasks - to be made in PKT. The amount of PKT transferred to the recipient will determined by the day price of PKT at the time of the payment. Stichting Network Steward Trust will arrange for the necessary amount of PKT to be made available for this purpose, keeping track of every conversion (as previously stated); the balance will be settled with the next donation from the Trust to the Fund.
-8. Caleb will not have a role in evaluating projects or any influence in order to make a proposal pass, but will have the ability to veto a project proposal which is considered unacceptable use of Network Steward funds.
+5. Support projects (e.g. security audits, legal support, etc) shall not make any spending at all, except at the direction of grantees of regular projects and shall not exceed 30% of the entire expended budget in any case.
+6. In addition to points 4 and 5, at least twothirds (66.6%) of the total fund budget shall be paid out to grantees of regular projects.
+7. No person or entity shall receive more than 50,000 EUR for a first project, higher denominations will be considered on a case-by-case basis for entities who have already completed one or more project successfully.
+8. Donations are paid after delivery of agreed milestones, priced in EUR. Grantees may request any portion of the donation they are subsequently entitled to - by virtue of having completed the agreed self-assigned tasks - to be made in PKT. The amount of PKT transferred to the recipient will determined by the day price of PKT at the time of the payment. Stichting Technology Commons Trust will arrange for the necessary amount of PKT to be made available for this purpose, keeping track of every conversion (as previously stated); the balance will be settled with the next donation from the Trust to the Fund.
+9. Caleb will not have a role in evaluating projects or any influence in order to make a proposal pass.
 
 ### Conflict of interest policy
 
@@ -115,7 +130,7 @@ In other words: a rating of 1 means the project scores miserably (compared to si
 
 ### Cost effectiveness/Value for money
 
-This establishes whether a proposed project is efficient and frugal, and represents good value for money. This goes beyond just applying a reasonable hourly rate, and basically also determines whether the overall budget requested is effective and 'worth it'. 
+This establishes whether a proposed project is efficient and frugal, and represents good value for money. This goes beyond just applying a reasonable hourly or monthly rate, and basically also determines whether the overall budget requested is effective and 'worth it'. 
 
 A rating of 1 indicates that the evaluators feel the project is beyond just wasting money, and that it would be undesirable or even obscene to fund. A score of 7 ("Extremely good value for money") means that the review considers the requested budget of the project to represent great value for money, and that the overall cost is very low given the effort involved in terms of quality and quantity.
 
@@ -164,6 +179,8 @@ By design and by choice all project results need to be available under a recogni
 Anyone that can bring a relevant contribution to the goals of the fund can apply - whether they are a natural person or an organisation of any type that wants to improve and further develop relevant technologies and related enabling efforts. Applicants can be based anywhere (no geo-restrictions), and can remain anonymous during submission and evaluation, if they so desire. The only thing that counts is a good idea coupled with the ability to properly execute it.
 
 Minors that have not yet reached the age of legal consent in their country of origin on the date of the deadline may also apply; consent from a legal representative such as a parent does not have to be provided prior to initial submission. Such consent will be necessary should the project proposal be granted.
+
+These criteria are standard to NLnet project application process.
 
 ## Milestones
 
@@ -232,6 +249,8 @@ We consider the project to be a success:
 - all delivered results are evaluated and match the agreed tasks and milestones
 - payment takes place within four weeks after results are delivered
 
+If at any milestone in the project, the network steward deems funds to have been misappropriated, or used to the detrement of the PKT community or to overall society, the network steward may reject the milestone and suspend funding of the project until all concerns have been addressed to the satisfaction of the network steward.
+
 ## Disclosure
 
 I hereby submit this application in good faith and I attest that I have made no effort, nor do I intend to make effort, influence the Network Steward to accept this or any other project I have submitted.
@@ -239,15 +258,15 @@ I hereby submit this application in good faith and I attest that I have made no 
 *Please check one or more:*
 
 1. Conflicts
-  1. [x] An organization is receiving the funds
-    1. [x] Organization has financial relationships with one or more reviewers: Caleb James DeLisle
-    2. [ ] Organization has no financial relationships with any reviewers
-  2. [ ] An individual is receiving the funds
-    1. [ ] Individual works for same organization as one or more reviewers: *specify whom*
-    2. [ ] Individual has other financial relationships with one or more reviewers: *specify whom*
-    3. [ ] Individual does not work for the same organization as any reviewer
+  * [x] An organization is receiving the funds
+    * [x] Organization has financial relationships with one or more reviewers: Caleb James DeLisle
+    * [ ] Organization has no financial relationships with any reviewers
+  * [ ] An individual is receiving the funds
+    * [ ] Individual works for same organization as one or more reviewers: *specify whom*
+    * [ ] Individual has other financial relationships with one or more reviewers: *specify whom*
+    * [ ] Individual does not work for the same organization as any reviewer
 2. No Pumping
-  1. [ ] Project results will present information which might lead to PKT price speculation
+  * [ ] Project results will present information which might lead to PKT price speculation
     * If selected, please attach a paragraph detailing the information which will be presented and any steps which will be taken to prevent this from potentially misleading the public.
   2. [x] Project results will not present information which might lead to PKT price speculation
 
