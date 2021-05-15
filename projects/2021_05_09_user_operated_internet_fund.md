@@ -190,7 +190,7 @@ The milestones in this project will follow the NLnet funding cadence of:
 * Each call having 2 month long submission window
 * And final notice of acceptance 6 to 8 weeks after call deadline
 
-Milestone 1 will be a setup milestone with minimal expenditure and no additional funds requested.
+Milestone 1 will be a setup milestone with minimal expenditure. We seek to bootstrap a small call round for the fund with a deadline of June 1st 2021 (which would give candicate projects a week to submit). Given the expected limited number of projects submitting at such short notice, no additional funds should be required.
 
 After Milestone 4, there will be subsequent milestones until all funds have been allocated.
 
@@ -198,43 +198,45 @@ After Milestone 4, there will be subsequent milestones until all funds have been
 
 After the project is accepted, the Network Steward will pay 1/4 of the overall budget (henceforth: Buffer Amount) in PKT to the Trust.
 
-If approved by the Network Steward, the fund will be established immediately and the first open call (2021-08U) will open up June 1st 2021, with a deadline of August 1st 2021 12:00 CEST.
+The User Operated Internet Fund at NLnet Foundation will set up the infrastructure, create a skeleton budget for the first project rounds of the competitive open call, hire necessary additional staff and incrementally report the costs incurred to the Trust which will convert PKT to EUR in order to pay these costs.
+
+A first open call will be announced with a deadline of June 1st ("the June call"). Due to the short time available for submission of proposals, we expect a limited set of applications - which will allow us to test the procedures and prepare for the larger subsequent rounds.
+
+The second open call ("The August call") will open up June 1st 2021, with a deadline of August 1st 2021 12:00 CEST.
 
 ### Milestone 1
 
-The User Operated Internet Fund at NLnet Foundation will set up the infrastructure, create a skeleton budget for the first project round of the competitive open call, hire necessary additional staff and incrementally report the costs incurred to the Trust which will convert PKT to EUR in order to pay these costs. At this point the only costs incurred will be administrative.
+This milestone will be delivered no later than August 5th 2021 and will include the selected grantees from the June call and metrics regarding the applications to the August call. If there are projects from the June call which have already started, information about these will be provided as well. Necessary PKT to fund the new projects will be converted to EUR as the projects are approved.
 
-The second call (2021-10U) opens on August 1st 2021, with deadline October 1st.
+Another call ("The October call") will open on August 1st with deadline October 1st.
 
-On August 5th 2021, a deliverable report will be produced by no additional funding will be requested. This includes metrics of applicants to the first round.
+*No additional funding will be requested at this time*
 
 ### Milestone 2
 
-This milestone will include the selected grantees from the first open call (2021-08U). Just prior to the submission, the PKT necessary to fund the projects will be converted by the Trust. We will also include metrics of applicants to the second round (2021-10U).
+This milestone will be delivered no later than October 5th 2021 and will include the selected grantees from the August projects. The necessary PKT to fund the new projects will be converted to EUR as the projects are approved.
 
-This milestone will be submitted no later than October 5th 2021.
+Another call ("The December call") will open on October 1st with deadline December 1st.
 
 After a report is delivered on this milestone and if it is approved by the NS, the NS will send the amount of PKT needed to raise the balance of the Trust's treasury to the Buffer Amount.
 
 ### Milestone 3
 
-This milestone will include the selected grantees from the second open call (2021-10U). Again, prior to the submission, the PKT necessary to fund the projects will be converted by the Trust. We will once more include metrics of applicants, this time to the third round (2021-12U). In this report we will also provide information about the ongoing projects.
+This milestone will be delivered no later than December 6th 2021 and will include the selected grantees from the October call as well as metrics regarding applications to the December call and information about ongoing projects, the necessary PKT to fund the new projects will be converted to EUR as the projects are accepted.
 
-This milestone will be submitted no later than December 5th 2021.
+Another call ("The February call") will open on December 1st with deadline February 1st.
 
 After a report is delivered on this milestone and if it is approved by the NS, the NS will send the amount of PKT needed to raise the balance of the Trust's treasury to the Buffer Amount.
 
 ### Milestone 4
 
-This milestone will include the selected grantees from the third open call (2021-12U). Once more, prior to the submission, the PKT necessary to fund the projects will be converted by the Trust. We will again include metrics of applicants, this time to the third round. In this report we will also provide information about the ongoing projects.
-
-This milestone will be submitted no later than February 5th 2022.
+This milestone will be delivered no later than February 5th 2021 and will include the selected grantees from the December call, the metrics from the February call. The necessary PKT to fund the new projects will be converted to EUR as the projects are accepted.
 
 After a report is delivered on this milestone and if it is approved by the NS, the NS will send the amount of PKT needed to raise the balance of the Trust's treasury to the Buffer Amount.
 
 ### Subsequent milestones
 
-If necessary, additional milestones are added until the available budget in PKT is allocated to projects. Subsequent milestones (those beyond milestone 4) will continue to happen along the same formula as described above. New calls will continue to be opened until the entire budget has been allocated and regular reports on projects will continue to be made until the funds have been dispursed.
+As necessary, additional milestones are added until the available budget in PKT is allocated to projects. Subsequent milestones (those beyond milestone 4) will continue to happen along the same formula as described above. New calls will continue to be opened until the entire budget has been allocated and regular reports on projects will continue to be made until the funds have been dispursed.
 
 ### Success criteria
 
