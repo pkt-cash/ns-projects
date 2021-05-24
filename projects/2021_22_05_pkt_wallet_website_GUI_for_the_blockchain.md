@@ -127,7 +127,7 @@ __Add the option to announcement mine on from your browser.__
 > * It will be possible to announcement mine from within your account on the website. 
 
 #### Payout
-After a report is delivered on this milestone and it is approved by the NS, the NS will send 4,000,000 PKT.
+After a report is delivered on this milestone and it is approved by the NS, the NS will send 11,000,000 PKT.
 
 
 ## Disclosure
