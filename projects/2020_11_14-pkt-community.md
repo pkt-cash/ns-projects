@@ -141,7 +141,7 @@ Milestone #1:
 ** https://www.cryptopolitan.com/how-the-network-steward-ensures-funding-for-the-build-out-of-decentralized-internet-infrastructure-and-open-source-technology/
 ** https://www.cryptopolitan.com/pkt-network-packet-priority-creates-a-more-economical-infrastructure-that-will-help-maximise-data-transmission/
 * ARTICLE - 2 of 6 completed:
-** https://www.cryptopolitan.com/decentralize-everything-a-reminder-for-a-true-community-power/
+** https://docs.google.com/document/d/14G4sbUgrpuNjd9k0KrO0l10-9hnyVJLk/edit
 ** https://securityonline.info/all-you-need-to-know-about-pkt-cryptocurrency/
 * GRAPHICS - 8 of 28 completed: https://drive.google.com/drive/folders/1gI_MiqkxkJZSsLobtbIddKWsB-izvA9d?usp=sharing
 * WWW_DOCS - launched with basic documentation written: https://docs.pkt.cash/en/latest/
