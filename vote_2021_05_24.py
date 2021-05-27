@@ -200,7 +200,7 @@ votes.append({
       # to get in the way).
       'hazard': 0.5,
   }
-}
+})
 
 # Caleb
 votes.append({
