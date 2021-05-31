@@ -15,6 +15,73 @@ votes = []
 
 # Votes will go here...
 
+# Ben
+votes.append({
+  'lobbying': {
+    # I will begin by acknowledging that this proposal is in an area I have little personal
+    # experience, therefore it is difficult for me to evaluate risk and benefit for such an
+    # initiative. I would have preferred if Milestone 1 itself is an entire proposal, as the
+    # output will help those involved in PKT learn more about the ecosystem, along with a
+    # execution plan. If this proposal is not funded, I encourage a follow-up proposal of such
+    # narrower scope and lower budget be submitted. In its current form, I am still generally
+    # supportive of the proposal, as it allows us to gather knowledge in this domain.
+    # Regardless of whether the campaign is successful, I would prioritize documentation of
+    # our learnings.
+    #
+    # One area I believe the NS cannot commit to is taking on exchange risk with fiat. This
+    # unfortunately has to be built in to the budget, since the process of the NS does not
+    # have a way to handle that. I also think scoping down the proposal will help to manage
+    # that risk. For this reason I have to reject the proposal as is.
+    #
+    # I also highly recommend the formatting of the document be better structured and in .md.
+    # This is incredibly hard to read.
+    'short': 0.7,
+    'long': 0.5,
+    'scope': 0.35,
+    'risk': 0.0,
+    'hazard': 0.4
+  },
+
+  'wallet': {
+    # I appreciate the intention to make onboarding general audience easier, but don't
+    # think that browser-based mining is the best solution. Short-term we may see more
+    # people try it out, but I cannot imagine anyone long-term mining from a browser
+    # tab, even though it is wasm. Then we have to deal with the non-custodial management
+    # of the private key, which if someone knows how to do that, they can manage a native
+    # miner. I am also cautious of the NS funding yet another wallet project at this time,
+    # at this stage of the project it may create more confusion than benefit. I also think
+    # this is both risky and expensive for the potential impact.
+    'short': 0.4,
+    'long': 0.1,
+    'scope': 0.3,
+    'risk': 0.5,
+    'hazard': 0.7
+  },
+
+  'UOI': {
+    # I like this proposal and think it is timely, as the NS receives more broadly scoped
+    # proposals that often extend beyond the domain expertise of the NS team. An arrangement
+    # with an experienced and reputatable institution not only takes some load off the NS,
+    # but also adds legitimacy to our ecosystem. I expect a lot of learning to come out of
+    # this engagement.
+    # 
+    # I recognize the conflict position of groups having financial relationships with Caleb,
+    # who is part of the NS, but understand that clear boundaries and processes are in place
+    # with respect to use of funds. Secondly, this is a big amount to allocate to one project,
+    # but because of the nature of it, we do need a bigger commitment to see results.
+    #
+    # Some things I would recommend is, if things don't go well we have an understanding that
+    # the NS can decline to fund the next milestone. By the end of the grant, if the process
+    # goes well, we can revisit the allocation of PKT for administrative vs. grant. Both these
+    # are addressed / possible in the current proposal as written.
+    'short': 0.75,
+    'long': 0.85,
+    'scope': 0.7,
+    'risk': 0.65,
+    'hazard': 0.65
+  }
+})
+
 # Arc
 votes.append({
   'lobbying': {
