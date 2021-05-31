@@ -13,8 +13,6 @@ costs = {
 }
 votes = []
 
-# Votes will go here...
-
 # Ben
 votes.append({
   'lobbying': {
@@ -79,6 +77,310 @@ votes.append({
     'scope': 0.7,
     'risk': 0.65,
     'hazard': 0.65
+  }
+})
+
+# Adonis
+votes.append({
+  # I LOVE this idea. I want to see this proposal again
+  # However there are some major issues that must be corrected first.
+  # For these reasons I think the proposal must be disqualified on principle:
+  #
+  # 1) The proposal doesn't explain how it will acheive any of it's goals.
+  #    Even though I personally know Alex has done lobbying work in the past
+  #    and is at least in part responsible for the government (and therefore
+  #    global) adoption of IPv6, the proposal sounds like bullshit because
+  #    it doesn't detail well any of the work required to acheive the
+  #    milestones.
+  # 2) The project doesn't mention Alex's work with Anode (CJ and Adonis)
+  #    Which in vote_2020_02_29 is mentioned as an immediate disqualifier
+  #    at at the very least is bad form. Alex's relationship with Anode is
+  #    contractual and Anode builds technology based on PKT so I believe
+  #    there isn't much potential for conflict of interest, but still I believe
+  #    the relationship must be indicated publicly in the proposal
+  # 3) The propossal doesn't follow the template format.
+  #    Alex has submitted proposals before, I know he already knows the format.
+  #    There is no excuse for this sloppiness and I believe this alone
+  #    is grounds for disqualification.
+  #    The format is not difficult and maintaining as standard makes it easier
+  #    for the NS to get a sense of what's happening quickly and compare it to
+  #    other projects. It makes it easier for future authors to understand what
+  #    the submission process is and how to create a good project proposal.
+  #    It trains repeat submitters (of who Alex is an example)
+  #    to follow a stadard way of doing things.
+  # 4) The proposal asks for more PKT if the price drops. I'm very conflicted
+  #    about this. I sympathize that crypto fluxuates in value and that bills
+  #    must be paid but also this: are you kidding me? If PKT goes up, the
+  #    proposal don't ask for less of it. The people working on this project
+  #    are supposed to be incentivized by the increased value of PKT that they
+  #    hope will be the result of the increased value they've created for it
+  #    or by the goodwill they earn from contributing to an Internet technology
+  #    for the greater good of humanity. The NS is itself funded by PKT, not
+  #    a fiat, so when PKT goes down, we can't fund as many projects. Everyone
+  #    suffers. We shouldn't be taking additional resources away from potential
+  #    projects because one projects demands more in bad times than it got in
+  #    good. While practical, I think it's skeezy and I think it would set a
+  #    terrible precident to approve a proposal that had this condition.
+  #
+  # If it weren't for these four things, I would probably grade this proposal
+  # very highly. I love the idea and I believe Alex is the person to do it.
+  # I think it falls within the scope of the NS and generally I think it's
+  # proposed at a reasonable price.
+  'lobbying': {
+    # The proposal claims that there will be podcasts, larger followings,
+    # politicans, influencers, and more talking about the project
+    # Those are great things, but I don't think the immediate tangible benefits
+    # are many in this case. I think those are the seeds that lead to a more
+    # fruitful future.
+    # I do believe that the talking points, assets, and presentation materials
+    # will be useful in explaining the PKT projet to newcomers.
+    #
+    # 'short': 0.2,  # this is my actual vote
+    'short': 0.0,    # This is my 'disqualifier' vote
+
+    # PKT currently has a problem. People don't know how to talk about it.
+    # One solution to this problem is to create talking points, presentation
+    # materials, and assets that can be used to share the word.
+    # On top of that, aligning influencers in the political spectrum that can
+    # champion PKT as a tool rather than a weapon is important.
+    # I'm aware that Alex has been able to gavlanize governments around the use
+    # of IPv6, making it the dominant IP protocol to succeed IPv4.
+    # If he can do the same for PKT, that would be fantastic.
+    # Especially as crypto and other decentralized technologies are facing
+    # scrutiny, regulation, and bad press. I worry that there is a such a
+    # deep-seated fear of individuals saying or doing bad things that
+    # governments (and corporations) will be willing to slowly reduce individual
+    # rights and liberties around communication, finance, payments, and other
+    # things that employ encryption technologies and are being decentralized.
+    # PKT has tremendous potential for the creation of independently
+    # owned businesses that benefit from fast micropayments and encrypted
+    # communication.
+    # If we don't advocate for that, who will?
+    #
+    # 'long': 0.8,  # this is my actual vote
+    'long': 0.0,    # This is my 'disqualifier' vote
+
+    # If I were to read "scope" here as "is this within the scope of the NS?"
+    # Then I'd say "yes": 0.8.
+    # Although I don't think of the Network Steward as a political organization
+    # I believe this is a case where it must speak up and act. It's existence
+    # is conditional governmental acceptance of crypto and encrypted data
+    # transmission, both of which are sadly under fire.
+    # In the same way that the Egg Farmers of America must lobby to advocate
+    # for their rights, I believe so to must PKT.
+    #
+    # 'scope': .8,  # this is my actual vote
+    'scope': .0,    # This is my 'disqualifier' vote
+
+    # I see two potential issues here
+    #
+    # The first is that wealthy politicians don't like PKT and that somehow they
+    # are galvanized into negative action by the idea that private Internet
+    # owned by peolpe other than ATT and Comcast. That would be terrible, but
+    # would probably be inevitable with or without lobbying. In that
+    # case it's better to lobby anyway because then at least we control the
+    # narrative
+    #
+    # The other is that this projects ends up turning into a marketing campaign
+    # of youtube videos and podcasts hyping up PKT cash, which I think would
+    # be terrible.
+    #
+    # Since I've seen some of Lightman's work, I believe it won't be a series
+    # of marketing videos, but since the proposal doesn't outline how things
+    # will be done, how people will be qualified, or any examples of how
+    # things will look or sound, I'm not inclined to trust it.
+    #
+    # Other than that, I think the proposed timeline and budget is within reason
+    # (except for the additional PKT hedge).
+    #
+    # i would love to fund this alongside the User Operated Internet Fund
+    #  proposal. I think they complement each other well.
+    #
+    # 'risk': 0.2,  # this is my actual vote
+    'risk': .0,     # This is my 'disqualifier' vote
+
+    # Cj and I do work with Alex Lightman through a company we have together.
+    # so it could be percieved as a conflict of interest to favor this proposal
+    # However, I believe the other criteria outweigh this possible bias.
+    # I don't see that relationship stated in the proposal anywhere.
+    # It's important to disclose possible conflicts of interest are
+    # are referenced in vote_2020-02_29 as justification for disqualification.
+    #
+    # 'hazard': 0.1,  # this is my actual vote
+    'hazard': .0      # This is my 'disqualifier' vote
+  },
+  # This is a really interesting idea, but frought with risks.
+  'wallet': {
+    # I think this project is super interesting. I think one of the issues
+    # with PKT today is that mining is challenging. It requires a Linux computer
+    # a lot of bandwidth, and knowledge of the command line.
+    #
+    # I personally have never seen a browser-based miner that works well.
+    # PKT uses a *lot* of CPU and can basically grind a computer to a halt.
+    # Sure, using it in the browser would make it easier to use, but only
+    # for people who are basically willing to give up use of their desktop
+    # or laptop anyway, so in that case why not have a dedicated computer?
+    'short': 0.3,
+
+    # One potential I see for this project is that, since mining is effectively
+    # routing, any home user could became a PKT router, sharing their spare
+    # bandwidth while they are surfing. With that, it may be possible to
+    # encourage normal people to become micro-ISPs for their friends and
+    # neighbors.
+    #
+    # I also see potential here for increasing the number of people aware
+    # of PKT tremendously, as deep technical expertise will no longer be
+    # required to interact with PKT. It will be like Bitcoin in 2011-2013,
+    # where people still must be comfortable with keys to send money, but
+    # honestly there are better PKT wallets that people can keep on their
+    # desktop that don't require keeping track of private keys.
+    #
+    # But that's all conditional on this being promoted the right way
+    # agree with Arc about the risks of this being percieved as a negative.
+    # This also has the potential to radically polarize people against
+    # PKT as a the symbol for malicious browser-based crypto mining.
+    'long': 0.1,
+
+    # In reading "scope" as "can this project be done?":
+    # I'm not sure why this needs to have a private-key payment system
+    # there are plenty of PKT wallets. I know of 3 already and two more in
+    # development. The miner is interesting and it can send to one of
+    # these wallets.
+    #
+    # The other thing is that no wallet tech is listed, so how is the wallet
+    # built? It's difficult to know if this project is even achievable
+    # within scope without knowing if the wallet will be built from scratch
+    # or use an existing tech.
+    #
+    # scope; 0
+    #
+    # in reading "scope" as "should the NS fund this project?":
+    # I see wallets and miners as generally in scope of the NS, but we already
+    # have so many wallets. Unless one is mind-blowing (and please, show me
+    # wireframes or mock-ups and workflows at this point to prove it), I don't
+    # see the need for yet another wallet.
+    #
+    # As a miner I think it's an interesting project, but it carries a lot of
+    # risk. Should the NS fund a miner that could be used maliciously before
+    # PKT is even widely known or used? The potential bad will could outweigh
+    # the good, setting back not only PKT but crypto for decades.
+    #
+    # scope: 0
+    'scope': 0.0,
+
+    # If the goal is to build a miner on the browser with the given funds,
+    # probably that's doable. If the wallet is built from scratch, I don't
+    # know how achievable that is. If the wallet is modified from another
+    # project, probably it's doable. It's hard to rate without knowing
+    # what the sallet technology is.
+    'risk': 0.0,
+
+    # I see several potential issues with this proposal
+    # 1) although three participants are described, only one
+    #    has a GitHub or website link, despite the team claiming to be composed
+    #    'software developers and blockchain and webdevelopment experts'
+    # 2) No organization is formed, so the payout could to an individual, but
+    #    it's unclear who. This is not a disqualifier per se, but it's unusual
+    # 3) a browser-based miner could be used maliciously, so I don't think
+    #    the NS should fund a project like this at this point. Perhaps in the
+    #    future when the public is more aware of these things or there are
+    #    mechanisms to prevent malicious use of this type of technology or
+    #    or browsers implement detections to detect malicious blockchain
+    'hazard': 0.0
+  },
+  'UOI': {
+    # I don't believe there will be any short term impact.
+    # I percieve this change is being similar to the splitting of Xorg from
+    # the X11 foundation. In name and principle only and totally without
+    # consequence the time it took for the Xorg foundation to release a new
+    # project.
+    #
+    # There's a possibility it will have some impact in that people will
+    # percieve the PKT community as being in support of standards,
+    # best practices and good governance.
+    'short': 0.1,
+
+    # I think this will have tremendous far-reaching consequences for PKT
+    # I believe this will alter the course off what is possible with the
+    # community and the technology, in the same way that the IETF has made
+    # it possible to produce and canonize SPF, SASL, Oauth and more.
+    #
+    # Since the payout of this project's fund is denominated in EUR,
+    # I also think that a project like this will reduce the temptation for
+    # clauses such as the one in the lobbying proposal to take a variable
+    # amount of funding depending on the price of the crypto
+    'long': 0.9,
+
+    # This is one of the few projects I can think of that both requires
+    # relatively little upfront work and yet has a lot of long-term impact.
+    # In that way it reminds me of the Network Steward. It took almost
+    # no effort to set up ompared with building a product and yet produces
+    # value to the people who contribute to the PKT ecosystem.
+    #
+    # This is something I know personally that CJ has has been talking
+    # about since the start of the Network Steward, so I believe
+    # he will carry it through.
+    #
+    # The financing and milestone struture is strange for this projet
+    # It attempts to seek a flexible budget (apparently considering that other
+    # projects deserve funding and so it must be flexible in that funding), and
+    # to consider each payout as a separate project to acheive that, given
+    # the mechanics of funding by the NS.
+    #
+    # It's an interesting way to approach flexible funding. I assume the extra
+    # PKT will go to provide more support for projects submitted to it.
+    # However since it lists several support activities it will provide such as
+    # security auditing, and because it can receive donations at any time,
+    # I don't see why it wouldn't seek to create the organization and a smaller
+    # set of services in the beginnig and then ask for more once it's achieved
+    # a smaller goal.
+    'scope': 0.5,
+
+    # One thing I like about this project is that it could bring PKT from
+    # an association of like-minds to a formally recognized body such as the
+    # IETF, complete with oversight that would build public trust.
+    #
+    # I would love to fund this alongside Lightman's proposal. I think they
+    # complement each other well.
+    #
+    #
+    # One thing I saw recently that bothers me is that Signal took a donation
+    # which would have paid for its operation for years, but then got flooded
+    # with new users when Elon Musk tweeted "use signal," which probably reduced
+    # Signal's runway from that donation by eating up infrastructure costs
+    # It happens that Signal was releasing a crypto currency around that time,
+    # which went up 10x in value over the course of a couple weeks, fell 30%
+    # in a day, and then fell back down to its original price over the next few
+    # weeks. It is possible, or it would be at least tempting for them to have
+    # pumped up their own crypto and sold at peak to pay for years of
+    # infrastructure costs.
+    #
+    # The NS does not do marketing, so I hope it would be difficult for the NS
+    # to perform a trick like this, but I can envision that the temptation
+    # would be there since not only are some or all of the NS members PKT cash
+    # holders and/or have companies that employ PKT technology and the NS
+    # funds projects in PKT so the budget for funding increases when the price
+    # increases. Having an NGO that can accept donations in any crypto and is
+    # governed by strict government oversight in a country such as the
+    # Netherlands where there is both a favorable tax regime and socially
+    # responsible laws regulating NGOs further reduces this risk.
+    #
+    # A potential down-side is that the regulation will make the proposals
+    # and funding process more challenging and time-consuming. In working
+    # with the IETF in the past, I found their feedback process slow and their
+    # submission process technically challenging and antiquated. It may deter
+    # casual / crazy submissions but it also deters great ideas that don't want
+    # to jump through 10 mile hoops.
+    'risk': 0.5,
+
+    # I work with CJ in both Anode and PktPal, so there may be a conflict
+    # of interest on this. Also CJ is part of the NS, so funding his project
+    # may come off as favoritism.
+    #
+    # I personally believe that the vision of this projet is much bigger than
+    # me or CJ, and that CJ has proven his ability to operate this type of
+    # organization through the genesis of the Network Steward.
+    'hazard': 0.5
   }
 })
 
