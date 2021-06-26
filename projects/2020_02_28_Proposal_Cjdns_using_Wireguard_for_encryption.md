@@ -178,3 +178,14 @@ Milestone 1 was accepted and paid 8mn PKT in the following transactions:
 * Unit tests are written to show that C-originated Message can be handled in Rust Interface
 * AndroidWrapper is rewritten in Rust: a small Inetrface that demonstrates how everything works together
 
+### Milestone 2  2021-06-27
+* Version of cjdns using cloudflare BoringTUN based WireGuard encryption
+  * Done here: https://github.com/cjdelisle/cjdns/tree/boringtun2
+  * Old CryptoAuth ported to Rust, fully operational: https://github.com/cjdelisle/cjdns/blob/boringtun2/rust/cjdns_sys/src/crypto/crypto_auth.rs
+  * New CryptoAuth based on boringtun, in testing and debugging: https://github.com/cjdelisle/cjdns/blob/boringtun2/rust/cjdns_sys/src/crypto/crypto_noise.rs
+* Demo two cjdns instances connecting - observed, still has bugs but works
+* Accepted in mainline cjdns.
+  * boringtun2 branch in prep for merging to crashey to release v22
+* New version number for cjdns which uses BoringTUN when possible, falls back on CryptoAuth for communicating with older cjdns instances
+  * Delivered
+* Payout: 8mn PKT
