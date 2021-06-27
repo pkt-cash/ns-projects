@@ -134,22 +134,6 @@ in this project.
 ### November 26, 2020
 Project accepted and initial payout of 12mn PKT made in transactions:
 
-### April 9, 2021
-Milestone #1:
-* VIDEO - 1 of 5 completed: https://youtu.be/_EeWHeY-omQ
-* TECH_ARTICLE - 2 of 6:
-** https://www.cryptopolitan.com/how-the-network-steward-ensures-funding-for-the-build-out-of-decentralized-internet-infrastructure-and-open-source-technology/
-** https://www.cryptopolitan.com/pkt-network-packet-priority-creates-a-more-economical-infrastructure-that-will-help-maximise-data-transmission/
-* ARTICLE - 2 of 6 completed:
-** https://docs.google.com/document/d/14G4sbUgrpuNjd9k0KrO0l10-9hnyVJLk/edit
-** https://securityonline.info/all-you-need-to-know-about-pkt-cryptocurrency/
-* GRAPHICS - 8 of 28 completed: https://drive.google.com/drive/folders/1gI_MiqkxkJZSsLobtbIddKWsB-izvA9d?usp=sharing
-* WWW_DOCS - launched with basic documentation written: https://docs.pkt.cash/en/latest/
-* WWW_BLOG - launched: http://crypto.pkt.cash/
-* CHAT_MOD - Code of conduct written and adopted: https://docs.pkt.cash/en/latest/code_of_conduct/
-* WWW_UPDATE - Update wallet setup instruction and link to blog and docs and to pkt.chat: https://docs.pkt.cash/en/latest/pktd/pktwallet/
-
-
 [1](https://explorer.pkt.cash/tx/1152cdb44c28e063200281b203063a0b7eb380380b11f2b42575ab83b274ba35)
 [2](https://explorer.pkt.cash/tx/6a22a150712ebcf953ad1d193884124a97071fd01cecd7a78fbc387169ca1a32)
 [3](https://explorer.pkt.cash/tx/0c904c2ead28525c3226552ea6565460a0797f212d4a927cf2027d81040d1b67)
@@ -194,3 +178,78 @@ Milestone #1:
 [42](https://explorer.pkt.cash/tx/38ebdfd5a73cdac18292fcf953de0c9a59414afbb514e47bc13585c1684c68bd)
 [43](https://explorer.pkt.cash/tx/ea868501379589dc0fef164c48073b0287c6caeed3c31ea285b3c67e8452bbcb)
 [44](https://explorer.pkt.cash/tx/e8acadfcfe9974d17f9621f6c23541e1e3e4130ebb28dc182582f124fa83df69)
+
+### April 9, 2021
+Milestone #1:
+* VIDEO - 1 of 5 completed: https://youtu.be/_EeWHeY-omQ
+* TECH_ARTICLE - 2 of 6:
+** https://www.cryptopolitan.com/how-the-network-steward-ensures-funding-for-the-build-out-of-decentralized-internet-infrastructure-and-open-source-technology/
+** https://www.cryptopolitan.com/pkt-network-packet-priority-creates-a-more-economical-infrastructure-that-will-help-maximise-data-transmission/
+* ARTICLE - 2 of 6 completed:
+** https://docs.google.com/document/d/14G4sbUgrpuNjd9k0KrO0l10-9hnyVJLk/edit
+** https://securityonline.info/all-you-need-to-know-about-pkt-cryptocurrency/
+* GRAPHICS - 8 of 28 completed: https://drive.google.com/drive/folders/1gI_MiqkxkJZSsLobtbIddKWsB-izvA9d?usp=sharing
+* WWW_DOCS - launched with basic documentation written: https://docs.pkt.cash/en/latest/
+* WWW_BLOG - launched: http://crypto.pkt.cash/
+* CHAT_MOD - Code of conduct written and adopted: https://docs.pkt.cash/en/latest/code_of_conduct/
+* WWW_UPDATE - Update wallet setup instruction and link to blog and docs and to pkt.chat: https://docs.pkt.cash/en/latest/pktd/pktwallet/
+
+### June 27, 2021
+Milestone 1 accepted and paid out in transactions:
+
+[1](https://explorer.pkt.cash/tx/ac2d9292d59e8e94f62e69f70dca0dfaa339b5f8cf6236f6ee143e134c27b7d6)
+[2](https://explorer.pkt.cash/tx/b10948661a8851238722c8845a04b33fa65adf42c5eef465dda42fe1ca64286a)
+[3](https://explorer.pkt.cash/tx/9d2849afbd0642e878a4a7f5367e71c50b1841d1f5c64fdb5f95e098e436b12c)
+[4](https://explorer.pkt.cash/tx/7551ff4851b8415bbb0026eac74fc7610f9b3a91e9332faf39b131f1fd2b4659)
+[5](https://explorer.pkt.cash/tx/7751d3769039acf622acb8d04ef56f6bbf7060af148163142cb8beb806b11035)
+[6](https://explorer.pkt.cash/tx/4b11629810ec0b656c24c78fb92c12df8d266a038c83b458d90ef08572ec0cec)
+[7](https://explorer.pkt.cash/tx/37dcba212a353d4528e8037859bdbe13f411a42e04041e2bafd9294b6d570c71)
+[8](https://explorer.pkt.cash/tx/01086770286878eaec1e3e0349b2c514ac6861b02c86ea3d8ee4e0021dca098c)
+[9](https://explorer.pkt.cash/tx/b7c366c5004530aef8e76ca282e8574541ae6d72e898de74bd0558ae2f2818ed)
+[10](https://explorer.pkt.cash/tx/3af5a3836d1f7f9d8e2a1f6f68729400ac972173099928ba53e7c969ef4822e7)
+[11](https://explorer.pkt.cash/tx/b8af5bf04cb7515967915f7aa265f24527e3cd8eab54988208e7125bef1ac5b4)
+[12](https://explorer.pkt.cash/tx/d13f23918330823d34d14582b07d5c218e4b0133ac39fe88c13cdfab87a3244c)
+[13](https://explorer.pkt.cash/tx/995ebe2d26dbc6c16821491833cf6172eaec94c12306de9c831fbe9bb0185157)
+[14](https://explorer.pkt.cash/tx/334fe80317c01b3cff414b5a20dc5ce950e197469d9086f59b16ca33ad32075b)
+[15](https://explorer.pkt.cash/tx/85e6ac50e1930e3ae1cb1f1a96aa12e1b6388ad877684a7f9a0c04521961b8a1)
+[16](https://explorer.pkt.cash/tx/393fe5eb9e35a6c1b1130f843c422863d33a686927736e822a0ce6027aa6b4f1)
+[17](https://explorer.pkt.cash/tx/d56d17919029e0e769f38f4fb5150ff7b311500619dfc487c280bcfa31a752a8)
+[18](https://explorer.pkt.cash/tx/571d659c92c1084f4b4b9c1b5ebdd41ffaac04072388f01b045bf2b22099fb74)
+[19](https://explorer.pkt.cash/tx/e11524a8a4c9a4dd3ec9835613f5a318e84adf3f26515ad99125bdac90e33e9c)
+[20](https://explorer.pkt.cash/tx/22de7311f61def0bb76736cb1b1358f5bff3febcc35c16dff7b2ab72cbcf945c)
+[21](https://explorer.pkt.cash/tx/3fea106498dc8c1bc38d8b2fc6e6ef6fadbd430bf97b485670795f55568a6ec2)
+[22](https://explorer.pkt.cash/tx/7a3bf058d4e8069097c546205960e69078822d6ea232a614099e3f1acf47a5f6)
+[23](https://explorer.pkt.cash/tx/907291687cee1b7087c278e44fd1febe74fd222449cf03d3b5d5049d561b00f6)
+[24](https://explorer.pkt.cash/tx/6094334dc58919ccf7a90c61444b316827d95e32fd03f981e6b1fb03fe890d75)
+[25](https://explorer.pkt.cash/tx/522740ca03c9acdc53cd49ba3071729777b2b33e48082636cc10408690ef6e1b)
+[26](https://explorer.pkt.cash/tx/b6b29650e3b9bf003b297252f5a51d964e2515d081bcb0c2e436ff0c66e3125c)
+[27](https://explorer.pkt.cash/tx/60f594ad609a5664673377102de736684eaa3a77c45e614033d2ac57a8f190f6)
+[28](https://explorer.pkt.cash/tx/e4389bdb21c6b53b8693e17f9cc6051095d45b82658d81c23f161f16f449ac5b)
+[29](https://explorer.pkt.cash/tx/53f13eb57918d75128377219a16c53b5ad9f5c58cf46ba13a57b9875c9f869f4)
+[30](https://explorer.pkt.cash/tx/bee14ceda3b60140d67127911e4230a4ac6bf1de7aba1c1ee62c9ea80f454ab3)
+[31](https://explorer.pkt.cash/tx/4668ed8fefe1abe33d20994dd9fec228cd4f28838de7819a1d8d9fde18240a6f)
+[32](https://explorer.pkt.cash/tx/75c0df53fc92ea30ce4f376e8a7c559e757c7e444f51a80c74b0fd2d0035071b)
+[33](https://explorer.pkt.cash/tx/f22ca1c5f237ec18bd6de65416e3d083425764cf939a19f3f55f4c32082a282d)
+[34](https://explorer.pkt.cash/tx/05837595b18f8a44edb5d316e7ad55a92f38d26293b2a4d2acd5c964d0c6c333)
+[35](https://explorer.pkt.cash/tx/24a9065f2796101cfc2398a6c9a38f47f356e4d19d4ddb2f83fcbe209f9e9d23)
+[36](https://explorer.pkt.cash/tx/bb1ab1442f2dbf3a274ab8f5131100f0f2261f6a2e8421dac311180a966b9ea0)
+[37](https://explorer.pkt.cash/tx/df1252a71f87db3fc40cbcd03f39ae0254d0e2f59052e1376f239d298d9e0553)
+[38](https://explorer.pkt.cash/tx/2af4f73c7cf506b0ec318c63889efdaaef56b02db187765d48bf144c8cd50b9c)
+[39](https://explorer.pkt.cash/tx/9d9f58bd2e3f9e085593f274f649ae9a7414b561b44cddea4b763384b213df9c)
+[40](https://explorer.pkt.cash/tx/845bbe5b72e0b40289239e4638255105cc6ea3e027ec6017d23d761a5b599bd8)
+[41](https://explorer.pkt.cash/tx/149d6e92dfd9f8d0ea572c85546df61a746483b99f2cd057e84338fa3aec81c4)
+[42](https://explorer.pkt.cash/tx/bf08e627e0064169c28d682f52297cbb495fdfa3b6f2dafb64d33a9185d5c48a)
+[43](https://explorer.pkt.cash/tx/89975ccd8c7a0d5541ada23f76c502374759853a3a3cf500dc703e0ba0a714e2)
+[44](https://explorer.pkt.cash/tx/7d429f4787b61b15d4722da6c35c640de5306c3fc951279cdb1216af23159619)
+[45](https://explorer.pkt.cash/tx/669e5e6150b147f6146fada47225bb3608fd243bfb2201134f68af5e7fd552e5)
+[46](https://explorer.pkt.cash/tx/c3e8266e209384ff4e73198fdcb993db6c0a0eb7c225b64968a6cac20264c240)
+[47](https://explorer.pkt.cash/tx/196dbc575aea32f1d833a954f3a408eace9e09064461964ecd33f71345cc8b1a)
+[48](https://explorer.pkt.cash/tx/cc017dd7a9adeaeb853894e17945fac37e122bc0668c36d219c78bc10a4db360)
+[49](https://explorer.pkt.cash/tx/76414f02f83c14587405f4d3c746eadf68bfd20bf1b97a272d32eb3b1eacf436)
+[50](https://explorer.pkt.cash/tx/ce21bc483d1f26cfc1da22c66c4f095ba8c8cdfd96cc83db3afc6c4547f2bed1)
+[51](https://explorer.pkt.cash/tx/5d41df6f8f0e3db8cf6c7bb3a382526b4dba32b005fb6b08a35b6f976b6ee877)
+[52](https://explorer.pkt.cash/tx/ea51bf899655804efd55b18f00d559ddbbd21e6e1e3bf580655e978d290e5e6e)
+[53](https://explorer.pkt.cash/tx/b3f971ec2be32d12c5a22a851094173e4ce602be3d9224448cd8a021d56b78b4)
+[54](https://explorer.pkt.cash/tx/fce7fce2748cc1564b7cd7cc3b47a38c8263f433d02c4329d16e5d28cffb5c69)
+[55](https://explorer.pkt.cash/tx/bded456dc420fc54315fc7c523264e3574f9df3f8bb84b969c80997a8d72f5b9)
+[56](https://explorer.pkt.cash/tx/4c0b82b3358decab7cf38c3519c76c310dc184497fa2c3d2d2bf2ccb86e2a993)
