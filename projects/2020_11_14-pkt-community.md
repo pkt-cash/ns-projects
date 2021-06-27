@@ -134,6 +134,22 @@ in this project.
 ### November 26, 2020
 Project accepted and initial payout of 12mn PKT made in transactions:
 
+### April 9, 2021
+Milestone #1:
+* VIDEO - 1 of 5 completed: https://youtu.be/_EeWHeY-omQ
+* TECH_ARTICLE - 2 of 6:
+** https://www.cryptopolitan.com/how-the-network-steward-ensures-funding-for-the-build-out-of-decentralized-internet-infrastructure-and-open-source-technology/
+** https://www.cryptopolitan.com/pkt-network-packet-priority-creates-a-more-economical-infrastructure-that-will-help-maximise-data-transmission/
+* ARTICLE - 2 of 6 completed:
+** https://docs.google.com/document/d/14G4sbUgrpuNjd9k0KrO0l10-9hnyVJLk/edit
+** https://securityonline.info/all-you-need-to-know-about-pkt-cryptocurrency/
+* GRAPHICS - 8 of 28 completed: https://drive.google.com/drive/folders/1gI_MiqkxkJZSsLobtbIddKWsB-izvA9d?usp=sharing
+* WWW_DOCS - launched with basic documentation written: https://docs.pkt.cash/en/latest/
+* WWW_BLOG - launched: http://crypto.pkt.cash/
+* CHAT_MOD - Code of conduct written and adopted: https://docs.pkt.cash/en/latest/code_of_conduct/
+* WWW_UPDATE - Update wallet setup instruction and link to blog and docs and to pkt.chat: https://docs.pkt.cash/en/latest/pktd/pktwallet/
+
+
 [1](https://explorer.pkt.cash/tx/1152cdb44c28e063200281b203063a0b7eb380380b11f2b42575ab83b274ba35)
 [2](https://explorer.pkt.cash/tx/6a22a150712ebcf953ad1d193884124a97071fd01cecd7a78fbc387169ca1a32)
 [3](https://explorer.pkt.cash/tx/0c904c2ead28525c3226552ea6565460a0797f212d4a927cf2027d81040d1b67)
