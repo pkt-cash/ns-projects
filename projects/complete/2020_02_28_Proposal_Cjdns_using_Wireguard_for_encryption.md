@@ -11,7 +11,7 @@
 * Projected effort: 8 person/months
 * Requested PKT contribution: 24M PacketCrypt tokens (3M tokens per man month)
 * PKT address: pkt1qux6nhrz37pcfx60ppzsaf3c3zc05a4r4yqqtwk
-* Project status: ACCEPTED
+* Project status: COMPLETE
 
 ## Project participants ##
 ### Dmitry Rokityanskiy, Team Leader ###
