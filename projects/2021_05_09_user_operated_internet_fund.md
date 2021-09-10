@@ -301,6 +301,14 @@ justification of all resources allocated *(choose one)*:
 The applicant understands that the network steward is not a legal entity and no part of this project constitutes any form of legal agreement. The applicant accepts that the network steward exists thanks to the effort of volunteers and the applicant has no reasonable expectation of any action, payment or communication from the network steward at any time. For their part, the applicant has no binding commitment or obligation at any time as a result of their participation
 in this project.
 
-## Project Status
+## Status report 10/SEPT/2021
 
-* Seeking guidance
+* The 2021-06A (June 1st) call happened as expected and tentative grantees were selected, but not disclosed as there were administrative delays.
+* On **29/AUG/2021**, the project took possession of the kickoff payment.
+* On **10/SEPT/2021**, a trade of 10mn PKT took place in exchange for 217,500 €
+  * Strike price: 0.02175€ / PKT
+  * 150,000€ for new regular projects
+  * 21,750€ administrative budget (fixed 10%)
+  * 45,750€ for a budget for support projects (to be declared)
+  * Assets: 0 PKT, 217,500€
+* Announcement of the selected projects will take place very soon and following that, Milestone 1 report will be submitted.
