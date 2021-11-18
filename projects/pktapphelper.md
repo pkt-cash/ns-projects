@@ -1,4 +1,4 @@
-# *Project Name*
+# *Pkt miner Helper App*
 
 > **Instructions**: If you are viewing this template in github, click on the pencil icon in the
 upper-right of the pane:
@@ -20,27 +20,36 @@ followed by the project name and `.md`, for example: `2020_03_20_vpn_server.md`
 > **Instructions**:
 > Fill out the name of the project and an email of the person who will be responsible for it, this is the person who will be responsible for splitting up the awarded PKT between the participants. Other project participants may be named or may be pseudo-anonymous as long as there's some means of contact listed.
 
-* Project Name: *e.g. kcjdns*
-* Contact Email: *e.g. cjd@cjdns.fr*
+* Project Name: *Pkt miner helper app*
+* Contact Email: *jharper@pimios.com*
 * Project participants:
-  * *e.g. John Smith (john@smi.th) will work 50% of fulltime*
-  * *e.g. xyz (xyz on Freenode IRC) will work 100% of fulltime*
-* Projected duration: *e.g. 2 months*
-* Projected effort: *e.g. 10 person/months*
-* Pre-project effort: *e.g. 0.5 person/months*
+  * *Jesse Harper will work 20% of fulltime*
+  * *Nick Anthony will work 20% of fulltime*
+  * *Sergio Rabin will work 20% of fulltime*
+  * *Yamil Julian will work 40% of fulltime*
+* Projected duration: *2 months*
+* Projected effort: *2 person/months*
+* Pre-project effort: * 0.3 person/months*
 * Requested PKT contribution: *e.g. 1000 PKT*
 * PKT address to pay to: *e.g. pkt1qwqa46yw6xpl50mq55c5enq446df25deexample*
 
 ## Project summary
 
-*One paragraph about the objectives of the project*
+*The project deals with developping an App which is going to help an Average android user to setup and start an Android based miner using the UserLand Linux emulator
+at a second stage the app will be able to retrieve user mining data like mined time, mined amount, etc*
 
 ## Team and Past Work
 
-> **Instructions:** Include a few paragraphs about the team who will be executing the project with
-examples of their past work, it is best to include links to code such as on github.
+> **Instructions:** 
 
-*A few paragraphs about the team who will be executing the project*
+*Jesse Harper commercial and Mining knowledge and experience*
+*Nick Anthony Commercial and Mining knowledge and experience*
+*Sergio Rabin Embedded and App programming in , Go, Node ( backend) Dart and Android Studio*
+*Yamil Julian App programming in Node (Backend), Flutter, Dart and Android Studio*
+
+
+
+
 
 ## Project deliverables
 
@@ -78,7 +87,7 @@ examples of their past work, it is best to include links to code such as on gith
 > * Capability of cjdns nodes to interconnect over wifi without any specific configuration
 > * 1000 people using yggdrasil
 
-*place success criteria here*
+*The delivered App will allow an average user easily to start mining on an Android device with minimum effor and knowledge*
 
 ## Milestones
 
