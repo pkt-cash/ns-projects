@@ -162,3 +162,17 @@ Project accepted and initial payout of 10mn PKT made in transactions:
 [35](https://explorer.pkt.cash/tx/b8eb5875a35617b49bca1beac86c318e77d3d2d5815bebec6c12aeb048fdc518)
 [36](https://explorer.pkt.cash/tx/3625fc8eff7e54333ba4f98abe3e533c89a1a761487fd0c635544be0ce53d0bf)
 [37](https://explorer.pkt.cash/tx/c2fa401988215790498502e79641c3130dc046e28e55d32fa9a9383bbffad6ab)
+
+### Milestone 1 - Nov 23 2021
+
+> Electrum release with S_ELECT_1,S_ELECT_2,S_ELECT_3,S_ELECT_5 (all feature except Lightning Network support). Windows/OSX and Linux binaries and source code made available.
+
+* S_ELECT_1: Person able to receive and spend PKT with Electrum wallet
+  * See instructions https://docs.pkt.cash/en/latest/electrum/
+* S_ELECT_2: Electrum wallet verifies PacketCrypt Proofs to ensure the chain is valid
+  * Logic for doing this is here: https://github.com/cjdelisle/electrum/blob/pkt-4.1.x/electrum/packetcrypt.py
+* S_ELECT_3: Person of technical ability able to operate an ElectrumX server for PKT chain
+  * Packaged in easy to deploy docker container: https://github.com/cjdelisle/pkt-docker-electrumx
+  * One indepenedent community electrumx server is currently running: `electrumx.randgen.xyz:64767`
+* S_ELECT_5: Windows and OSX binaries of PKT Electrum wallet
+  * Windows, Mac and Linux versions linked from here: https://docs.pkt.cash/en/latest/electrum/
