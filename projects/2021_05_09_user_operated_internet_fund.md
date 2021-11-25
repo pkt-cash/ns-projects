@@ -301,6 +301,209 @@ justification of all resources allocated *(choose one)*:
 The applicant understands that the network steward is not a legal entity and no part of this project constitutes any form of legal agreement. The applicant accepts that the network steward exists thanks to the effort of volunteers and the applicant has no reasonable expectation of any action, payment or communication from the network steward at any time. For their part, the applicant has no binding commitment or obligation at any time as a result of their participation
 in this project.
 
-## Project Status
+## Status report 10/SEPT/2021
 
-* Seeking guidance
+* The 2021-06A (June 1st) call happened as expected and tentative grantees were selected, but not disclosed as there were administrative delays.
+* On **29/AUG/2021**, the project took possession of the kickoff payment.
+* On **10/SEPT/2021**, a trade of 10mn PKT took place in exchange for 217,500 €
+  * Strike price: 0.02175€ / PKT
+  * 150,000€ for new regular projects
+  * 21,750€ administrative budget (fixed 10%)
+  * 45,750€ for a budget for support projects (to be declared)
+  * Assets: 0 PKT, 217,500€
+* Announcement of the selected projects will take place very soon and following that, Milestone 1 report will be submitted.
+
+## M1
+
+> This milestone will be delivered no later than August 5th 2021 and will include the selected grantees from the June call and metrics regarding the applications to the August call. If there are projects from the June call which have already started, information about these will be provided as well. Necessary PKT to fund the new projects will be converted to EUR as the projects are approved.
+> Another call ("The October call") will open on August 1st with deadline October 1st.
+
+Due to administrative delays which then ran into public holidays and other scheduled work, this milestone was not delivered on time. As a result, the project has slipped conseriderably. Delivery is as follows:
+
+### 1. The balance of payments
+The balance of payments to the User Operated Internet Fund
+  * See status report SEPT 10
+  
+### 2. Converted from PKT
+The amount of money which was converted from PKT during the reported period
+  * 10mn PKT -> 217,500€
+
+### 3. Events of selling PKT
+See status report SEPT 10
+
+### 4. Financial status
+An overview of the financial status of the fund, including a breakdown of costs (including administrative costs) and financial interaction with the Trust
+* Assets as of October 5th 2021
+  * Total available assets: 0 PKT, 217,500€
+  * 150,000 € budget allocated to won projects 
+  *  10,000 € (of max 45,750€) allocated to support projects (max 30%)
+  *  21,750 € administrative budget (fixed 10%)
+  *  35,750 € budget remaining
+
+### 5. Team
+The composition of the team at NLnet foundation responsible for the operation of the User-Operated Internet fund, and brief description of tasks and responsibilities.
+
+(in alphabetical order)
+
+*  **Joost Agterhoek** (policy & technology advisor)
+*  **Bob Goudriaan** (general director)
+*  **Michiel Leenaars** (director of strategy)
+*  **Maja Kraljic** (diversity and Inclusion advisor)
+*  **Jos van den Oever** (senior policy & technology advisor)
+*  **Patricia Otter** (administration)
+  
+See: https://nlnet.nl/people for a more in-depth profile.
+
+#### Main tasks
+Tasks in this period performed by the team:
+
+- support establishment of legal structure Technology Commons Trust + communication materials
+- outreach to potential applicants
+- evaluation of project proposals
+- finalisation of Memorandum of Understanding with projects
+- negotiation with support partners
+- coordination of tasks
+
+#### Hours worked
+75 hours
+
+### 6. Summary of projects
+For each active funded project: An executive summary and current status of the project, as well as links to deliverables.
+
+#### Armbian
+* Project URL: https://nlnet.nl/project/Armbian/
+* Current status: Preparation
+* Deliverables to date: -
+
+##### Executive summary
+
+ARM-based single board computers, first popularised by the Raspberry Pi, have resulted in an ever increasing ecosystem of small computing platforms that are low-cost yet increasingly powerful. This makes them popular with many computer enthusiasts and electronics tinkerers, also in low-income regions of the world. Armbian Linux provides an actively maintained and optimised Linux operating system for these devices, based on the Debian family of operating systems. This uniform base allows the devices to function as e.g. a router, the core of a 3d printer  or as the heart of a low-cost laptop. Armbian has a unique custom image building tool. In this project, the Armbian community will create a new generation of armbian-config - the critical core component that configures the hardware and software features.
+
+#### CeroWRT II
+* Project URL: https://nlnet.nl/project/CeroWRT-II/
+* Current status: Active
+* Deliverables to date: -
+
+##### Executive summary
+When we go on the internet these days, we often forget or even don't know what gets us there. Hidden in our broom closets and underneath the sofa, there are physical devices like wireless home routers that can make a big difference in how good our internet connection really is. This project is about upgrading the quality, security, and queue management of home routers - continuing the work of Cerowrt that successfully re-architected the Linux WiFi stack to include pioneering new Flow Queueing (RFC8290) algorithms that successfully reduced working latencies for WiFi at all rates and ranges by 10x or more. This improved throughput under contention by a lot. 
+
+Since then, in addition to support in all 3rd party linux based router firmwares, like OpenWrt, a multiplicity of commercial products such as those from eero and Evenroute appeared based on these technologies, and the same algorithm was also adopted by Apple in iOS and OSX. Meanwhile there have been two new generations of WiFi, dozens of Linux kernel releases, new drivers and abstraction support for new chipsets, vendor offloads (such as those from Qualcomm) and other separate re-implementations, and many new features added elsewhere in the stack, since. The core make-wifi-fast project members, led by Dave Taht, will investigate and explore and extend the state of WiFi anno 2021, and investigate whether these algorithms are still working as intended, what new problems have cropped up, and to add in new features and methods polished since the last release cycle.
+
+#### Open source ePDG for VoWiFi
+Project URL: https://nlnet.nl/project/Osmocom-ePDG/
+Current status: Active
+Deliverables to date: -
+
+##### Executive summary
+
+This project from the Osmocom community delivers an important contribution towards a fully open source mobile infrastructure, by implementing the first open source Enhanced Packet Data Gateway or ePDG. Inside the 3GPP cellular network architecture, the ePDG is the interface between the operator network and the public internet. Phones connect to the gateway in order to use VoWiFi (voice over WiFi) services.  ePDG sits between the phone and the IMS core (same for VoLTE, VoWiFi and VoNR in 5G), and acts primarily as an IPsec gateway with ISIM card based authentication and key generation.
+
+With efforts underway to create a fully open source FOSS based 4G network with a FOSS based IMS core with VoLTE functionality, having a FOSS ePDG is the only missing part for operating VoWifi from FOSS.
+
+### 7. Support projects
+For each active funded project which is classied as a support project: a management overview of the use of resources, remaining budget, and which projects were supported.
+
+* **Radically Open Security - Security scans, audits and advice**
+  - Use of resources:
+      * 0€ claimed
+      * Remaining budget: 10 000€
+
+### 8. Attestation
+I attest on my honor that the above transaction information is true and accurate and that the payments to projects have been made after the agreed results have been delivered
+  * **signature on PDF version of this document**
+
+### 9. August call
+Metrics regarding applications to the August call
+  * Number of applications **8**
+  * Total budget requested **316,500**€
+
+## M2
+
+> This milestone will be delivered no later than October 5th 2021 and will include the selected grantees from the August projects. The necessary PKT to fund the new projects will be converted to EUR as the projects are approved.
+> Another call ("The December call") will open on October 1st with deadline December 1st.
+> After a report is delivered on this milestone and if it is approved by the NS, the NS will send the amount of PKT needed to raise the balance of the Trust's treasury to the Buffer Amount.
+
+In order to bring the project back into schedule, we are submitting M2 along with M1 on Nov 7th 2021.
+
+
+### 1. The balance of payments
+The balance of payments to the User Operated Internet Fund
+  * See status report SEPT 10
+  
+### 2. Converted from PKT
+The amount of money which was converted from PKT during the reported period
+  * None
+
+### 3. Events of selling PKT
+See status report SEPT 10
+
+### 4. Financial status
+An overview of the financial status of the fund, including a breakdown of costs (including administrative costs) and financial interaction with the Trust
+
+The launch of the User-Operated Internet Fund was significantly more successful than anticipated, both during M1 and M2. We have reallocated 35,000€ from the tentative support project budget (max 30%, currently 5%) and temporarily reallocated 9,250€ from the administrative budget (fixed 10%) to the regular project budget to allow for at least two projects to be granted from this call/M2. There were several other eligible projects, these have been pushed to the October 2021 call/M3. Additional funding to restore the administrative budget to the required 10% is requested for the next round.
+
+* Assets as of NOV 7th 2021
+  * Total available assets: 0 PKT, 217,500€
+  * 195,000 € budget allocated to regular projects (89.7%)
+    * Spent: 0€
+  *  10,000 € (of max 45,750 €) allocated to support projects (5%, max 30%)
+    * Spent: 0€
+  *  12,500 € administrative budget (fixed 10%, temporarily reduced to 5.7%)
+    * Spent: 12,103€
+
+### 5. Team
+See M1
+
+#### Hours worked
+96 hours
+
+### 6. Projects
+We have selected the following two *new* projects:
+
+#### Telecommunication in HF using the Internet Protocol (IPoHF)
+* Project URL: https://nlnet.nl/project/IPoHF
+* Current status: Preparation
+* Deliverables to date: -
+* Executive summary:
+
+This project will develop a software-defined wireless telecommunications system optimized for IP transport on the High Frequency (HF) band for very long distance links using ionospheric propagation. The system will be composed of a software-defined modem with different bandwidth options and modulation variations, which can adapt to propagation conditions and spectrum availability. The media access control and data-link layer will be developed with a focus on optimizing the transport of IP packets for lower latency and higher throughput. IP-based services performance on top of the proposed system will be evaluated and tuned. Also, security aspects will be considered for a secure automatic link establishment procedure. In order to provide the highest possible throughput when considering the available spectrum, a cognitive channel selection and link aggregation sub-system will be implemented. The software stack will be designed to be easily integrated to any wideband HF transceiver paired with an embedded processing unit, while the IP-based network applications will need no modification. Rhizomatica has designed a wideband HF transceiver to take advantage of the proposed software.
+
+#### WebRTC network congestion management for PION
+* Project URL: https://nlnet.nl/project/Pion-adaptive
+* Current status: Active
+* Deliverables to date: -
+* Executive summary:
+
+Network congestion heavily impacts real-time applications such as the popular video conferencing tools based on WebRTC, which we all have come to rely on during the SARS-CoV-2 pandemic. WebRTC is an IETF protocol that allows bi-direction P2P communication. Two peers find the best route to connect, even if they are both using a browser. This allows users to host their own conferences and share files directly from their browser. WebRTC is used by projects like Tor, IPFS and Galene.
+
+Open source efforts in this space lack good congestion control which allows to adjust quality to available bandwidth, meaning that all users will have a better experience. Large companies consider their proprietary congestion controller a strategic asset, and don't readily share information on how it works. Pion is a fast and performant implementation of WebRTC, written in Go. This project will provide a way to measure the network quality, and adjust it to available bandwidth - and will document all the steps needed in order to empower other Open Source WebRTC projects. 
+
+#### Armbian
+(See M1 report, https://nlnet.nl/project/Armbian)
+
+#### CeroWRT II
+(See M1 report, https://nlnet.nl/project/CeroWRT-II)
+
+#### Open source ePDG for VoWiFi
+(see M1 report, https://nlnet.nl/project/Osmocom-ePDG)
+
+An up-to-date overview of projects supported by UOF can always be found on:
+
+https://nlnet.nl/thema/User-operatedInternetFund.html
+
+### 7. Support projects
+For each active funded project which is classied as a support project: a management overview of the use of resources, remaining budget, and which projects were supported.
+
+* **Radically Open Security - Security scans, audits and advice**
+  - Use of resources:
+      * 0€ claimed
+      * Remaining budget: 10 000€
+
+### 8. Attestation
+I attest on my honor that the above transaction information is true and accurate and that the payments to projects have been made after the agreed results have been delivered
+  * **signature on PDF version of this document**
+ 
+### 9. Metrics
+Metrics regarding applications to the October call
+* Number of applications: **33**
+* Total budget requested: **1,124,191**€
