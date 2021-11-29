@@ -73,9 +73,10 @@ We have finished developing the website, which includes all the digital assets a
 * How to Mine PKT on Akash Cloud
 * How to Mine PKT on AWS 
 * How Does the PKT Blockchain Work?
+* How to Convert PKT to WPKT
 
 
-![image](https://user-images.githubusercontent.com/27009001/131851420-00cc20e8-295a-4592-a668-d93bddf9de47.png)
+![ranking](https://user-images.githubusercontent.com/27009001/143810458-fd50f577-9d12-40c6-a579-a56c488de6b4.png)
 
 
 
@@ -87,21 +88,23 @@ We have finished developing the website, which includes all the digital assets a
 
 **SEO*: 9 blog articles are ranking on the top 1-6 positions in the USA for
 
-| Keywords | Position on Google |
-| ------------- | ------------- |
-| How to Mine PKT on Virtual Box  | 1  |
-| Which Pool Order Produces the Most PKT Mining Rewards  | 1  |
-| How to Check Your PKT Mining Rewards  | 1  |
-| The Best CPUs for PKT Mining  | 2  |
-| How to Create PKT Wallet on Ubuntu  | 2  |
-| How to Mine PKT on AWS  | 2  |
-| What is Ke/s in PKT Mining  | 3  |
-| How to Create a PKT Wallet on Windows  | 3  |
-| How to Mine PKT on Ubuntu  | 6  |
-| How to Create PKT Wallet On Mac  | 11  |
-| How to Mine PKT on Akash Cloud  | 12  |
-| How to Mine PKT on Windows  | 14  |
-
+| Keywords                                              | Position on Google as of Nov 29, 21|
+|-------------------------------------------------------|----------|
+| How to Check Your PKT Mining Rewards                  | 1        |
+| How to Mine PKT on AWS                                | 1        |
+| How to Create PKT Wallet on Ubuntu                    | 1        |
+| The Best CPUs for PKT Mining                          | 1        |
+| How to Mine PKT on Windows                            | 1        |
+| How to convert PKT to WPKT                            | 1        |
+| How to Create PKT Wallet On Mac                       | 1        |
+| What is Ke/s in PKT Mining                            | 1        |
+| How to Mine PKT on Virtual Box                        | 1        |
+| Which Pool Order Produces the Most PKT Mining Rewards | 1        |
+| How to Mine PKT on Ubuntu                             | 1        |
+| How to Create a PKT Wallet on Windows                 | 2        |
+| How Does PKT Blockchain Works                         | 4        |
+| How to Mine PKT on Akash Cloud                        | 5        |
+| What is PKT Coin                                      | 47       |
 
 
 ### Milestones ###
