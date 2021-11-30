@@ -253,3 +253,26 @@ Milestone 1 accepted and paid out in transactions:
 [54](https://explorer.pkt.cash/tx/fce7fce2748cc1564b7cd7cc3b47a38c8263f433d02c4329d16e5d28cffb5c69)
 [55](https://explorer.pkt.cash/tx/bded456dc420fc54315fc7c523264e3574f9df3f8bb84b969c80997a8d72f5b9)
 [56](https://explorer.pkt.cash/tx/4c0b82b3358decab7cf38c3519c76c310dc184497fa2c3d2d2bf2ccb86e2a993)
+
+### November 30, 2021
+Milestone #1:
+* VIDEO - all 5 
+** https://www.youtube.com/watch?v=tCBKBEtFmfw
+** https://www.youtube.com/watch?v=IBTjANISzM4&t=13s
+** https://www.youtube.com/watch?v=VHG_21z-23c
+** https://www.youtube.com/watch?v=CFxgIKFL0DM&t=7s
+* ANIM_VIDEO - https://www.youtube.com/watch?v=5pt0QMjPk_Q&t=7s
+* ARTICLE - all 6:
+** https://bigdataanalyticsnews.com/pkt-cash-cryptocurrency-the-right-option/
+** https://www.blizg.com/a-comprehensive-guide-to-pkt-cash-cryptocurrency/
+** https://www.cryptopolitan.com/decentralize-everything-a-reminder-for-a-true-community-power/
+** https://www.cryptopolitan.com/massive-adoption-of-the-pkt-network-will-create-a-free-tier-of-bandwidth-which-would-otherwise-sit-idle/
+* TECH_ARTICLE - all 6:
+** https://www.cryptopolitan.com/how-pkt-cash-provides-an-economic-incentive-for-people-to-connect-bandwidth-to-the-decentralized-pkt-network/
+** https://www.europeanbusinessreview.com/4-pkt-cash-blockchain-cryptocurrency-network-benefits-you-must-know/
+** https://ambcrypto.com/making-mining-profitable-with-pkt-cash/
+** https://www.mikegingerich.com/blog/pkt-cash-crypto-network-another-stream-of-passive-income/
+* GRAPHICS - https://instagram.com/pktcash
+* WWW_DOCS - Frequently asked questions added to docs website: https://docs.pkt.cash/en/latest/PKT_FAQ/
+* WWW_I18N - all 3 translations completed https://pkt.cash (each whitepaper is associated with the appropriate language settings)
+* WWW_UPDATE - translations integrated https://pkt.cash
