@@ -272,7 +272,7 @@ Milestone #1:
 ** https://www.europeanbusinessreview.com/4-pkt-cash-blockchain-cryptocurrency-network-benefits-you-must-know/
 ** https://ambcrypto.com/making-mining-profitable-with-pkt-cash/
 ** https://www.mikegingerich.com/blog/pkt-cash-crypto-network-another-stream-of-passive-income/
-* GRAPHICS - https://instagram.com/pktcash
+* GRAPHICS - https://drive.google.com/drive/folders/1DUYdjuClxFlDX33073aKYpEMjr6CSy7j
 * WWW_DOCS - Frequently asked questions added to docs website: https://docs.pkt.cash/en/latest/PKT_FAQ/
 * WWW_I18N - all 3 translations completed https://pkt.cash (each whitepaper is associated with the appropriate language settings)
 * WWW_UPDATE - translations integrated https://pkt.cash
