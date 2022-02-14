@@ -1,24 +1,36 @@
 # Projects Supported by The Network Steward
 
-* **CURRENT DEADLINE**: Midnight UTC - May 22nd 2021
-* **CURRENT ROUND BUDGET**: 40mn PKT
+* **CURRENT DEADLINE**: Midnight UTC - Match 4th 2021
+* **CURRENT ROUND BUDGET**: 20mn PKT
 
 ## IMPORTANT RECOMMENDATIONS
-Following a conversation between the members of the Network Steward team, it has been decided that
-the Network Steward shall make the following **recommendations** to applicants:
-
-1. Applicants are recommended to provide in their applications, a commitment to including, in
-each milestone report, a tally of how the PKT was spent on the project, including:
-  * Each resource which was used (e.g. 100 person-hours, or 1 month of a cloud server)
-  * For each resource, the cost accounted in national currency
-  * The date and price at which PKT was converted to national currency for the purpose of converting.
-    * Note: It is not required that PKT actually be sold on the market, just that it be accounted as
-    having been converted.
-2. Applicants are recommended to provide in their applications, a commitment to including in
-each milestone report, audit certificates from a qualified financial auditor which support the
-above statements.
-3. Applicants are recommended to specify in their applications that they agree to receive partial
-payout for a milestone if they can only justify partial use of the resources from the previous payment.
+We have provided some specific guidance to the applicants regarding project topics and
+aspects which we think will be most beneficial to PKT:
+1. We consider it that projects are better if they make explicit commitments regarding
+ethical communication, including but not limited to adoption of the community
+[Ethical Communication Guidelines](https://docs.pkt.cash/en/latest/communication/) or
+something like it.
+2. We think the community would be well served by one or more *cascading funds*. A cascading
+fund is a project whose purpose is to create it's own open call for smaller "sub-projects"
+to be proposed and delivered by other members of the community. We think that a well structured
+cascading fund should include concrete steps to ensure that the open call is run and judged
+fairly, and also that the sub-projects are legal, ethical, and fairly beneficial to everyone
+in the ecosystem.
+3. Given PKT has the potential for price volitility, we think it is more fair to the
+applicant as well as the PKT community, if projects are costed in a more stable currency.
+  * In case of a price rise, such projects would reduce PKT contribution at milestones.
+  * In case of price drop, the NS would accept partial delivery and applicants may write
+  follow-on proposals in order to finish the job.
+  * Proposals electing this type of accounting will be considered stronger if they contain
+  *transparent accounting* with:
+    * Each sale of PKT being reported within some set number of hours after the sale is
+    consummated, and,
+    * Use of funds (salaries, materials, administrative overhead, etc.) being reported in
+    each milestone report.
+4. We think that fairness of PacketCrypt mining is important, and that the community would
+benefit from projects which will improve performance of the open source PacketCrypt code,
+especially proposals which have a competitive aspect such that anyone in the community may
+submit their code for consideration.
 
 **Please Note**: These recommendations are not prescriptive, the Network Steward wants to verify that
 resources were allocated to the execution of projects, even if purchasing power may have changed as a
