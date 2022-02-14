@@ -16,7 +16,7 @@ to be proposed and delivered by other members of the community. We think that a 
 cascading fund should include concrete steps to ensure that the open call is run and judged
 fairly, and also that the sub-projects are legal, ethical, and fairly beneficial to everyone
 in the ecosystem.
-3. Given PKT has the potential for price volitility, we think it is more fair to the
+3. Given PKT has the potential for price volatility, we think it is more fair to the
 applicant as well as the PKT community, if projects are costed in a more stable currency.
   * In case of a price rise, such projects would reduce PKT contribution at milestones.
   * In case of price drop, the NS would accept partial delivery and applicants may write
