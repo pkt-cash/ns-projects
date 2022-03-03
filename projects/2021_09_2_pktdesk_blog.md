@@ -117,6 +117,29 @@ SEO Optimization (2 weeks)
 
 Total time: 8 weeks
 
+### Open Source in Nature ###
+
+All of the code is licensed under the Apache License 2.0 which outlines what users are allowed to do with the licensed code. Under this license, users can: Use the code commercially.
+
+All Textual content, animations, drawings, logos, and design concepts are licensed under Creative Commons Attribution 4.0 where attribution of "PKTDesk" is considered valid attribution.
+
+Users will be able to submit changes to the blog through Github, and administrators will review them according to the ethical communication guidelines.
+
+### Communication ###
+
+The website carries a high risk of potential unethical communication, and therefore specific attention must be paid to proving that the communication will be ethical in nature. 
+
+To ensure that the website complies with the guidelines, it will undergo strict approval standards. The existing content, as well as future content, will be adapted to the guidelines. 
+
+### Benefits to the Community ###
+
+Throughout the website, we have attempted to provide answers to questions posed by members of the community. Using this website, they have been able to address questions they could not find elsewhere on the Internet, including how to buy PKT, convert to WPKT, and mine on Android. 
+
+Since most people do not know how to buy PKTs and WPKTs or other technical work like mining, the content is extremely important. When users possess this knowledge, the project is likely to grow.
+
+We will add more blogs over time as the need arises. The community members will be able to submit their blogs related to PKT on PKTDesk that will be evaluated based on the guidelines. A section will be
+
+According to your statement, since the project is owned by me, I can give ownership of the domain and hosting to any person to ensure best practices and standards are followed. 
 
 ### Budget
 
