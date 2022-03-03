@@ -34,12 +34,13 @@ Performance will be verified using the [PacketCrypt](https://github.com/cjdelisl
 * The Administrator will have to provide the test harness and open-source it. 
 * The test OS is Debian (Kernel 5.16.12).
 * As we want the competition to the fairest possible, and generating 10Gbps of announcements internally is very costly. I will create a test environment starting with a given block height. I will generate announcements at a fixed difficulty, which will be stored in a storage server. After that, we subject the block miner to a staged pool configuration. A modified version of the annhandler will then read the announcements from the SSDs and send a continous flow of 10Gbps of announcements to the miners for a set period of time (I suggest 4 hours). Every 60 seconds, the block height is increased by one, and the handler will send a different queue of announcements considering the block hash it fetches from the Pool's Master. The pools Master role, will be to increase block height every 60 seconds and deliver the block hashes. Every team's miner will be subjected to the same height, block hash and announcements.
-The total hardware list is:
-> 2x Dell PowerEdge R730xd (E5-2699v4, 512GB DDR4) - Used as block miners
-> 3x Dell PowerEdge R720 (E5-2650v2, 96GB DDR3) - Will be used as handlers for The Lab's pool
-> 8x Supermicro x10DRT-H Blades (Mixed CPUs between E5-2699v4 / E5-2698v4 / E5-2673v4 / E5-2620v3) - Will be used as ann miners to generate all announcements necessary for the test environment. 
-> 1x Dell PowerEdge R730xd (Storage server)
-> All other machines required will be hosted as VMs such as the Pools Master, blk handler, and pktd node.
+
+## Hardware List
+* 2x Dell PowerEdge R730xd (E5-2699v4, 512GB DDR4) - Used as block miners
+* 3x Dell PowerEdge R720 (E5-2650v2, 96GB DDR3) - Will be used as handlers for The Lab's pool
+* 8x Supermicro x10DRT-H Blades (Mixed CPUs between E5-2699v4 / E5-2698v4 / E5-2673v4 / E5-2620v3) Will be used as ann miners to generate all announcements necessary for the test environment. 
+* 1x Dell PowerEdge R730xd (Storage server)
+* All other machines required will be hosted as VMs such as the Pools Master, blk handler, and pktd node.
 
 ## Steps
 1. Administrators will test the unmodified algorithms on **the target hardware** and publish the resulting performance, this will become **the mark to beat**.
