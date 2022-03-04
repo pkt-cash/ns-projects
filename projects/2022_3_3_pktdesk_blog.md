@@ -125,6 +125,8 @@ All Textual content, animations, drawings, logos, and design concepts are licens
 
 Users will be able to submit changes to the blog through Github, and administrators will review them according to the ethical communication guidelines.
 
+** It is also possible for me to transfer the ownership of the content I have to docs.pkt.cash since all the content is technical in nature. Thus, all content on pktdesk.com will be deleted and 301 redirected to docs.pkt.cash in order to preserve the same ranking benefits.
+
 ### Communication ###
 
 The website carries a high risk of potential unethical communication, and therefore specific attention must be paid to proving that the communication will be ethical in nature. 
