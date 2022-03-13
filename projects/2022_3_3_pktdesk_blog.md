@@ -6,7 +6,7 @@
   * M. Aamir Mursleen  
 * Projected duration: 8 weeks
 * Projected effort: 3 hours/day for 8 weeks
-* Requested PKT contribution: 350,000PKT
+* Requested PKT contribution: 350,000PKT ($4600)
 * PKT address to pay to: pkt1qnrrhxwarlm4x4a47zxu0shylm4jh502vj9jypu
 
 ## Project summary
