@@ -188,6 +188,113 @@ votes.append({
     },
 })
 
+# benhylau
+votes.append({
+    'pktdesk_blog': {
+        'short': 0.9,
+        'long': 0.3,
+        'scope': 0.8,
+        'risk': 0.8,
+        'hazard': 0.7,
+    },
+
+    'wrkforce': {
+        'short': 0.6,
+        'long': 0.7,
+        'scope': 0.3,
+        'risk': 0.3,
+        'hazard': 0.7,
+    },
+
+    'pktpay': {
+        'short': 0.6,
+        'long': 0.7,
+        'scope': 0.9,
+        'risk': 0.7,
+        'hazard': 0.8,
+    },
+
+    'pktchat_upgrade': {
+        'short': 0.8,
+        'long': 0.6,
+        'scope': 0.8,
+        'risk': 0.8,
+        'hazard': 0.9,
+    },
+
+    'fastercrypt': {
+        'short': 0.6,
+        'long': 0.8,
+        'scope': 0.4,
+        'risk': 0.6,
+        'hazard': 0.7,
+    },
+
+    'pktchat_app': {
+        'short': 0.7,
+        'long': 0.3,
+        'scope': 0.5,
+        'risk': 0.8,
+        'hazard': 0.4,
+    },
+
+    'route_server': {
+        'short': 0.9,
+        'long': 0.75,
+        'scope': 0.65,
+        'risk': 0.7,
+        'hazard': 0.8,
+    },
+
+    'docs': {
+        'short': 0.7,
+        'long': 0.3,
+        'scope': 0.4,
+        'risk': 0.7,
+        'hazard': 0.5,
+    },
+
+    'punks_match': {
+        'short': 0.7,
+        'long': 0.6,
+        'scope': 0.4,
+        'risk': 0.2,
+        'hazard': 0.4,
+    },
+
+    'punks_atomic1': {
+        'short': 0.7,
+        'long': 0.5,
+        'scope': 0.3,
+        'risk': 0.1,
+        'hazard': 0.2,
+    },
+
+    'punks_atomic2': {
+        'short': 0.7,
+        'long': 0.5,
+        'scope': 0.3,
+        'risk': 0.1,
+        'hazard': 0.2,
+    },
+
+    'punks_atomic3': {
+        'short': 0.7,
+        'long': 0.5,
+        'scope': 0.3,
+        'risk': 0.1,
+        'hazard': 0.2,
+    },
+
+    'mining_output': {
+        'short': 0.7,
+        'long': 0.5,
+        'scope': 0.55,
+        'risk': 0.6,
+        'hazard': 0.8,
+    },
+})
+
 # Template
 votes.append({
     'pktdesk_blog': {
