@@ -295,6 +295,109 @@ votes.append({
     },
 })
 
+# Arceliar
+votes.append({
+    'pktdesk_blog': {
+        'short': 0.8, # The articles do contain useful information, and they are less sensationalized than most of the other pkt-related blog posts I've seen. I have some concerns about the writing quality, but I've addressed that in the 'risk' section.
+        'long': 0.1, # Based on past blog posts, I don't think these are likely to be helpful in the long term (much of the information seems like it will become outdated). The parts that are unlikely to become outdated (e.g. basic info about how pkt works) is either already present on the blog, or can be found elsewhere, so I would not expect much long-term benefit from funding this
+        'scope': 0.5, # Average. Neither so good nor so bad as to draw attention to this aspect of the proposal. This could be improved if it was a little more clear on what content is expected to be in the articles (e.g. a list of likely topics).
+        'risk': 0.5, # There is little risk that the blog would fail to produce new content, but based on the blog posts that are already available, I don't think the information is presented very effectively.
+        'hazard': 0., # Based on our past experiences with communication-oriented projects, and the blog posts available so far, I am reluctant to fund more communication projects in general. More importantly, some of the material on the site actively encourages people to financially invest in pkt mining (most notably the advertisements, such as on the main blog page, which list expected pkt/hr). Funding blog posts on a site that's covered in "Order Now" buttons would come off as the NS trying to pump the currency, even if the blog posts themselves are innocuous (and some of them already toe the line a bit -- the article reviewing CPUs also quotes expected pkt/hr).
+    },
+    'wrkforce': {
+        'short': 0.8, # It's no panacea, but this would go a long way towards funding smaller projects and democratizing the direction of pkt.
+        'long': 0.5, # If this works, I imagine more projects of this type will be developed (with or without NS involvement), but I see this as always being at least of average benefit, from a long-term perspective.
+        'scope': 0.5, # Reasonably well aligned with what the NS already does. Not perfect, since there's bound to be some votes for things that would be out-of-scope (or at least the potential for such things occurring). The milestone objectives wander off track from what is strictly necessary to accomplish the task.
+        'risk': 0., # More or less in line with what cjd said, this seems unnecessarily front-loaded with features that aren't strictly required for the platform to work. It's just too big of an investment before we would see any funds distributed based on the user votes.
+        'hazard': 0., # The development cost is almost 5x the amount of funds being distributed. I realize there's always going to be some up-front cost, but those kinds of margins are unacceptable.
+    },
+    'pktpay': {
+        'short': 0.75, # This would be nice to have, if you don't want to rely on a 3rd part multi-coin processor and don't want to roll your own. I think pkt is still young enough that I wouldn't trust 3rd parties to keep supporting it, and using this seems preferable to trying to roll your own (if nothing else, it would help sort-of standardize things). I see this as nice to have, but not crucial in the short term.
+        'long': 0.1, # In the long term, there's enough financial incentives involved that I think something like this would emerge on its own, without us needing to fund it, so I don't think there's very much long-term benefit from this.
+        'scope': 0.5, # Average. I don't think the NS should be funding development of things that businesses already have an interest in doing, then we're just subsidizing. This is small and simple enough that I don't think it's unreasonable to fund, since it's specifically solving an issue that affects businesses that are otherwise too small to deal with it themselves (without depending on a 3rd party processor, which could hurt their margins / raise their prices, and generally not make it worth while to accept pkt in some scenarios).
+        'risk': 0.8, # This seems relatively low risk, due largely to how narrow in scope this project is. Despite how small and focused it is, I can still see some portions which could fail without tanking the entire project, so that makes it even less risky.
+        'hazard': 0.8, # There's very little that's inherently hazardous about this project, though it's possible the tutorial video could become problematic (it could drift from "how-to" into advertisement territory, but it's a small enough part of the project that I think that's an acceptable risk).
+    },
+    'pktchat_upgrade': {
+        'short': 0.9, # Useful in the short term, at least until upstream mattermost developments move too far ahead again
+        'long': 0.5, # In the very long term, this will probably be superseded by future developments, but I would expect those to build on top of this, so I'd say it's of average importance long term (assuming pkt.chat isn't replaced by another platform)
+        'scope': 0.8, # This directly relates to important infrastructure for the pkt community.
+        'risk': 0.8, # This seems low risk... not really anything more to say. The main risk would be if the time/effort needed was underestimated, but even in that case, I don't expect the project to fail.
+        'hazard': 0.5, # A bit hazardous due to CJD's involvement as the host / association with the dev who would be working on this.
+    },
+    'fastercrypt': {
+        'short': 0.8, # Getting a better open source miner out into the world would be good in the short term.
+        'long': 0.1, # I think there are enough incentives to improve the crypto speed already, so in the long run it doesn't seem like this would matter much. Maybe moreso for packetcrypt_rs, since it doesn't have as many eyes on i as the sodium libraries.
+        'scope': 0.5, # Average. It's definitely pkt related, but I'm not sure it's the sort of thing we should really be funding in the first place.
+        'risk': 0.1, # It's an interesting idea, but I'm not particularly confident that this will lead to meaningful improvements in any of the packages that are allowed to be modified. The bounty is fairly high for what could potentially be a trivial few % improvement to packetcrypt_rs, and no improvement to the more widely used sodium packages. The payout is in pkt, so it's subject to price volatility, which could potentially make the reward too small or hilariously large relative to any actual improvements.
+        'hazard': 0.5, # This doesn't seem inherently too hazardous, but without knowing who the judges are / how they're associated with the contestants / the community, it's hard to say anything for certain. There's a potential for corruption if they e.g. disqualify "poor quality" code so they can give the reward to someone who they know or who bribed the judges, just for example.
+    },
+    'pktchat_app': {
+        'short': 0.8, # It seems like push notifications would be nice to have.
+        'long': 0.2, # I don't expect this to become less useful long-term, but it seems like something that somebody would be likely to work on without NS funding, in the long run.
+        'scope': 0.8, # Same reasoning as the pktchat_upgrade proposal.
+        'risk': 0.9, # It seems like there's very little risk that this project would "fail", and no funds are requested for M0, so even volatility shouldn't be that much of an issue (relative to most of the other submissions).
+        'hazard': 0.5, # There's some hazard from Adonis's NS membership, much like the various projects CJD has worked on.
+    },
+    'route_server': {
+        'short': 0.8, # In the short term, the data collected as part of this project could be very interesting.
+        'long': 0.4, # I suspect this is a little less useful than average, long term, since future changes to the routing server may mean the data collected in this project becomes obsolete.
+        'scope': 0.5, # Average. Improvements to the route sever are in scope, but this sort of study doesn't seem so strongly aligned or so misaligned with the interests of pkt and the NS that it warrants either a higher or lower than average score. This could change if we learn of a specific performance problem with the route selection algorithm, or if/when the bandwidth marketplace becomes a more immediate focus.
+        'risk': 0.8, # Since there's no up-front payment, there's very little risk of receiving nothing from this project. I think the data collected could be interesting, but I'm not especially optimistic about how useful it will be (e.g. the data is there, but we can't figure out how to use it to meaningfully improve route selection).
+        'hazard': 0.8, # I'm not aware of any specific hazard, but as I'm also not familiar with the applicant, there's the usual small hazard from accepting a proposal from an unknown/unproven applicant.
+    },
+    'docs': {
+        'short': 0.8, # Useful in the short term, since this documentation is pretty lacking right now.
+        'long': 0.2, # Less useful in the long term, since (assuming there *is* a long term) somebody is bound to do this eventually, with or without NS involvement. That said, having more/better documentation sooner will probably mean better quality documentation long-term, so there's still some benefit from this.
+        'scope': 0.8, # It's important documentation, I'm not sure what more there is to say.
+        'risk': 0.8, # Relatively low risk. I think there's almost 0 chance that documentation would fail to materialize as a result of this project, but we're talking about technical documentation, so there's some risk that it could prove inadequate or fail to communicate the information effectively.
+        'hazard': 0.4, # A little hazardous, since documentation can end up containing some amount of general communication. The cost per hour and number of hours are both potentially a bit high, depending on the length/quality of the documentation, and the applicant is a known associate of an NS member, so that adds a little to the hazard.
+    },
+    # A few general notes about the remaining project proposals.
+    # I appreciate that each proposal is reasonably detailed, and the projects are each relatively small and focused.
+    # Unfortunately, the value of many of these projects depends on whether or not the other projects are approved.
+    # The voting system that the NS uses does not have the ability to make it so a proposal's score is contingent on whether or not other proposals have been accepted.
+    # While we probably could find some way to implement that functionality, it would be inappropriate to modify the voting system after the call for proposals has been issued (nevermind after it closes).
+    # As such, I'm reviewing each of these in isolation, and then selecting only the "best" in the case of the atomic swap proposals (since implementing any one of them decreases the value of the others, at least to the extent that having any one atomic swap implementation should be sufficient to start building infrastructure atop it).
+    'punks_match': {
+        'short': 0.8, # Being able to more easily exchange pkt for something else (especially via atomic swaps) would be very nice to have in the short term.
+        'long': 0.2, # There's enough financial incentive that I think, in the long term, something along these lines is likely to emerge even without NS funding. There's some value to having multiple matchmaking options, so there is some long-term benefit from this, but it's not as significant as in the short term.
+        'scope': 0., # This would be average, at least in theory, for some version built on atomic exchanges. As written, and assuming an escrow-based model, this would presumably be used to operate an escrow business. I don't believe the NS should be subsidizing that sort of development, even absent any hazard or risk, unless it's absolutely vital to do so for the good of the pkt community at large. I don't think the escrow-based matchmaking system would ever rise to that level.
+        'risk': 0., # As-is, this would be built to use either escrow or atomic exchanges, depending on whether or not atomic exchanges are implemented. Without knowing which, it's hard to fairly judge this proposal. I tend to think the escrow-based approach is not interesting enough / potentially hazardous enough to disqualify, but impartial software built on top of atomic exchange protocols could be worth-while. Since we don't know which version we would see, I would prefer to rank this as 0 for now, and potentially revisit this if there's continued interest in a future round (if one of the atomic exchange protocols is implemented).
+        'hazard': 0., # For largely the same reasons as CJD outlined, though I consider this more a "hazard" than a "risk", in the sense that it's less about whether or not the developer will be able to deliver the completed project, and more about the potential harm to the pkt ecosystem if this was recognized as an unregulated exchange etc.
+    },
+    'punks_atomic1': {
+        'short': 0.9, # There's a lot of potential to develop new infrastructure on top of the atomic swap protocol. So not only is this directly beneficial, but it opens the door for more interesting development in the future.
+        'long': 0.5, # Long term, it's very likely that atomic swaps would happen with or without this proposal. It's also fairly likely that the first implementation will become the defacto standard, so this is still significant in the long term, but not to quite the extent as the short term.
+        'scope': 0.5, # In general, any implementation of atomic swaps is reasonably well aligned with the long term goals of pkt. Nothing about this proposal in particular would indicate that it is more aligned with those goals than the other proposals this period. This is subject to change if, in the future, atomic swaps become a higher (or lower) priority.
+        'risk': 0.5, # It depends on events happening in the BTC blockchain, so depending on the relative ptk and BTC value and volatility, transaction fees may be prohibitively expensive at times. Basically, just because we have atomic swaps doesn't mean anyone can afford to use them (at least, not on a small enough scale for all potential infrastructure someone may want to build on top of the atomic swap machinery). Additionally, from my (admittedly limited) understanding of atomic swaps, this is not an entirely solved problem -- there are some implementation details (e.g. how the delay before possible cancellation is scheduled) which may need fine tuning.
+        'hazard': 0.5, # This applicant hasn't worked on a project from the NS before, so there's the usual uncertainty about whether or not they can deliver.
+    },
+    # To my mind, this is equivalent to atomic1, except more expensive. If we fund anything, I would prefer to fund atomic1 first, and reconsider other atomic implementations / other wallets after the reference implementation is available.
+    'punks_atomic2': {
+        'short': 0.9,
+        'long': 0.5,
+        'scope': 0.5,
+        'risk': 0.,
+        'hazard': 0.5,
+    },
+    # Same rationale as atomic2
+    'punks_atomic3': {
+        'short': 0.9,
+        'long': 0.5,
+        'scope': 0.5,
+        'risk': 0.,
+        'hazard': 0.5,
+    },
+    'mining_output': {
+        'short': 0.5, # I may be biased, but while I think there's a short-term value to improving the output, I don't think it's high enough to score above average.
+        'long': 0., # Almost guaranteed to be replaced, in the long run.
+        'scope': 0., # While there's clear success criteria, this seems like such a minor issue (no pun intended), with enough incentives already in place to improve the software, that I don't think this is a cost effective use of NS resources. It's open source software, so if someone has a problem with the miner logging output, they're free to submit a PR. I would think that the pool operators, or anyone who owns a significant number of pkt, already has ample incentive to do this, if they think it would bring in (or retain) more people and thereby increase the interest in the pkt project and the value of the pkt that they already hold. If other people think this is really an issue, then I could be persuaded otherwise, but as-is this seems like a problem nobody's solved because nobody's actually that bothered by it.
+        'risk': 0.8, # It's just logging output, so I think there's very little chance that the project would fail to deliver. There's some risk that it will hide critical errors by default, or fail to hide minor errors, or fail to communicate what the issue is effectively.
+        'hazard': 0.4, # The usual issues with an untested applicant submitting proposals. Perhaps slightly more significant in this case, since it involves modifying existing software, and we have little knowledge about how familiar the developer is with that software / the importance of the various error messages / etc.
+    },
+})
+
 # Template
 votes.append({
     'pktdesk_blog': {
