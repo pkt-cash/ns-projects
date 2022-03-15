@@ -13,6 +13,7 @@ def getApprovedProjects(budget, costs, votes):
     costs = getAffordable(budget, cost, costs)
     if len(costs) == 0: break # no remaining projects that fit under budget
     best = getBest(approved, votes, costs) # lower cost used as tiebreaker
+    if best == None: break # all filtered project are approved
     cost += costs[best]
     del costs[best]
     approved.append(best)
