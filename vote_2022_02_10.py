@@ -513,4 +513,6 @@ trans = {
 for p in projects:
     print p
     for q in projects[p]:
-        print "  ", trans[q], projects[p][q]
+        individual_votes = [str(v[p][q]) for v in votes]
+        sum_info = "(" + " + ".join(individual_votes) + ")"
+        print "  ", trans[q], projects[p][q], sum_info
