@@ -398,98 +398,379 @@ votes.append({
     },
 })
 
-# Template
+
+# backupbrain
 votes.append({
+    # Overall I think Aamir has done a wonderful job articulating what PKT is
+    # to the greater world. I want to support his efforts in continuing to do so.
+    # However, there are obvious risks associated with the project
     'pktdesk_blog': {
-        'short': 0.5,
+        # I think the existing articles are well written and, to large part
+        # seem to focus on how PKT works and how to understand what it is and
+        # why it exists. More content like this could be a good thing
+        'short': 0.8,
+        # I believe that, in the long term, many articles will become obsolete
+        # as the technology evolves. As the tools mature, technical articles
+        # will become irrelevant. As the project matures, the focus of PKT will
+        # shift. These changes may result in the articles becoming less relevant
+        # over time.
         'long': 0.5,
-        'scope': 0.5,
-        'risk': 0.5,
-        'hazard': 0.5,
+        # I believe Amir has shown that he is capable of writing well and
+        # connecting his content to Google search results. How we will ensure
+        # that future content will meet or exceed the community guidelines
+        # is unclear, and currently some articles have a definite sales focus,
+        # including CTAs to buy products. There's nothing wrong with that, but
+        # our mandate is not to sell PKT products or to advertize specific yield
+        # amounts, so this is a very fine line to walk.
+        'scope': 0.8,
+        # Based on past content, I don't see a high degree of risk in the author
+        # misrepresenting the project.
+        'risk': 0.8,
+        # Based on past content, I don't see a high degree of risk in the author
+        # misrepresenting the project.
+        'hazard': 0.8,
     },
+
+    # I see the project submission process as being not easy for non-technical
+    # people. Knowledge of Git Forks, Pull Requests, and Markdown are all
+    # required in order to make a submission. Submissions are infrequent and
+    # proposals tend to aim high in terms of budget and deliverables.
+    # I believe a projet such as this could benefit PKT by lowing the technical
+    # barrier to entry on submitting projects, and to encorage smaller proposals,
+    # especially for first-time submitters.
     'wrkforce': {
+        # Even if the project were launched today, I think it would be some time
+        # before we saw the change in how people interacted with the proposal
+        # system.
         'short': 0.5,
-        'long': 0.5,
-        'scope': 0.5,
-        'risk': 0.5,
+        # I believe that, as people learned how to use the new proposal system,
+        # and sharerd that knowledge with others, we would start seeing a major
+        # shift in how proposals are submitted.
+        'long': 0.9,
+        # This project has somewhat vague goals. Users can log in and log out
+        # and "manage account settings", but there is little in the way of a
+        # description of how the user will go about submitting a project or how
+        # users will vote.
+        'scope': 0.4,
+        # I don't understand why this project is so big and yet has no MVP
+        # early-on in the milestones. To me this presents a challenge in accepting
+        # the risk of the project not working properly in the end, or in working
+        # properly but being somehow not useful.
+        'risk': 0.2,
+        # This project asks for a tremendous amount of resources.
+        # In the case where this project is deployed but totally useless, or
+        # the project can't be finished, I think it would have deprived the
+        # community of other potentially useful projects.
         'hazard': 0.5,
     },
+
+    # This is an interesting idea, and I think generally on the roadmap
+    # for PKT to be able to process payments. Keeping in mind that
+    # the project will be open-source, we may see this technology deployed
+    # in a wide-variety of applications.
     'pktpay': {
-        'short': 0.5,
-        'long': 0.5,
-        'scope': 0.5,
-        'risk': 0.5,
-        'hazard': 0.5,
+        # I expect that this will be immediately useful as several companies
+        # are in the PKT ecosystem which may want to leverage this tech in their
+        # own platforms, and fom my experience it's very difficult to find
+        # tools to support small crypto projects such as PKT in this way.
+        'short': 0.8,
+        # I think this project will continue to be useful going forward and
+        # I hope will inspire more companies to provide goods and services in
+        # exchange for PKT
+        'long': 0.6,
+        # This is clearly a small project, with the goal of allowing developers
+        # to integrate some form off PKT payment into their website or online store.
+        'scope': 0.9,
+        # The major risk to me here is that the resulting documentation and tools
+        # will not be developer-friendly. I've seen a lot of sytems, especially
+        # payment systems that simply don't integrate easily, or describe their
+        # functionality or utility well. It is critical for a tool like this
+        # to be easy to pick up and use by even novice developers.
+        'risk': 0.6,
+        # I'm under the impression that buying or selling goods and services
+        # for crypto does not constitute money transmission, so I think that's
+        # not a hazard.
+        'hazard': 0.9,
     },
+
+    # pkt.chat is a tool that a lot of people in the community use daily.
+    # Even though it's not directly PKT-related, I think that it's importance
+    # in the PKT ecosystem is clear.
+    # After a recent update to the server software, pkt.chat clients are presented
+    # with warning messages and potential breaking changes.
     'pktchat_upgrade': {
-        'short': 0.5,
+        # Clearly this project will present a critical improvement to the functioning
+        # of the chat ecosystem short-term.
+        'short': 0.8,
+        # Truly, I don't think this project will do anything for the long-term
+        # growth of PKT, but since not doing anything would have negative
+        # long-term effects, I'll give this a medium vote.
         'long': 0.5,
-        'scope': 0.5,
-        'risk': 0.5,
-        'hazard': 0.5,
+        # The proposal is well-scoped and detailed in what remedies it must take,
+        # and the budget seems reasonable
+        'scope': 0.9,
+        # I don't forsee any major risks associated with this project
+        'risk': 0.9,
+        # I don't forsee any major hazards with this project. @cjd currently runs
+        # the mattermost chat server, and so must be involved in the upgrade.
+        'hazard': 0.7,
     },
+
+    # Given the incentives around mining and the existing inefficiencies in the
+    # current mining software, having an open source improvement would probably
+    # be a good thing.
     'fastercrypt': {
-        'short': 0.5,
-        'long': 0.5,
-        'scope': 0.5,
-        'risk': 0.5,
-        'hazard': 0.5,
+        # There are obvious issues in the mining software that exists today,
+        # So I think the release of this software, if well done, would be embraced
+        # be anyone who mines
+        'short': 0.7,
+        # If mining becomes more efficient, I think it generally benefits all miners
+        'long': 0.8,
+        # The process is well-defined.
+        'scope': 0.9,
+        # It's not clear to me from the proposal how the transparency works
+        # in this contest. How do we know that the winner has indeed creted
+        # the fastest algorithm? Are the benchmarks published live?
+        'risk': 0.4,
+        # I don't know much about libsodium other than it's one of the best
+        # understood and well-supported cryptography libraries around. Is it
+        # actually possibly to make substantial improvements?
+        'hazard': 0.3,
     },
+
+    # There is a known issue with pkt.chat that mobile app users cannot
+    # receive notifications. I helped get this proposal created and submitted
+    # to try to bring new people into the PKT ecosystem and to make measurable
+    # imporovements to the ecosystem.
+    # However there is an inherent conflict of interests as I would financially
+    # benefit from this project getting funded
     'pktchat_app': {
-        'short': 0.5,
-        'long': 0.5,
-        'scope': 0.5,
-        'risk': 0.5,
-        'hazard': 0.5,
+        # It's pretty obvious that push notifications would be a nice feature
+        # to have for pkt.chat users
+        'short': 0.8,
+        # I don't see this change having a profound impact on PKT
+        'long': 0.3,
+        # Overall, the scope is reasonable.
+        'scope': 0.8,
+        # I've actually trried to get the Mattermost mobile software to deploy
+        # on an Android device, and found that the current version and dependency
+        # graph is riddled with problems. Versions of dependencies that no longer exist
+        # or won't compile, software that compiles for teh Emulator but can't
+        # deploy on the device... It turns out to be a problematic system and,
+        # while I'm confident with enoug time, these issues can be resolved, I donn't
+        # have a clear understanding of how long they would take.
+        'risk': 0.4,
+        # I have a conflict of interest on this project
+        'hazard': 0.4,
     },
+
+    # This seems like an interesting project that could yield data that becomes
+    # useful for future projects.
     'route_server': {
-        'short': 0.5,
-        'long': 0.5,
-        'scope': 0.5,
-        'risk': 0.5,
-        'hazard': 0.5,
+        # I suspect there will be useful data that comes from this project
+        'short': 0.8,
+        # Although I agree the data may be less obviously relevant over time as
+        # the network grows, the data may creae an understanding or way of thinking
+        # about network routing and optimization that leads to more projects
+        # in the future.
+        'long': 0.8,
+        # The project seems well-formed. I would like to see what data the project
+        # intends to collect
+        'scope': 0.8,
+        # I don't see significant risks for this project, especially as there
+        # is no upfront payment
+        'risk': 0.9,
+        # I don't forsee any hazards rrelated to this project.
+        'hazard': 0.8,
     },
+
+    # believe there is a need for documentation about how to set up wallets.
+    # I have seen that Jeremy is capable of creating easy-to-follow blog articles
+    # and instructional videos, which I believe are of the quality we would like
+    # to see in NS-funded projects
     'docs': {
-        'short': 0.5,
-        'long': 0.5,
-        'scope': 0.5,
-        'risk': 0.5,
-        'hazard': 0.5,
+        # I believe there is a need for this type of documentation.
+        'short': 0.7,
+        # I assume that there will be better/newer software in the future,
+        # so documentatino crerated for today's software will become obsolete
+        # However people who learn to use PKT today may use PKT tomorrow and
+        # hopefully some of them will contribute in the future, so there may
+        # be some indirect long-term benefits.
+        'long': 0.3,
+        # The scope is tight and straightforward.
+        'scope': 0.8,
+        # As with any project, there's a risk of the project misrepresenting
+        # PKT. But I believe this risk is low given Jeremy's past work and
+        # the fact that what is proposed is simply technical documentation.
+        'risk': 0.7,
+        # Jeremy has been involved in PKT for some time and has worked on many
+        # projects, so there may be a perception of favoritism. However
+        # I believe due to the other factors in this proposal, I would give
+        # it the same vote regardless.
+        'hazard': 0.6,
     },
+
+    # I see matchmaking and safety as excellent objectives for the PKT ecosytem
+    # and to be supported by the NS. Furthermore, Atomic Swaps are on the PKT
+    # roadmap, so any effort to produce such technology should be supported.
+    # However, there are some deep flaws in this proposal.
     'punks_match': {
-        'short': 0.5,
-        'long': 0.5,
-        'scope': 0.5,
-        'risk': 0.5,
-        'hazard': 0.5,
+        # I love the idea of a safe place for people to meet and trade, and for
+        # those trades to be autotamed.
+        'short': 0.8,
+        # If implementing Atomic Swaps, this project implements a feature in the
+        # PKT roadmap.
+        'long': 0.7,
+        # There is a lot going on in this proposal. It proposes to implement an
+        # encrypted chat for example. The PKT community already has pkt.chat,
+        # Discord, and Telegram. "Multisig Wallet Escrow" seems irrelevant if
+        # the project employs Atomic Swaps. Other things such as the "Governance"
+        # and "Dispute Resolution Board" and "Regulatory Risk Management Fund" again
+        # all seem irrelevant if the project uses Atomic Swaps.
+        'scope': 0.1,
+        # It seems like this is actually three proposals: One for a automated
+        # chain-monitoring multisig wallet escrow, one for an Atomic Swap system,
+        # and one for an encrypted chat service.
+        # It seems like, with the dispute resolution and regulatory risk management
+        # fund, there's an might be need to licence and bond the governance board,
+        # For these reason I find the project super risky.
+        # I think if the proposal was focused on Atomic Swaps or a decentralized
+        # chain-monitoring escrow, it would be less risky.
+        'risk': 0.1,
+        # It looks like I would be on the initial board required to elect a
+        # dispute resolution executor, which could put me in a position of power
+        # over others in the community, so I have an inherent conflict of interest
+        # in this proposal.
+        'hazard': 0.0,
     },
+
+    # If I understand correctly, this proposal is for the creation of an Atomic
+    # Swap capability for PKT/LND, something that is both on the PKT roadmap
+    # and immediately useful to the PKT ecosystem.
     'punks_atomic1': {
-        'short': 0.5,
-        'long': 0.5,
-        'scope': 0.5,
-        'risk': 0.5,
-        'hazard': 0.5,
+        # It is pretty clear to me that Atomic Swaps would be a big deal for
+        # the PKT community. Trading is a major activity within the community,
+        # which today is done through chat apps and relying on trusted third parties
+        # to facilitate the trades, to reduce the risk of theft. However this places
+        # an unnecessary burden on those facilitating the trades as they can be
+        # targeted for scams or hacking, and are vulnerable to human error.
+        # Having an automated system would allow people to trade PKT securely
+        # without having to trade one type risk for another.
+        'short': 0.8,
+        # The reason Atomic Swaps are in the PKT roadmap is that ultimately
+        # it is necessary for the bandwidth marketplace to function. People
+        # need to be able to transfer currencies in and out of PKT in order to
+        # engage in the PKT economy. Atomic Swaps are a necessary tool for that
+        # utility.
+        'long': 0.8,
+        # I believe the scope of this proposal is tight and focused. The budget
+        # seems reasonable.
+        'scope': 0.8,
+        # I agree that BTC has high transfer fees, so maybe it would be better
+        # to use BCH instead for example as the initial trading pair. But really
+        # I don't see that as a "risk," only an implementation detail.
+        'risk': 0.9,
+        # I don't forsee any hazards related to this project beyond the typical
+        # things. Evidently this team has created NS projects before, and in the
+        # end the project either works or it doesn't
+        'hazard': 0.8,
     },
+
+    # From here it seems to me that AIoT Punks has submitted a series of proposals
+    # that function as extended milestones. The nice thing about this style of
+    # proposal is that, it leaves room for other projects to be funded and
+    # reduces the hazards around funding non-delivered projects.
+    # It also lays out a roadmap for future work on the project.
+    # I believe that we can treat the following proposals as deferments.
+    # The first proposal will take about 3 months to execute, which is plenty of
+    # time to submit the next proposal if the first one goes well.
+    # For this reason I will defer the remaining AIoT Punks proposals
     'punks_atomic2': {
-        'short': 0.5,
-        'long': 0.5,
-        'scope': 0.5,
-        'risk': 0.5,
-        'hazard': 0.5,
+        # It seems the value-add here is to add atomic swaps to the Electrum wallet
+        # Which I believe will be useful. I'm not sure how many people
+        # use the Electrum wallet though, so I can't say how many users
+        # would have access to this feature.
+        'short': 0.7,
+        # In the long term, I think the previous propsal will be more useful as
+        # command-line-based atomic swaps can be integrated into any number
+        # of apps, including online tools.
+        'long': 0.4,
+        # It is claimed that atomic swaps are already built into Electrum, but
+        # the cost of developing this project is double the previous project.
+        # I don't know about developing Electrum but that seems strange to me.
+        'scope': 0.3,
+        # Since the team can't start or execute this project until phase 1 is
+        # complete, the risks of this project are compounded against phase 1.
+        # I would rather fund this project after phase 1 is complete.
+        'risk': 0.1,
+        # I don't believe there is more "hazard" per se, but I would prefer to
+        # fund this project after the previous project has been deployed
+        'hazard': 0.1,
     },
+
+    # While I like AIoT Punk's plans to make a website where people can simply
+    # trade PKT for other cryptos, given the nature of Atomic Swaps I don't
+    # believe a governance board is necessary. The Atomic Swaps should contain
+    # everything necessary to execute or reject a trade without any oversight
+    # from humans.
+    # Personally, as someone who doesn't use the Electrum wallet, I would
+    # prefer to see this tool implemented before the Electrum wallet implementation.
+    # However I'm reluctant to fund it until phase 1 has been delivered.
     'punks_atomic3': {
-        'short': 0.5,
-        'long': 0.5,
-        'scope': 0.5,
-        'risk': 0.5,
-        'hazard': 0.5,
+        # Given how well received the wPKT tool has been, I expect a website
+        # where people can simply trade PKT with other cryptos in a way that's
+        # even easier to use than wPKT will be a wonderful addition to the
+        # PKT ecosystem
+        'short': 0.7,
+        # Probably this has potential to be used in the long term, especially
+        # since the tool is open-source so can be integrated with future tech
+        # such as the bandwidth marketplace.
+        'long': 0.7,
+        # There seems to be some scope creep in this. If the team focuses on
+        # Atomic Swaps only and drops the governance, I expect I'd give this a higher
+        # rating on the scope.
+        'scope': 0.1,
+        # This project, like the one before, has compounded risks from the
+        # phase 1 project. I think it would be better to re-submit after phase 1
+        # or phase 2.
+        'risk': 0.1,
+        # I believe there is no need for a governance board when using Atomic Swaps
+        # While I appreciate the effort put into thinking about how to protect
+        # people from mistakes, theft, and scams, I expect that Atomic Swaps
+        # should solve enough problems related to executing or rejecting trades
+        # that there should be no need for human oversight. Additionally,
+        # It seems any person who is part of the governance committee could be
+        # a target for hacking, theft, character assasination, lawsuits,
+        # or physical harm. Additionally, though I could be misunderstanding,
+        # I don't believe there is a need for multisig wallets when using Atomic
+        # Swaps, the way there is with treasury-based systems like wPKT.
+        'hazard': 0.0,
     },
+
+    # I don't personally see an issue with the mining output. People
+    # are in-effect being paid to learn what the console output means.
+    # In the same way that Amazon sellers must deal with an awful selling
+    # experience because it's their jobt to.
+    # However, probably miners would generally appreciate a cleaner
+    # console output.
     'mining_output': {
-        'short': 0.5,
-        'long': 0.5,
-        'scope': 0.5,
-        'risk': 0.5,
-        'hazard': 0.5,
+        # Assuming miners appreciate this, I think there will be some short term
+        # gains
+        'short': 0.4,
+        # The mining software is still under development and is likely to
+        # be upgraded in the future, meaning that this project will either
+        # be depricated in the future, or will inspire better console output
+        # in future versions.
+        'long': 0.3,
+        # The scope is clearly defined. Seems straightforward to comb through
+        # logging commands and silence some and format others.
+        'scope': 0.9,
+        # I don't think any sophisticated knowledge of PKT, rust, or crypto
+        # is even required to do this project properly. I think it comes with
+        # a low risk.
+        'risk': 0.8,
+        # The hazards are typical for any project
+        'hazard': 0.8,
     },
 })
 

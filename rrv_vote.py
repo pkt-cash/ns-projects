@@ -35,7 +35,7 @@ def getCombinedVotes(votes):
     if count < 3:
       # too many 0 scores to be considered
       for a in ret:
-        del a[project] 
+        del a[project]
     else:
       # make sure every project appears on every ballot
       # so fill in anything missing with a 0 score on that ballot
