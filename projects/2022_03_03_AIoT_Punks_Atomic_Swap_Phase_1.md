@@ -14,6 +14,7 @@
 * Projected effort: *1.1 person/months*
 * Pre-project effort: *e.g. 0.22 person/months*
 * Requested USDC PKT equivalent contribution: *10,080 USDC*
+* Maximum requested PKT: 504,000 PKT
 * PKT address to pay to: *pkt1q4rwkug8yl8k59h6kp5w6k3fqeug97rdfj682g7*
 
 ## Project summary
