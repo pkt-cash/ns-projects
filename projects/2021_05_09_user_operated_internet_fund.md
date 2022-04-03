@@ -508,6 +508,9 @@ Metrics regarding applications to the October call
 * Number of applications: **33**
 * Total budget requested: **1,124,191**€
 
+## Status update Feb 28 2022
+Transacted 10mn PKT for EUR 159,740.16 (USD 180,000) (0.018 USD/PKT). Sale was negotiated Feb 25 2022.
+
 ## Status Update from NS - Nov 25 2021
 Kickoff was paid 10mn PKT on AUG 29 2021 in the following transactions
 
