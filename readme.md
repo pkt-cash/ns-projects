@@ -1,7 +1,7 @@
 # Projects Supported by The Network Steward
 
-* **CURRENT DEADLINE**: Midnight UTC - March 4th 2022
-* **CURRENT ROUND BUDGET**: 20mn PKT
+* **CURRENT DEADLINE**: NO OPEN ROUND, CHECK BACK SOON
+* **CURRENT ROUND BUDGET**: -
 
 ## IMPORTANT RECOMMENDATIONS
 We have provided some specific guidance to the applicants regarding project topics and
