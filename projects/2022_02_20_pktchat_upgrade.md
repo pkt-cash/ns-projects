@@ -91,11 +91,11 @@ Such release in production will be fairly easy to validate by having the Android
 ### Milestone 1 (Kickoff)
 
 Upon agreement during the kickoff meeting regarding tagged versions to be targeted for integration from upstream,  
-1/10 of the total PKT contribution (**To be determined on milestone submission** PKT) or **To be determined on milestone submission date** PKT / hour.
+1/10 of the total PKT contribution (**51,944 PKT**) ~or **To be determined on milestone submission date** PKT / hour~.
 
  * The cost of this milestone is 467.5 EUR and  
- I declare that the current trading price is **to be determined on milestone submission** EUR per PKT on the **milestone submission date**
- * Therefore I will request a transfer of **to be determined on milestone submission** PKT
+ I declare that the current trading price is **0.009** EUR per PKT (0.9 EUR/USD / 100 PKT/USD) on the **3rd of April 2022**
+ * Therefore I will request a transfer of **51,944 PKT**
 
 ### Milestone 2
 
@@ -240,5 +240,8 @@ in this project.
 
 ## Project Status
 
- - guidance requested (especially regarding Use of Resources section)
+ - [x] guidance requested (especially regarding Use of Resources section)
+ - [ ] Milestone 1 payment requested  
+   - 51,944 PKT for 467.5 EUR i.e. 467.5 EUR / ( 0.90 EUR / USD * 0.010 USD / PKT )
+     considering [1 USD = 0.90 EUR](https://finance.yahoo.com/quote/USDEUR=X/) and [1 PKT = 0.010 USD](https://www.bitmart.com/trade/en?layout=basic&symbol=PKT_USDT)
 
