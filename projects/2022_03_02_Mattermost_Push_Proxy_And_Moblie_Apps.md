@@ -11,7 +11,7 @@
 -   Projected duration: e.g. 2 months
 -   Projected effort: e.g. 2 person-months
 -   Pre-project effort: e.g. 0.5 person/months
--   Requested PKT contribution: e.g. ADD ALL PKT PKT
+-   Requested PKT contribution: 600000
 -   PKT address to pay to: pkt1quxegcaslkacj75vu7kdhadm72dyu2kkt2axljn
 - Project status: **PROPOSED**
 
@@ -64,7 +64,7 @@ At the end of this project, we will have:
 
 We have found the Mattermost instructions for deploying a push notification server, including testing the mobile app on an Android smartphone.
 
-After the project is accepted, the Network Steward will pay XXX PKT
+After the project is accepted, the Network Steward will pay 0 PKT
 
 Figure out how time this took, convert that number to PKT using the price at [http://price.pkt.cash](http://price.pkt.cash), then multiply by 120% to get how much PKT we should get paid at this step, then delete this italicized text.
 
@@ -115,7 +115,7 @@ Estimated man-hours: 100
 
 #### Payout
 
-After a report is delivered on this milestone and it is approved by the NS, the NS will send 266,666 PKT.
+After a report is delivered on this milestone and it is approved by the NS, the NS will send 253,334 PKT.
 
 
 ## Disclosure
