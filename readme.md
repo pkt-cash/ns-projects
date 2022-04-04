@@ -138,7 +138,7 @@ describe your work in *Milestone 0 (Kickoff)* which will be written as an milest
 writing success criteria for a success which you already achieved. If the project is accepted then
 pre-project work will be payable.
 
-## 8. Evaluate your own project
+## 9. Evaluate your own project
 The Network Steward team doesn't just make decisions on a whim, there is a clearly defined process
 which the evaluators follow so you can evaluate your own project before they do.
 
@@ -146,7 +146,7 @@ which the evaluators follow so you can evaluate your own project before they do.
 2. Review your project while asking the questions in the
 [evaluation criteria](https://github.com/pkt-cash/ns-projects/blob/master/acceptance_process.md#evaluation-criteria)
 
-## 9. Get competitive
+## 10. Get competitive
 If you've done a good job on everything above, you will have a good project, but the difference
 between good and great is your willingness to make the project a better deal for the community
 than other applicants. There are 2 key ways you can do this:
@@ -158,7 +158,7 @@ completed makes the project more risky and difficult to accept, the Network Stew
 to prefer projects which ask for the least amount in the first period and push the majority of
 the payment back until after success-criteria are met.
 
-## 10. Submit
+## 11. Submit
 After you have everything put together, your success criteria are awesome, your time estimates
 are on target, conflicts are disclosed and you have decided how hard you want to compete, it's
 time to submit your project.
