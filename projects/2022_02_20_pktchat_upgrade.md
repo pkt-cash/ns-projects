@@ -244,4 +244,4 @@ in this project.
  - [ ] Milestone 1 payment requested  
    - 51,027 PKT for 467.5 EUR i.e. 467.5 EUR / ( 0.90 EUR / USD * 0.0088 USD / PKT )
      considering [1 USD = 0.90 EUR](https://finance.yahoo.com/quote/USDEUR=X/) and [1 PKT = 0.0088 USD](https://global.bittrex.com/Market/Index?MarketName=USDT-PKT)
-
+     * CALEB: I have personally advanced this payment to the project in transaction https://explorer.pkt.cash/tx/ffec379725a8b1319c18d71978c088f3e53ece49b923139be2ec6c2fac237fe5 and I hereby request the payment be redirected to pkt1qtu5y64ln9n9mw3e88ydt28jgmu327ygme8y54t
