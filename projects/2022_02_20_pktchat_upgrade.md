@@ -76,22 +76,22 @@ Such release in production will be fairly easy to validate by having the Android
 ## Milestones
 
   1. Define which tags will need to be targeted for integration from upstream projects during kickoff 
-  2. Upgrade [Matterfoss API](https://github.com/cjdelisle/Matterfoss) 
-  3. Upgrade [Matterfoss SPA](https://github.com/cjdelisle/MatterfossWeb) 
-  4. Replace favicons to accommodate to software licencing differences.
+  2. [x] Upgrade [Matterfoss API](https://github.com/cjdelisle/Matterfoss) to [`v6.6.1`](https://github.com/cjdelisle/Matterfoss/pull/9)
+  3. [ ] Upgrade [Matterfoss SPA](https://github.com/cjdelisle/MatterfossWeb) 
+  4. [ ] Replace favicons to accommodate to software licencing differences.
   See this past [issue](https://github.com/cjdelisle/MatterfossWeb/pull/6)
-  5. Generate emoji fonts and matching images along with static files.
+  5. [ ] Generate emoji fonts and matching images along with static files.
   See this past [issue](https://github.com/cjdelisle/MatterfossWeb/pull/4)
-  6. Communicate upfront to community members about upcoming maintenance mode with minimal disturbance affecting their discussions
-  7. Recycle Matterfoss API service 
-  8. Communicate to community members regarding likely requirement for hard-refresh of https://pkt.chat pages possibly cached by their browser 
-  9. Replace Matterfoss SPA static files re-exported since latest merge in production before recycling web server
- 10. (Optional) Offer support to project maintainer up to half a week worth of post-release maintenance (hourly billed)
+  6. [ ] Communicate upfront to community members about upcoming maintenance mode with minimal disturbance affecting their discussions
+  7. [ ] Recycle Matterfoss API service 
+  8. [ ] Communicate to community members regarding likely requirement for hard-refresh of https://pkt.chat pages possibly cached by their browser 
+  9. [ ] Replace Matterfoss SPA static files re-exported since latest merge in production before recycling web server
+ 10. [ ] ~~(Optional) Offer support to project maintainer up to half a week worth of post-release maintenance (hourly billed)~~
 
 ### Milestone 1 (Kickoff)
 
 Upon agreement during the kickoff meeting regarding tagged versions to be targeted for integration from upstream,  
-1/10 of the total PKT contribution (**51,027 PKT**) ~or **To be determined on milestone submission date** PKT / hour~.
+1/10 of the total PKT contribution (**51,027 PKT**) ~~or **To be determined on milestone submission date** PKT / hour~~.
 
  * The cost of this milestone is 467.5 EUR and  
  I declare that the current trading price is **0.0088** EUR per PKT (0.9 EUR/USD / 100 PKT/USD) on the **3rd of April 2022**
@@ -107,11 +107,11 @@ the server-side API becomes ready for testing with the SPA software and future d
 #### Payout
 
 After a report is delivered on this milestone and it is approved by the NS,  
-the NS will send 3/20 of the total PKT contribution (**To be determined on milestone submission** PKT) or **To be determined on milestone submission date** PKT / hour.
+the NS will send 3/20 of the total PKT contribution (**41,250 PKT**) ~~or **To be determined on milestone submission date** PKT / hour~~.
 
- * The cost of this milestone is 701.25 EUR and  
- I declare that the current trading price is **to be determined on milestone submission** EUR per PKT on the **milestone submission date**
- * Therefore I will request a transfer of **to be determined on milestone submission** PKT
+ * The cost of this milestone is 350.6 EUR and  
+ I declare that the current trading price is **0.0085** EUR per PKT on the **4th of May 2022**
+ * Therefore, I will request a transfer of **41,250** PKT
 
 ### Milestone 3
 
@@ -127,7 +127,7 @@ the NS will send 3/20 of the total PKT contribution (**To be determined on miles
 
  * The cost of this milestone is 701.25 EUR and  
  I declare that the current trading price is **to be determined on milestone submission** EUR per PKT on the **milestone submission date**
- * Therefore I will request a transfer of **to be determined on milestone submission** PKT
+ * Therefore, I will request a transfer of **to be determined on milestone submission** PKT
 
 ### Milestone 4
 
@@ -141,7 +141,7 @@ the NS will send 1/20 of the total PKT contribution (**To be determined on miles
 
  * The cost of this milestone is 233.75 EUR and  
  I declare that the current trading price is **to be determined on milestone submission** EUR per PKT on the **milestone submission date**
- * Therefore I will request a transfer of **to be determined on milestone submission** PKT
+ * Therefore, I will request a transfer of **to be determined on milestone submission** PKT
 
 ### Milestone 5
 
@@ -159,7 +159,7 @@ the NS will send 1/20 of the total PKT contribution (**To be determined on miles
 
  * The cost of this milestone is 233.75 EUR and  
  I declare that the current trading price is **to be determined on milestone submission** EUR per PKT on the **milestone submission date**
- * Therefore I will request a transfer of **to be determined on milestone submission** PKT
+ * Therefore, I will request a transfer of **to be determined on milestone submission** PKT
 
 ### Milestones 6 to 9
 
@@ -176,7 +176,7 @@ the NS will send 3/10 of the total PKT contribution (**To be determined on miles
 
  * The cost of this milestone is 1,402.5 EUR and  
  I declare that the current trading price is **to be determined on milestone submission** EUR per PKT on the **milestone submission date**
- * Therefore I will request a transfer of **to be determined on milestone submission** PKT
+ * Therefore, I will request a transfer of **to be determined on milestone submission** PKT
 
 ### Milestones 10 (optional)
 
@@ -189,7 +189,7 @@ the NS will send 1/5 of the total PKT contribution (**To be determined on milest
 
  * The cost of this milestone is 935 EUR at most considering an hourly rate of 53.38 EUR and  
  I declare that the current trading price is **to be determined on milestone submission** EUR per PKT on the **milestone submission date**
- * Therefore I will request a transfer of **to be determined on milestone submission** PKT
+ * Therefore, I will request a transfer of **to be determined on milestone submission** PKT
 
 ## Disclosure
 
