@@ -95,7 +95,7 @@ Upon agreement during the kickoff meeting regarding tagged versions to be target
 
  * The cost of this milestone is 467.5 EUR and  
  I declare that the current trading price is **0.0088** EUR per PKT (0.9 EUR/USD / 100 PKT/USD) on the **3rd of April 2022**
- * Therefore I will request a transfer of **51,027 PKT**
+ * Therefore, I will request a transfer of **51,027 PKT**
 
 ### Milestone 2
 
