@@ -106,12 +106,27 @@ the server-side API becomes ready for testing with the SPA software and future d
 
 #### Payout
 
-After a report is delivered on this milestone and it is approved by the NS,  
-the NS will send 3/20 of the total PKT contribution (**41,250 PKT**) ~~or **To be determined on milestone submission date** PKT / hour~~.
+After a report is delivered on this milestone, and it is approved by the NS,  
+the NS **would have** sent 3/20 of the total PKT contribution (**41,250 PKT**) ~~or **To be determined on milestone submission date** PKT / hour~~.
 
- * The cost of this milestone is 350.6 EUR and  
- I declare that the current trading price is **0.0085** EUR per PKT on the **4th of May 2022**
- * Therefore, I will request a transfer of **41,250** PKT
+ * Since first payment was about 18% of `maximum requested PKT contribution` (`51,027  PKT / 275,000 PKT`),
+   it makes sense that payment request for milestones 2 would be decreased accordingly as [mentioned in first payment request](https://github.com/pkt-cash/ns-projects/pull/110#issue-1190899590)
+ * Besides and since Milestone 1 through 9 payments were evaluated for up to 80% 
+   of maximum requested PKT contribution as follows:
+   - Milestone #1       - 1/10
+   - Milestone #2       - 3/20 
+   - Milestone #3       - 3/20
+   - Milestone #4       - 1/20
+   - Milestone #5       - 1/20
+   - Milestone #6 to #9 - 3/10  
+   so that a pre-provisioned budget would be available for additional fixes,  
+   the remaining 20% of `maximum requested PKT contribution` can now be distributed back through Milestone #1 to #9
+ * Therefore, I will request a transfer of **(1/10 + 3/20 - 18/100 + 20/(9 * 100)) * 275,000** PKT for Milestone 2,
+   i.e. (**25,361 PKT**)
+
+`1/10 + 3/20` being the sum of original Milestone #1 and Milestone #2 payouts.  
+`18/100` being the actual Milestone #1 payment given the evolution of PKT price on the **3rd of April 2022**.  
+`20/(9 * 100))` being the remaining 20% of the optional Milestone (#10) divided by the number of total milestones (9).  
 
 ### Milestone 3
 
@@ -180,7 +195,7 @@ the NS will send 3/10 of the total PKT contribution (**To be determined on miles
 
 ### Milestones 10 (optional)
 
-Hotfixes and additional patches could be applied and prepared for deployment in production on a hourly basis up to the pre-provisioned budget.
+Hotfixes and additional patches could be applied and prepared for deployment in production on an hourly basis up to the pre-provisioned budget.
 
 #### Payout
 
@@ -241,7 +256,10 @@ in this project.
 ## Project Status
 
  - [x] guidance requested (especially regarding Use of Resources section)
- - [ ] Milestone 1 payment requested  
-   - 51,027 PKT for 467.5 EUR i.e. 467.5 EUR / ( 0.90 EUR / USD * 0.0088 USD / PKT )
+ - [x] Milestone 1 payment requested  
+   - `51,027 PKT` for `467.5 EUR` i.e. `467.5 EUR / ( 0.90 EUR / USD * 0.0088 USD / PKT )`
      considering [1 USD = 0.90 EUR](https://finance.yahoo.com/quote/USDEUR=X/) and [1 PKT = 0.0088 USD](https://global.bittrex.com/Market/Index?MarketName=USDT-PKT)
      * CALEB: I have personally advanced this payment to the project in transaction https://explorer.pkt.cash/tx/ffec379725a8b1319c18d71978c088f3e53ece49b923139be2ec6c2fac237fe5 and I hereby request the payment be redirected to pkt1qtu5y64ln9n9mw3e88ydt28jgmu327ygme8y54t
+ - [x] Milestone 2 payment requested
+   - `25,361 PKT` for `216.22 EUR` i.e. `216.22 EUR / ( 0.94 EUR / USD * 0.00907 USD / PKT )`
+     considering [1 USD = 0.94 EUR](https://finance.yahoo.com/quote/USDEUR=X/) and [1 PKT = 0.00907 USD](https://global.bittrex.com/Market/Index?MarketName=USDT-PKT)
