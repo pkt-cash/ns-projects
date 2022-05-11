@@ -316,3 +316,9 @@ in this project.
 ## Project Status
 
 * Submitted 
+
+
+Project kickoff payment requested the PKT equivalent of $2,016 USD - Milestone 0 Payout.  Please send PKT 351,723 to the following PKT address pkt1q4rwkug8yl8k59h6kp5w6k3fqeug97rdfj682g7
+
+Thank You
+AIoT Punks
