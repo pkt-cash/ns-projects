@@ -5,7 +5,7 @@
 * Project participants:
   * Thierry Marianne (@thierrymarianne in [pkt.chat](https://pkt.chat)) will work 100% of fulltime
 * Projected duration: from 2 to 2.5 weeks 
-to be put in perspective with 14 days required to have [v5.46.1 PR merged](https://github.com/thierrymarianne/contrib-matterfoss/pull/1) before excluding minor fixes like [restoring emojis](https://github.com/cjdelisle/MatterfossWeb/pull/4) or [replacing favicons](https://github.com/cjdelisle/MatterfossWeb/pull/6)) and also 
+to be put in perspective with 14 days required to have [v5.36.1 PR merged](https://github.com/thierrymarianne/contrib-matterfoss/pull/1) before excluding minor fixes like [restoring emojis](https://github.com/cjdelisle/MatterfossWeb/pull/4) or [replacing favicons](https://github.com/cjdelisle/MatterfossWeb/pull/6)) and also 
 by including optional post-release maintenance hours / days (the last half-week)
 * Projected effort: 1 person/week
 * Total requested contribution: 4675 EUR
