@@ -18,7 +18,7 @@ by including optional post-release maintenance hours / days (the last half-week)
 
 Matterfoss was [recently](https://github.com/cjdelisle/Matterfoss/commit/b61323db6e7de9344db8ac7bf566bd48dba13540) upgraded to support native mobile applications compatible with Mattermost™ v5.46.1 tag.  
 
-Given than more recent iOS and Android mobile applications versions have been rolled out to further support latest stable versions of [Mattermost™ upstream server-side API project](https://github.com/mattermost/mattermost-server/releases/tag/v6.4.0) (v6.4.0 being the latest major version at the moment),  
+Given than more recent iOS and Android mobile applications versions have been rolled out to further support latest stable versions of [Mattermost™ upstream server-side API project](https://github.com/mattermost/mattermost-server/releases/tag/v6.6.1) (v6.6.1 being the latest major version at the moment),  
 and to prevent being reminded of the pending intermediate software upgrades   
 for each and every time the latest version available of the native app is opened,  
 integrating upstream changes into Matterfoss makes sense. 
