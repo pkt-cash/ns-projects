@@ -322,5 +322,5 @@ in this project.
 
 Project kickoff payment requested the PKT equivalent of $2,016 USD - Milestone 0 Payout.  Please send PKT 351,723 to the following PKT address pkt1q4rwkug8yl8k59h6kp5w6k3fqeug97rdfj682g7
 
-Thank You
-AIoT Punks
+### Caleb advance
+CALEB: I have advanced this payment of 351723 PKT to the above address in [this transaction](https://explorer.pkt.cash/tx/d6ee2286fa9314b371dbfaa02d9fd1bdb1ca6bd6e00d58284311312bbb7ddf05). I am hereby requesting the payment be made to pkt1qemar3xur2v545ykwwyxpkjdutn9zf734a4lxjm instead.
