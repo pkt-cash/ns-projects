@@ -5,7 +5,7 @@
 * Project participants:
   * Thierry Marianne (@thierrymarianne in [pkt.chat](https://pkt.chat)) will work 100% of fulltime
 * Projected duration: from 2 to 2.5 weeks 
-to be put in perspective with 14 days required to have [v5.46.1 PR merged](https://github.com/thierrymarianne/contrib-matterfoss/pull/1) before excluding minor fixes like [restoring emojis](https://github.com/cjdelisle/MatterfossWeb/pull/4) or [replacing favicons](https://github.com/cjdelisle/MatterfossWeb/pull/6)) and also 
+to be put in perspective with 14 days required to have [v5.36.1 PR merged](https://github.com/thierrymarianne/contrib-matterfoss/pull/1) before excluding minor fixes like [restoring emojis](https://github.com/cjdelisle/MatterfossWeb/pull/4) or [replacing favicons](https://github.com/cjdelisle/MatterfossWeb/pull/6)) and also 
 by including optional post-release maintenance hours / days (the last half-week)
 * Projected effort: 1 person/week
 * Total requested contribution: 4675 EUR
@@ -16,9 +16,9 @@ by including optional post-release maintenance hours / days (the last half-week)
 
 ## Project summary
 
-Matterfoss was [recently](https://github.com/cjdelisle/Matterfoss/commit/b61323db6e7de9344db8ac7bf566bd48dba13540) upgraded to support native mobile applications compatible with Mattermost™ v5.46.1 tag.  
+Matterfoss was [recently](https://github.com/cjdelisle/Matterfoss/commit/b61323db6e7de9344db8ac7bf566bd48dba13540) upgraded to support native mobile applications compatible with Mattermost™ v5.36.1 tag.  
 
-Given than more recent iOS and Android mobile applications versions have been rolled out to further support latest stable versions of [Mattermost™ upstream server-side API project](https://github.com/mattermost/mattermost-server/releases/tag/v6.4.0) (v6.4.0 being the latest major version at the moment),  
+Given than more recent iOS and Android mobile applications versions have been rolled out to further support latest stable versions of [Mattermost™ upstream server-side API project](https://github.com/mattermost/mattermost-server/releases/tag/v6.6.1) (v6.6.1 being the latest major version at the moment),  
 and to prevent being reminded of the pending intermediate software upgrades   
 for each and every time the latest version available of the native app is opened,  
 integrating upstream changes into Matterfoss makes sense. 
@@ -76,26 +76,26 @@ Such release in production will be fairly easy to validate by having the Android
 ## Milestones
 
   1. Define which tags will need to be targeted for integration from upstream projects during kickoff 
-  2. Upgrade [Matterfoss API](https://github.com/cjdelisle/Matterfoss) 
-  3. Upgrade [Matterfoss SPA](https://github.com/cjdelisle/MatterfossWeb) 
-  4. Replace favicons to accommodate to software licencing differences.
+  2. ✅ Upgrade [Matterfoss API](https://github.com/cjdelisle/Matterfoss) to [`v6.6.1`](https://github.com/cjdelisle/Matterfoss/pull/9)
+  3. ✅ Upgrade [Matterfoss SPA](https://github.com/cjdelisle/MatterfossWeb) 
+  4. ✅ Replace favicons to accommodate to software licencing differences.
   See this past [issue](https://github.com/cjdelisle/MatterfossWeb/pull/6)
-  5. Generate emoji fonts and matching images along with static files.
+  5. ✅ Generate emoji fonts and matching images along with static files.
   See this past [issue](https://github.com/cjdelisle/MatterfossWeb/pull/4)
-  6. Communicate upfront to community members about upcoming maintenance mode with minimal disturbance affecting their discussions
-  7. Recycle Matterfoss API service 
-  8. Communicate to community members regarding likely requirement for hard-refresh of https://pkt.chat pages possibly cached by their browser 
-  9. Replace Matterfoss SPA static files re-exported since latest merge in production before recycling web server
- 10. (Optional) Offer support to project maintainer up to half a week worth of post-release maintenance (hourly billed)
+  6. ✅ Communicate upfront to community members about upcoming maintenance mode with minimal disturbance affecting their discussions
+  7. ✅ Recycle Matterfoss API service 
+  8. 🎯 Communicate to community members regarding likely requirement for hard-refresh of https://pkt.chat pages possibly cached by their browser 
+  9. ✅ Replace Matterfoss SPA static files re-exported since latest merge in production before recycling web server
+ 10. [ ] ~~(Optional) Offer support to project maintainer up to half a week worth of post-release maintenance (hourly billed)~~
 
 ### Milestone 1 (Kickoff)
 
 Upon agreement during the kickoff meeting regarding tagged versions to be targeted for integration from upstream,  
-1/10 of the total PKT contribution (**51,027 PKT**) ~or **To be determined on milestone submission date** PKT / hour~.
+1/10 of the total requested contribution in PKT (**51,027 PKT**) ~~or **To be determined on milestone submission date** PKT / hour~~.
 
- * The cost of this milestone is 467.5 EUR and  
+ * The cost of this milestone is 467.5 EUR (4675 EUR / 10) and  
  I declare that the current trading price is **0.0088** EUR per PKT (0.9 EUR/USD / 100 PKT/USD) on the **3rd of April 2022**
- * Therefore I will request a transfer of **51,027 PKT**
+ * Therefore, I will request a transfer of **51,027 PKT**
 
 ### Milestone 2
 
@@ -106,12 +106,29 @@ the server-side API becomes ready for testing with the SPA software and future d
 
 #### Payout
 
-After a report is delivered on this milestone and it is approved by the NS,  
-the NS will send 3/20 of the total PKT contribution (**To be determined on milestone submission** PKT) or **To be determined on milestone submission date** PKT / hour.
+After a report is delivered on this milestone, and it is approved by the NS,  
+the NS **would have** sent 3/20 of the total PKT contribution (**41,250 PKT**) ~~or **To be determined on milestone submission date** PKT / hour~~.
 
- * The cost of this milestone is 701.25 EUR and  
- I declare that the current trading price is **to be determined on milestone submission** EUR per PKT on the **milestone submission date**
- * Therefore I will request a transfer of **to be determined on milestone submission** PKT
+ * ~~Since first payment was about 18% of `maximum requested PKT contribution` (`51,027  PKT / 275,000 PKT`),~~
+   ~~it makes sense that payment request for milestones 2 would be decreased accordingly as [mentioned in first payment request](https://github.com/pkt-cash/ns-projects/pull/110#issue-1190899590)~~
+ * ~~Besides and since Milestone 1 through 9 payments were evaluated for up to 80%~~
+   ~~of maximum requested PKT contribution as follows:~~
+   - ~~Milestone #1       - 1/10~~
+   - ~~Milestone #2       - 3/20~~
+   - ~~Milestone #3       - 3/20~~
+   - ~~Milestone #4       - 1/20~~
+   - ~~Milestone #5       - 1/20~~
+   - ~~Milestone #6 to #9 - 3/10~~  
+   ~~so that a pre-provisioned budget would be available for additional fixes,~~  
+   ~~the remaining 20% of `maximum requested PKT contribution` can now be distributed back through Milestone #1 to #9~~
+ * ~~Therefore, I will request a transfer of **(1/10 + 3/20 - 18/100 + 20/(9 * 100)) * 275,000** PKT for Milestone 2,~~
+   ~~i.e. (**25,361 PKT**)~~
+
+~~`1/10 + 3/20` being the sum of original Milestone #1 and Milestone #2 payouts.~~  
+~~`18/100` being the actual Milestone #1 payment given the evolution of PKT price on the **3rd of April 2022**.~~
+~~`20/(9 * 100))` being the remaining 20% of the optional Milestone (#10) divided by the number of total milestones (9).~~
+
+See [Project Status](#project-status) for final payout
 
 ### Milestone 3
 
@@ -125,9 +142,11 @@ the client-side application becomes ready for testing with the API software and 
 After a report is delivered on this milestone and it is approved by the NS,  
 the NS will send 3/20 of the total PKT contribution (**To be determined on milestone submission** PKT) or **To be determined on milestone submission date** PKT / hour.
 
- * The cost of this milestone is 701.25 EUR and  
- I declare that the current trading price is **to be determined on milestone submission** EUR per PKT on the **milestone submission date**
- * Therefore I will request a transfer of **to be determined on milestone submission** PKT
+ * ~~The cost of this milestone is 701.25 EUR and~~  
+ ~~I declare that the current trading price is **to be determined on milestone submission** EUR per PKT on the **milestone submission date**~~
+ * ~~Therefore, I will request a transfer of **to be determined on milestone submission** PKT~~
+
+See [Project Status](#project-status) for final payment request
 
 ### Milestone 4
 
@@ -139,9 +158,11 @@ Special cases exist for macos and iOS native app applications, we might need to 
 After a report is delivered on this milestone and it is approved by the NS,  
 the NS will send 1/20 of the total PKT contribution (**To be determined on milestone submission** PKT) or **To be determined on milestone submission date** PKT / hour.
 
- * The cost of this milestone is 233.75 EUR and  
- I declare that the current trading price is **to be determined on milestone submission** EUR per PKT on the **milestone submission date**
- * Therefore I will request a transfer of **to be determined on milestone submission** PKT
+ * ~~The cost of this milestone is 233.75 EUR and~~
+ ~~I declare that the current trading price is **to be determined on milestone submission** EUR per PKT on the **milestone submission date**~~ 
+ * ~~Therefore, I will request a transfer of **to be determined on milestone submission** PKT~~
+
+See [Project Status](#project-status) for final payment request
 
 ### Milestone 5
 
@@ -157,9 +178,11 @@ Both API and SPA are affected by [system emojis generation](https://github.com/c
 After a report is delivered on this milestone and it is approved by the NS,  
 the NS will send 1/20 of the total PKT contribution (**To be determined on milestone submission** PKT) or **To be determined on milestone submission date** PKT / hour.
 
- * The cost of this milestone is 233.75 EUR and  
- I declare that the current trading price is **to be determined on milestone submission** EUR per PKT on the **milestone submission date**
- * Therefore I will request a transfer of **to be determined on milestone submission** PKT
+ * ~~The cost of this milestone is 233.75 EUR and~~
+   ~~I declare that the current trading price is **to be determined on milestone submission** EUR per PKT on the **milestone submission date**~~
+ * ~~Therefore, I will request a transfer of **to be determined on milestone submission** PKT~~
+
+See [Project Status](#project-status) for final payment request
 
 ### Milestones 6 to 9
 
@@ -174,22 +197,26 @@ Both release dates will need to be defined at the time of the kickoff so that we
 After a report is delivered on this milestone and it is approved by the NS,  
 the NS will send 3/10 of the total PKT contribution (**To be determined on milestone submission** PKT) or **To be determined on milestone submission date** PKT / hour.
 
- * The cost of this milestone is 1,402.5 EUR and  
- I declare that the current trading price is **to be determined on milestone submission** EUR per PKT on the **milestone submission date**
- * Therefore I will request a transfer of **to be determined on milestone submission** PKT
+ * ~~The cost of this milestone is 1,402.5 EUR and~~   
+   ~~I declare that the current trading price is **to be determined on milestone submission** EUR per PKT on the **milestone submission date**~~
+ * ~~Therefore, I will request a transfer of **to be determined on milestone submission** PKT~~
 
-### Milestones 10 (optional)
+### ~~Milestones 10 (optional)~~
 
-Hotfixes and additional patches could be applied and prepared for deployment in production on a hourly basis up to the pre-provisioned budget.
+See [Project Status](#project-status) for final payment request
+
+Hotfixes and additional patches could be applied and prepared for deployment in production on an hourly basis up to the pre-provisioned budget.
 
 #### Payout
 
 After a report is delivered on this milestone and it is approved by the NS,  
 the NS will send 1/5 of the total PKT contribution (**To be determined on milestone submission** PKT) or **To be determined on milestone submission date** PKT / hour.
 
- * The cost of this milestone is 935 EUR at most considering an hourly rate of 53.38 EUR and  
- I declare that the current trading price is **to be determined on milestone submission** EUR per PKT on the **milestone submission date**
- * Therefore I will request a transfer of **to be determined on milestone submission** PKT
+ * ~~The cost of this milestone is 935 EUR at most considering an hourly rate of 53.38 EUR and~~
+ ~~I declare that the current trading price is **to be determined on milestone submission** EUR per PKT on the **milestone submission date**~~
+ * ~~Therefore, I will request a transfer of **to be determined on milestone submission** PKT~~
+
+See [Project Status](#project-status) for final payment request
 
 ## Disclosure
 
@@ -241,7 +268,13 @@ in this project.
 ## Project Status
 
  - [x] guidance requested (especially regarding Use of Resources section)
- - [ ] Milestone 1 payment requested  
-   - 51,027 PKT for 467.5 EUR i.e. 467.5 EUR / ( 0.90 EUR / USD * 0.0088 USD / PKT )
+ - [x] Milestone 1 payment requested  
+   - `51,027 PKT` for `467.5 EUR` i.e. `467.5 EUR / ( 0.90 EUR / USD * 0.0088 USD / PKT )`
      considering [1 USD = 0.90 EUR](https://finance.yahoo.com/quote/USDEUR=X/) and [1 PKT = 0.0088 USD](https://global.bittrex.com/Market/Index?MarketName=USDT-PKT)
      * CALEB: I have personally advanced this payment to the project in transaction https://explorer.pkt.cash/tx/ffec379725a8b1319c18d71978c088f3e53ece49b923139be2ec6c2fac237fe5 and I hereby request the payment be redirected to pkt1qtu5y64ln9n9mw3e88ydt28jgmu327ygme8y54t
+ - [x] ~~Milestone 2 payment requested~~
+   - ~~`25,361 PKT` for `216.22 EUR` i.e. `216.22 EUR / ( 0.94 EUR / USD * 0.00907 USD / PKT )`~~
+     ~~considering [1 USD = 0.94 EUR](https://finance.yahoo.com/quote/USDEUR=X/) and [1 PKT = 0.00907 USD](https://global.bittrex.com/Market/Index?MarketName=USDT-PKT)~~
+ - [x] Milestones 2 through 9 payment requested
+   - `223,973 PKT` for `1068.62 EUR` i.e. `1068.62 EUR / ( 0.96 EUR / USD * 0.00497 USD / PKT )`
+     considering [1 USD = 0.94 EUR](https://finance.yahoo.com/quote/USDEUR=X/) and [1 PKT = 0.00497 USD](https://global.bittrex.com/Market/Index?MarketName=USDT-PKT)
