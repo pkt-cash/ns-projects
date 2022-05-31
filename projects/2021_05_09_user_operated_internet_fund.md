@@ -508,6 +508,187 @@ Metrics regarding applications to the October call
 * Number of applications: **33**
 * Total budget requested: **1,124,191**€
 
+## M3
+
+> This milestone will be delivered no later than December 6th 2021 and will include the selected grantees from the October call as well as metrics regarding applications to the December call and information about ongoing projects, the necessary PKT to fund the new projects will be converted to EUR as the projects are accepted.
+
+> Another call ("The February call") will open on December 1st with deadline February 1st.
+
+> After a report is delivered on this milestone and if it is approved by the NS, the NS will send the amount of PKT needed to raise the balance of the Trust's treasury to the Buffer Amount.
+
+
+We are submitting M3 on March 8th 2022. This includes the results from the 2021-10U (October 1st) and 2021-12U (December 1st), which were merged due to financial delays. The two rounds combined had 43 proposals.
+
+Six new projects were granted, bringing the total to 10 regular projects originating from 7 countries: Argentina (1 proposal, 9%), Germany (4 proposals, 36%), South Korea (1 proposal, 9%), Mexico (1 proposal, 9%), Slovenia (1 proposal, 9%), United States (2 proposals, 18%), South Africa (1 proposal, 9%). 
+
+The total amount requested so far was € 3 031 600, with applicants from 29 countries that together submitted 87 projects. 
+
+
+### 1. The balance of payments
+
+The balance of payments to the User Operated Internet Fund
+
+- 20mn PKT was donated by the Network Steward so far.
+
+- 20mn PKT was converted into € 377 240. See #4.
+
+The current balance is 0 PKT.
+
+### 2. Converted from PKT
+
+The amount of money which was converted from PKT during the reported period
+
+    10mn PKT -> 159740,16 (180.000 dollar) 
+
+### 3. Events of selling PKT
+
+These have been declared in status updates at the time of the conversion.
+
+### 4. Financial status
+
+An overview of the financial status of the fund, including a breakdown of costs (including administrative costs) and financial interaction with the Technology Commons Trust.
+
+As reported before, the launch of the User-Operated Internet Fund was significantly more successful than anticipated. We have temporarily frozen the tentative support project budget (max 30%, currently 2.7%) and similarly shifted a total of 22,162 € from the administrative budget (fixed 10%, now 3.7%) to the regular project budget to allow for the most beneficial projects to be granted from this call/M2. This included some eligible projects which were pushed to the October 2021 call from the previous round (see report M2). 
+
+Replenishment of funds to restore the administrative budget to the required 10% and to allocate budget to support projects is requested for the next round.
+
+* Assets as of March 8th 2022
+
+  * Total available assets: 0 PKT, 377,240€
+  * 325,802 € budget allocated to regular projects (93.8%)
+    * Spent: 28 200 €
+  *  10,000 € (of max 113,172 €) allocated to support projects (2.7%, max 30%)
+    * Spent: 0€
+  *  13,238 € administrative budget (fixed 10%, temporarily reduced to 3.7%)
+    * Spent: 20,163€
+    * Prefunded by NLnet; 6925€
+
+### 5. Team
+
+See M1
+
+#### Hours worked
+
+124 hours
+
+### 6. Projects
+
+We have selected the following six *new* projects:
+
+#### Canarytail
+
+* Project URL: https://NLnet.nl/project/Canarytail
+* Current status: Preparation
+* Deliverables to date: -
+
+##### Executive summary
+
+  As decentralised internet access provisioning and cloud services become more widely available and user-operated, more and more people will be forced to compromise the security of their users through various forms of legal coercion. A common form of such coercion across the world is a so called 'gag order' : an operator of an infrastructure of interest (for instance a community network or small ISP) is secretly forced into give wiretap access, and their lips are sealed because of the risk of a severe penalty of sometimes years of imprisonment. In other cases, raids may have been conducted on hardware and operating premises, meaning a service is no longer trustworthy at all. Obviously, depending on where you live or what you do, such a compromise can endanger the lives and safety of many. 
+  
+  In most countries it may be the case that one can be legally forced not to speak or write about such a violation of the integrity of a service or network, but one cannot be forced to actively lie either ("you have the right to remain silent"). One proven effective means of countering this kind of attack on services is therefore to continually publish "all is well" statements, until something happens - at which point the reassuring statements dry up, and users are warned. Canarytail tracks,  documents and automates these statements, and is an attempt to standardise this important safety net for users of any service - decentralised or not.
+  
+
+#### GPRS/EGPRS support in Osmocom CNI for Ericsson RBS
+
+* Project URL: https://NLnet.nl/project/Osmocom-RBS
+* Current status: Preparation
+* Deliverables to date: -
+
+##### Executive summary
+
+  While some parts of the world are phasing out 2G and 3G networks, the deprecated base stations get a second life in other parts. However, usage patterns have changed: while at the time people were mostly satisfied with phone calls, these days internet access is key. The Osmocom project allows to run a fully open source stack on old base stations. This project will implement GPRS and EDGE support. Especially the latter is important as it allows to deliver much higher bit-rates per radio channel, resulting in a threefold increase in capacity and performance compared with an ordinary GSM/GPRS connection. These refurbished and decommissioned base stations are the primary platform for community-owned-and-operated rural cellular networks such as those operated by Telecomunicaciones Indigenas Communitarias (TIC AC) and Rhizomatica.
+
+  
+#### KiCad
+
+* Project URL: https://NLnet.nl/project/KiCad
+* Current status: Preparation
+* Deliverables to date: -
+
+##### Executive summary
+
+  KiCad is a free and open source electronics design application (EDA) that can handle everything from the most basic schematic to a complex hierarchical design with hundreds of sheets. It allows electronics designers  to use a toolchain that itself is technically transparent, and that can be customised when needed. KiCad has already been successfully used for key open hardware projects such as the LibreRouter, the HackRF, MNT Reform and UPSAT. This project will contribute to furthering the mission of providing professional level tools for users who design electronics for a living. 
+      
+
+#### LTE support in OsmoCBC (Cell Broadcast Centre)
+
+* Project URL: https://NLnet.nl/project/OsmoCBC
+* Current status: Preparation
+* Deliverables to date: -
+
+##### Executive summary
+
+  While having decent internet access is a commodity in some countries, in other parts of the world this is certainly not the case. When you want to run your own telecom infrastructure to change that, there are not that many options. The Osmocom project (Open Source Mobile Communications) is probably the most advanced open source solution available today. Reaching basic connectivity was a major step, but as users start to depend on this they need other facilities. Once such facility is a Cell Broadcast Centre (CBC), which is the central entity in 3GPP wireless networks taking care of all Cell Broadcast and Emergency Warning messages. This includes messages for WEA (Wireless Emergency Alert), KPAS (Korean Public Alerting System), ETWS (Earthquake and Tsunami Warning System), EU-ALERT, NL-ALERT and other related systems. 
+
+  OsmoCBC is the only open source CBC ever implemented - but it only implements support for 2G/GSM networks, and not for 4G/LTE. Through this project 4G/LTE support will be added to OsmoCBC. so that operators of at least research, private or rural autonomous networks built on FOSS can notify their subscribers in case of emergencies.
+
+
+#### Local Production of Antennas for LibreRouter (LoPaLiR)
+
+* Project URL: https://NLnet.nl/project/LoPaLiR
+* Current status: Preparation
+* Deliverables to date: -
+
+##### Executive summary
+
+  Community networks are telecommunication networks that are owned and operated by their users, which is probably the only way forward for the half of the worlds population that has so far remained unconnected because of lack of market or state interest. The LibreRouter.org, an open source hardware and software wireless router for inclusive community networks, represents a leap forward in the adoption of community networks, as networking skills are usually not present and difficult to achieve in these regions. 
+
+  One aspect of successful deployment - and thus a more rich and diverse internet - is reliable, low cost antennas. This project aims to fill this niche, as isn't currently a suitable open hardware MiMo antenna design with the right gain and manufacturing features. Most open designs are not MiMo. By creating this design  under the CERN-OHL license and collaborating with INTI (the Argentina National institute of industrial technology) a reliable design will be made that allows for replicable local production of high quality antennas.
+      
+
+#### RADIUSdesk
+
+* Project URL: https://NLnet.nl/project/Radiusdesk
+* Current status: Preparation
+* Deliverables to date: -
+
+##### Executive summary
+
+  RADIUSdesk and MESHdesk help to set up and manage mesh networks at scale, and are open source from top to bottom. They can be used in tandem to provide public wifi, or set up mesh networks as well as community networks. Allowing someone to flash a cheap access point and then managing it irrespective of the hardware vendor offers great opportunity for poorer communities to enable themselves in terms of providing Internet access. Existing hardware that reached end-of-life can be managed in a similar way (often much simpler) than what the vendors offer. Because there is a RADIUS server included, there is a single integrated system which is able to manage connections as well as the hardware. This enables anyone to set up an end-to-end system that can provide Internet access, with OpenStreetmap integration, alerts, and other advanced features.
+
+The following projects from M1 and M2 continued:
+
+#### Armbian
+(See M1 report, https://nlnet.nl/project/Armbian)
+
+#### CeroWRT II
+(See M1 report, https://nlnet.nl/project/CeroWRT-II)
+
+#### Open source ePDG for VoWiFi
+(see M1 report, https://nlnet.nl/project/Osmocom-ePDG)
+
+#### Telecommunication in HF using the Internet Protocol (IPoHF)
+* See M2 report: https://nlnet.nl/project/IPoHF
+
+#### WebRTC network congestion management for PION
+* See M2 report: https://nlnet.nl/project/Pion-adaptive
+* Software delivery: https://github.com/mengelbart/syncodec
+
+
+An up-to-date overview of projects supported by UOF can always be found on:
+
+https://nlnet.nl/thema/User-operatedInternetFund.html
+
+### 7. Support projects
+
+For each active funded project which is classified as a support project: a management overview of the use of resources, remaining budget, and which projects were supported.
+
+* **Radically Open Security - Security scans, audits and advice**
+  - Use of resources:
+      * 0€ claimed
+      * Remaining budget: 10 000€
+
+### 8. Attestation
+
+I attest on my honor that the above transaction information is true and accurate and that the payments to projects have been made after the agreed results have been delivered
+  * **signature on PDF version of this document**
+ 
+### 9. Metrics
+
+Metrics regarding applications to the 2022-02U call:
+* Number of applications: **12**
+* Total budget requested: **480,389**€
+
 ## Status update Feb 28 2022
 Transacted 10mn PKT for EUR 159,740.16 (USD 180,000) (0.018 USD/PKT). Sale was negotiated Feb 25 2022.
 
