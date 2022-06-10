@@ -324,3 +324,8 @@ Project kickoff payment requested the PKT equivalent of $2,016 USD - Milestone 0
 
 ### Caleb advance
 CALEB: I have advanced this payment of 351723 PKT to the above address in [this transaction](https://explorer.pkt.cash/tx/d6ee2286fa9314b371dbfaa02d9fd1bdb1ca6bd6e00d58284311312bbb7ddf05). I am hereby requesting the payment be made to pkt1qemar3xur2v545ykwwyxpkjdutn9zf734a4lxjm instead.
+
+June 10, 2022: Payment of 351723 (refund) made in transactions:
+[1](https://explorer.pkt.cash/tx/53c5c21f5dd981760b8586ac6a74abb7b317667dffb49bd2ab64819c453ad99d)
+[2](https://explorer.pkt.cash/tx/16347b83457f72f7b0ab10200f9749cd163d0b4194a82ef24059fd8adc1fd14a)
+[3](https://explorer.pkt.cash/tx/371f4e8c2ed8af35647fdc3a93a285cc2ba9192dc57db733045efacfdaa84f46).
