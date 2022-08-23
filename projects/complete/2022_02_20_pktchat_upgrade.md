@@ -272,9 +272,14 @@ in this project.
    - `51,027 PKT` for `467.5 EUR` i.e. `467.5 EUR / ( 0.90 EUR / USD * 0.0088 USD / PKT )`
      considering [1 USD = 0.90 EUR](https://finance.yahoo.com/quote/USDEUR=X/) and [1 PKT = 0.0088 USD](https://global.bittrex.com/Market/Index?MarketName=USDT-PKT)
      * CALEB: I have personally advanced this payment to the project in transaction https://explorer.pkt.cash/tx/ffec379725a8b1319c18d71978c088f3e53ece49b923139be2ec6c2fac237fe5 and I hereby request the payment be redirected to pkt1qtu5y64ln9n9mw3e88ydt28jgmu327ygme8y54t
+     * June 10, 2022: Payment of 51027 (refund) executed in transaction: [1](https://explorer.pkt.cash/tx/3c79bc9a04b9dac1be332540d818de4b9359d0d6355a527999c230e96b9d1876)
  - [x] ~~Milestone 2 payment requested~~
    - ~~`25,361 PKT` for `216.22 EUR` i.e. `216.22 EUR / ( 0.94 EUR / USD * 0.00907 USD / PKT )`~~
      ~~considering [1 USD = 0.94 EUR](https://finance.yahoo.com/quote/USDEUR=X/) and [1 PKT = 0.00907 USD](https://global.bittrex.com/Market/Index?MarketName=USDT-PKT)~~
  - [x] Milestones 2 through 9 payment requested
    - `223,973 PKT` for `1068.62 EUR` i.e. `1068.62 EUR / ( 0.96 EUR / USD * 0.00497 USD / PKT )`
      considering [1 USD = 0.94 EUR](https://finance.yahoo.com/quote/USDEUR=X/) and [1 PKT = 0.00497 USD](https://global.bittrex.com/Market/Index?MarketName=USDT-PKT)
+   - June 10, 2022: Payment of 223973 executed in transactions:
+    [1](https://explorer.pkt.cash/tx/5223e98672303b9ede1949a3f6be733749cc7d35523830e81e0990c097fa845c)
+    [2](https://explorer.pkt.cash/tx/3e6372a5a434a7388a94b2123836bb90bf0a37e3570735bb9996eca32fb932a3).
+- June 10, 2022: This project is now complete.
