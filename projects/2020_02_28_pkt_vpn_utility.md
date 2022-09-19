@@ -869,6 +869,108 @@ The server is has a working MySQL database and the ability to read and write dat
 The project is currently ahead of schedule in Milestone 2, having delivered more than specified in the proposal. We expect to proceed into Milestone 3 without any complications.
 
 
+
+## Milestone 3 Report - 2022-09-01
+
+### Overview
+
+This document outlines the state of progress through the completion of the milestones outlined in the approved project proposal.
+
+### Progress
+Milestones 3 is complete. We have a VPN app for Android where a user can:
+
+* Create, manage, and auntenticate their account
+* Select a VPN frrm a list, connect to, and disconnect from it.
+* Rate the VPN and see other people's ratings
+* Passively update the App
+
+Additionally, we have a VPN server which:
+* Any user can download and set up.
+* Can add to the VPN server list.
+
+
+#### Milestone 3: Network Integrations
+
+Status: Complete
+
+Date Completed: 2022-09-01
+
+##### Proposed Deliverables
+
+We have accomplished our deliverables and begun implementing  Milestone 4 objectives.
+
+Milestone 3 focused on developing features that enabled VPN connections and created a UI for users to interact with the VPN system, as well as a VPN server that could be run by administrators.
+
+The parts of the project include:
+
+###### App Usability
+* User can select VPNs from a list and connect (done)
+* VPN server software is freely available (done)
+
+In this milestone, we focused on usability over features, expecting that a simple, yet reliable user interface will provide the user with the most utility.
+
+##### Accomplished Deliverables
+
+In developing the App, we’ve reprioritized the milestone slightly. We focused on
+1.  Ensuring data sent between App and server is secure. We used the cjdns key of the App required to connect to the VPN to create a secure digest for sending REST API requests. This guarantees a message sent by a client is not modified or forged.
+2.  Ensuring users can choose to remain private, by creating allowing account creation without an email address if desired by the user.
+3.  Focusing on an App-first product so that all usable functionality is guaranteed to be in-App so users don't need to go to a website for any features
+
+In doing so, we have accomplished the following:  
+
+
+### Server/API
+
+**The VPN will be able to connect to, send and receive traffic through the cjdns network.: Done** 
+VPN server works, source code hosted on [Github](https://github.com/anode-co/anodevpn-server)
+
+**The VPN operator will be able to register their VPN on the website: Done**
+Completed in M2 - an API endpoint exists in the VPN coordinator API.
+
+**The VPN will report its usage statistics to the website: Deferred**
+Deferred to M4
+
+**The VPN will report its version to the website: Done**
+All VPN servers are assumed to be version 1 until an upgrade exists.
+
+
+### Server Website
+
+**The user will be able to connect to a VPN and route traffic through the cjdns network: Done**
+The user can select any VPN from a list in their Android app, which can then make a VPN connection to that VPN endpoint using the cjdns protocol.
+
+
+### Client App
+
+**The app will be able to send and receive data via a REST API: Done**
+The client can perform all account management, VPN lookup, and VPN authorization via Rest API.
+
+
+**The user will able to input VPN configurations manually: Complete**
+Was implemented and then removed as it was considered a placeholder feature before the VPN list UI was built.
+
+**The user will be able to view statistics about their VPN usage: Deprioritized**
+This feature is built into the Android OS, so it has been de-prioritized
+
+**The user will be able to browse VPNs from a list: Complete**
+The user can browse through a VPN list.
+
+
+**The user will be able to select and connect to VPNs from the list: Complete**
+A user can select a VPN and connect to that VPN through the App UI.
+
+
+### Server/API
+
+**The user will be able to install and configure a VPN following documentation: Complete**
+Documentation and software are provided for the VPN server on [GitHub](https://github.com/anode-co/anodevpn-server)
+
+
+### Client Website
+
+(no expected milestones)
+
+
 # Status
 ## March 13th 2020
 First payment of 10mn PKT made in 19 transactions:
