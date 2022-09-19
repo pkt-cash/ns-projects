@@ -911,38 +911,37 @@ In this milestone, we focused on usability over features, expecting that a simpl
 
 ##### Accomplished Deliverables
 
-In developing the App, we’ve reprioritized the milestone slightly. We focused on
-1.  Ensuring data sent between App and server is secure. We used the cjdns key of the App required to connect to the VPN to create a secure digest for sending REST API requests. This guarantees a message sent by a client is not modified or forged.
-2.  Ensuring users can choose to remain private, by creating allowing account creation without an email address if desired by the user.
-3.  Focusing on an App-first product so that all usable functionality is guaranteed to be in-App so users don't need to go to a website for any features
 
-In doing so, we have accomplished the following:  
+In working on milestone 3, we have accomplished the following:  
+
+* An app that lets users select and connect to a VPN
+* A VPN software that can be configured and installed
 
 
 ### Server/API
 
-**The VPN will be able to connect to, send and receive traffic through the cjdns network.: Done** 
+**The VPN will be able to connect to, send and receive traffic through the cjdns network.: Complete** 
 VPN server works, source code hosted on [Github](https://github.com/anode-co/anodevpn-server)
 
-**The VPN operator will be able to register their VPN on the website: Done**
+**The VPN operator will be able to register their VPN on the website: Complete**
 Completed in M2 - an API endpoint exists in the VPN coordinator API.
 
 **The VPN will report its usage statistics to the website: Deferred**
 Deferred to M4
 
-**The VPN will report its version to the website: Done**
+**The VPN will report its version to the website: Complete**
 All VPN servers are assumed to be version 1 until an upgrade exists.
 
 
 ### Server Website
 
-**The user will be able to connect to a VPN and route traffic through the cjdns network: Done**
+**The user will be able to connect to a VPN and route traffic through the cjdns network: Complete**
 The user can select any VPN from a list in their Android app, which can then make a VPN connection to that VPN endpoint using the cjdns protocol.
 
 
 ### Client App
 
-**The app will be able to send and receive data via a REST API: Done**
+**The app will be able to send and receive data via a REST API: Complete**
 The client can perform all account management, VPN lookup, and VPN authorization via Rest API.
 
 
@@ -969,6 +968,77 @@ Documentation and software are provided for the VPN server on [GitHub](https://g
 ### Client Website
 
 (no expected milestones)
+
+
+#### Milestone 4: Polish and Debug
+
+Status: Complete
+
+Date Completed: 2022-09-01
+
+##### Proposed Deliverables
+
+We have accomplished our deliverables related to productizing an app. There is ongoing polish and UI enhancements, but at this stage we have a functioning, reliable app that can be dowloaded for free by users.
+
+Milestone 4 focused on turning features into a product. Existing features and usability have been extensively tested and standard configurations have been implemented so that users don't have to make difficult decisions about VPN configurations.
+
+The parts of the project include:
+
+###### App Usability
+* User can select VPNs from a list and connect (done)
+* VPN server software is freely available (done)
+
+In this milestone, we focused on usability over features, expecting that a simple, yet reliable user interface will provide the user with the most utility.
+
+##### Accomplished Deliverables
+
+In working on milestone 4, we have accomplished the following:  
+
+* A working, reliable app that users can use to search, select and connect to a VPN
+* Information to learn about and share the app with friends
+* Information to learn about and set up a VPN
+
+### Server/API
+
+**The user will be able to install and configure a VPN following documentation: Complete** 
+VPN server works, source code hosted on [Github](https://github.com/anode-co/anodevpn-server)
+
+
+### Server Website
+
+**The user will be able to browse the site easily and find documentation and download links: Complete**
+Information about the servers are available on [anode.co](https://anode.co)
+
+
+### Client App
+
+**The user will be able to select the best VPN based on location, speed, or some other criteria: Complete**
+Users can filter VPNs through a search tool
+
+
+**The user will be presented with a welcome screen upon first run: Complete**
+Anode app welcoms the user with a logo and a walkthrough of how to set up a PKT wallet.
+
+**The user will be able to share the app with friends via a social sharing tool: Complete**
+An "invite a friend" feature has been implemented on the [anode.co](https://anode.co) website.
+
+**The user will be able to find the app on the Android Play store or on the website: Complete**
+The app is available for installation directly from the [GitHub Project Releases Page](https://github.com/anode-co/AnodeVPN-android/releases)
+
+
+**The user will be able to use the app without major memory leaks or common bugs: Complete**
+The app has been extensively tested for memory leaks and we believe that the app is stable and reliable.
+
+
+### Server/API
+
+(no expected milestones)
+
+
+### Client Website
+
+**The user will be able to browse the site easily and find documentation and download links: Complete**
+Information about the app is available on [anode.co](https://anode.co)
 
 
 # Status
