@@ -74,9 +74,24 @@ We have finished developing the website, which includes all the digital assets a
 * How to Mine PKT on AWS 
 * How Does the PKT Blockchain Work?
 * How to Convert PKT to WPKT
+* How To Mine PKT On Android (Non-Rooted)
+* How Does the PKT Blockchain Works?
+* How to Convert PKT to wPKT On Odapp
+* How to Convert WPKT to PKT On Odapp
+* How to Buy PKT on Bittrex
+* How to Safely Trade PKT
+* Is CPU Mining Bad
+* Is CPU Mining Profitable
+* Is CPU Mining Good
+* Is CPU Mining Better than GPU
+* Does CPU Mining Use Ram
+* What Is ASIC Mining
+* The Ultimate Guide to Blockchain: Everything You Need to Know
 
 
-![ranking](https://user-images.githubusercontent.com/27009001/143810458-fd50f577-9d12-40c6-a579-a56c488de6b4.png)
+
+![Current Rankings](https://user-images.githubusercontent.com/27009001/224980461-9e7f6644-266c-4e46-aaa5-5a1995db5499.png)
+
 
 
 
@@ -88,23 +103,33 @@ We have finished developing the website, which includes all the digital assets a
 
 **SEO*: 9 blog articles are ranking on the top 1-6 positions in the USA for
 
-| Keywords                                              | Position on Google as of Nov 29, 21|
-|-------------------------------------------------------|----------|
-| How to Check Your PKT Mining Rewards                  | 1        |
-| How to Mine PKT on AWS                                | 1        |
-| How to Create PKT Wallet on Ubuntu                    | 1        |
-| The Best CPUs for PKT Mining                          | 1        |
-| How to Mine PKT on Windows                            | 1        |
-| How to convert PKT to WPKT                            | 1        |
-| How to Create PKT Wallet On Mac                       | 1        |
-| What is Ke/s in PKT Mining                            | 1        |
-| How to Mine PKT on Virtual Box                        | 1        |
-| Which Pool Order Produces the Most PKT Mining Rewards | 1        |
-| How to Mine PKT on Ubuntu                             | 1        |
-| How to Create a PKT Wallet on Windows                 | 2        |
-| How Does PKT Blockchain Works                         | 4        |
-| How to Mine PKT on Akash Cloud                        | 5        |
-| What is PKT Coin                                      | 47       |
+| Keyword                                                       | Positions as of 14th March, 2023 |
+|---------------------------------------------------------------|-----------|
+| How to Mine PKT on Android                                    | 1         |
+| How to convert PKT to WPKT                                    | 1         |
+| How to Mine PKT on Virtual Box                                | 1         |
+| How to buy PKT on Bittrex                                     | 1         |
+| How to Create a PKT Wallet on Windows                         | 1         |
+| How to Create PKT Wallet on Ubuntu                            | 1         |
+| How to Mine PKT on AWS                                        | 1         |
+| How Does PKT Blockchain Works                                 | 1         |
+| What is PKT Coin                                              | 4         |
+| How to Mine PKT on Windows                                    | 1         |
+| How to Mine PKT on Ubuntu                                     | 1         |
+| How to safely trade PKT                                       | 1         |
+| How to Mine PKT on Akash Cloud                                | 3         |
+| How to Create PKT Wallet On Mac                               | 1         |
+| The Best CPUs for PKT Mining                                  | 1         |
+| Which Pool Order Produces the Most PKT Mining Rewards         | 1         |
+| What is Ke/s in PKT Mining                                    | 1         |
+| How to Check Your PKT Mining Rewards                          | 1         |
+| How To Mine PKT On Android (Non-Rooted)                       | 1         |
+| How to Convert PKT to wPKT On Odapp                           | 1         |
+| How Does the PKT Blockchain Works                             | 1         |
+| How to Convert WPKT to PKT On Odapp                           | 1         |
+| Is CPU Mining Profitable                                      | 7         |
+| Is CPU Mining Good                                            | 8         |
+| The Ultimate Guide to Blockchain: Everything You Need to Know | 4         |
 
 
 ### Milestones ###
