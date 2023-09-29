@@ -7,7 +7,7 @@
 * Projected duration: 8 weeks
 * Projected effort: 3 hours/day for 8 weeks
 * Requested PKT contribution: 350,000PKT
-* PKT address to pay to: pkt1qnrrhxwarlm4x4a47zxu0shylm4jh502vj9jypu
+* PKT address to pay to: pkt1qpasl4w2y5r39w8fvdyh7jc6qyw34kl725naqqj (Updated)
 
 ## Project summary
 
