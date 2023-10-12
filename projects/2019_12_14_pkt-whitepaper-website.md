@@ -138,7 +138,7 @@ Videographer/camera/sound: PKT5,000,000
 * Posting of white paper on the website
 
 ## Payments
-All payments shall be made to p9E3mhUtpinkvrn71AmoHNCoWYzMEmCiKq
+All payments shall be made to pkt1q09t0a07wc7gxgpynkqcy7utwzuacc0hj7w3k07
 
 ## Project Milestones
 The following are milestones for the progress of the project by which the network steward can evaluate the success of the project.
@@ -181,6 +181,9 @@ The applicant understands that the Network Steward is not a legal entity and no 
 https://pkt.chat/pkt/pl/pmb9jqte37bspk5hdb987owcdh
 * PKT Network Deck:  https://docsend.com/view/ayf5d3tz5rymn8fv
 https://drive.google.com/file/d/1TPVBHrpb1FBqCpEti9CuliZG2lLCfjgO 
+
+2023-5-20 M4 Milestone 4 complete:
+Turn in video: https://youtu.be/mfTEKB_zN1E
 
 2019-12-24 first payment of 20mn completed to address
 [p9E3mhUtpinkvrn71AmoHNCoWYzMEmCiKq](https://pkt-insight.cjdns.fr/#/PKT/pkt/address/p9E3mhUtpinkvrn71AmoHNCoWYzMEmCiKq) with transactions:
