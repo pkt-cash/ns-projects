@@ -328,4 +328,8 @@ CALEB: I have advanced this payment of 351723 PKT to the above address in [this 
 June 10, 2022: Payment of 351723 (refund) made in transactions:
 [1](https://explorer.pkt.cash/tx/53c5c21f5dd981760b8586ac6a74abb7b317667dffb49bd2ab64819c453ad99d)
 [2](https://explorer.pkt.cash/tx/16347b83457f72f7b0ab10200f9749cd163d0b4194a82ef24059fd8adc1fd14a)
-[3](https://explorer.pkt.cash/tx/371f4e8c2ed8af35647fdc3a93a285cc2ba9192dc57db733045efacfdaa84f46).
+[3](https://explorer.pkt.cash/tx/371f4e8c2ed8af35647fdc3a93a285cc2ba9192dc57db733045efacfdaa84f46)
+
+Frank Buss: May 23, 2023: the project is cancelled, payment of 351723 PKT are refunded in these transactions:
+[1](https://explorer.pkt.cash/tx/f5f93fe970c3ae29834970e4b9cbbd74c6db76764f94076f306aa656b59eb809)
+[2](https://explorer.pkt.cash/tx/86ff18a6388ea2943c69eb8d3a290ef5630061cdf914def73883538f70c51b46)
