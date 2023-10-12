@@ -333,3 +333,7 @@ June 10, 2022: Payment of 351723 (refund) made in transactions:
 Frank Buss: May 23, 2023: the project is cancelled, payment of 351723 PKT are refunded in these transactions:
 [1](https://explorer.pkt.cash/tx/f5f93fe970c3ae29834970e4b9cbbd74c6db76764f94076f306aa656b59eb809)
 [2](https://explorer.pkt.cash/tx/86ff18a6388ea2943c69eb8d3a290ef5630061cdf914def73883538f70c51b46)
+
+## Update: OCT 12, 2023
+The NS has accepted that the candidate cancelled the project and refunded the original payment.
+This project is now closed and will move to the "complete" section.
