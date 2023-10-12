@@ -70,4 +70,16 @@ in this project.
 
 ## Project Status
 
-* Being written...
+* ## Project deliverables
+
+* Deliverable 1:
+* Create Documentation for how to set up a CLI wallet
+** https://docs.pkt.cash/en/latest/pktd/pktwallet/#how-to-install-a-cli-wallet
+* Create Documentation for how to set up a PKT World wallet
+** https://docs.pkt.cash/en/latest/pktd/pktwallet/#how-to-install-the-pkt-world-wallet-windows-only
+* Create Documentation for how to install a PKT miner on Mac
+** https://docs.pkt.cash/en/latest/mining/#how-to-install-a-pkt-miner-on-mac
+* Create Documentation for how to swap to wPKT and back to PKT
+** https://docs.pkt.cash/en/latest/wrapped_pkt/
+* Expected time/cost: 133 hours / $8,000 USD
+** Worked 133 hours to complete this project. 
