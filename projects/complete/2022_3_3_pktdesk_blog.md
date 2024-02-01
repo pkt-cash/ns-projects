@@ -200,4 +200,12 @@ in this project.
 
 ## Project Status
 
-* Being written...
+### OCT 12 2023
+The [sole milestone](https://github.com/pkt-cash/ns-projects/pull/128) in this project was accepted
+by the NS and payment was made in transactions
+[1](https://explorer.pkt.cash/tx/1031f12df3074206c61625bcf611989bd3ee9282d5b0943c3371c2c7840f3331)
+[2](https://explorer.pkt.cash/tx/5f8050830af3d1baa18b1b44c255856c9d1eb89af1a8e827085b0e53cbb349e0)
+[3](https://explorer.pkt.cash/tx/e491d632167155855beec06a45ab83ed9ab951a4608beac3ba5f500ed4806d66)
+[4](https://explorer.pkt.cash/tx/3edb6c10e801e7557e19f40efb7c38d9db9b8fec23986297a10ad3730394649e)
+[5](https://explorer.pkt.cash/tx/ad233e607a760bad08f3bad69ad288de7c3bd6162c2f726eb87f00a2a80dcfd0)
+

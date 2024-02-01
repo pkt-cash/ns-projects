@@ -83,3 +83,13 @@ in this project.
 ** https://docs.pkt.cash/en/latest/wrapped_pkt/
 * Expected time/cost: 133 hours / $8,000 USD
 ** Worked 133 hours to complete this project. 
+
+### Update OCT 12 2023
+In accordance with the defined maximum PKT contribution, 400,000 PKT has been paid out in transactions
+[1](https://explorer.pkt.cash/tx/66518493ae9d1bbf5685bd33b0d91c0c6570139d68f825b31e8abe7527312b8a)
+[2](https://explorer.pkt.cash/tx/c688787950296d36c2f592400225584324ffbc1e5cdf31a1f9e7d4f5dbcf30da)
+[3](https://explorer.pkt.cash/tx/026b9835d516b60cab72899d7861cdbb6974cb9183b2d65808c99734d45552b9)
+[4](https://explorer.pkt.cash/tx/9ba9e33d62a3038268e26e47d74338c7ea1b0cff3e71cb00e2022228f20b59ef)
+[5](https://explorer.pkt.cash/tx/652c1170b82eeaf13e8d0e33a5e822c90ccc5b426fb52f63dd818262a2626fb1).
+
+This project is now complete and will be moved to the "complete" folder.
