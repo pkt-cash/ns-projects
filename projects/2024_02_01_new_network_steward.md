@@ -314,3 +314,26 @@ Transactions:
 [184](https://explorer.pkt.cash/tx/01ced8fcf56d79600bab67859f8d51e077432e7401eae265b0429e884017a333)
 [185](https://explorer.pkt.cash/tx/496181b8b007ad789d5ce502f0b6a65b5700caf02b4461db44091bab7c4f916b)
 [186](https://explorer.pkt.cash/tx/0a69a136f5cbcea9df11e502963d6419c556ba80ea36ada824ddcd3f0f036e23)
+
+### Update and request for extension: Apr 28 2024
+As of today, this project has successfully sent out transactions to the winners of the Electorium vote.
+
+* 2/29/2024 -> pkt1q6sj0mchq7ltwm8c9tpm2wteqmeldr2ye5lcr60 [1](https://packetscan.io/tx/70c6f3b1c5d73244787b133ae496d426bf3594b9bcfec037a47377b6cbfd28d1)
+* 3/8/2024 -> pkt1q6sj0mchq7ltwm8c9tpm2wteqmeldr2ye5lcr60 [2](https://packetscan.io/tx/a430d8f06f2dd4c6540f71e62a205ca03df5fa79faf7f4e42da9dc16f1762199)
+* 3/14/2024 -> pkt1qnm94ypvfvjwe0mnk9z356m7waa7jtpzvkm4fhy [3](https://packetscan.io/tx/768366708cb84af646128687d6397b46807f61b8deb67e29cb0908b6137f0141)
+* 3/22/2024 -> pkt1qnm94ypvfvjwe0mnk9z356m7waa7jtpzvkm4fhy [4](https://packetscan.io/tx/f6e7273a97dd7dbaa3302a294ee0f748d037e2146221cc5099f2539a7f0162c4)
+* 3/28/2024 ->  pkt1qnm94ypvfvjwe0mnk9z356m7waa7jtpzvkm4fhy [5](https://packetscan.io/tx/52c391e3298181118e3f439ab399d2c2cc803eece125d4ffb8c60971313b2d4d)
+* 4/4/2024 -> pkt1qnm94ypvfvjwe0mnk9z356m7waa7jtpzvkm4fhy [6](https://packetscan.io/tx/44d6e0920a73bcc2e246e32d0128a19a1bf2481a0115c95362e9626a0ae07a04)
+* 4/11/2024 -> pkt1qnm94ypvfvjwe0mnk9z356m7waa7jtpzvkm4fhy [7](https://packetscan.io/tx/c0fb378b54a83bdb1c2519812bed7fc443e18369088325844d7a5e46415ba55b)
+* 4/19/2024 -> pkt1qnm94ypvfvjwe0mnk9z356m7waa7jtpzvkm4fhy [8](https://packetscan.io/tx/ddbfa5fd078a3666805d7d3ea8242fb3d0c835f34b11bc43d252bda5da61c9a6)
+* 4/25/2024 -> pkt1qnm94ypvfvjwe0mnk9z356m7waa7jtpzvkm4fhy [9](https://packetscan.io/tx/085000e3b012380333dcd2f9fad185b43b68a333d966a7b005906d54a9ee7c41)
+
+The winner is currently holding 145 million delegated votes which appear to come from a wide variety
+of sources. There is no evidence of significant community rejection of the vote outcome, it seems
+that the vast majority of community members have voted for either the winner, or someone who
+delegated their votes to the eventual winner. I have no reason to believe that the system is not
+working as intended.
+
+I would like to request a top-up of an additional 16mn PKT so that the project can continue. The
+payout wallet has less than 1.6 million PKT so it will not be able to provide a full payout this
+coming week, and after that it will have zero PKT.
