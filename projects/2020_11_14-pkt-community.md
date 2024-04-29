@@ -16,7 +16,7 @@
 * Projected effort: 14 person-months
 * Pre-project effort: -
 * Requested PKT contribution: 26 million PKT
-* PKT address to pay to: pkt1qtsxwefr6akyemzurhr23v46gs2vsnlycjl8f3j
+* PKT address to pay to: pkt1q09t0a07wc7gxgpynkqcy7utwzuacc0hj7w3k07
 
 ## Project summary
 
@@ -253,3 +253,33 @@ Milestone 1 accepted and paid out in transactions:
 [54](https://explorer.pkt.cash/tx/fce7fce2748cc1564b7cd7cc3b47a38c8263f433d02c4329d16e5d28cffb5c69)
 [55](https://explorer.pkt.cash/tx/bded456dc420fc54315fc7c523264e3574f9df3f8bb84b969c80997a8d72f5b9)
 [56](https://explorer.pkt.cash/tx/4c0b82b3358decab7cf38c3519c76c310dc184497fa2c3d2d2bf2ccb86e2a993)
+
+### February 13, 2024
+Milestone #2:
+* VIDEO - all 5 completed
+ * https://youtu.be/8YuFz8mnaPM
+ * https://youtu.be/Y5rhumEdXac
+ * https://youtu.be/gZBhCejz4bc
+ * https://youtu.be/FeC4_3m8ODU
+ * https://youtu.be/wiTmq_ioFXI
+* ANIM_VIDEO - complete
+ * https://youtu.be/UZQLbYTMLSk?si=3vkHlYcYqmu5tEFf 
+* ARTICLE - all remaining 4 of 6 completed
+ * https://crypto.pkt.cash/updates/pkt-town-hall-june-2022/
+ * https://crypto.pkt.cash/updates/pkt-town-hall-august-2022/
+ * https://crypto.pkt.cash/updates/pkt-town-hall-september-2022/
+ * https://crypto.pkt.cash/updates/pkt-town-hall-october-2022/   
+* TECH_ARTICLE - all remaining 4 of 6 completed
+ * https://crypto.pkt.cash/updates/pkt-cash-development-update-q1-2022/
+ * https://crypto.pkt.cash/updates/pkt-cash-development-update-nov-dec-2021/
+ * https://crypto.pkt.cash/updates/development-update-sept-oct-2021/
+ * https://crypto.pkt.cash/updates/development-update-august-2021/    
+* GRAPHICS - all 28 completed
+ * https://www.instagram.com/pktcash
+  * If you don't have instagram, I've invluded 5 screenshots containing 6 graphics each: https://drive.google.com/drive/folders/1fVJhCCNzaJURRynzKDNUAyrZ6_f8ZLam?usp=sharing
+* WWW_DOCS - Frequently asked questions added to docs website
+ * https://docs.pkt.cash/en/latest/PKT_FAQ/ 
+* WWW_I18N - all 3 translations completed
+ * https://pkt.cash
+* WWW_UPDATE - translations integrated
+ * https://pkt.cash
