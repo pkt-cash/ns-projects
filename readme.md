@@ -1,9 +1,50 @@
-# Projects Supported by The Network Steward
+# DEFUNCT PKT Network Steward
 
-* **CURRENT DEADLINE**: NO OPEN ROUND, CHECK BACK SOON
-* **CURRENT ROUND BUDGET**: -
+> **THIS INITIATIVE IS CONCLUDED**: As PKT has moved to the BASE chain, the Network Steward is
+selected via an [Electorium](https://github.com/cjdelisle/Electorium) vote. For people
+interested in continuation of the original blockchain ("PKT Classic"), the multisig keys
+are published here such that anyone can claim the NS bounty.
 
-## IMPORTANT RECOMMENDATIONS
+## NS SEEDS
+* ONE: **TO RELEASE OCT 25 2024**
+* TWO: **TO RELEASE OCT 25 2024**
+* THREE: **TO RELEASE OCT 25 2024**
+
+## Multisig instructions
+
+### Setup
+1. Install pktwallet and create a new wallet.
+2. Import the multisig code `./bin/pktctl --wallet addp2shscript 5321024b98236f69ca9f226ac18b82a50e623419e71ee4ce1c59fa450618817d22b5b02102a96410906c79cd5a25f54442fc779ca7001c0ddd00c9c7901dafdc1eb06d3f382103647f7975d93a5ca9b80feb668f6d45346f5df4011bea9cc8b5845ab621dd4e65210396bb97ab7304be90d435558e847609927a94590dead9f53cd903b7e63d8354982103c64d0172b20592afd7a3a4436bed032ecca93f291d5f8f7e3ba9d4d07778493c55ae 1`
+3. Install the Electrum multisig signer: https://github.com/cjdelisle/electrum/tree/pkt-multisig
+4. Copy `config.example.py` to `config.py`
+  * Fill in **both** RPC user/password for pktwallet and wallet unlock password.
+  * Fill in RPC user/password/location for pktd instance.
+5. Install the dependencies `pip install .[fast]`
+
+### Create transaction
+1. Edit `mk_tx.py` at the bottom to change so it creates the transaction you want
+3. Run `python ./mk_tx.py > ./my_transaction.b64` and confirm that it creates a transaction
+
+### Sign transaction
+1. Run `python ./sign_tx.py` and it will prompt you for a seed file location
+(enter a place with no file) and it will create a file `config.json`
+2. Run `python ./sign_tx.py seed` and it will prompt you for your seed words and signing password
+3. Run `python ./sign_tx.py sign <my_transaction.b64>` and it will output a save version of the file.
+4. To sign again, move `./config.json` to a backup location, and repeat the process.
+
+### Combine signatures
+1. Run `python ./sign_tx.py combine my_transaction_signed_a.b64 my_transaction_signed_b.b64 my_transaction_signed_c.b64 my_transaction_complete.b64`
+
+### Post transaction
+1. Edit `mk_tx.py` and at the bottom uncomment the line with `post_tx` and fill in the "complete" file.
+2. Run `mk_tx.py`
+
+## OLD NETWORK STEWARD
+
+What follows is the charter, decision making, and grant making of the Network Steward before it was shut down.
+It exists purely for archive purposes.
+
+### IMPORTANT RECOMMENDATIONS
 We have provided some specific guidance to the applicants regarding project topics and
 aspects which we think will be most beneficial to PKT:
 1. We consider it that projects are better if they make explicit commitments regarding
@@ -39,7 +80,7 @@ intend to follow, but the Network Steward recommends that applicants offer as mu
 including such things as the name of their accountant and which exact statements the audit certificates
 will support.
 
-## Not a gravy train
+### Not a gravy train
 When you begin thinking about writing proposals, the first thing you need to understand is that
 writing Network Steward project proposals is not meant to be a profitable endevor. When you mine
 PKT, you're mining against all of the other miners, when you buy it in a private trade you're
@@ -49,7 +90,7 @@ all of the other applicants.
 Therefore you should think of making a project proposal as a partnership which allows you to
 expand your contributions to the PKT ecosystem.
 
-## 1. Read old projects and their feedback
+### 1. Read old projects and their feedback
 The existing projects, both those accepted and those rejected provide a valuable resource for
 learning what the Network Steward is looking for. You can go to all of the
 [projects which have been accepted](https://github.com/pkt-cash/ns-projects/pulls?q=is%3Apr+is%3Aclosed+is%3Amerged+label%3Aproject)
@@ -57,7 +98,7 @@ and [projects which failed](https://github.com/pkt-cash/ns-projects/pulls?q=is%3
 [Files changed](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-comparing-branches-in-pull-requests)
 tab and you'll find the review information in the comments.
 
-## 2. Pick a project idea
+### 2. Pick a project idea
 The Network Steward maintains a list of
 [project ideas](https://github.com/pkt-cash/ns-projects/blob/master/project_ideas.md) which are in
 the overall plan for the PKT project. However, this list is not exhaustive and the Network Steward
@@ -65,7 +106,7 @@ will consider ideas not on the list nonetheless. If your idea is not listed, htt
 talk about what what your idea in the `#network-steward` room. Nobody *has* to reply, but you may
 start some useful conversations.
 
-## 3. Check for "unfair advantage"
+### 3. Check for "unfair advantage"
 The Network Steward process requires that a project must help the PKT ecosystem as a whole without
 giving any unfair advantage to anyone in it. Unfair advantage can look like any of the following:
 
@@ -78,12 +119,12 @@ competitive price and release it to the PKT community under an open source licen
 doesn't work for you, there are other solutions but they will require more extensive documentation
 to prove that the proposal is fair.
 
-## 4. Use the template
+### 4. Use the template
 There is a [template](https://github.com/pkt-cash/ns-projects/blob/master/projects/template.md) for
 project proposals, use it. Make a first pass and fill in everything you're sure of, then take
 everything you're not sure of and make a todo list.
 
-## 5. Establish success criteria
+### 5. Establish success criteria
 This is super important, if an applicant requests in a project without adaquate success criteria,
 the Network Steward cannot be sure that they plan on doing much of anything, and when it comes time
 to submit a milestone report, the Network Steward will be unable to effectively argue that the work
@@ -109,19 +150,19 @@ Bad success criteria include:
 * The wallet will allow payment to multiple addresses
   * Without specifying "in a single transaction", any wallet imaginable would support this
 
-## 6. Do your time estimate
+### 6. Do your time estimate
 After you have defined the project, you will need to estimate how much time it will take. This is
 very important because the Network Steward will be comparing the time it takes to your success
 criteria in order to determine if a project is properly planned and properly specified as well as
 to filter out anyone who is trying to take advantage of the system by reporting inflated hours.
 
-## 7. Disclose conflicts
+### 7. Disclose conflicts
 Currently, the Network Steward multi-sig team is also the team who does the actual evaluation of
 the proposals, so it is important to disclose any interactions with these people which might
 present a conflict of interest. There is a form in the template document to fill out in order to
 disclose whether there is any conflict or to affirm that there isn't.
 
-## 8. Show your capabilities
+### 8. Show your capabilities
 A good project is a low-risk project, one executed by a person or team who already has plenty of
 experience on the topic at hand. There are three ways you can show that the risk of the project is
 low:
@@ -138,7 +179,7 @@ describe your work in *Milestone 0 (Kickoff)* which will be written as an milest
 writing success criteria for a success which you already achieved. If the project is accepted then
 pre-project work will be payable.
 
-## 9. Evaluate your own project
+### 9. Evaluate your own project
 The Network Steward team doesn't just make decisions on a whim, there is a clearly defined process
 which the evaluators follow so you can evaluate your own project before they do.
 
@@ -146,7 +187,7 @@ which the evaluators follow so you can evaluate your own project before they do.
 2. Review your project while asking the questions in the
 [evaluation criteria](https://github.com/pkt-cash/ns-projects/blob/master/acceptance_process.md#evaluation-criteria)
 
-## 10. Get competitive
+### 10. Get competitive
 If you've done a good job on everything above, you will have a good project, but the difference
 between good and great is your willingness to make the project a better deal for the community
 than other applicants. There are 2 key ways you can do this:
@@ -158,7 +199,7 @@ completed makes the project more risky and difficult to accept, the Network Stew
 to prefer projects which ask for the least amount in the first period and push the majority of
 the payment back until after success-criteria are met.
 
-## 11. Submit
+### 11. Submit
 After you have everything put together, your success criteria are awesome, your time estimates
 are on target, conflicts are disclosed and you have decided how hard you want to compete, it's
 time to submit your project.
@@ -170,7 +211,7 @@ to submit the project to this repository
 * The name of the file should conform to
 [the naming convension](https://github.com/pkt-cash/ns-projects/tree/master/projects)
 
-### Early submission
+#### Early submission
 If you submit early then the Network Steward team might provide feedback but others can also see
 your project proposal. If you submit at the deadline then the project will be secret up until
 the end, but it will be evaluated as it is.
