@@ -6,9 +6,9 @@ interested in continuation of the original blockchain ("PKT Classic"), the multi
 are published here such that anyone can claim the NS bounty.
 
 ## NS SEEDS
-* ONE: **TO RELEASE OCT 25 2024**
-* TWO: **TO RELEASE OCT 25 2024**
-* THREE: **TO RELEASE OCT 25 2024**
+* ONE: `street flame involve adult can punch spawn fever advice reunion music foster`
+* TWO: `earn water frame cage volume valley toward struggle chunk unhappy rack luxury`
+* THREE: `rich remain frozen enrich clap usage school blush venture light around draw`
 
 ## Multisig instructions
 
